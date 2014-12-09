@@ -1,0 +1,16 @@
+bin\Debug\clUser.dll
+bin\Debug\clUser.pdb
+bin\Debug\CLC.dll
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\clUser.FrmChangePassword.resources
+obj\Debug\clUser.FrmChangeUser.resources
+obj\Debug\clUser.FrmManager.resources
+obj\Debug\clUser.FrmRole.resources
+obj\Debug\clUser.Properties.Resources.resources
+obj\Debug\clUser.csproj.GenerateResource.Cache
+obj\Debug\clUser.dll
+obj\Debug\clUser.pdb
+bin\Debug\DataGuide.dll
+bin\Debug\Rainny.DataAccess.dll
+bin\Debug\Interop.Excel.dll
+bin\Debug\CommonLib.dll

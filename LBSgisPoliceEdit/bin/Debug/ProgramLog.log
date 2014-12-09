@@ -1,0 +1,30 @@
+2010-3-24 14:17:36: GeoCodeing:在 CodingDBInit方法中发生错误。
+GeoCoding初始化时发生错误ORA-04063: view "SDGA.GEOMAP" 有错误
+
+2010-4-6 15:14:52: GeoCodeing:在 CodingDBInit方法中发生错误。
+GeoCoding初始化时发生错误ORA-04063: view "SDGA.GEOMAP" 有错误
+
+2010-4-19 14:34:58: GeoCodeing:在 CodingDBInit方法中发生错误。
+GeoCoding初始化时发生错误ORA-04063: view "SDGA.GEOMAP" 有错误
+
+2010-4-19 14:35:11: GeoCodeing:在 GeoCode方法中发生错误。
+定位主函数发生错误未将对象引用设置到对象的实例。
+2010-4-19 14:35:34: GeoCodeing:在 CodingDBInit方法中发生错误。
+GeoCoding初始化时发生错误ORA-04063: view "SDGA.GEOMAP" 有错误
+
+2010-4-19 14:36:23: GeoCodeing:在 GeoCode方法中发生错误。
+定位主函数发生错误未将对象引用设置到对象的实例。
+2010-4-19 14:36:41: GeoCodeing:在 CodingDBInit方法中发生错误。
+GeoCoding初始化时发生错误ORA-04063: view "SDGA.GEOMAP" 有错误
+
+2010-4-19 14:36:44: GeoCodeing:在 GeoCode方法中发生错误。
+定位主函数发生错误未将对象引用设置到对象的实例。
+2010-4-19 14:36:50: GeoCodeing:在 GeoCode方法中发生错误。
+定位主函数发生错误未将对象引用设置到对象的实例。
+2010-4-19 14:37:16: GeoCodeing:在 CodingDBInit方法中发生错误。
+GeoCoding初始化时发生错误ORA-04063: view "SDGA.GEOMAP" 有错误
+
+2010-4-19 14:37:19: GeoCodeing:在 GeoCode方法中发生错误。
+定位主函数发生错误未将对象引用设置到对象的实例。
+2010-4-19 14:37:26: GeoCodeing:在 GeoCode方法中发生错误。
+定位主函数发生错误未将对象引用设置到对象的实例。

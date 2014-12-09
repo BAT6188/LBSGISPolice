@@ -1,0 +1,16 @@
+bin\Debug\clHouse.dll
+bin\Debug\clHouse.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\nsInfo.FrmInfo.resources
+obj\Debug\clHouse.FrmMonthCalendar.resources
+obj\Debug\clHouse.Properties.Resources.resources
+obj\Debug\clHouse.ucHouse.resources
+obj\Debug\clHouse.csproj.GenerateResource.Cache
+obj\Debug\clHouse.dll
+obj\Debug\clHouse.pdb
+bin\Debug\ClassLibrary1.dll
+bin\Debug\CLC.dll
+bin\Debug\clPopu.dll
+bin\Debug\ClassLibrary1.pdb
+bin\Debug\clPopu.pdb
+obj\Debug\clHouse.FrmImage.resources

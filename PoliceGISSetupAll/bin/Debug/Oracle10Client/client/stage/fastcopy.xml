@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="US-ASCII" standalone="yes"?>
+<!-- Copyright (c) 2005 Oracle Corporation. All Rights Reserved. -->
+<!-- Do not modify the contents of this file by hand. -->
+
+<FASTCOPY DISKS="1" DIR="fastcopy" VERSION="10.2" >
+
+  <TOPLEVEL_COMPONENT NAME="oracle.client" INSTALL_TYPE="InstantClient" PLATFORM="NT_X86">
+    <DEFAULT_JARS_LIST DISK="1"> oracle.client_InstantClient_1.xml </DEFAULT_JARS_LIST>
+    <DIRS_LIST> oracle.client_InstantClient_dirs.lst </DIRS_LIST>
+    <PREPROC_FILEMAP> oracle.client_InstantClient_filemap.jar </PREPROC_FILEMAP>
+  </TOPLEVEL_COMPONENT>
+
+  <TOPLEVEL_COMPONENT NAME="oracle.client" INSTALL_TYPE="Administrator" PLATFORM="NT_X86">
+    <DEFAULT_JARS_LIST DISK="1"> oracle.client_Administrator_1.xml </DEFAULT_JARS_LIST>
+    <EXPANDED_FILES_LIST DISK="1"> oracle.client_Administrator_exp_1.xml </EXPANDED_FILES_LIST>
+    <DIRS_LIST> oracle.client_Administrator_dirs.lst </DIRS_LIST>
+    <PREPROC_FILEMAP> oracle.client_Administrator_filemap.jar </PREPROC_FILEMAP>
+  </TOPLEVEL_COMPONENT>
+
+  <TOPLEVEL_COMPONENT NAME="oracle.client" INSTALL_TYPE="Runtime" PLATFORM="NT_X86">
+    <DEFAULT_JARS_LIST DISK="1"> oracle.client_Runtime_1.xml </DEFAULT_JARS_LIST>
+    <EXPANDED_FILES_LIST DISK="1"> oracle.client_Runtime_exp_1.xml </EXPANDED_FILES_LIST>
+    <DIRS_LIST> oracle.client_Runtime_dirs.lst </DIRS_LIST>
+    <PREPROC_FILEMAP> oracle.client_Runtime_filemap.jar </PREPROC_FILEMAP>
+  </TOPLEVEL_COMPONENT>
+
+  <TOPLEVEL_COMPONENT NAME="oracle.client" INSTALL_TYPE="Custom" PLATFORM="NT_X86">
+    <DEFAULT_JARS_LIST DISK="1"> oracle.client_Custom_1.xml </DEFAULT_JARS_LIST>
+    <EXPANDED_FILES_LIST DISK="1"> oracle.client_Custom_exp_1.xml </EXPANDED_FILES_LIST>
+    <DIRS_LIST> oracle.client_Custom_dirs.lst </DIRS_LIST>
+    <PREPROC_FILEMAP> oracle.client_Custom_filemap.jar </PREPROC_FILEMAP>
+  </TOPLEVEL_COMPONENT>
+
+  <SETPERMS>
+    <SCRIPT DISK="1"> setperms1.sh </SCRIPT>
+  </SETPERMS>
+
+  <RACFILES> racfiles.jar </RACFILES>
+
+</FASTCOPY>

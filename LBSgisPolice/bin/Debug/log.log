@@ -1,0 +1,42 @@
+2010-10-24 15:23:04
+   在 MapInfo.Mapping.MapLoader.CreateFromFile(String filePath)
+   在 LBSgisPoliceEdit.frmMap.InitialMap() 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 1225
+E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\LBSgisPolice\bin\Data\Data\Shunde.mws
+2010-10-24 15:23:05
+   在 LBSgisPoliceEdit.frmMap.labeLayer(Table table) 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 1009
+未将对象引用设置到对象的实例。
+2010-10-24 15:23:05
+   在 MapInfo.Data.Catalog.CreateTable(TableInfo tableInfo, TableSessionInfo sessionInfo)
+   在 MapInfo.Data.Catalog.CreateTable(TableInfo tableInfo)
+   在 LBSgisPoliceEdit.frmMap.CreateEagleLayer() 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 1266
+不能创建表。: 表 EagleEyeTemp 已打开，无法创建新表。
+2010-10-24 15:23:08
+   在 LBSgisPoliceEdit.frmMap.labeLayer(Table table) 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 1009
+未将对象引用设置到对象的实例。
+2010-10-24 15:25:05
+   在 LBSgisPoliceEdit.frmMap.labeLayer(Table table) 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 1009
+未将对象引用设置到对象的实例。
+2010-10-24 15:25:08
+   在 LBSgisPoliceEdit.frmMap.labeLayer(Table table) 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 1009
+未将对象引用设置到对象的实例。
+2010-10-24 15:25:09
+   在 LBSgisPoliceEdit.frmMap.labeLayer(Table table) 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 1009
+未将对象引用设置到对象的实例。
+2010-10-24 15:25:09
+   在 LBSgisPoliceEdit.frmMap.labeLayer(Table table) 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 1009
+未将对象引用设置到对象的实例。
+2010-10-24 15:25:27
+   在 LBSgisPoliceEdit.frmMap.labeLayer(Table table) 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 1009
+未将对象引用设置到对象的实例。
+2010-10-26 17:26:46
+   在 MapInfo.Mapping.MapLoader.CreateFromFile(String filePath)
+   在 LBSgisPoliceEdit.frmMap.InitialMap() 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 1225
+E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\LBSgisPolice\bin\Data\Data\Shunde.mws
+2010-10-26 17:26:46
+   在 LBSgisPoliceEdit.frmMap.labeLayer(Table table) 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 1009
+未将对象引用设置到对象的实例。
+2010-10-26 17:26:47
+   在 MapInfo.Data.Catalog.CreateTable(TableInfo tableInfo, TableSessionInfo sessionInfo)
+   在 MapInfo.Data.Catalog.CreateTable(TableInfo tableInfo)
+   在 LBSgisPoliceEdit.frmMap.CreateEagleLayer() 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 1266
+不能创建表。: 表 EagleEyeTemp 已打开，无法创建新表。

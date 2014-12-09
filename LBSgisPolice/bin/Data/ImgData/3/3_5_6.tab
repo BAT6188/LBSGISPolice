@@ -1,0 +1,12 @@
+!table
+!version 300
+!charset WindowsSimpChinese
+
+Definition Table
+ File "3_5_6.tif"
+  Type "RASTER"
+ (113.244571003065,22.836343197548) (0,0) Label "Pt 1",
+ (113.305485203678,22.836343197548) (512,0) Label "Pt 2",
+ (113.244571003065,22.775428996935) (0,512) Label "Pt 3"
+  CoordSys Earth Projection 1, 104
+ Units "degree"

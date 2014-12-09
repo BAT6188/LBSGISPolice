@@ -1,0 +1,5 @@
+F:\Study\智能匹配\NEw\ClassLibrary1\obj\Debug\ResolveAssemblyReference.cache
+F:\Study\智能匹配\NEw\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+F:\Study\智能匹配\NEw\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+F:\Study\智能匹配\NEw\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+F:\Study\智能匹配\NEw\ClassLibrary1\obj\Debug\ClassLibrary1.pdb

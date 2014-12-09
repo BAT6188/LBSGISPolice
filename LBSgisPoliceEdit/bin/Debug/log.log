@@ -1,0 +1,2171 @@
+2010-3-3 9:47:22
+   在 MapInfo.Mapping.MapLoader.CreateFromFile(String filePath)
+   在 LBSgisPoliceEdit.frmMap.InitialMap() 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 1151
+E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\bin\Data\Data\Shunde.mws
+2010-3-3 9:47:22
+   在 LBSgisPoliceEdit.frmMap.labeLayer(Table table) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 971
+未将对象引用设置到对象的实例。
+2010-3-3 9:49:08
+   在 MapInfo.Mapping.MapLoader.CreateFromFile(String filePath)
+   在 LBSgisPoliceEdit.frmMap.InitialMap() 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 1151
+E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\bin\Data\Data\Shunde.mws
+2010-3-3 9:49:08
+   在 LBSgisPoliceEdit.frmMap.labeLayer(Table table) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 971
+未将对象引用设置到对象的实例。
+2010-3-3 9:49:37
+   在 LBSgisPoliceEdit.frmMap.labeLayer(Table table) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 971
+未将对象引用设置到对象的实例。
+2010-3-3 9:49:39
+   在 LBSgisPoliceEdit.frmMap.labeLayer(Table table) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 971
+未将对象引用设置到对象的实例。
+2010-3-3 11:53:02
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3144
+未将对象引用设置到对象的实例。
+2010-3-3 11:53:05
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3144
+未将对象引用设置到对象的实例。
+2010-3-3 11:53:30
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3144
+未将对象引用设置到对象的实例。
+2010-3-7 14:03:55
+   在 System.Windows.Forms.DataGridView.SetCurrentCellAddressCore(Int32 columnIndex, Int32 rowIndex, Boolean setAnchorCellAddress, Boolean validateCurrentCell, Boolean throughMouseClick)
+   在 System.Windows.Forms.DataGridView.set_CurrentCell(DataGridViewCell value)
+   在 LBSgisPoliceEdit.frmMap.dataGridViewGaInfo_CellBeginEdit(Object sender, DataGridViewCellCancelEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 6745
+操作无效，原因是它导致对 SetCurrentCellAddressCore 函数的可重入调用。
+2010-3-7 14:04:19
+   在 System.Windows.Forms.DataGridView.SetCurrentCellAddressCore(Int32 columnIndex, Int32 rowIndex, Boolean setAnchorCellAddress, Boolean validateCurrentCell, Boolean throughMouseClick)
+   在 System.Windows.Forms.DataGridView.set_CurrentCell(DataGridViewCell value)
+   在 LBSgisPoliceEdit.frmMap.dataGridViewGaInfo_CellBeginEdit(Object sender, DataGridViewCellCancelEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 6745
+操作无效，原因是它导致对 SetCurrentCellAddressCore 函数的可重入调用。
+2010-3-7 14:05:01
+   在 System.Data.DataColumn.set_Item(Int32 record, Object value)
+   在 System.Data.DataRow.set_Item(DataColumn column, Object value)
+   在 System.Data.DataRow.set_Item(String columnName, Object value)
+   在 LBSgisPoliceEdit.frmMap.GaaddToList(Double x, Double y) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 2705
+该字符串未被识别为有效的 DateTime。不能在 标注时间 列中存储 <>。所需类型是 DateTime。
+2010-3-9 11:09:24
+   在 System.Data.DataColumn.set_Item(Int32 record, Object value)
+   在 System.Data.DataRow.set_Item(DataColumn column, Object value)
+   在 System.Data.DataRow.set_Item(String columnName, Object value)
+   在 LBSgisPoliceEdit.frmMap.GaaddToList(Double x, Double y) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 2705
+该字符串未被识别为有效的 DateTime。不能在 抽取更新时间 列中存储 <>。所需类型是 DateTime。
+2010-3-11 11:00:09
+   在 MapInfo.Data.SearchInfoFactory.SearchIntersectsGeometry(FeatureGeometry geometry, IntersectType searchType)
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3204
+值不能为空。
+参数名: geometry
+2010-3-11 11:02:53
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3204
+未将对象引用设置到对象的实例。
+2010-3-11 11:02:53
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3204
+未将对象引用设置到对象的实例。
+2010-3-11 11:02:54
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3204
+未将对象引用设置到对象的实例。
+2010-3-11 11:21:29
+   在 System.Windows.Forms.DataGridView.SetCurrentCellAddressCore(Int32 columnIndex, Int32 rowIndex, Boolean setAnchorCellAddress, Boolean validateCurrentCell, Boolean throughMouseClick)
+   在 System.Windows.Forms.DataGridView.set_CurrentCell(DataGridViewCell value)
+   在 LBSgisPoliceEdit.frmMap.dataGridViewGaInfo_CellBeginEdit(Object sender, DataGridViewCellCancelEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 6745
+操作无效，原因是它导致对 SetCurrentCellAddressCore 函数的可重入调用。
+2010-3-11 11:21:38
+   在 System.Windows.Forms.DataGridView.SetCurrentCellAddressCore(Int32 columnIndex, Int32 rowIndex, Boolean setAnchorCellAddress, Boolean validateCurrentCell, Boolean throughMouseClick)
+   在 System.Windows.Forms.DataGridView.set_CurrentCell(DataGridViewCell value)
+   在 LBSgisPoliceEdit.frmMap.dataGridViewGaInfo_CellBeginEdit(Object sender, DataGridViewCellCancelEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 6745
+操作无效，原因是它导致对 SetCurrentCellAddressCore 函数的可重入调用。
+2010-3-12 16:40:03
+   在 delete(Void* )
+   在 NetObjectExprPacketItemImpl.__vecDelDtor(NetObjectExprPacketItemImpl* , UInt32 )
+   在 MIComponent.ReleaseReference(MIComponent* )
+   在 MapInfo.DataAccessWrapper.mMISQLStatement.Dispose()
+   在 MapInfo.Data.MICommand.UnPrepare()
+   在 MapInfo.Data.MICommand.Dispose()
+   在 MapInfo.Data.Table.InsertFeature(Feature feature)
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3311
+尝试读取或写入受保护的内存。这通常指示其他内存已损坏。
+2010-3-12 16:40:15
+   在 MapInfo.DataAccessWrapper.mMITable.Close()
+   在 MapInfo.Data.Table.CloseInternal()
+   在 MapInfo.Data.Table.Close()
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3601
+尝试读取或写入受保护的内存。这通常指示其他内存已损坏。
+2010-3-12 16:40:18
+   在 MapInfo.Data.Catalog.OpenTable(TableInfo tableInfo, TableSessionInfo sessionInfo)
+   在 MapInfo.Data.Catalog.OpenTable(TableInfo tableInfo)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3541
+表别名 [change人口系统] 已被使用．请使用其他的别名．
+2010-3-12 16:40:24
+   在 MapInfo.Data.Catalog.OpenTable(TableInfo tableInfo, TableSessionInfo sessionInfo)
+   在 MapInfo.Data.Catalog.OpenTable(TableInfo tableInfo)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3541
+表别名 [change人口系统] 已被使用．请使用其他的别名．
+2010-3-12 16:40:29
+   在 MapInfo.Data.Catalog.OpenTable(TableInfo tableInfo, TableSessionInfo sessionInfo)
+   在 MapInfo.Data.Catalog.OpenTable(TableInfo tableInfo)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3541
+表别名 [change人口系统] 已被使用．请使用其他的别名．
+2010-3-12 16:40:31
+   在 MapInfo.Data.Catalog.OpenTable(TableInfo tableInfo, TableSessionInfo sessionInfo)
+   在 MapInfo.Data.Catalog.OpenTable(TableInfo tableInfo)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3541
+表别名 [change人口系统] 已被使用．请使用其他的别名．
+2010-3-12 16:40:33
+   在 MapInfo.Data.Catalog.OpenTable(TableInfo tableInfo, TableSessionInfo sessionInfo)
+   在 MapInfo.Data.Catalog.OpenTable(TableInfo tableInfo)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3541
+表别名 [change人口系统] 已被使用．请使用其他的别名．
+2010-3-12 16:40:36
+   在 MapInfo.Data.Catalog.OpenTable(TableInfo tableInfo, TableSessionInfo sessionInfo)
+   在 MapInfo.Data.Catalog.OpenTable(TableInfo tableInfo)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3541
+表别名 [change人口系统] 已被使用．请使用其他的别名．
+2010-3-12 16:40:51
+   在 MapInfo.Data.Catalog.OpenTable(TableInfo tableInfo, TableSessionInfo sessionInfo)
+   在 MapInfo.Data.Catalog.OpenTable(TableInfo tableInfo)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3541
+表别名 [change人口系统] 已被使用．请使用其他的别名．
+2010-3-12 16:41:03
+   在 MapInfo.Data.Catalog.OpenTable(TableInfo tableInfo, TableSessionInfo sessionInfo)
+   在 MapInfo.Data.Catalog.OpenTable(TableInfo tableInfo)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3541
+表别名 [change人口系统] 已被使用．请使用其他的别名．
+2010-3-12 17:18:00
+   在 System.Windows.Forms.DataGridView.SetCurrentCellAddressCore(Int32 columnIndex, Int32 rowIndex, Boolean setAnchorCellAddress, Boolean validateCurrentCell, Boolean throughMouseClick)
+   在 System.Windows.Forms.DataGridView.set_CurrentCell(DataGridViewCell value)
+   在 LBSgisPoliceEdit.frmMap.dataGridViewGaInfo_CellBeginEdit(Object sender, DataGridViewCellCancelEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 6745
+操作无效，原因是它导致对 SetCurrentCellAddressCore 函数的可重入调用。
+2010-3-29 13:57:01
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3686
+对象不能从 DBNull 转换为其他类型。
+2010-3-29 13:57:01
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3788
+未将对象引用设置到对象的实例。
+2010-3-29 13:57:01
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3815
+未能找到名为 mapid 的列。
+参数名: columnName
+2010-3-29 13:57:03
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3686
+对象不能从 DBNull 转换为其他类型。
+2010-3-29 13:57:03
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3788
+未将对象引用设置到对象的实例。
+2010-3-29 13:57:03
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3815
+未能找到名为 mapid 的列。
+参数名: columnName
+2010-3-29 13:57:05
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3204
+未将对象引用设置到对象的实例。
+2010-3-29 13:57:10
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3686
+对象不能从 DBNull 转换为其他类型。
+2010-3-29 13:57:10
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3788
+未将对象引用设置到对象的实例。
+2010-3-29 13:57:10
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3815
+未能找到名为 mapid 的列。
+参数名: columnName
+2010-3-29 13:57:47
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3686
+对象不能从 DBNull 转换为其他类型。
+2010-3-29 13:57:47
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3788
+未将对象引用设置到对象的实例。
+2010-3-29 13:57:47
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3815
+未能找到名为 mapid 的列。
+参数名: columnName
+2010-3-29 13:57:49
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3686
+对象不能从 DBNull 转换为其他类型。
+2010-3-29 13:57:49
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3788
+未将对象引用设置到对象的实例。
+2010-3-29 13:57:49
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3815
+未能找到名为 mapid 的列。
+参数名: columnName
+2010-3-29 13:57:50
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3204
+未将对象引用设置到对象的实例。
+2010-3-29 13:57:54
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3204
+未将对象引用设置到对象的实例。
+2010-3-29 13:57:56
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3204
+未将对象引用设置到对象的实例。
+2010-3-29 13:57:58
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3204
+未将对象引用设置到对象的实例。
+2010-3-29 13:57:59
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3204
+未将对象引用设置到对象的实例。
+2010-3-29 13:58:00
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3204
+未将对象引用设置到对象的实例。
+2010-3-29 13:58:01
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3204
+未将对象引用设置到对象的实例。
+2010-3-29 13:58:23
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3686
+对象不能从 DBNull 转换为其他类型。
+2010-3-29 13:58:23
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3788
+未将对象引用设置到对象的实例。
+2010-3-29 13:58:23
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3815
+未能找到名为 mapid 的列。
+参数名: columnName
+2010-3-29 13:58:24
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3686
+对象不能从 DBNull 转换为其他类型。
+2010-3-29 13:58:24
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3788
+未将对象引用设置到对象的实例。
+2010-3-29 13:58:24
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3815
+未能找到名为 mapid 的列。
+参数名: columnName
+2010-3-29 13:58:27
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3204
+未将对象引用设置到对象的实例。
+2010-3-29 13:58:28
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3204
+未将对象引用设置到对象的实例。
+2010-3-29 13:58:29
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3204
+未将对象引用设置到对象的实例。
+2010-3-29 13:58:32
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3204
+未将对象引用设置到对象的实例。
+2010-3-29 13:58:33
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3204
+未将对象引用设置到对象的实例。
+2010-3-29 13:58:34
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3204
+未将对象引用设置到对象的实例。
+2010-3-29 13:58:38
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3204
+未将对象引用设置到对象的实例。
+2010-3-29 14:00:57
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3686
+对象不能从 DBNull 转换为其他类型。
+2010-3-29 14:00:57
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3788
+未将对象引用设置到对象的实例。
+2010-3-29 14:00:57
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3815
+未能找到名为 mapid 的列。
+参数名: columnName
+2010-3-29 14:00:58
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3686
+对象不能从 DBNull 转换为其他类型。
+2010-3-29 14:00:58
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3788
+未将对象引用设置到对象的实例。
+2010-3-29 14:00:58
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3815
+未能找到名为 mapid 的列。
+参数名: columnName
+2010-3-29 14:01:00
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3204
+未将对象引用设置到对象的实例。
+2010-3-29 14:01:02
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3204
+未将对象引用设置到对象的实例。
+2010-3-29 14:01:03
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3204
+未将对象引用设置到对象的实例。
+2010-3-29 14:01:10
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3686
+对象不能从 DBNull 转换为其他类型。
+2010-3-29 14:01:10
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3788
+未将对象引用设置到对象的实例。
+2010-3-29 14:01:10
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3815
+未能找到名为 mapid 的列。
+参数名: columnName
+2010-3-29 14:01:12
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3686
+对象不能从 DBNull 转换为其他类型。
+2010-3-29 14:01:12
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3788
+未将对象引用设置到对象的实例。
+2010-3-29 14:01:12
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3815
+未能找到名为 mapid 的列。
+参数名: columnName
+2010-3-29 14:01:13
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3686
+对象不能从 DBNull 转换为其他类型。
+2010-3-29 14:01:13
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3788
+未将对象引用设置到对象的实例。
+2010-3-29 14:01:13
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3815
+未能找到名为 mapid 的列。
+参数名: columnName
+2010-3-29 14:01:14
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3204
+未将对象引用设置到对象的实例。
+2010-3-29 14:19:04
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3504
+对象不能从 DBNull 转换为其他类型。
+2010-3-29 14:19:06
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3612
+未将对象引用设置到对象的实例。
+2010-3-29 14:19:07
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3641
+未能找到名为 mapid 的列。
+参数名: columnName
+2010-3-29 14:19:09
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3504
+对象不能从 DBNull 转换为其他类型。
+2010-3-29 14:19:11
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3612
+未将对象引用设置到对象的实例。
+2010-3-29 14:19:12
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3641
+未能找到名为 mapid 的列。
+参数名: columnName
+2010-3-29 14:19:19
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3504
+对象不能从 DBNull 转换为其他类型。
+2010-3-29 14:19:20
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3612
+未将对象引用设置到对象的实例。
+2010-3-29 14:19:21
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3641
+未能找到名为 mapid 的列。
+参数名: columnName
+2010-3-29 14:19:27
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3504
+对象不能从 DBNull 转换为其他类型。
+2010-3-29 14:19:35
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3612
+未将对象引用设置到对象的实例。
+2010-3-29 14:19:38
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3641
+未能找到名为 mapid 的列。
+参数名: columnName
+2010-3-29 14:37:41
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3504
+对象不能从 DBNull 转换为其他类型。
+2010-3-29 14:37:43
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3612
+未将对象引用设置到对象的实例。
+2010-3-29 14:37:44
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3641
+未能找到名为 mapid 的列。
+参数名: columnName
+2010-3-29 14:43:19
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3504
+对象不能从 DBNull 转换为其他类型。
+2010-3-29 14:43:31
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3612
+未将对象引用设置到对象的实例。
+2010-3-29 14:43:51
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3641
+未能找到名为 mapid 的列。
+参数名: columnName
+2010-3-29 14:44:43
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3504
+对象不能从 DBNull 转换为其他类型。
+2010-3-29 14:45:01
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3612
+未将对象引用设置到对象的实例。
+2010-3-29 14:45:10
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3641
+未能找到名为 mapid 的列。
+参数名: columnName
+2010-3-29 14:46:15
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3504
+对象不能从 DBNull 转换为其他类型。
+2010-3-29 14:46:18
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3612
+未将对象引用设置到对象的实例。
+2010-3-29 14:46:18
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3641
+未能找到名为 mapid 的列。
+参数名: columnName
+2010-3-29 14:46:58
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3504
+对象不能从 DBNull 转换为其他类型。
+2010-3-29 14:47:01
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3612
+未将对象引用设置到对象的实例。
+2010-3-29 14:47:02
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3641
+未能找到名为 mapid 的列。
+参数名: columnName
+2010-3-29 14:47:46
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3504
+对象不能从 DBNull 转换为其他类型。
+2010-3-29 14:47:47
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3612
+未将对象引用设置到对象的实例。
+2010-3-29 14:47:48
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3641
+未能找到名为 mapid 的列。
+参数名: columnName
+2010-3-29 14:51:29
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3504
+对象不能从 DBNull 转换为其他类型。
+2010-3-29 14:51:30
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3612
+未将对象引用设置到对象的实例。
+2010-3-29 14:51:30
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3641
+未能找到名为 mapid 的列。
+参数名: columnName
+2010-3-29 14:52:16
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader()
+   在 LBSgisPoliceEdit.frmMap.btnGaSave_Click(Object sender, EventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 7114
+ORA-00904: "MAPID": 标识符无效
+
+2010-3-29 14:52:19
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader()
+   在 LBSgisPoliceEdit.frmMap.btnGaSave_Click(Object sender, EventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 7114
+ORA-00904: "MAPID": 标识符无效
+
+2010-3-29 14:52:20
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader()
+   在 LBSgisPoliceEdit.frmMap.btnGaSave_Click(Object sender, EventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 7114
+ORA-00904: "MAPID": 标识符无效
+
+2010-3-29 14:52:21
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader()
+   在 LBSgisPoliceEdit.frmMap.btnGaSave_Click(Object sender, EventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 7114
+ORA-00904: "MAPID": 标识符无效
+
+2010-3-29 14:58:43
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3504
+对象不能从 DBNull 转换为其他类型。
+2010-3-29 14:58:44
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3612
+未将对象引用设置到对象的实例。
+2010-3-29 14:58:44
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3641
+未能找到名为 mapid 的列。
+参数名: columnName
+2010-3-29 14:59:44
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3204
+未将对象引用设置到对象的实例。
+2010-3-29 15:07:29
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3504
+对象不能从 DBNull 转换为其他类型。
+2010-3-29 15:07:30
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3612
+未将对象引用设置到对象的实例。
+2010-3-29 15:07:31
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3641
+未能找到名为 mapid 的列。
+参数名: columnName
+2010-3-29 15:08:17
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3504
+对象不能从 DBNull 转换为其他类型。
+2010-3-29 15:08:18
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3612
+未将对象引用设置到对象的实例。
+2010-3-29 15:08:19
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3641
+未能找到名为 mapid 的列。
+参数名: columnName
+2010-3-29 15:13:18
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader()
+   在 LBSgisPoliceEdit.frmMap.btnGaSave_Click(Object sender, EventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 7114
+ORA-00904: "MAPID": 标识符无效
+
+2010-3-29 15:13:21
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader()
+   在 LBSgisPoliceEdit.frmMap.btnGaSave_Click(Object sender, EventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 7114
+ORA-00904: "MAPID": 标识符无效
+
+2010-3-29 15:13:21
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader()
+   在 LBSgisPoliceEdit.frmMap.btnGaSave_Click(Object sender, EventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 7114
+ORA-00904: "MAPID": 标识符无效
+
+2010-3-29 15:13:22
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader()
+   在 LBSgisPoliceEdit.frmMap.btnGaSave_Click(Object sender, EventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 7114
+ORA-00904: "MAPID": 标识符无效
+
+2010-3-29 15:13:23
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader()
+   在 LBSgisPoliceEdit.frmMap.btnGaSave_Click(Object sender, EventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 7114
+ORA-00904: "MAPID": 标识符无效
+
+2010-3-29 15:13:30
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader()
+   在 LBSgisPoliceEdit.frmMap.btnGaSave_Click(Object sender, EventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 7114
+ORA-00904: "MAPID": 标识符无效
+
+2010-3-29 15:13:30
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader()
+   在 LBSgisPoliceEdit.frmMap.btnGaSave_Click(Object sender, EventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 7114
+ORA-00904: "MAPID": 标识符无效
+
+2010-3-29 15:13:30
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader()
+   在 LBSgisPoliceEdit.frmMap.btnGaSave_Click(Object sender, EventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 7114
+ORA-00904: "MAPID": 标识符无效
+
+2010-3-29 15:13:30
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader()
+   在 LBSgisPoliceEdit.frmMap.btnGaSave_Click(Object sender, EventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 7114
+ORA-00904: "MAPID": 标识符无效
+
+2010-3-29 15:15:20
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader()
+   在 LBSgisPoliceEdit.frmMap.btnGaSave_Click(Object sender, EventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 7114
+ORA-00904: "MAPID": 标识符无效
+
+2010-3-29 15:15:38
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader()
+   在 LBSgisPoliceEdit.frmMap.btnGaSave_Click(Object sender, EventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 7114
+ORA-00904: "MAPID": 标识符无效
+
+2010-3-29 15:24:36
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader()
+   在 LBSgisPoliceEdit.frmMap.btnGaSave_Click(Object sender, EventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 7114
+ORA-00904: "MAPID": 标识符无效
+
+2010-3-29 16:52:05
+   在 MapInfo.Data.MICommand.Prepare()
+   在 MapInfo.Data.MICommand.ExecuteNonQuery()
+   在 LBSgisPoliceEdit.frmMap.GetTable(String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 1915
+不能解析语句：insert into 警务室辖区_tem Select obj,MI_PRINX as MapID,编号 as keyID,警务室名称 as Name,MI_STYLE From 警务室辖区 t: 无效的标识符 (编号).
+2010-3-29 17:10:09
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3504
+对象不能从 DBNull 转换为其他类型。
+2010-3-29 17:10:10
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3612
+未将对象引用设置到对象的实例。
+2010-3-29 17:10:11
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3641
+未能找到名为 mapid 的列。
+参数名: columnName
+2010-3-29 17:12:30
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3504
+对象不能从 DBNull 转换为其他类型。
+2010-3-29 17:12:31
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3612
+未将对象引用设置到对象的实例。
+2010-3-29 17:12:31
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3641
+未能找到名为 mapid 的列。
+参数名: columnName
+2010-3-30 11:38:21
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3504
+对象不能从 DBNull 转换为其他类型。
+2010-3-30 11:38:22
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3612
+未将对象引用设置到对象的实例。
+2010-3-30 11:38:22
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3641
+未能找到名为 mapid 的列。
+参数名: columnName
+2010-3-30 11:38:32
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3504
+对象不能从 DBNull 转换为其他类型。
+2010-3-30 11:38:35
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3612
+未将对象引用设置到对象的实例。
+2010-3-30 11:38:37
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3641
+未能找到名为 mapid 的列。
+参数名: columnName
+2010-3-30 13:17:08
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3686
+对象不能从 DBNull 转换为其他类型。
+2010-3-30 13:17:08
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3788
+未将对象引用设置到对象的实例。
+2010-3-30 13:17:08
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3815
+未能找到名为 mapid 的列。
+参数名: columnName
+2010-3-30 13:17:10
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3686
+对象不能从 DBNull 转换为其他类型。
+2010-3-30 13:17:10
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3788
+未将对象引用设置到对象的实例。
+2010-3-30 13:17:10
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3815
+未能找到名为 mapid 的列。
+参数名: columnName
+2010-3-30 13:17:12
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3204
+未将对象引用设置到对象的实例。
+2010-3-30 13:17:13
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3204
+未将对象引用设置到对象的实例。
+2010-3-30 13:17:14
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3204
+未将对象引用设置到对象的实例。
+2010-3-30 13:17:15
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3204
+未将对象引用设置到对象的实例。
+2010-3-30 13:17:17
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3204
+未将对象引用设置到对象的实例。
+2010-3-30 13:20:16
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3204
+未将对象引用设置到对象的实例。
+2010-3-30 13:20:17
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3686
+对象不能从 DBNull 转换为其他类型。
+2010-3-30 13:20:17
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3788
+未将对象引用设置到对象的实例。
+2010-3-30 13:20:17
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3815
+未能找到名为 mapid 的列。
+参数名: columnName
+2010-3-30 13:20:18
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3686
+对象不能从 DBNull 转换为其他类型。
+2010-3-30 13:20:18
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3788
+未将对象引用设置到对象的实例。
+2010-3-30 13:20:18
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3815
+未能找到名为 mapid 的列。
+参数名: columnName
+2010-3-30 13:20:20
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3204
+未将对象引用设置到对象的实例。
+2010-3-30 13:20:21
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3204
+未将对象引用设置到对象的实例。
+2010-3-30 13:20:21
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3204
+未将对象引用设置到对象的实例。
+2010-3-30 13:20:23
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3204
+未将对象引用设置到对象的实例。
+2010-3-30 13:26:45
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader()
+   在 LBSgisPoliceEdit.frmMap.btnGaSave_Click(Object sender, EventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 7114
+ORA-00904: "MAPID": 标识符无效
+
+2010-3-30 13:26:47
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader()
+   在 LBSgisPoliceEdit.frmMap.btnGaSave_Click(Object sender, EventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 7114
+ORA-00904: "MAPID": 标识符无效
+
+2010-3-30 13:26:54
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader()
+   在 LBSgisPoliceEdit.frmMap.btnGaSave_Click(Object sender, EventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 7114
+ORA-00904: "MAPID": 标识符无效
+
+2010-3-30 13:49:15
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader()
+   在 LBSgisPoliceEdit.frmMap.buttonSave_Click(Object sender, EventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 2349
+ORA-00904: "MAPID": 标识符无效
+
+2010-3-30 13:49:17
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader()
+   在 LBSgisPoliceEdit.frmMap.buttonSave_Click(Object sender, EventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 2349
+ORA-00904: "MAPID": 标识符无效
+
+2010-3-30 13:50:17
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader()
+   在 LBSgisPoliceEdit.frmMap.buttonSave_Click(Object sender, EventArgs e)
+ORA-00904: "MAPID": 标识符无效
+
+2010-3-30 13:51:36
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 LBSgisPoliceEdit.frmMap.buttonSave_Click(Object sender, EventArgs e)
+ORA-00928: 缺失 SELECT 关键字
+
+2010-3-30 14:18:45
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.buttonCancel_Click(Object sender, EventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 2898
+未能找到名为 mapid 的列。
+参数名: columnName
+2010-3-30 14:18:47
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.buttonCancel_Click(Object sender, EventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 2898
+未能找到名为 mapid 的列。
+参数名: columnName
+2010-3-30 14:22:32
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.set_Item(String columnName, Object value)
+   在 LBSgisPoliceEdit.frmMap.addToList(Double x, Double y) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 2650
+列“x”不属于表 。
+2010-3-30 14:27:34
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader()
+   在 LBSgisPoliceEdit.frmMap.btnGaSave_Click(Object sender, EventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 7117
+ORA-00904: "MAPID": 标识符无效
+
+2010-3-30 14:27:35
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader()
+   在 LBSgisPoliceEdit.frmMap.btnGaSave_Click(Object sender, EventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 7117
+ORA-00904: "MAPID": 标识符无效
+
+2010-3-30 14:27:36
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader()
+   在 LBSgisPoliceEdit.frmMap.btnGaSave_Click(Object sender, EventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 7117
+ORA-00904: "MAPID": 标识符无效
+
+2010-3-30 14:27:37
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader()
+   在 LBSgisPoliceEdit.frmMap.btnGaSave_Click(Object sender, EventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 7117
+ORA-00904: "MAPID": 标识符无效
+
+2010-3-30 14:44:55
+   在 LBSgisPoliceEdit.frmMap.checkFloat(String str) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 4094
+未将对象引用设置到对象的实例。
+2010-3-30 15:16:05
+   在 MapInfo.Data.Feature.Update(Boolean updateEditedColumnsOnly)
+   在 MapInfo.Data.Feature.Update()
+   在 LBSgisPoliceEdit.frmMap.GaupdateMapValue() 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 2809
+更新 feature 时出错。
+2010-4-1 14:38:25
+   在 MapInfo.Data.Feature.get_Item(String index)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3508
+编号
+2010-4-1 14:42:05
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3617
+未将对象引用设置到对象的实例。
+2010-4-1 14:42:24
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3646
+未能找到名为 mapid 的列。
+参数名: columnName
+2010-4-1 14:48:19
+   在 MapInfo.Data.Feature.get_Item(String index)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3513
+编号
+2010-4-1 14:48:40
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3617
+未将对象引用设置到对象的实例。
+2010-4-1 14:49:12
+   在 MapInfo.Data.Feature.get_Item(String index)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3513
+编号
+2010-4-1 14:52:50
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3617
+未将对象引用设置到对象的实例。
+2010-4-1 14:57:18
+   在 MapInfo.Data.Feature.get_Item(String index)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3513
+编号
+2010-4-1 14:57:20
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3617
+未将对象引用设置到对象的实例。
+2010-4-2 10:49:59
+   在 LBSgisPoliceEdit.frmMap.GaaddToList(Double x, Double y) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 2708
+未将对象引用设置到对象的实例。
+2010-4-2 16:12:53
+   在 LBSgisPoliceEdit.frmMap.checkFloat(String str) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 4096
+未将对象引用设置到对象的实例。
+2010-4-6 10:16:36
+   在 MapInfo.Data.MICommand.Prepare()
+   在 MapInfo.Data.MICommand.ExecuteNonQuery()
+   在 LBSgisPoliceEdit.frmMap.GetTable(String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 1915
+不能解析语句：insert into 警务室辖区_tem Select obj,MI_PRINX as MapID,编号 as keyID,警务室名称 as Name,MI_STYLE From 警务室辖区 t: 无效的标识符 (编号).
+2010-4-6 10:17:46
+   在 MapInfo.Data.Catalog.CreateTable(TableInfo tableInfo, TableSessionInfo sessionInfo)
+   在 MapInfo.Data.Catalog.CreateTable(TableInfo tableInfo)
+   在 LBSgisPoliceEdit.frmMap.GetTable(String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 1908
+不能创建表。: 表 警务室辖区_tem 已打开，无法创建新表。
+2010-4-6 10:20:37
+   在 MapInfo.Data.Feature.Update(Boolean updateEditedColumnsOnly)
+   在 MapInfo.Data.Feature.Update()
+   在 LBSgisPoliceEdit.frmMap.GaupdateMapValue() 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 2809
+更新 feature 时出错。
+2010-4-6 10:20:50
+   在 MapInfo.Data.Feature.Update(Boolean updateEditedColumnsOnly)
+   在 MapInfo.Data.Feature.Update()
+   在 LBSgisPoliceEdit.frmMap.GaupdateMapValue() 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 2809
+更新 feature 时出错。
+2010-4-6 10:28:49
+   在 System.Data.DataColumn.set_Item(Int32 record, Object value)
+   在 System.Data.DataRow.set_Item(DataColumn column, Object value)
+   在 System.Data.DataRow.set_Item(String columnName, Object value)
+   在 LBSgisPoliceEdit.frmMap.GaaddToList(Double x, Double y) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 2708
+该字符串未被识别为有效的 DateTime。不能在 抽取更新时间 列中存储 <>。所需类型是 DateTime。
+2010-4-6 10:28:49
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 LBSgisPoliceEdit.frmMap.btnGaSave_Click(Object sender, EventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 7222
+ORA-01861: 文字与格式字符串不匹配
+
+2010-4-6 10:28:52
+   在 System.Data.DataColumn.set_Item(Int32 record, Object value)
+   在 System.Data.DataRow.set_Item(DataColumn column, Object value)
+   在 System.Data.DataRow.set_Item(String columnName, Object value)
+   在 LBSgisPoliceEdit.frmMap.GaaddToList(Double x, Double y) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 2708
+该字符串未被识别为有效的 DateTime。不能在 抽取更新时间 列中存储 <>。所需类型是 DateTime。
+2010-4-6 10:28:52
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 LBSgisPoliceEdit.frmMap.btnGaSave_Click(Object sender, EventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 7222
+ORA-01861: 文字与格式字符串不匹配
+
+2010-4-6 10:28:52
+   在 System.Data.DataColumn.set_Item(Int32 record, Object value)
+   在 System.Data.DataRow.set_Item(DataColumn column, Object value)
+   在 System.Data.DataRow.set_Item(String columnName, Object value)
+   在 LBSgisPoliceEdit.frmMap.GaaddToList(Double x, Double y) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 2708
+该字符串未被识别为有效的 DateTime。不能在 抽取更新时间 列中存储 <>。所需类型是 DateTime。
+2010-4-6 10:28:52
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 LBSgisPoliceEdit.frmMap.btnGaSave_Click(Object sender, EventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 7222
+ORA-01861: 文字与格式字符串不匹配
+
+2010-4-6 10:28:53
+   在 System.Data.DataColumn.set_Item(Int32 record, Object value)
+   在 System.Data.DataRow.set_Item(DataColumn column, Object value)
+   在 System.Data.DataRow.set_Item(String columnName, Object value)
+   在 LBSgisPoliceEdit.frmMap.GaaddToList(Double x, Double y) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 2708
+该字符串未被识别为有效的 DateTime。不能在 抽取更新时间 列中存储 <>。所需类型是 DateTime。
+2010-4-6 10:28:53
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 LBSgisPoliceEdit.frmMap.btnGaSave_Click(Object sender, EventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 7222
+ORA-01861: 文字与格式字符串不匹配
+
+2010-4-6 10:28:54
+   在 System.Data.DataColumn.set_Item(Int32 record, Object value)
+   在 System.Data.DataRow.set_Item(DataColumn column, Object value)
+   在 System.Data.DataRow.set_Item(String columnName, Object value)
+   在 LBSgisPoliceEdit.frmMap.GaaddToList(Double x, Double y) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 2708
+该字符串未被识别为有效的 DateTime。不能在 抽取更新时间 列中存储 <>。所需类型是 DateTime。
+2010-4-6 10:28:54
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 LBSgisPoliceEdit.frmMap.btnGaSave_Click(Object sender, EventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 7222
+ORA-01861: 文字与格式字符串不匹配
+
+2010-4-6 14:43:00
+   在 MapInfo.Data.MICommand.Prepare()
+   在 MapInfo.Data.MICommand.ExecuteNonQuery()
+   在 LBSgisPoliceEdit.frmMap.GetTable(String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 1915
+不能解析语句：insert into 警务室辖区_tem Select obj,MI_PRINX as MapID,编号 as keyID,警务室名称 as Name,MI_STYLE From 警务室辖区 t: 无效的标识符 (编号).
+2010-4-6 15:14:45
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3507
+对象不能从 DBNull 转换为其他类型。
+2010-4-6 15:14:47
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3617
+未将对象引用设置到对象的实例。
+2010-4-6 15:14:47
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3646
+未能找到名为 MapID 的列。
+参数名: columnName
+2010-4-6 15:14:54
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3507
+对象不能从 DBNull 转换为其他类型。
+2010-4-6 15:14:55
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3617
+未将对象引用设置到对象的实例。
+2010-4-6 15:14:56
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3646
+未能找到名为 MapID 的列。
+参数名: columnName
+2010-4-6 15:15:00
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3507
+对象不能从 DBNull 转换为其他类型。
+2010-4-6 15:15:01
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3617
+未将对象引用设置到对象的实例。
+2010-4-6 15:15:03
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3646
+未能找到名为 MapID 的列。
+参数名: columnName
+2010-4-6 15:16:14
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3507
+对象不能从 DBNull 转换为其他类型。
+2010-4-6 15:16:15
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3617
+未将对象引用设置到对象的实例。
+2010-4-6 15:16:16
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3646
+未能找到名为 MapID 的列。
+参数名: columnName
+2010-4-6 15:16:33
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3507
+对象不能从 DBNull 转换为其他类型。
+2010-4-6 15:16:34
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3617
+未将对象引用设置到对象的实例。
+2010-4-6 15:16:35
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3646
+未能找到名为 MapID 的列。
+参数名: columnName
+2010-4-6 15:17:40
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3507
+对象不能从 DBNull 转换为其他类型。
+2010-4-6 15:17:41
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3617
+未将对象引用设置到对象的实例。
+2010-4-6 15:17:43
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3646
+未能找到名为 MapID 的列。
+参数名: columnName
+2010-4-6 15:17:52
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3507
+对象不能从 DBNull 转换为其他类型。
+2010-4-6 15:17:55
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3617
+未将对象引用设置到对象的实例。
+2010-4-6 15:17:55
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3646
+未能找到名为 MapID 的列。
+参数名: columnName
+2010-4-6 17:23:17
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3507
+对象不能从 DBNull 转换为其他类型。
+2010-4-6 17:23:19
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3617
+未将对象引用设置到对象的实例。
+2010-4-6 17:23:19
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3646
+未能找到名为 MapID 的列。
+参数名: columnName
+2010-4-6 17:23:22
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3507
+对象不能从 DBNull 转换为其他类型。
+2010-4-6 17:23:22
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3617
+未将对象引用设置到对象的实例。
+2010-4-6 17:23:23
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3646
+未能找到名为 MapID 的列。
+参数名: columnName
+2010-4-6 17:25:40
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3507
+对象不能从 DBNull 转换为其他类型。
+2010-4-6 17:25:42
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3617
+未将对象引用设置到对象的实例。
+2010-4-6 17:25:42
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3646
+未能找到名为 MapID 的列。
+参数名: columnName
+2010-4-6 17:34:01
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3507
+对象不能从 DBNull 转换为其他类型。
+2010-4-6 17:34:03
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3617
+未将对象引用设置到对象的实例。
+2010-4-6 17:34:03
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3646
+未能找到名为 MapID 的列。
+参数名: columnName
+2010-4-6 17:54:55
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3507
+对象不能从 DBNull 转换为其他类型。
+2010-4-6 17:55:29
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3617
+未将对象引用设置到对象的实例。
+2010-4-6 17:55:43
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3646
+未能找到名为 MapID 的列。
+参数名: columnName
+2010-4-7 9:31:20
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3507
+对象不能从 DBNull 转换为其他类型。
+2010-4-7 9:31:32
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3617
+未将对象引用设置到对象的实例。
+2010-4-7 9:39:50
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3617
+未将对象引用设置到对象的实例。
+2010-4-7 9:42:07
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3207
+未将对象引用设置到对象的实例。
+2010-4-7 9:42:08
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3207
+未将对象引用设置到对象的实例。
+2010-4-7 9:42:09
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3207
+未将对象引用设置到对象的实例。
+2010-4-7 9:42:11
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3207
+未将对象引用设置到对象的实例。
+2010-4-7 9:42:12
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3207
+未将对象引用设置到对象的实例。
+2010-4-7 9:42:30
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3207
+未将对象引用设置到对象的实例。
+2010-4-7 9:42:35
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3207
+未将对象引用设置到对象的实例。
+2010-4-7 9:42:37
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3207
+未将对象引用设置到对象的实例。
+2010-4-7 9:42:38
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3207
+未将对象引用设置到对象的实例。
+2010-4-7 9:42:39
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3207
+未将对象引用设置到对象的实例。
+2010-4-7 9:42:40
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3207
+未将对象引用设置到对象的实例。
+2010-4-7 9:42:40
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3207
+未将对象引用设置到对象的实例。
+2010-4-7 9:42:41
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3207
+未将对象引用设置到对象的实例。
+2010-4-7 9:45:33
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3207
+未将对象引用设置到对象的实例。
+2010-4-7 10:15:42
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3646
+未能找到名为 编号 的列。
+参数名: columnName
+2010-4-7 10:17:04
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3646
+未能找到名为 编号 的列。
+参数名: columnName
+2010-4-7 10:56:08
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3617
+未将对象引用设置到对象的实例。
+2010-4-7 10:56:13
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3617
+未将对象引用设置到对象的实例。
+2010-4-7 10:56:17
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3617
+未将对象引用设置到对象的实例。
+2010-4-7 10:56:24
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3617
+未将对象引用设置到对象的实例。
+2010-4-7 10:56:26
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3617
+未将对象引用设置到对象的实例。
+2010-4-7 10:57:11
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3617
+未将对象引用设置到对象的实例。
+2010-4-7 11:00:38
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3617
+未将对象引用设置到对象的实例。
+2010-4-7 11:03:00
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3617
+未将对象引用设置到对象的实例。
+2010-4-7 11:04:50
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3617
+未将对象引用设置到对象的实例。
+2010-4-7 11:21:52
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3617
+未将对象引用设置到对象的实例。
+2010-4-7 11:22:25
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3617
+未将对象引用设置到对象的实例。
+2010-4-7 11:25:07
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3207
+未将对象引用设置到对象的实例。
+2010-4-7 11:25:08
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3207
+未将对象引用设置到对象的实例。
+2010-4-7 11:25:10
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3207
+未将对象引用设置到对象的实例。
+2010-4-7 11:25:11
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3207
+未将对象引用设置到对象的实例。
+2010-4-7 11:25:13
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3207
+未将对象引用设置到对象的实例。
+2010-4-7 11:25:14
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3207
+未将对象引用设置到对象的实例。
+2010-4-7 11:25:15
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3207
+未将对象引用设置到对象的实例。
+2010-4-7 11:25:21
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3207
+未将对象引用设置到对象的实例。
+2010-4-7 11:25:22
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3207
+未将对象引用设置到对象的实例。
+2010-4-7 11:25:23
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3207
+未将对象引用设置到对象的实例。
+2010-4-7 11:26:00
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3207
+未将对象引用设置到对象的实例。
+2010-4-7 11:30:44
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3207
+未将对象引用设置到对象的实例。
+2010-4-7 11:30:48
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3207
+未将对象引用设置到对象的实例。
+2010-4-7 11:30:49
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3207
+未将对象引用设置到对象的实例。
+2010-4-7 11:30:50
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3207
+未将对象引用设置到对象的实例。
+2010-4-7 11:30:51
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3207
+未将对象引用设置到对象的实例。
+2010-4-7 11:30:52
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3207
+未将对象引用设置到对象的实例。
+2010-4-7 11:30:53
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3207
+未将对象引用设置到对象的实例。
+2010-4-7 11:30:53
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3207
+未将对象引用设置到对象的实例。
+2010-4-7 11:30:54
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3207
+未将对象引用设置到对象的实例。
+2010-4-7 11:30:55
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3207
+未将对象引用设置到对象的实例。
+2010-4-7 11:30:56
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3207
+未将对象引用设置到对象的实例。
+2010-4-7 11:30:56
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3207
+未将对象引用设置到对象的实例。
+2010-4-7 11:30:57
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3207
+未将对象引用设置到对象的实例。
+2010-4-7 11:39:36
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3207
+未将对象引用设置到对象的实例。
+2010-4-7 11:39:39
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3207
+未将对象引用设置到对象的实例。
+2010-4-7 11:42:03
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3207
+未将对象引用设置到对象的实例。
+2010-4-7 13:10:01
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3221
+未将对象引用设置到对象的实例。
+2010-4-7 13:10:04
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3221
+未将对象引用设置到对象的实例。
+2010-4-7 13:10:05
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3221
+未将对象引用设置到对象的实例。
+2010-4-7 13:10:06
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3221
+未将对象引用设置到对象的实例。
+2010-4-7 13:10:08
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3221
+未将对象引用设置到对象的实例。
+2010-4-7 13:10:09
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3221
+未将对象引用设置到对象的实例。
+2010-4-7 13:10:10
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3221
+未将对象引用设置到对象的实例。
+2010-4-7 13:12:46
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3221
+未将对象引用设置到对象的实例。
+2010-4-7 13:12:47
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3221
+未将对象引用设置到对象的实例。
+2010-4-7 13:12:48
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3221
+未将对象引用设置到对象的实例。
+2010-4-7 13:12:49
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3221
+未将对象引用设置到对象的实例。
+2010-4-7 13:12:51
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3221
+未将对象引用设置到对象的实例。
+2010-4-7 13:12:52
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3221
+未将对象引用设置到对象的实例。
+2010-4-7 13:12:54
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3221
+未将对象引用设置到对象的实例。
+2010-4-7 13:13:07
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3221
+未将对象引用设置到对象的实例。
+2010-4-7 13:18:44
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3221
+未将对象引用设置到对象的实例。
+2010-4-7 13:43:10
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3221
+未将对象引用设置到对象的实例。
+2010-4-7 13:43:11
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3221
+未将对象引用设置到对象的实例。
+2010-4-7 13:43:13
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3221
+未将对象引用设置到对象的实例。
+2010-4-7 13:43:13
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3221
+未将对象引用设置到对象的实例。
+2010-4-7 13:43:14
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3221
+未将对象引用设置到对象的实例。
+2010-4-7 13:43:15
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3221
+未将对象引用设置到对象的实例。
+2010-4-7 13:52:25
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3221
+未将对象引用设置到对象的实例。
+2010-4-7 13:52:27
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3221
+未将对象引用设置到对象的实例。
+2010-4-7 13:52:28
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3221
+未将对象引用设置到对象的实例。
+2010-4-7 13:52:29
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3221
+未将对象引用设置到对象的实例。
+2010-4-7 13:52:36
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3221
+未将对象引用设置到对象的实例。
+2010-4-7 13:52:37
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3221
+未将对象引用设置到对象的实例。
+2010-4-7 13:52:39
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3221
+未将对象引用设置到对象的实例。
+2010-4-7 13:52:40
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3221
+未将对象引用设置到对象的实例。
+2010-4-7 13:52:41
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3221
+未将对象引用设置到对象的实例。
+2010-4-7 14:01:27
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3221
+未将对象引用设置到对象的实例。
+2010-4-7 14:01:28
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3221
+未将对象引用设置到对象的实例。
+2010-4-7 14:01:29
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3221
+未将对象引用设置到对象的实例。
+2010-4-7 14:01:30
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3221
+未将对象引用设置到对象的实例。
+2010-4-7 14:01:32
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3221
+未将对象引用设置到对象的实例。
+2010-4-7 14:01:33
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3221
+未将对象引用设置到对象的实例。
+2010-4-7 14:01:35
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3221
+未将对象引用设置到对象的实例。
+2010-4-7 14:39:23
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3222
+未将对象引用设置到对象的实例。
+2010-4-7 14:39:34
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3222
+未将对象引用设置到对象的实例。
+2010-4-7 14:39:52
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3222
+未将对象引用设置到对象的实例。
+2010-4-7 14:39:54
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3222
+未将对象引用设置到对象的实例。
+2010-4-7 15:26:22
+   在 System.Data.DataColumn.set_Item(Int32 record, Object value)
+   在 System.Data.DataRow.set_Item(DataColumn column, Object value)
+   在 System.Data.DataRow.set_Item(String columnName, Object value)
+   在 LBSgisPoliceEdit.frmMap.GaaddToList(Double x, Double y) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 2723
+该字符串未被识别为有效的 DateTime。不能在 抽取更新时间 列中存储 <>。所需类型是 DateTime。
+2010-4-8 9:20:31
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3712
+对象不能从 DBNull 转换为其他类型。
+2010-4-8 9:20:36
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3814
+未将对象引用设置到对象的实例。
+2010-4-8 9:20:40
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3855
+未能找到名为 编号 的列。
+参数名: columnName
+2010-4-8 9:23:59
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 LBSgisPoliceEdit.frmMap.searchByKey() 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 4248
+ORA-00936: 缺失表达式
+
+2010-4-8 9:24:03
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 LBSgisPoliceEdit.frmMap.searchByKey() 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 4248
+ORA-00936: 缺失表达式
+
+2010-4-8 9:24:13
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 LBSgisPoliceEdit.frmMap.searchByKey() 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 4248
+ORA-00936: 缺失表达式
+
+2010-4-8 9:24:14
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 LBSgisPoliceEdit.frmMap.searchByKey() 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 4248
+ORA-00936: 缺失表达式
+
+2010-4-8 9:24:14
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 LBSgisPoliceEdit.frmMap.searchByKey() 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 4248
+ORA-00936: 缺失表达式
+
+2010-4-8 9:24:15
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 LBSgisPoliceEdit.frmMap.searchByKey() 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 4248
+ORA-00936: 缺失表达式
+
+2010-4-8 9:24:30
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 LBSgisPoliceEdit.frmMap.searchByKey() 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 4248
+ORA-00936: 缺失表达式
+
+2010-4-8 9:25:00
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 LBSgisPoliceEdit.frmMap.searchByKey() 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 4248
+ORA-00936: 缺失表达式
+
+2010-4-8 9:29:49
+   在 MapInfo.Data.MICommand.Prepare()
+   在 MapInfo.Data.MICommand.ExecuteNonQuery()
+   在 LBSgisPoliceEdit.frmMap.GetTable(String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 1930
+不能解析语句：insert into 警务室辖区_tem Select obj,MI_PRINX as MapID,编号 as keyID,警务室名称 as Name,MI_STYLE From 警务室辖区 t: 无效的标识符 (编号).
+2010-4-8 9:39:00
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3814
+未将对象引用设置到对象的实例。
+2010-4-8 9:39:00
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3855
+未能找到名为 编号 的列。
+参数名: columnName
+2010-4-8 9:39:01
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3814
+未将对象引用设置到对象的实例。
+2010-4-8 9:39:01
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3855
+未能找到名为 编号 的列。
+参数名: columnName
+2010-4-8 9:39:58
+   在 MapInfo.Data.Feature.Update(Boolean updateEditedColumnsOnly)
+   在 MapInfo.Data.Feature.Update()
+   在 LBSgisPoliceEdit.frmMap.updateMapValue() 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 2784
+更新 feature 时出错。
+2010-4-8 9:46:35
+   在 MapInfo.Data.Feature.Update(Boolean updateEditedColumnsOnly)
+   在 MapInfo.Data.Feature.Update()
+   在 LBSgisPoliceEdit.frmMap.GaupdateMapValue() 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 2824
+更新 feature 时出错。
+2010-4-8 9:58:46
+   在 MapInfo.Data.Feature.Update(Boolean updateEditedColumnsOnly)
+   在 MapInfo.Data.Feature.Update()
+   在 LBSgisPoliceEdit.frmMap.updateMapValue() 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 2784
+更新 feature 时出错。
+2010-4-8 10:04:59
+   在 MapInfo.Data.Feature.Update(Boolean updateEditedColumnsOnly)
+   在 MapInfo.Data.Feature.Update()
+   在 LBSgisPoliceEdit.frmMap.updateMapValue() 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 2784
+更新 feature 时出错。
+2010-4-8 10:08:01
+   在 MapInfo.Data.Feature.Update(Boolean updateEditedColumnsOnly)
+   在 MapInfo.Data.Feature.Update()
+   在 LBSgisPoliceEdit.frmMap.GaupdateMapValue() 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 2824
+更新 feature 时出错。
+2010-4-8 10:15:01
+   在 System.Data.DataColumn.set_Item(Int32 record, Object value)
+   在 System.Data.DataRow.set_Item(DataColumn column, Object value)
+   在 System.Data.DataRow.set_Item(String columnName, Object value)
+   在 LBSgisPoliceEdit.frmMap.GaaddToList(Double x, Double y) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 2723
+该字符串未被识别为有效的 DateTime。不能在 抽取更新时间 列中存储 <>。所需类型是 DateTime。
+2010-4-15 12:51:15
+   在 MapInfo.Data.Feature.Update(Boolean updateEditedColumnsOnly)
+   在 MapInfo.Data.Feature.Update()
+   在 LBSgisPoliceEdit.frmMap.GaupdateMapValue() 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 2824
+更新 feature 时出错。
+2010-4-15 12:51:43
+   在 MapInfo.Data.Feature.Update(Boolean updateEditedColumnsOnly)
+   在 MapInfo.Data.Feature.Update()
+   在 LBSgisPoliceEdit.frmMap.GaupdateMapValue() 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 2824
+更新 feature 时出错。
+2010-4-15 12:54:53
+   在 MapInfo.Data.Feature.Update(Boolean updateEditedColumnsOnly)
+   在 MapInfo.Data.Feature.Update()
+   在 LBSgisPoliceEdit.frmMap.GaupdateMapValue() 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 2824
+更新 feature 时出错。
+2010-4-16 16:01:51
+   在 MapInfo.Data.Feature.Update(Boolean updateEditedColumnsOnly)
+   在 MapInfo.Data.Feature.Update()
+   在 LBSgisPoliceEdit.frmMap.GaupdateMapValue() 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 2824
+更新 feature 时出错。
+2010-4-16 16:03:33
+   在 MapInfo.Data.MICommand.Prepare()
+   在 MapInfo.Data.MICommand.ExecuteNonQuery()
+   在 LBSgisPoliceEdit.frmMap.GetTable(String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 1930
+不能解析语句：insert into 警务室辖区_tem Select obj,MI_PRINX as MapID,编号 as keyID,警务室名称 as Name,MI_STYLE From 警务室辖区 t: 无效的标识符 (编号).
+2010-4-16 16:22:39
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3712
+对象不能从 DBNull 转换为其他类型。
+2010-4-16 16:22:39
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3814
+未将对象引用设置到对象的实例。
+2010-4-16 16:22:39
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3855
+未能找到名为 编号 的列。
+参数名: columnName
+2010-4-16 16:22:42
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3712
+对象不能从 DBNull 转换为其他类型。
+2010-4-16 16:22:42
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3814
+未将对象引用设置到对象的实例。
+2010-4-16 16:22:42
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3855
+未能找到名为 编号 的列。
+参数名: columnName
+2010-4-16 16:22:43
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3712
+对象不能从 DBNull 转换为其他类型。
+2010-4-16 16:22:43
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3814
+未将对象引用设置到对象的实例。
+2010-4-16 16:22:43
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3855
+未能找到名为 编号 的列。
+参数名: columnName
+2010-4-16 16:22:44
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3712
+对象不能从 DBNull 转换为其他类型。
+2010-4-16 16:22:44
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3814
+未将对象引用设置到对象的实例。
+2010-4-16 16:22:44
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3855
+未能找到名为 编号 的列。
+参数名: columnName
+2010-4-16 16:22:45
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3712
+对象不能从 DBNull 转换为其他类型。
+2010-4-16 16:22:45
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3814
+未将对象引用设置到对象的实例。
+2010-4-16 16:22:45
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3855
+未能找到名为 编号 的列。
+参数名: columnName
+2010-4-16 16:22:46
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3712
+对象不能从 DBNull 转换为其他类型。
+2010-4-16 16:22:46
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3814
+未将对象引用设置到对象的实例。
+2010-4-16 16:22:46
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3855
+未能找到名为 编号 的列。
+参数名: columnName
+2010-4-16 16:22:48
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3712
+对象不能从 DBNull 转换为其他类型。
+2010-4-16 16:22:48
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3814
+未将对象引用设置到对象的实例。
+2010-4-16 16:22:48
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3855
+未能找到名为 编号 的列。
+参数名: columnName
+2010-4-16 16:22:49
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3712
+对象不能从 DBNull 转换为其他类型。
+2010-4-16 16:22:49
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3814
+未将对象引用设置到对象的实例。
+2010-4-16 16:22:49
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3855
+未能找到名为 编号 的列。
+参数名: columnName
+2010-4-16 16:22:58
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3712
+对象不能从 DBNull 转换为其他类型。
+2010-4-16 16:22:58
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3814
+未将对象引用设置到对象的实例。
+2010-4-16 16:22:58
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3855
+未能找到名为 编号 的列。
+参数名: columnName
+2010-4-16 16:23:00
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3712
+对象不能从 DBNull 转换为其他类型。
+2010-4-16 16:23:00
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3814
+未将对象引用设置到对象的实例。
+2010-4-16 16:23:00
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3855
+未能找到名为 编号 的列。
+参数名: columnName
+2010-4-16 16:23:02
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3222
+未将对象引用设置到对象的实例。
+2010-4-16 16:23:03
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3222
+未将对象引用设置到对象的实例。
+2010-4-16 16:23:06
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3222
+未将对象引用设置到对象的实例。
+2010-4-16 16:23:09
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3222
+未将对象引用设置到对象的实例。
+2010-4-16 16:23:12
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3222
+未将对象引用设置到对象的实例。
+2010-4-16 16:29:56
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 LBSgisPoliceEdit.frmMap.btnLocatedYes_Click(Object sender, EventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 8266
+ORA-00923: 未找到要求的 FROM 关键字
+
+2010-4-16 16:29:58
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 LBSgisPoliceEdit.frmMap.btnLocatedYes_Click(Object sender, EventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 8266
+ORA-00923: 未找到要求的 FROM 关键字
+
+2010-4-16 16:30:11
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 LBSgisPoliceEdit.frmMap.btnLocatedYes_Click(Object sender, EventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 8266
+ORA-00923: 未找到要求的 FROM 关键字
+
+2010-4-16 16:30:13
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 LBSgisPoliceEdit.frmMap.btnLocatedYes_Click(Object sender, EventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 8266
+ORA-00923: 未找到要求的 FROM 关键字
+
+2010-4-16 16:30:13
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 LBSgisPoliceEdit.frmMap.btnLocatedYes_Click(Object sender, EventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 8266
+ORA-00923: 未找到要求的 FROM 关键字
+
+2010-4-16 16:30:13
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 LBSgisPoliceEdit.frmMap.btnLocatedYes_Click(Object sender, EventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 8266
+ORA-00923: 未找到要求的 FROM 关键字
+
+2010-4-16 16:30:15
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 LBSgisPoliceEdit.frmMap.btnLocatedYes_Click(Object sender, EventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 8266
+ORA-00923: 未找到要求的 FROM 关键字
+
+2010-4-16 16:32:56
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 LBSgisPoliceEdit.frmMap.btnLocatedYes_Click(Object sender, EventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 8266
+ORA-00923: 未找到要求的 FROM 关键字
+
+2010-4-16 16:32:58
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 LBSgisPoliceEdit.frmMap.btnLocatedYes_Click(Object sender, EventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 8266
+ORA-00923: 未找到要求的 FROM 关键字
+
+2010-4-16 16:33:30
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 LBSgisPoliceEdit.frmMap.btnLocatedYes_Click(Object sender, EventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 8266
+ORA-00923: 未找到要求的 FROM 关键字
+
+2010-4-16 16:33:32
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 LBSgisPoliceEdit.frmMap.btnLocatedYes_Click(Object sender, EventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 8266
+ORA-00923: 未找到要求的 FROM 关键字
+
+2010-4-16 16:36:25
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3814
+未将对象引用设置到对象的实例。
+2010-4-16 16:36:25
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3855
+未能找到名为 编号 的列。
+参数名: columnName
+2010-4-16 16:36:25
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3814
+未将对象引用设置到对象的实例。
+2010-4-16 16:36:25
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3855
+未能找到名为 编号 的列。
+参数名: columnName
+2010-4-16 16:45:52
+   在 MapInfo.Data.Feature.Update(Boolean updateEditedColumnsOnly)
+   在 MapInfo.Data.Feature.Update()
+   在 LBSgisPoliceEdit.frmMap.GaupdateMapValue() 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 2824
+更新 feature 时出错。
+2010-4-16 16:46:49
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3814
+未将对象引用设置到对象的实例。
+2010-4-16 16:46:49
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3855
+未能找到名为 编号 的列。
+参数名: columnName
+2010-4-16 16:46:50
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3814
+未将对象引用设置到对象的实例。
+2010-4-16 16:46:50
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3855
+未能找到名为 编号 的列。
+参数名: columnName
+2010-4-16 16:46:51
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3814
+未将对象引用设置到对象的实例。
+2010-4-16 16:46:51
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3855
+未能找到名为 编号 的列。
+参数名: columnName
+2010-4-16 17:09:42
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3624
+未将对象引用设置到对象的实例。
+2010-4-16 17:09:48
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3624
+未将对象引用设置到对象的实例。
+2010-4-16 17:09:55
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3624
+未将对象引用设置到对象的实例。
+2010-4-17 9:26:33
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3809
+未将对象引用设置到对象的实例。
+2010-4-17 9:26:33
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3850
+未能找到名为 编号 的列。
+参数名: columnName
+2010-4-17 9:27:06
+   在 MapInfo.Data.Feature.Update(Boolean updateEditedColumnsOnly)
+   在 MapInfo.Data.Feature.Update()
+   在 LBSgisPoliceEdit.frmMap.GaupdateMapValue() 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 2823
+更新 feature 时出错。
+2010-4-19 10:23:39
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3809
+未将对象引用设置到对象的实例。
+2010-4-19 10:23:39
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3850
+未能找到名为 编号 的列。
+参数名: columnName
+2010-4-19 10:23:40
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3809
+未将对象引用设置到对象的实例。
+2010-4-19 10:23:40
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3850
+未能找到名为 编号 的列。
+参数名: columnName
+2010-4-19 15:27:10
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3811
+未将对象引用设置到对象的实例。
+2010-4-19 15:27:10
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3852
+未能找到名为 编号 的列。
+参数名: columnName
+2010-4-19 15:27:11
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3811
+未将对象引用设置到对象的实例。
+2010-4-19 15:27:11
+   在 System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   在 LBSgisPoliceEdit.frmMap.Feature_Selected(Object sender, FeatureSelectedEventArgs e) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3852
+未能找到名为 编号 的列。
+参数名: columnName
+2010-4-20 14:02:04
+   在 LBSgisPoliceEdit.frmMap.Feature_Changed(Object sender, FeatureChangedEventArgs e) 位置 D:\sd\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 3221
+未将对象引用设置到对象的实例。
+2010/5/13 10:54:36
+   在 LBSgisPoliceEdit.frmMap.GetTable(String tableName) 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 1982
+未将对象引用设置到对象的实例。
+2010/5/13 10:54:36
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 LBSgisPoliceEdit.frmMap.InitialEditFields(String tabName) 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 1007
+ORA-12154: TNS: 无法解析指定的连接标识符
+
+2010/5/13 10:54:36
+   在 System.Collections.ArrayList.get_Item(Int32 index)
+   在 System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   在 System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   在 LBSgisPoliceEdit.frmMap.setDataGridViewColumnWidth(DataGridView dataGridView) 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 4647
+   在 LBSgisPoliceEdit.frmMap.InitialEditFields(String tabName) 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 1086
+   在 LBSgisPoliceEdit.frmMap.GetTable(String tableName) 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 1997
+   在 LBSgisPoliceEdit.frmMap.comboTables_SelectedIndexChanged(Object sender, EventArgs e) 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 1736
+   在 System.Windows.Forms.ComboBox.OnSelectedIndexChanged(EventArgs e)
+   在 System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   在 System.Windows.Forms.ComboBox.set_Text(String value)
+   在 LBSgisPoliceEdit.frmMap..ctor(String region1, String region2, DataTable dt) 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 70
+索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+2010/5/13 10:55:12
+   在 LBSgisPoliceEdit.frmMap.GetTable(String tableName) 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 1982
+未将对象引用设置到对象的实例。
+2010/5/13 10:55:12
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 LBSgisPoliceEdit.frmMap.InitialEditFields(String tabName) 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 1007
+ORA-12154: TNS: 无法解析指定的连接标识符
+
+2010/5/13 10:55:12
+   在 System.Collections.ArrayList.get_Item(Int32 index)
+   在 System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   在 System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   在 LBSgisPoliceEdit.frmMap.setDataGridViewColumnWidth(DataGridView dataGridView) 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 4647
+   在 LBSgisPoliceEdit.frmMap.InitialEditFields(String tabName) 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 1086
+   在 LBSgisPoliceEdit.frmMap.GetTable(String tableName) 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 1997
+   在 LBSgisPoliceEdit.frmMap.comboTables_SelectedIndexChanged(Object sender, EventArgs e) 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 1736
+   在 System.Windows.Forms.ComboBox.OnSelectedIndexChanged(EventArgs e)
+   在 System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   在 System.Windows.Forms.ComboBox.set_Text(String value)
+   在 LBSgisPoliceEdit.frmMap..ctor(String region1, String region2, DataTable dt) 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\LBSgisPoliceEdit\frmMap.cs:行号 70
+索引超出范围。必须为非负值并小于集合大小。
+参数名: index

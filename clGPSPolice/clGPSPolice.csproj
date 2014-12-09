@@ -1,0 +1,207 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A2757E0E-231B-48B3-841E-6C77B40BC6E4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>clGPSPolice</RootNamespace>
+    <AssemblyName>clGPSPolice</AssemblyName>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CLC, Version=1.0.5.2, Culture=neutral, PublicKeyToken=d1246ac57f8d0fa6, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\非受控\配置管理\CLC.dll</HintPath>
+    </Reference>
+    <Reference Include="MapInfo.CoreEngine, Version=4.0.0.483, Culture=neutral, PublicKeyToken=93e298a0f6b95eb1" />
+    <Reference Include="MapInfo.CoreTypes, Version=4.0.0.483, Culture=neutral, PublicKeyToken=f548bcba69d4b8da" />
+    <Reference Include="MapInfo.Windows, Version=4.0.0.483, Culture=neutral, PublicKeyToken=93e298a0f6b95eb1" />
+    <Reference Include="MapInfo.Windows.Dialogs, Version=4.0.0.483, Culture=neutral, PublicKeyToken=93e298a0f6b95eb1" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmbus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmbus.Designer.cs">
+      <DependentUpon>frmbus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmExeGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmExeGroup.Designer.cs">
+      <DependentUpon>frmExeGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGuijiTime.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGuijiTime.designer.cs">
+      <DependentUpon>frmGuijiTime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGz.Designer.cs">
+      <DependentUpon>frmGz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInfo.designer.cs">
+      <DependentUpon>frmInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMajorTask.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMajorTask.Designer.cs">
+      <DependentUpon>frmMajorTask.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRestruct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRestruct.Designer.cs">
+      <DependentUpon>frmRestruct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSplit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSplit.Designer.cs">
+      <DependentUpon>frmSplit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmxxd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmxxd.Designer.cs">
+      <DependentUpon>frmxxd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmbus.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmbus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmExeGroup.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmExeGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGuijiTime.resx">
+      <DependentUpon>frmGuijiTime.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGz.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmGz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInfo.resx">
+      <DependentUpon>frmInfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMajorTask.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMajorTask.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRestruct.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmRestruct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSplit.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSplit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmxxd.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmxxd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucGPSPolice.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ucGPSPolice.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="TaskForce.cs" />
+    <Compile Include="ucGPSPolice.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucGPSPolice.Designer.cs">
+      <DependentUpon>ucGPSPolice.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\infobg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibrary1\ClassLibrary1.csproj">
+      <Project>{A0A021F2-2352-450E-99B9-458474C08740}</Project>
+      <Name>ClassLibrary1</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\clVideo\clVideo.csproj">
+      <Project>{7D68BFF6-0BB4-4D04-9AE7-A2A5BF4974A9}</Project>
+      <Name>clVideo</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

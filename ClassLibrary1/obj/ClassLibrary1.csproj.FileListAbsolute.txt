@@ -1,0 +1,10 @@
+E:\shunde\LBSgisPolice.root\LBSgisPolice\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+E:\shunde\LBSgisPolice.root\LBSgisPolice\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+E:\shunde\LBSgisPolice.root\LBSgisPolice\ClassLibrary1\obj\Debug\ResolveAssemblyReference.cache
+E:\shunde\LBSgisPolice.root\LBSgisPolice\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+E:\shunde\LBSgisPolice.root\LBSgisPolice\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
+E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\ClassLibrary1\obj\Debug\ResolveAssemblyReference.cache
+E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\ClassLibrary1\obj\Debug\ClassLibrary1.pdb

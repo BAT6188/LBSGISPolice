@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="gb2312" ?> 
+<config>
+  <connstring>Data Source=bsits0729;User ID=bsits;Password=bsits;Unicode=False</connstring> 
+</config>

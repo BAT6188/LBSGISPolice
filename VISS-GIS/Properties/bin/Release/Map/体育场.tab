@@ -1,0 +1,9 @@
+!table
+!version 300
+!charset WindowsSimpChinese
+
+Definition Table
+  Type NATIVE Charset "WindowsSimpChinese"
+  Fields 2
+    OBJECTID Decimal (9, 0) ;
+    NAME Char (200) ;

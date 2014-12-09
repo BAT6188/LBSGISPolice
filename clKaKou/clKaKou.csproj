@@ -1,0 +1,265 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{17ADC50D-B195-4A5B-A2F4-2381E0B1DD79}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>clKaKou</RootNamespace>
+    <AssemblyName>clKaKou</AssemblyName>
+    <StartupObject>
+    </StartupObject>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CLC, Version=1.0.5.1, Culture=neutral, PublicKeyToken=d1246ac57f8d0fa6, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\非受控\配置管理\CLC.dll</HintPath>
+    </Reference>
+    <Reference Include="ClsFileManagement, Version=1.0.2.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\非受控\配置管理\ClsFileManagement.dll</HintPath>
+    </Reference>
+    <Reference Include="DataGuide, Version=1.0.2.3, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\非受控\配置管理\DataGuide.dll</HintPath>
+    </Reference>
+    <Reference Include="EHL.ATMS.TGS.Interface.SD, Version=1.0.3442.27905, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\非受控\治安卡口引用外部DLL\EHL.ATMS.TGS.Interface.SD.dll</HintPath>
+    </Reference>
+    <Reference Include="EpoliceOracleDal, Version=1.0.1.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\非受控\治安卡口引用外部DLL\EpoliceOracleDal.dll</HintPath>
+    </Reference>
+    <Reference Include="GDW_GIS_Interface, Version=1.0.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\非受控\治安卡口引用外部DLL\GDW_GIS_Interface.dll</HintPath>
+    </Reference>
+    <Reference Include="LEAD, Version=13.0.1.83, Culture=neutral, PublicKeyToken=9cf889f53ea9b907" />
+    <Reference Include="LEAD.Drawing, Version=13.0.1.83, Culture=neutral, PublicKeyToken=9cf889f53ea9b907" />
+    <Reference Include="LEAD.Drawing.Imaging.Codecs, Version=13.0.1.83, Culture=neutral, PublicKeyToken=9cf889f53ea9b907" />
+    <Reference Include="MapInfo.CoreEngine, Version=4.0.0.483, Culture=neutral, PublicKeyToken=93e298a0f6b95eb1" />
+    <Reference Include="MapInfo.CoreTypes, Version=4.0.0.483, Culture=neutral, PublicKeyToken=f548bcba69d4b8da" />
+    <Reference Include="MapInfo.Windows, Version=4.0.0.483, Culture=neutral, PublicKeyToken=93e298a0f6b95eb1" />
+    <Reference Include="MapInfo.Windows.Dialogs, Version=4.0.0.483, Culture=neutral, PublicKeyToken=93e298a0f6b95eb1" />
+    <Reference Include="MapInfo.Windows.Framework, Version=4.0.0.483, Culture=neutral, PublicKeyToken=93e298a0f6b95eb1" />
+    <Reference Include="MapInfo.Wms.Client, Version=4.0.0.483, Culture=neutral, PublicKeyToken=4ac3224575145b20" />
+    <Reference Include="Microsoft.VisualC" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmAlarm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAlarm.Designer.cs">
+      <DependentUpon>frmAlarm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBayonetDire.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBayonetDire.Designer.cs">
+      <DependentUpon>frmBayonetDire.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCarInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCarInfo.Designer.cs">
+      <DependentUpon>frmCarInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCarNum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCarNum.Designer.cs">
+      <DependentUpon>frmCarNum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmExcut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmExcut.Designer.cs">
+      <DependentUpon>frmExcut.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmImage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmImage.designer.cs">
+      <DependentUpon>FrmImage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInfo.designer.cs">
+      <DependentUpon>frmInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMessage.Designer.cs">
+      <DependentUpon>frmMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProgress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProgress.Designer.cs">
+      <DependentUpon>FrmProgress.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmtip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmtip.Designer.cs">
+      <DependentUpon>frmtip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmZLMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmZLMessage.Designer.cs">
+      <DependentUpon>frmZLMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmAlarm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAlarm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBayonetDire.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmBayonetDire.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCarInfo.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCarInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCarNum.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCarNum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmExcut.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmExcut.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmImage.resx">
+      <DependentUpon>FrmImage.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInfo.resx">
+      <DependentUpon>frmInfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMessage.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProgress.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmProgress.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmtip.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmtip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmZLMessage.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmZLMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucKakou.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ucKakou.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ucKakou.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucKakou.Designer.cs">
+      <DependentUpon>ucKakou.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibrary1\ClassLibrary1.csproj">
+      <Project>{A0A021F2-2352-450E-99B9-458474C08740}</Project>
+      <Name>ClassLibrary1</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\clCar\clCar.csproj">
+      <Project>{E509DC01-5562-4F0A-A015-8746D22AAE4F}</Project>
+      <Name>clCar</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\clPopu\clPopu.csproj">
+      <Project>{10353077-E5BC-46EB-AFAC-E6D2C38E44AD}</Project>
+      <Name>clPopu</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\clVideo\clVideo.csproj">
+      <Project>{7D68BFF6-0BB4-4D04-9AE7-A2A5BF4974A9}</Project>
+      <Name>clVideo</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\control-double-180.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\control-double.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\control-skip-180.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\control-skip.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,475 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<WorkSpace name="" version="MXP_WorkSpace_1_2" date="2009-09-22T13:21:12.0000000+08:00" xmlns:gml="http://www.opengis.net/gml" xmlns="http://www.mapinfo.com/mxp">
+  <ConnectionSet />
+  <DataSourceDefinitionSet>
+    <TABFileDataSourceDefinition id="id1" readOnly="false">
+      <DataSourceName>主道路</DataSourceName>
+      <FileName>主道路.TAB</FileName>
+    </TABFileDataSourceDefinition>
+    <TABFileDataSourceDefinition id="id2" readOnly="false">
+      <DataSourceName>体育场</DataSourceName>
+      <FileName>体育场.TAB</FileName>
+    </TABFileDataSourceDefinition>
+    <TABFileDataSourceDefinition id="id3" readOnly="false">
+      <DataSourceName>信息点</DataSourceName>
+      <FileName>信息点.TAB</FileName>
+    </TABFileDataSourceDefinition>
+    <TABFileDataSourceDefinition id="id4" readOnly="false">
+      <DataSourceName>公园</DataSourceName>
+      <FileName>公园.TAB</FileName>
+    </TABFileDataSourceDefinition>
+    <TABFileDataSourceDefinition id="id5" readOnly="false">
+      <DataSourceName>山脉</DataSourceName>
+      <FileName>山脉.TAB</FileName>
+    </TABFileDataSourceDefinition>
+    <TABFileDataSourceDefinition id="id6" readOnly="false">
+      <DataSourceName>建筑物</DataSourceName>
+      <FileName>建筑物.TAB</FileName>
+    </TABFileDataSourceDefinition>
+    <TABFileDataSourceDefinition id="id7" readOnly="false">
+      <DataSourceName>次道路</DataSourceName>
+      <FileName>次道路.TAB</FileName>
+    </TABFileDataSourceDefinition>
+    <TABFileDataSourceDefinition id="id8" readOnly="false">
+      <DataSourceName>水系</DataSourceName>
+      <FileName>水系.TAB</FileName>
+    </TABFileDataSourceDefinition>
+    <TABFileDataSourceDefinition id="id9" readOnly="false">
+      <DataSourceName>行政界线</DataSourceName>
+      <FileName>行政界线.TAB</FileName>
+    </TABFileDataSourceDefinition>
+    <TABFileDataSourceDefinition id="id10" readOnly="false">
+      <DataSourceName>街镇面</DataSourceName>
+      <FileName>街镇面.TAB</FileName>
+    </TABFileDataSourceDefinition>
+    <TABFileDataSourceDefinition id="id11" readOnly="false">
+      <DataSourceName>道路</DataSourceName>
+      <FileName>道路.TAB</FileName>
+    </TABFileDataSourceDefinition>
+  </DataSourceDefinitionSet>
+  <MapDefinitionSet>
+    <MapDefinition id="id12" name="顺德地图" alias="Map211066224">
+      <DisplayConditions>
+        <MapSize uom="mapinfo:imagesize pixel">
+          <ImageWidth>900</ImageWidth>
+          <ImageHeight>662</ImageHeight>
+        </MapSize>
+        <ZoomAndCenter>
+          <MapZoom uom="mapinfo:length km">53.045307</MapZoom>
+          <gml:Point srsName="mapinfo:coordsys 1,104">
+            <gml:coordinates>113.19341553639274,22.844922583836855</gml:coordinates>
+          </gml:Point>
+        </ZoomAndCenter>
+        <DisplayCoordSys>
+          <SRSName>mapinfo:coordsys 1,104</SRSName>
+        </DisplayCoordSys>
+        <ResizeMethod>preserveZoom</ResizeMethod>
+        <RasterConditions dither="halfTone" trueColor="true" optimizeRasterLayers="screen" optimizeVectorLayers="screen" />
+        <RenderingOptions enableOpacity="false" enableAntiAlias="false" />
+      </DisplayConditions>
+      <LayerList>
+        <LabelLayer id="id13" name="标注图层" alias="标注图层" volatile="unknown">
+          <Visibility visible="true">
+            <VisibleRange enabled="false">
+              <ZoomRange uom="mapinfo:length km" minInclusive="true" maxInclusive="false">0 0</ZoomRange>
+            </VisibleRange>
+          </Visibility>
+          <LabelSourceList>
+            <LabelSource maxLabels="2147483647" name="街镇面">
+              <Visibility visible="true">
+                <VisibleRange enabled="true">
+                  <ZoomRange uom="mapinfo:length km" minInclusive="true" maxInclusive="false">10 250</ZoomRange>
+                </VisibleRange>
+              </Visibility>
+              <DataSourceRef ref="id10" />
+              <BaseLabelProperties>
+                <LabelProperties>
+                  <LabelVisibility visible="true" allowOverlap="false" allowDuplicates="all" allowOutOfView="false">
+                    <VisibleRange enabled="false">
+                      <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="false">0 100000</ZoomRange>
+                    </VisibleRange>
+                  </LabelVisibility>
+                  <LabelText justification="center">
+                    <BaseLabelStyle>
+                      <FontStyle family="宋体" font-style="normal" effect="white" effect-opacity="1" effect-type="halo" font-weight="normal" text-decoration="none" text-case="default" shadow="false" expand="false" size="12" size-unit="mapinfo:length pt" stroke="rgb(192,0,96)" />
+                    </BaseLabelStyle>
+                    <StringTokenList>
+                      <StringToken>
+                        <StringValueExpression>
+                          <AttributeName>NAME</AttributeName>
+                        </StringValueExpression>
+                      </StringToken>
+                    </StringTokenList>
+                    <LabelCharacterLimit spacing="1">2147483647</LabelCharacterLimit>
+                  </LabelText>
+                  <LabelCallout visible="false" end="none">
+                    <LineStyle stroke="black" stroke-opacity="1" width="1" width-unit="mapinfo:imagesize pixel">
+                      <Pen>mapinfo:pen 2</Pen>
+                    </LineStyle>
+                  </LabelCallout>
+                  <LabelReferencePosition recalculate="outOfView">
+                    <LineLabelPositionInterval>0</LineLabelPositionInterval>
+                  </LabelReferencePosition>
+                  <LabelLayout>
+                    <Alignment>
+                      <HorizontalAlignment>center</HorizontalAlignment>
+                      <VerticalAlignment>center</VerticalAlignment>
+                    </Alignment>
+                    <Offset uom="mapinfo:imagesize pixel">
+                      <XOffset>0</XOffset>
+                      <YOffset>0</YOffset>
+                    </Offset>
+                    <LabelRelativeOrientation>parallel</LabelRelativeOrientation>
+                  </LabelLayout>
+                  <LabelBaseSize useScale="false">
+                    <MapScale>0</MapScale>
+                  </LabelBaseSize>
+                </LabelProperties>
+              </BaseLabelProperties>
+              <LabelThemeList />
+            </LabelSource>
+            <LabelSource maxLabels="2147483647" name="道路">
+              <Visibility visible="true">
+                <VisibleRange enabled="true">
+                  <ZoomRange uom="mapinfo:length km" minInclusive="true" maxInclusive="false">0 15</ZoomRange>
+                </VisibleRange>
+              </Visibility>
+              <DataSourceRef ref="id11" />
+              <BaseLabelProperties>
+                <LabelProperties>
+                  <LabelVisibility visible="true" allowOverlap="false" allowDuplicates="interLayer" allowOutOfView="true">
+                    <VisibleRange enabled="false">
+                      <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="false">0 100000</ZoomRange>
+                    </VisibleRange>
+                  </LabelVisibility>
+                  <LabelText justification="center">
+                    <BaseLabelStyle>
+                      <FontStyle family="微软雅黑" font-style="normal" effect="white" effect-opacity="1" effect-type="halo" font-weight="normal" text-decoration="none" text-case="default" shadow="false" expand="false" size="10" size-unit="mapinfo:length pt" stroke="rgb(224,0,224)" />
+                    </BaseLabelStyle>
+                    <StringTokenList>
+                      <StringToken>
+                        <StringValueExpression>
+                          <AttributeName>NAME</AttributeName>
+                        </StringValueExpression>
+                      </StringToken>
+                    </StringTokenList>
+                    <LabelCharacterLimit spacing="1">2147483647</LabelCharacterLimit>
+                  </LabelText>
+                  <LabelCallout visible="false" end="arrow">
+                    <LineStyle stroke="black" stroke-opacity="1" width="1" width-unit="mapinfo:imagesize pixel">
+                      <Pen>mapinfo:pen 2</Pen>
+                    </LineStyle>
+                  </LabelCallout>
+                  <LabelReferencePosition recalculate="outOfView">
+                    <LineLabelPositionInterval>0</LineLabelPositionInterval>
+                  </LabelReferencePosition>
+                  <LabelLayout>
+                    <Alignment>
+                      <HorizontalAlignment>center</HorizontalAlignment>
+                      <VerticalAlignment>center</VerticalAlignment>
+                    </Alignment>
+                    <Offset uom="mapinfo:imagesize pixel">
+                      <XOffset>0</XOffset>
+                      <YOffset>0</YOffset>
+                    </Offset>
+                    <LabelRelativeOrientation>parallel</LabelRelativeOrientation>
+                  </LabelLayout>
+                  <LabelBaseSize useScale="false">
+                    <MapScale>0</MapScale>
+                  </LabelBaseSize>
+                </LabelProperties>
+              </BaseLabelProperties>
+              <LabelThemeList />
+            </LabelSource>
+            <LabelSource maxLabels="2147483647" name="信息点">
+              <Visibility visible="true">
+                <VisibleRange enabled="true">
+                  <ZoomRange uom="mapinfo:length km" minInclusive="true" maxInclusive="false">0 5</ZoomRange>
+                </VisibleRange>
+              </Visibility>
+              <DataSourceRef ref="id3" />
+              <BaseLabelProperties>
+                <LabelProperties>
+                  <LabelVisibility visible="true" allowOverlap="false" allowDuplicates="all" allowOutOfView="false">
+                    <VisibleRange enabled="false">
+                      <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="false">0 100000</ZoomRange>
+                    </VisibleRange>
+                  </LabelVisibility>
+                  <LabelText justification="left">
+                    <BaseLabelStyle>
+                      <FontStyle family="宋体" font-style="normal" effect="white" effect-opacity="1" effect-type="halo" font-weight="normal" text-decoration="none" text-case="default" shadow="false" expand="false" size="9" size-unit="mapinfo:length pt" stroke="navy" />
+                    </BaseLabelStyle>
+                    <StringTokenList>
+                      <StringToken>
+                        <StringValueExpression>
+                          <AttributeName>NAME</AttributeName>
+                        </StringValueExpression>
+                      </StringToken>
+                    </StringTokenList>
+                    <LabelCharacterLimit spacing="1">2147483647</LabelCharacterLimit>
+                  </LabelText>
+                  <LabelCallout visible="false" end="arrow">
+                    <LineStyle stroke="black" stroke-opacity="1" width="1" width-unit="mapinfo:imagesize pixel">
+                      <Pen>mapinfo:pen 2</Pen>
+                    </LineStyle>
+                  </LabelCallout>
+                  <LabelReferencePosition recalculate="outOfView">
+                    <LineLabelPositionInterval>0</LineLabelPositionInterval>
+                  </LabelReferencePosition>
+                  <LabelLayout>
+                    <Alignment>
+                      <HorizontalAlignment>left</HorizontalAlignment>
+                      <VerticalAlignment>center</VerticalAlignment>
+                    </Alignment>
+                    <Offset uom="mapinfo:imagesize pixel">
+                      <XOffset>2</XOffset>
+                      <YOffset>0</YOffset>
+                    </Offset>
+                    <LabelRelativeOrientation>parallel</LabelRelativeOrientation>
+                  </LabelLayout>
+                  <LabelBaseSize useScale="false">
+                    <MapScale>0</MapScale>
+                  </LabelBaseSize>
+                </LabelProperties>
+              </BaseLabelProperties>
+              <LabelThemeList />
+            </LabelSource>
+          </LabelSourceList>
+        </LabelLayer>
+        <FeatureLayer id="id14" name="信息点" alias="信息点" volatile="unknown">
+          <Visibility visible="true">
+            <VisibleRange enabled="true">
+              <ZoomRange uom="mapinfo:length km" minInclusive="true" maxInclusive="false">0 5</ZoomRange>
+            </VisibleRange>
+          </Visibility>
+          <DataSourceRef ref="id3" />
+        </FeatureLayer>
+        <FeatureLayer id="id15" name="行政界线" alias="行政界线" volatile="unknown">
+          <Visibility visible="true">
+            <VisibleRange enabled="false">
+              <ZoomRange uom="mapinfo:length km" minInclusive="true" maxInclusive="false">0 0</ZoomRange>
+            </VisibleRange>
+          </Visibility>
+          <DataSourceRef ref="id9" />
+        </FeatureLayer>
+        <FeatureLayer id="id16" name="主道路" alias="主道路" volatile="unknown">
+          <Visibility visible="true">
+            <VisibleRange enabled="true">
+              <ZoomRange uom="mapinfo:length km" minInclusive="true" maxInclusive="false">0 40</ZoomRange>
+            </VisibleRange>
+          </Visibility>
+          <DataSourceRef ref="id1" />
+        </FeatureLayer>
+        <FeatureLayer id="id17" name="次道路" alias="次道路" volatile="unknown">
+          <Visibility visible="true">
+            <VisibleRange enabled="true">
+              <ZoomRange uom="mapinfo:length km" minInclusive="true" maxInclusive="false">0 20</ZoomRange>
+            </VisibleRange>
+          </Visibility>
+          <DataSourceRef ref="id7" />
+        </FeatureLayer>
+        <FeatureLayer id="id18" name="道路" alias="道路" volatile="unknown">
+          <Visibility visible="true">
+            <VisibleRange enabled="false">
+              <ZoomRange uom="mapinfo:length km" minInclusive="true" maxInclusive="false">0 0</ZoomRange>
+            </VisibleRange>
+          </Visibility>
+          <DataSourceRef ref="id11" />
+          <FeatureStyleModifierThemeList>
+            <FeatureStyleOverrideTheme id="id19" name="样式覆盖" alias="样式覆盖">
+              <CompositeStyle>
+                <LineStyle stroke="black" stroke-opacity="1" width="1" width-unit="mapinfo:imagesize pixel">
+                  <Pen>mapinfo:pen 1</Pen>
+                </LineStyle>
+                <AreaStyle>
+                  <LineStyle stroke="black" stroke-opacity="1" width="1" width-unit="mapinfo:imagesize pixel">
+                    <Pen>mapinfo:pen 2</Pen>
+                  </LineStyle>
+                  <Interior fill-opacity="1" fill="(#id20)">
+                    <Defs>
+                      <Pattern id="id20">
+                        <Bitmap uri="mapinfo:brush 2">
+                          <ColorAdjustmentSet>
+                            <ColorAdjustment color-1="nonWhite" color-2="white" opacity="1" />
+                          </ColorAdjustmentSet>
+                        </Bitmap>
+                      </Pattern>
+                    </Defs>
+                  </Interior>
+                </AreaStyle>
+                <PointStyle>
+                  <FontSymbol size="12" size-unit="mapinfo:length pt" stroke="black" stroke-opacity="1" text="#" family="MapInfo 3.0 Compatible" />
+                </PointStyle>
+                <MapinfoTextObjectStyle>
+                  <FontStyle family="Arial" font-style="normal" effect="white" effect-opacity="1" effect-type="none" font-weight="normal" text-decoration="none" text-case="default" shadow="false" expand="false" size="12" size-unit="mapinfo:length pt" stroke="black" />
+                </MapinfoTextObjectStyle>
+              </CompositeStyle>
+            </FeatureStyleOverrideTheme>
+          </FeatureStyleModifierThemeList>
+        </FeatureLayer>
+        <FeatureLayer id="id21" name="体育场" alias="体育场" volatile="unknown">
+          <Visibility visible="true">
+            <VisibleRange enabled="true">
+              <ZoomRange uom="mapinfo:length km" minInclusive="true" maxInclusive="false">0 15</ZoomRange>
+            </VisibleRange>
+          </Visibility>
+          <DataSourceRef ref="id2" />
+        </FeatureLayer>
+        <FeatureLayer id="id22" name="水系" alias="水系" volatile="unknown">
+          <Visibility visible="true">
+            <VisibleRange enabled="true">
+              <ZoomRange uom="mapinfo:length km" minInclusive="true" maxInclusive="false">0 300</ZoomRange>
+            </VisibleRange>
+          </Visibility>
+          <DataSourceRef ref="id8" />
+        </FeatureLayer>
+        <FeatureLayer id="id23" name="公园" alias="公园" volatile="unknown">
+          <Visibility visible="true">
+            <VisibleRange enabled="true">
+              <ZoomRange uom="mapinfo:length km" minInclusive="true" maxInclusive="false">0 10</ZoomRange>
+            </VisibleRange>
+          </Visibility>
+          <DataSourceRef ref="id4" />
+        </FeatureLayer>
+        <FeatureLayer id="id24" name="山脉" alias="山脉" volatile="unknown">
+          <Visibility visible="true">
+            <VisibleRange enabled="true">
+              <ZoomRange uom="mapinfo:length km" minInclusive="true" maxInclusive="false">0 300</ZoomRange>
+            </VisibleRange>
+          </Visibility>
+          <DataSourceRef ref="id5" />
+        </FeatureLayer>
+        <FeatureLayer id="id25" name="建筑物" alias="建筑物" volatile="unknown">
+          <Visibility visible="true">
+            <VisibleRange enabled="true">
+              <ZoomRange uom="mapinfo:length km" minInclusive="true" maxInclusive="false">0 15</ZoomRange>
+            </VisibleRange>
+          </Visibility>
+          <DataSourceRef ref="id6" />
+        </FeatureLayer>
+        <FeatureLayer id="id26" name="街镇面" alias="街镇面" volatile="unknown">
+          <Visibility visible="true">
+            <VisibleRange enabled="false">
+              <ZoomRange uom="mapinfo:length km" minInclusive="true" maxInclusive="false">0 0</ZoomRange>
+            </VisibleRange>
+          </Visibility>
+          <DataSourceRef ref="id10" />
+        </FeatureLayer>
+        <LayerGroup id="id27" name="影像" alias="影像" volatile="unknown">
+          <Visibility visible="true">
+            <VisibleRange enabled="false">
+              <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="false">0 0</ZoomRange>
+            </VisibleRange>
+          </Visibility>
+          <LayerGroupOverrides visibility="true" visibleRange="true" volatility="true" />
+          <LayerList />
+        </LayerGroup>
+      </LayerList>
+      <MapLegendSet>
+        <MapLegend id="id28" name="MapLegend" alias="MapLegendid27" autoLayout="true">
+          <MapLegendFrame>
+            <AreaStyle>
+              <Interior fill-opacity="1" fill="(#id29)">
+                <Defs>
+                  <Pattern id="id29">
+                    <Bitmap>
+                      <ColorAdjustmentSet>
+                        <ColorAdjustment color-1="nonWhite" color-2="white" opacity="1" />
+                      </ColorAdjustmentSet>
+                    </Bitmap>
+                  </Pattern>
+                </Defs>
+              </Interior>
+            </AreaStyle>
+          </MapLegendFrame>
+          <LegendList />
+          <LegendLayout>
+            <LegendFrameSpacing uom="mapinfo:imagesize pixel">
+              <VerticalSpacing>0</VerticalSpacing>
+              <HorizontalSpacing>0</HorizontalSpacing>
+            </LegendFrameSpacing>
+            <LegendFrameAlignment>
+              <VerticalAlignment>default</VerticalAlignment>
+            </LegendFrameAlignment>
+          </LegendLayout>
+        </MapLegend>
+      </MapLegendSet>
+    </MapDefinition>
+  </MapDefinitionSet>
+  <MapinfoApplicationData>
+    <MapXtremeWindows>
+      <MapToolsSet>
+        <MapTools ref="id12">
+          <BaseMapToolProperties>
+            <MapToolProperties>
+              <InfotipProperties>
+                <MapToolFilter name="MapInfo.Tools.MapToolsDefault.InfoTipLayers">
+                  <MapToolInitialFilter>
+                    <MapLayerTypeFilter types="drillDown grid vector raster seamless wms" />
+                  </MapToolInitialFilter>
+                  <LayerInclude refs="id14 id15 id16 id17 id18 id21 id22 id23 id24 id25 id26" />
+                  <LayerExclude refs="id13 id27" />
+                  <MapToolFinalFilter>
+                    <MapLayerVisibilityFilter useVisible="true" useNotVisible="false" />
+                  </MapToolFinalFilter>
+                </MapToolFilter>
+              </InfotipProperties>
+              <SnapToNodeProperties>
+                <MapToolFilter name="MapInfo.Tools.MapToolsDefault.SnapLayers">
+                  <MapToolInitialFilter>
+                    <MapLayerTypeFilter types="vector" />
+                  </MapToolInitialFilter>
+                  <LayerInclude refs="id14 id15 id16 id17 id18 id21 id22 id23 id24 id25 id26" />
+                  <LayerExclude refs="id13 id27" />
+                  <MapToolFinalFilter>
+                    <MapLayerVisibilityFilter useVisible="true" useNotVisible="false" />
+                  </MapToolFinalFilter>
+                </MapToolFilter>
+              </SnapToNodeProperties>
+            </MapToolProperties>
+          </BaseMapToolProperties>
+          <BaseInsertionToolProperties>
+            <InsertionToolProperties>
+              <MapToolFilter name="MapInfo.Tools.MapToolsDefault.InsertionLayers">
+                <MapToolInitialFilter>
+                  <MapLayerVisibilityFilter useVisible="false" useNotVisible="false" />
+                </MapToolInitialFilter>
+                <LayerExclude refs="id13 id14 id15 id16 id17 id18 id21 id22 id23 id24 id25 id26 id27" />
+                <MapToolFinalFilter>
+                  <MapLayerVisibilityFilter useVisible="true" useNotVisible="false" />
+                </MapToolFinalFilter>
+              </MapToolFilter>
+            </InsertionToolProperties>
+          </BaseInsertionToolProperties>
+          <BaseSelectionToolProperties>
+            <SelectionToolProperties>
+              <SelectionProperties>
+                <MapToolFilter name="MapInfo.Tools.MapToolsDefault.SelectLayers">
+                  <MapToolInitialFilter>
+                    <MapLayerTypeFilter types="vector" />
+                  </MapToolInitialFilter>
+                  <LayerInclude refs="id14 id26" />
+                  <LayerExclude refs="id13 id15 id16 id17 id18 id21 id22 id23 id24 id25 id27" />
+                  <MapToolFinalFilter>
+                    <MapLayerVisibilityFilter useVisible="true" useNotVisible="false" />
+                  </MapToolFinalFilter>
+                </MapToolFilter>
+              </SelectionProperties>
+              <EditingProperties>
+                <MapToolFilter name="MapInfo.Tools.MapToolsDefault.EditLayers">
+                  <MapToolInitialFilter>
+                    <MapLayerVisibilityFilter useVisible="false" useNotVisible="false" />
+                  </MapToolInitialFilter>
+                  <LayerExclude refs="id13 id14 id15 id16 id17 id18 id21 id22 id23 id24 id25 id26 id27" />
+                  <MapToolFinalFilter>
+                    <MapLayerVisibilityFilter useVisible="true" useNotVisible="false" />
+                  </MapToolFinalFilter>
+                </MapToolFilter>
+              </EditingProperties>
+            </SelectionToolProperties>
+          </BaseSelectionToolProperties>
+        </MapTools>
+      </MapToolsSet>
+    </MapXtremeWindows>
+  </MapinfoApplicationData>
+</WorkSpace>

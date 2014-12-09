@@ -1,0 +1,51 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Enterprise Manager Console</title>
+</head>		
+
+<body bgcolor="#FFFFFF" link=blue alink=red vlink=blue>
+<div align="center">
+<table height="45" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="40"><img src="../images_detailpanels/dv_left.gif" width="40" height="45" border="0" alt=""></td><td width="520" align="center" valign="middle" background="../images_detailpanels/dv_mid.gif">
+<font size="+2" color="White"><b>Modelli iAS</b></font></td>
+<td width="40"><a href="dv_repl_matl.htm"><img src="../images_detailpanels/dv_rightmnu.gif" width="40" height="45" border="0" alt="Torna alla schermata precedente"></a></td>
+</tr>
+</table>
+<table border=0 width="600">
+	<tr>
+	<td colspan="3"><font size="1">
+		<a href="dv_repl_matl.htm">Replica di viste materializzate</a>&gt;Modelli iAS
+		</font>
+	</td>
+	</tr>
+    <tr>
+        <td>Un <b>modello iAS</b> contiene un set di oggetti di cui verrà creata un'istanza su un database di livello intermedio. È possibile memorizzare nelle applicazioni iAS gli oggetti ai quali si accede spesso su un database di livello intermedio per migliorare le prestazioni e la scalabilità delle applicazioni.</td>
+    </tr>
+    <tr>
+        <td>Per creare un modello iAS su un database backend, effettuare le operazioni riportate di seguito.
+		<ol>
+        <li>Creare un utente proprietario del modello che disponga di privilegi CONNECT e del ruolo SELECT_CATALOG_ROLE (oppure dei privilegi DBA). Eseguire quindi la connessione come proprietario del modello.
+		<li><a name=CREATE_IAS_TEMPLATE></a><a href="#CREATE_IAS_TEMPLATE">Creare un modello iAS</a> che definisca gli oggetti da creare sui siti di livello intermedio.
+		<li><a name=PREPARE_FOR_EXPORT></a><a href="#PREPARE_FOR_EXPORT">Preparare il modello per l'esportazione</a> per impostarlo in modo che sia possibile crearne le istanze.
+		<li><a name=EXPORT_TEMPLATE></a><a href="#EXPORT_TEMPLATE">Esportare il modello</a> per salvarne la definizione in un file di dump di esportazione.
+        <li> Copiare il file di dump di esportazione sui computer di livello intermedio sui quali si desidera creare le istanze del modello.
+		</ol>
+Per distribuire il modello ai siti di livello intermedio, effettuare le operazioni riportate di seguito.
+		<ol>
+        <li>Eseguire la connessione al database di livello intermedio e creare un utente proprietario del modello dotato di privilegi DBA.
+        <li>Eseguire nuovamente la connessione al database di livello intermedio come proprietario del modello.
+		<li><a name=IMPORT_TEMPLATE></a><a href="#IMPORT_TEMPLATE">Importare il modello</a> per crearne un'istanza.
+		<li>Impostare i criteri di aggiornamento per il gruppo di aggiornamento associato al modello di cui si è appena creata un'istanza.
+		</ol>
+Una volta creata un'istanza del modello su tutti i database di livello intermedio, eseguire la connessione al database backend ed eseguire la funzione <a name=POST_INST_CLEANUP></a><a href="#POST_INST_CLEANUP">Cleanup dopo la creazione delle istanze</a>.<p>
+
+<font color="#008080">Per ulteriori informazioni sui modelli iAS, fare clic sul pulsante <b>?</b>.</font>
+        </td>
+    </tr>
+</table>
+</div>
+</body>
+</html>

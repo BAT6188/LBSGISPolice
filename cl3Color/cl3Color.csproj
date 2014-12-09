@@ -1,0 +1,102 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1CC5FC38-9A43-46B8-B7BB-CFC11E8689E9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>cl3Color</RootNamespace>
+    <AssemblyName>cl3Color</AssemblyName>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility" />
+    <Reference Include="CLC, Version=1.0.6.5, Culture=neutral, PublicKeyToken=d1246ac57f8d0fa6, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\非受控\配置管理\CLC.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.Excel, Version=1.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\非受控\配置管理\Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.VBIDE, Version=5.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\非受控\配置管理\Interop.VBIDE.dll</HintPath>
+    </Reference>
+    <Reference Include="LEAD, Version=13.0.1.83, Culture=neutral, PublicKeyToken=9cf889f53ea9b907" />
+    <Reference Include="LEAD.Drawing, Version=13.0.1.83, Culture=neutral, PublicKeyToken=9cf889f53ea9b907" />
+    <Reference Include="LEAD.Drawing.Imaging.Codecs, Version=13.0.1.83, Culture=neutral, PublicKeyToken=9cf889f53ea9b907" />
+    <Reference Include="MapInfo.CoreEngine, Version=4.0.0.483, Culture=neutral, PublicKeyToken=93e298a0f6b95eb1" />
+    <Reference Include="MapInfo.CoreTypes, Version=4.0.0.483, Culture=neutral, PublicKeyToken=f548bcba69d4b8da" />
+    <Reference Include="MapInfo.Wms.Client, Version=4.0.0.483, Culture=neutral, PublicKeyToken=4ac3224575145b20" />
+    <Reference Include="Microsoft.VisualC" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class\clsCal3Color.cs" />
+    <Compile Include="Class\OracleData.cs" />
+    <Compile Include="frmPro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPro.Designer.cs">
+      <DependentUpon>frmPro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="uc3Color.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="uc3Color.Designer.cs">
+      <DependentUpon>uc3Color.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmPro.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmPro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uc3Color.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uc3Color.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

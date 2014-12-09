@@ -1,0 +1,11 @@
+E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\clInfo\bin\Debug\clInfo.dll
+E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\clInfo\bin\Debug\clInfo.pdb
+E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\clInfo\bin\Debug\CLC.dll
+E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\clInfo\obj\Debug\ResolveAssemblyReference.cache
+E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\clInfo\obj\Debug\clInfo.frmImage.resources
+E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\clInfo\obj\Debug\clInfo.frmInfo.resources
+E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\clInfo\obj\Debug\clInfo.frmNumber.resources
+E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\clInfo\obj\Debug\clInfo.Properties.Resources.resources
+E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\clInfo\obj\Debug\clInfo.csproj.GenerateResource.Cache
+E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\clInfo\obj\Debug\clInfo.dll
+E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\clInfo\obj\Debug\clInfo.pdb

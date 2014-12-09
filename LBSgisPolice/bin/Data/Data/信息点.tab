@@ -1,0 +1,10 @@
+!table
+!version 300
+!charset WindowsSimpChinese
+
+Definition Table
+  Type NATIVE Charset "WindowsSimpChinese"
+  Fields 3
+    ID Decimal (9, 0) ;
+    name Char (200) ;
+    FLDM Decimal (9, 0) ;

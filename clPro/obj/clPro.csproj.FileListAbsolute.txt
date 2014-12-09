@@ -1,0 +1,8 @@
+E:\shunde\LBSgisPolice.root\LBSgisPolice\clPro\bin\Debug\clPro.exe
+E:\shunde\LBSgisPolice.root\LBSgisPolice\clPro\bin\Debug\clPro.pdb
+E:\shunde\LBSgisPolice.root\LBSgisPolice\clPro\obj\Debug\ResolveAssemblyReference.cache
+E:\shunde\LBSgisPolice.root\LBSgisPolice\clPro\obj\Debug\clPro.frmPro.resources
+E:\shunde\LBSgisPolice.root\LBSgisPolice\clPro\obj\Debug\clPro.Properties.Resources.resources
+E:\shunde\LBSgisPolice.root\LBSgisPolice\clPro\obj\Debug\clPro.csproj.GenerateResource.Cache
+E:\shunde\LBSgisPolice.root\LBSgisPolice\clPro\obj\Debug\clPro.exe
+E:\shunde\LBSgisPolice.root\LBSgisPolice\clPro\obj\Debug\clPro.pdb

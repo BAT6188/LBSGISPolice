@@ -1,0 +1,51 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Enterprise Manager-Konsole</title>
+</head>		
+
+<body bgcolor="#FFFFFF" link=blue alink=red vlink=blue>
+<div align="center">
+<table height="45" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="40"><img src="../images_detailpanels/dv_left.gif" width="40" height="45" border="0" alt=""></td><td width="520" align="center" valign="middle" background="../images_detailpanels/dv_mid.gif">
+<font size="+2" color="White"><b>iAS-Vorlagen</b></font></td>
+<td width="40"><a href="dv_repl_matl.htm"><img src="../images_detailpanels/dv_rightmnu.gif" width="40" height="45" border="0" alt="Zurück zum vorherigen Bildschirm"></a></td>
+</tr>
+</table>
+<table border=0 width="600">
+	<tr>
+	<td colspan="3"><font size="1">
+		<a href="dv_repl_matl.htm">Materialized View-Replikation</a>&gt;iAS-Vorlagen 
+		</font>
+	</td>
+	</tr>
+    <tr>
+        <td>Eine <b>iAS-Vorlage</b> enthält eine Reihe von Objekten, die auf einer Middle-Tier-Datenbank instanziiert werden. iAS-Anwendungen können Objekte, auf die häufig zugegriffen wird, in einer Middle-Tier-Datenbank speichern, um die Anwendungsleistung und -skalierbarkeit zu verbessern.</td>
+    </tr>
+    <tr>
+        <td>So erstellen Sie eine iAS-Vorlage auf einer Back-End-Datenbank:
+		<ol>
+        <li>Erstellen Sie einen Vorlageneigentümer, der CONNECT-Berechtigungen und die SELECT_CATALOG_ROLE (oder DBA-Berechtigungen) hat. Danach melden Sie sich als Vorlageneigentümer an.
+		<li><a name=CREATE_IAS_TEMPLATE></a><a href="#CREATE_IAS_TEMPLATE">Erstellen Sie eine iAS-Vorlage</a>, mit der die Objekte definiert werden, die auf den Rechnern der mittleren Schicht erstellt werden sollen.
+		<li><a name=PREPARE_FOR_EXPORT></a><a href="#PREPARE_FOR_EXPORT">Bereiten Sie die Vorlage für den Export vor</a>, um die Vorlage so einzurichten, dass sie instanziiert werden kann.
+		<li><a name=EXPORT_TEMPLATE></a><a href="#EXPORT_TEMPLATE">Exportieren Sie die Vorlage</a>, um die Vorlagendefinition in einer Export-Dump-Datei zu speichern.
+        <li> Kopieren Sie die Export-Dump-Datei in die Rechner der mittleren Schicht, auf denen die Vorlage instanziiert werden soll.
+		</ol>
+So wenden Sie die Vorlage auf Rechnern der mittleren Schicht an:
+		<ol>
+        <li>Melden Sie sich bei der Middle-Tier-Datenbank an, und erstellen Sie einen Vorlageneigentümer, der DBA-Berechtigungen hat.
+        <li>Melden Sie sich erneut als Vorlageneigentümer bei der Middle-Tier-Datenbank an.
+		<li><a name=IMPORT_TEMPLATE></a><a href="#IMPORT_TEMPLATE">Importieren Sie die Vorlage</a>, um die Vorlage zu instanziieren.
+		<li>Legen Sie die Aktualisieren-Richtlinien für die Aktualisierengruppe fest, die mit der neu instanziierten Vorlage verknüpft ist.
+		</ol>
+Nachdem Sie die Vorlage auf allen Middle-Tier-Datenbanken instanziiert haben, melden Sie sich bei der Back-End-Datenbank an und führen den <a name=POST_INST_CLEANUP></a><a href="#POST_INST_CLEANUP">Aufräumenvorgang nach der Instanziierung durch</a>.<p>
+
+<font color="#008080">Klicken Sie auf die Schaltfläche <b>Hilfe</b>, wenn Sie mehr über iAS-Vorlagen erfahren möchten.</font>
+        </td>
+    </tr>
+</table>
+</div>
+</body>
+</html>

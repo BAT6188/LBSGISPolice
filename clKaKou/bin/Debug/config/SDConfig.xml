@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<config>
+  <!--数据服务URL-->
+  <DbConnection>Provider='MSDAORA.1';User ID=atmssd;Data Source=atmssd;Password=ehl1234</DbConnection>
+  <!--虚拟目录地址-->
+  <Vdir>http://173.13.76.232/</Vdir>
+</config>

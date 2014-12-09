@@ -1,0 +1,43 @@
+E:\My Documents\GeoCoding\A1顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\DataGuide\obj\Debug\ResolveAssemblyReference.cache
+E:\My Documents\GeoCoding\A1顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\DataGuide\obj\Debug\DataGuide.dll
+E:\My Documents\GeoCoding\A1顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\DataGuide\obj\Debug\DataGuide.pdb
+E:\My Documents\GeoCoding\A1顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\DataGuide\bin\Debug\DataGuide.dll
+E:\My Documents\GeoCoding\A1顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\DataGuide\bin\Debug\DataGuide.pdb
+E:\LBSgisPolice\DataGuide\bin\Debug\DataGuide.dll
+E:\LBSgisPolice\DataGuide\bin\Debug\DataGuide.pdb
+E:\LBSgisPolice\DataGuide\bin\Debug\CLC.dll
+E:\LBSgisPolice\DataGuide\bin\Debug\CommonLib.dll
+E:\LBSgisPolice\DataGuide\bin\Debug\Interop.Excel.dll
+E:\LBSgisPolice\DataGuide\bin\Debug\Rainny.DataAccess.dll
+E:\LBSgisPolice\DataGuide\obj\Debug\ResolveAssemblyReference.cache
+E:\LBSgisPolice\DataGuide\obj\Debug\DataGuide.dll
+E:\LBSgisPolice\DataGuide\obj\Debug\DataGuide.pdb
+E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide1\bin\Debug\DataGuide.dll
+E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide1\bin\Debug\DataGuide.pdb
+E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide1\bin\Debug\CommonLib.dll
+E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide1\bin\Debug\Interop.Excel.dll
+E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide1\bin\Debug\Rainny.DataAccess.dll
+E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide1\obj\Debug\ResolveAssemblyReference.cache
+E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide1\obj\Debug\DataGuide.dll
+E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide1\obj\Debug\DataGuide.pdb
+E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\bin\Debug\DataGuide.dll
+E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\bin\Debug\DataGuide.pdb
+E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\bin\Debug\CommonLib.dll
+E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\bin\Debug\Interop.Excel.dll
+E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\bin\Debug\Rainny.DataAccess.dll
+E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\obj\Debug\ResolveAssemblyReference.cache
+E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\obj\Debug\DataGuide.dll
+E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\obj\Debug\DataGuide.pdb
+E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\DataGuide\bin\Debug\DataGuide.dll
+E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\DataGuide\bin\Debug\DataGuide.pdb
+E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\DataGuide\bin\Debug\CLC.dll
+E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\DataGuide\bin\Debug\CommonLib.dll
+E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\DataGuide\bin\Debug\Interop.Excel.dll
+E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\DataGuide\bin\Debug\Rainny.DataAccess.dll
+E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\DataGuide\obj\Debug\ResolveAssemblyReference.cache
+E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\DataGuide\obj\Debug\LBSDataGuide.frmSchedule.resources
+E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\DataGuide\obj\Debug\DataGuide.csproj.GenerateResource.Cache
+E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\DataGuide\obj\Debug\DataGuide.dll
+E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\DataGuide\obj\Debug\DataGuide.pdb
+E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\DataGuide\bin\Debug\office.dll
+E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\DataGuide\bin\Debug\Microsoft.Vbe.Interop.dll

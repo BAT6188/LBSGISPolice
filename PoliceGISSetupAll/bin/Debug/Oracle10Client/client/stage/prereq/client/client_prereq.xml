@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<PREREQUISITETESTS>
+    
+    <PREREQUISITESET NAME="oracle.client_Administrator_install">
+        <PREREQUISITESETREF NAME="minimalTests"/>
+        <PREREQUISITEREF NAME="CompatibilityChecks" SEVERITY="Error"/>
+        <PREREQUISITESETREF NAME="requiredTests"/>
+    </PREREQUISITESET>
+
+    <PREREQUISITESET NAME="oracle.client_InstantClient_install">
+        <PREREQUISITESETREF NAME="minimalTests"/>
+        <PREREQUISITEREF NAME="CompatibilityChecks_IC" SEVERITY="Error"/>
+        <PREREQUISITESETREF NAME="requiredTests"/>
+    </PREREQUISITESET>
+
+    <PREREQUISITESET NAME="oracle.client_Runtime_install">
+        <PREREQUISITESETREF NAME="minimalTests"/>
+        <PREREQUISITEREF NAME="CompatibilityChecks" SEVERITY="Error"/>
+        <PREREQUISITESETREF NAME="requiredTests"/>
+    </PREREQUISITESET>
+
+    <PREREQUISITESET NAME="oracle.client_Custom_install">
+        <PREREQUISITESETREF NAME="minimalTests"/>
+        <PREREQUISITEREF NAME="CompatibilityChecks" SEVERITY="Error"/>
+        <PREREQUISITESETREF NAME="requiredTests"/>
+    </PREREQUISITESET>
+
+    <PREREQUISITESET NAME="minimalTests">
+        <PREREQUISITEREF NAME="CertifiedVersions" SEVERITY="Error"/>
+        <PREREQUISITEREF NAME="ServicePackChecks" SEVERITY="Error"/>
+        <PREREQUISITEREF NAME="TotalMemory" SEVERITY="Warning"/>
+        <!--PREREQUISITEREF NAME="AvailableMemory" SEVERITY="Warning"/-->
+    </PREREQUISITESET>
+
+    <PREREQUISITESET NAME="requiredTests">
+   		<PREREQUISITEREF NAME="OracleHomeSpace" SEVERITY="Warning"/>
+    </PREREQUISITESET>
+    
+    <PREREQUISITE NAME="CertifiedVersions"
+                EXTERNALNAME="Is the Oracle software certified on the current O/S?"
+                EXTERNALNAMEID="S_CHECK_CERTIFIED_VERSIONS@oracle.install.prereqs.resources.PrereqRes" SEVERITY="Error">
+        <DESCRIPTION TEXT="This is a prerequisite condition to test whether the Oracle software is certified on the current O/S or not."
+                TEXTID="S_CHECK_CERTIFIED_VERSIONS_DESCRIPTION@oracle.install.prereqs.resources.PrereqRes"/>
+        <RULESETREF NAME="OSChecks" RULE="CertifiedVersions" FILE="client/refhost.xml"
+                RESULTS_FILE="install_rule_results.xml"/>
+        <PROBLEM TEXT="This Oracle software is not certified on the current O/S."
+                TEXTID="S_CHECK_CERTIFIED_VERSIONS_ERROR@oracle.install.prereqs.resources.PrereqRes"/>
+        <RECOMMENDATION TEXT="Make sure you are installing the software on a certified platform." 
+                TEXTID="S_CHECK_CERTIFIED_VERSIONS_ACTION@oracle.install.prereqs.resources.PrereqRes"/>
+    </PREREQUISITE>
+
+	<PREREQUISITE NAME="ServicePackChecks"
+                EXTERNALNAME="Checking service pack"
+                EXTERNALNAMEID="S_CHECK_SERVICE_PACK@oracle.install.prereqs.resources.PrereqRes"
+                SEVERITY="Error">
+        <DESCRIPTION TEXT="This is a prerequisite condition to test whether the Service Pack level recommended for installing the product is available on the system."
+                TEXTID="S_CHECK_SERVICE_PACK_DESCRIPTION@oracle.install.prereqs.resources.PrereqRes"/>
+        <RULESETREF NAME="ServicePackChecks" RULE="CheckServicePack" FILE="client/refhost.xml"
+                RESULTS_FILE="install_rule_results.xml"/>
+        <PROBLEM TEXT="The system does not have the minimum Service Pack level."
+                TEXTID="S_CHECK_SERVICE_PACK_ERROR@oracle.install.prereqs.resources.PrereqRes">
+        </PROBLEM>
+        <RECOMMENDATION TEXT="Install the recommended Service Pack."
+                TEXTID="S_CHECK_SERVICE_PACK_ACTION@oracle.install.prereqs.resources.PrereqRes"/>
+    </PREREQUISITE>
+
+    <PREREQUISITE NAME="TotalMemory"
+                EXTERNALNAME="Does the system have sufficient physical memory?"
+                EXTERNALNAMEID="S_CHECK_TOTAL_MEMORY@oracle.install.prereqs.resources.PrereqRes"
+                SEVERITY="Warning">
+        <DESCRIPTION TEXT="This is a prerequisite condition to test whether the system has sufficient physical memory."
+                TEXTID="S_CHECK_TOTAL_MEMORY_DESCRIPTION@oracle.install.prereqs.resources.PrereqRes"/>
+        <RULESETREF NAME="SystemChecks" RULE="CheckPhysicalMemory" FILE="client/refhost.xml"
+                RESULTS_FILE="install_rule_results.xml"/>
+        <PROBLEM TEXT="The system does not have sufficient physical memory to perform the install."
+                TEXTID="S_CHECK_TOTAL_MEMORY_ERROR@oracle.install.prereqs.resources.PrereqRes">
+        </PROBLEM>
+        <RECOMMENDATION TEXT="Upgrade the memory for your system in order for Oracle software to function."
+                TEXTID="S_CHECK_TOTAL_MEMORY_ACTION@oracle.install.prereqs.resources.PrereqRes"/>
+    </PREREQUISITE>
+
+    <PREREQUISITE NAME="AvailableMemory"
+                EXTERNALNAME="Does the system have sufficient available memory?"
+                EXTERNALNAMEID="S_CHECK_AVAILABLE_MEMORY@oracle.install.prereqs.resources.PrereqRes"
+                SEVERITY="Warning">
+        <DESCRIPTION TEXT="This is a prerequisite condition to test whether the system has sufficient available memory."
+                TEXTID="S_CHECK_AVAILABLE_MEMORY_DESCRIPTION@oracle.install.prereqs.resources.PrereqRes"/>
+        <RULESETREF NAME="SystemChecks" RULE="CheckAvailableMemory" FILE="client/refhost.xml"
+                RESULTS_FILE="install_rule_results.xml"/>
+        <PROBLEM TEXT="The system does not have sufficient free memory to perform the install."
+                TEXTID="S_CHECK_AVAILABLE_MEMORY_ERROR@oracle.install.prereqs.resources.PrereqRes">
+        </PROBLEM>
+        <RECOMMENDATION TEXT="Close applications to make sure that the system has sufficient free memory to perform the install."
+                TEXTID="S_CHECK_AVAILABLE_MEMORY_ACTION@oracle.install.prereqs.resources.PrereqRes"/>
+    </PREREQUISITE>
+
+    <PREREQUISITE NAME="CompatibilityChecks"
+                EXTERNALNAME="Oracle Home compatibility check?"
+                EXTERNALNAMEID="S_CHECK_ORACLE_HOME_COMPATIBILITY_CLIENT@oracle.install.prereqs.resources.PrereqRes"
+                SEVERITY="Error">
+        <DESCRIPTION TEXT="This is a prerequisite condition to test whether the oracle home is compatible or not."
+                 TEXTID="S_CHECK_ORACLE_HOME_COMPATIBILITY_CLIENT_DESCRIPTION@oracle.install.prereqs.resources.PrereqRes"/>
+        <RULESETREF NAME="CompatibilityChecks" RULE="CheckCompatibility"
+                FILE="client/refhost.xml" RESULTS_FILE="install_rule_results.xml"/>
+        <PROBLEM TEXT="Oracle Home not compatible."
+                TEXTID="S_CHECK_ORACLE_HOME_COMPATIBILITY_CLIENT_ERROR@oracle.install.prereqs.resources.PrereqRes"/>
+        <RECOMMENDATION TEXT="Your Oracle Home is incompatible."
+                TEXTID="S_CHECK_ORACLE_HOME_COMPATIBILITY_CLIENT_ACTION@oracle.install.prereqs.resources.PrereqRes"/>
+    </PREREQUISITE>
+
+    <PREREQUISITE NAME="CompatibilityChecks_IC"
+                EXTERNALNAME="Oracle Home compatibility check?"
+                EXTERNALNAMEID="S_CHECK_ORACLE_HOME_COMPATIBILITY_CLIENT@oracle.install.prereqs.resources.PrereqRes"
+                SEVERITY="Error">
+        <DESCRIPTION TEXT="This is a prerequisite condition to test whether the oracle home is compatible or not."
+                 TEXTID="S_CHECK_ORACLE_HOME_COMPATIBILITY_CLIENT_DESCRIPTION@oracle.install.prereqs.resources.PrereqRes"/>
+        <RULESETREF NAME="CompatibilityChecks" RULE="CheckCompatibility"
+                FILE="client/refhost_instantClient.xml" RESULTS_FILE="install_rule_results.xml"/>
+        <PROBLEM TEXT="Oracle Home not compatible."
+                TEXTID="S_CHECK_ORACLE_HOME_COMPATIBILITY_INSTANTCLIENT_ERROR@oracle.install.prereqs.resources.PrereqRes"/>
+        <RECOMMENDATION TEXT="Your Oracle Home is incompatible."
+                TEXTID="S_CHECK_ORACLE_HOME_COMPATIBILITY_INSTANTCLIENT_ACTION@oracle.install.prereqs.resources.PrereqRes"/>
+    </PREREQUISITE>
+
+	 <PREREQUISITE NAME="OracleHomeSpace"
+                EXTERNALNAME="ORACLE_HOME contains spaces"
+                EXTERNALNAMEID="S_CHECK_ORACLE_HOME_SPACE@oracle.install.prereqs.resources.PrereqRes"
+                SEVERITY="Warning">
+        <DESCRIPTION TEXT="This is a prerequisite condition to test whether ORACLEHOME value has spaces ."
+                TEXTID="S_CHECK_ORACLE_HOME_SPACE_DESCRIPTION@oracle.install.prereqs.resources.PrereqRes"/>
+        <RULESETREF NAME="OracleHomeChecks" RULE="CheckForSpaces" FILE="client/refhost.xml"
+                RESULTS_FILE="install_rule_results.xml"/>
+        <PROBLEM TEXT="The environment variable 'ORACLE_HOME' has spaces."
+                TEXTID="S_CHECK_ORACLE_HOME_SPACE_ERROR@oracle.install.prereqs.resources.PrereqRes">
+        </PROBLEM>
+        <RECOMMENDATION TEXT="Remove the spaces from the chosen ORACLE_HOME ."
+                TEXTID="S_CHECK_ORACLE_HOME_SPACE_ACTION@oracle.install.prereqs.resources.PrereqRes"/>
+    </PREREQUISITE>
+</PREREQUISITETESTS>

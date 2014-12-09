@@ -1,0 +1,11 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\cl3Color.frmPro.resources
+obj\Debug\cl3Color.uc3Color.resources
+obj\Debug\cl3Color.csproj.GenerateResource.Cache
+bin\Debug\cl3Color.dll
+bin\Debug\cl3Color.pdb
+bin\Debug\CLC.dll
+bin\Debug\Interop.Excel.dll
+obj\Debug\cl3Color.dll
+obj\Debug\cl3Color.pdb
+bin\Debug\Interop.VBIDE.dll

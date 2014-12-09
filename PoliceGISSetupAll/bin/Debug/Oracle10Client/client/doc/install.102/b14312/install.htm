@@ -1,0 +1,594 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>3 Installing Oracle Database Client</title>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii" />
+<meta http-equiv="Content-Language" content="en" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta name="robots" content="all" scheme="http://www.robotstxt.org/" />
+<meta name="Generator" content="Oracle DARB XHTML converter - Version 4.5 Build 272" />
+<meta name="Date" content="August 18, 2005 8:11:28" />
+<meta name="doctitle" content="Oracle&reg; Database Client Installation Guide 10g Release 2 (10.2) for Microsoft Windows (32-Bit)" />
+<meta name="partno" content="B14312-01" />
+<meta name="docid" content="NTCLI" />
+<link rel="Start" href="../../index.htm" title="Home" type="text/html" />
+<link rel="Copyright" href="../../dcommon/html/cpyr.htm" title="Copyright" type="text/html" />
+<link rel="Stylesheet" href="../../dcommon/css/blafdoc.css" title="Default" type="text/css" />
+<link rel="Contents" href="toc.htm" title="Contents" type="text/html" />
+<link rel="Index" href="index.htm" title="Index" type="text/html" />
+<link rel="Glossary" href="glossary.htm" title="Glossary" type="text/html" />
+<link rel="Prev" href="pre_install.htm" title="Previous" type="text/html" />
+<link rel="Next" href="post_install.htm" title="Next" type="text/html" />
+<link rel="alternate" href="../b14312.pdf" title="PDF version" type="application/pdf" />
+</head>
+<body>
+<div class="header">
+<div class="zz-skip-header"><a name="top" id="top" href="#BEGIN">Skip Headers</a></div>
+<table class="simple oac_no_warn" summary="" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td align="left" valign="top"><b>Oracle&reg; Database Client Installation Guide<br />
+10<i>g</i> Release 2 (10.2) for Microsoft Windows (32-Bit)</b><br />
+Part Number B14312-01</td>
+<td valign="bottom" align="right">
+<table class="icons oac_no_warn" summary="" cellspacing="0" cellpadding="0" width="245">
+<tr>
+<td align="center" valign="top"><a href="../../index.htm"><img src="../../dcommon/gifs/doclib.gif" alt="Go to Documentation Home" border="0" /><br />
+<span class="icon">Home</span></a></td>
+<td align="center" valign="top"><a href="../../nav/portal_booklist.htm"><img src="../../dcommon/gifs/booklist.gif" alt="Go to Book List" border="0" /><br />
+<span class="icon">Book List</span></a></td>
+<td align="center" valign="top"><a href="toc.htm"><img src="../../dcommon/gifs/toc.gif" alt="Go to Table of Contents" border="0" /><br />
+<span class="icon">Contents</span></a></td>
+<td align="center" valign="top"><a href="index.htm"><img src="../../dcommon/gifs/index.gif" alt="Go to Index" border="0" /><br />
+<span class="icon">Index</span></a></td>
+<td align="center" valign="top"><a href="../../dcommon/html/feedback.htm"><img src="../../dcommon/gifs/feedbck2.gif" alt="Go to Feedback page" border="0" /><br />
+<span class="icon">Feedback</span></a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<hr />
+<table class="simple oac_no_warn" summary="" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td align="left" valign="top">
+<table class="simple oac_no_warn" summary="" cellspacing="0" cellpadding="0" align="left" width="98">
+<tr>
+<td align="center" valign="top"><a href="pre_install.htm"><img src="../../dcommon/gifs/leftnav.gif" alt="Go to previous page" border="0" /><br />
+<span class="icon">Previous</span></a></td>
+<td align="center" valign="top"><a href="post_install.htm"><img src="../../dcommon/gifs/rightnav.gif" alt="Go to next page" border="0" /><br />
+<span class="icon">Next</span></a></td>
+</tr>
+</table>
+</td>
+<td align="right" valign="top"><a href="../b14312.pdf"><font size="-2">View PDF</font></a></td>
+</tr>
+</table>
+<a name="BEGIN" id="BEGIN"></a></div>
+<div class="IND"><!-- End Header --><a id="CIHBBHAD" name="CIHBBHAD"></a><a id="sthref99" name="sthref99"></a>
+<h1 class="chapter"><span class="secnum">3</span> <span class="bold"><a name="NTCLI003" id="NTCLI003"></a></span> Installing Oracle Database Client</h1>
+<p>This chapter covers the following topics:</p>
+<ul>
+<li type="disc">
+<p><a href="#BABHECGA">Preinstallation Considerations Before Installing Oracle Database Client</a></p>
+</li>
+<li type="disc">
+<p><a href="#BABBHAFE">Accessing the Installation Software</a></p>
+</li>
+<li type="disc">
+<p><a href="#BABJGGJH">Installing the Oracle Database Client Software</a></p>
+</li>
+</ul>
+<a id="BABHECGA" name="BABHECGA"></a>
+<div class="sect1"><!-- infolevel="all" infotype="General" --><a id="sthref100" name="sthref100"></a>
+<h2 class="sect1"><span class="secnum">3.1</span> Preinstallation Considerations Before Installing Oracle Database Client</h2>
+<p>The Oracle Database Client software is available on DVD and from the Oracle Technology Network (OTN) Web site. In most cases, you use the graphical user interface (GUI) provided by Oracle Universal Installer to install the software. However, you can also use Oracle Universal Installer to complete silent or noninteractive installations using response files, without using the GUI.</p>
+<p><a id="ABC4927993" name="ABC4927993"></a><a id="ABC4927993SRI1" name="ABC4927993SRI1"></a>Review the information in <a href="overview.htm#BABEDAFD">Chapter 1, " Oracle Database Client Installation Overview"</a> and complete the tasks listed in <a href="pre_install.htm#CIHHCHCJ">Chapter 2, " Oracle Database Client Preinstallation&nbsp;Requirements"</a> before beginning the installation.</p>
+<p>Next, consider the following issues:</p>
+<ul>
+<li type="disc">
+<p><a href="#BABGCFCH">Installing Oracle Database Client Installations in Silent or Nonteractive Mode</a></p>
+</li>
+<li type="disc">
+<p><a href="#BABGEFEH">Creating the Oracle Base Directory</a></p>
+</li>
+<li type="disc">
+<p><a href="#BABHJBBG">Installing Oracle Database Client into Multiple Oracle Homes</a></p>
+</li>
+<li type="disc">
+<p><a href="#BABGBGGC">Installing on a System with an Existing Oracle Installation</a></p>
+</li>
+</ul>
+<a id="BABGCFCH" name="BABGCFCH"></a>
+<div class="sect2"><!-- infolevel="all" infotype="General" --><a id="sthref101" name="sthref101"></a>
+<h3 class="sect2"><span class="secnum">3.1.1</span> Installing Oracle Database Client Installations in Silent or Nonteractive Mode</h3>
+<p><a id="sthref102" name="sthref102"></a>If you need to perform multiple installations of Oracle Database Client, you may want to use silent or noninteractive mode, with response files. In these modes, at each computer, you run Oracle Universal Installer from the command line using a response file. The response file is a text file containing the settings you normally enter in the Oracle Universal Installer GUI dialog boxes. This method lets you quickly perform multiple installations using similar settings for each computer.</p>
+<div align="center">
+<div class="inftblnotealso"><br />
+<table class="NoteAlso oac_no_warn" summary="This is a layout table to format a tip" title="This is a layout table to format a tip" dir="ltr" border="1" width="80%" frame="hsides" rules="groups" cellpadding="3" cellspacing="0">
+<tbody>
+<tr>
+<td align="left">
+<p class="notep1">See Also:</p>
+<a href="advance.htm#CHDICDJA">Appendix B, " Installing Oracle Database Client Using&nbsp;Response Files"</a> for instructions on performing silent and noninteractive installations</td>
+</tr>
+</tbody>
+</table>
+<br /></div>
+<!-- class="inftblnotealso --></div>
+</div>
+<!-- class="sect2" -->
+<a id="BABGEFEH" name="BABGEFEH"></a>
+<div class="sect2"><!-- infolevel="all" infotype="General" --><a id="sthref103" name="sthref103"></a>
+<h3 class="sect2"><span class="secnum">3.1.2</span> Creating the Oracle Base Directory</h3>
+<p><a id="sthref104" name="sthref104"></a><a id="sthref105" name="sthref105"></a>If you install Oracle Database Client on a computer with no other Oracle software installed, Oracle Universal Installer creates an Oracle base directory for you. If Oracle software is already installed, one or more Oracle base directories already exist. In the latter case, Oracle Universal Installer offers you a choice of Oracle base directories into which you can install Oracle Database Client.</p>
+<p>You are not required to create an Oracle base directory before installation, but you can do so if you want.</p>
+<div align="center">
+<div class="inftblnote"><br />
+<table class="Note oac_no_warn" summary="This is a layout table to format a note" title="This is a layout table to format a note" dir="ltr" border="1" width="80%" frame="hsides" rules="groups" cellpadding="3" cellspacing="0">
+<tbody>
+<tr>
+<td align="left">
+<p class="notep1">Note:</p>
+You can choose to create a new Oracle base directory, even if other Oracle base directories exist on the system.</td>
+</tr>
+</tbody>
+</table>
+<br /></div>
+<!-- class="inftblnote --></div>
+</div>
+<!-- class="sect2" -->
+<a id="BABHJBBG" name="BABHJBBG"></a>
+<div class="sect2"><!-- infolevel="all" infotype="General" --><a id="sthref106" name="sthref106"></a>
+<h3 class="sect2"><span class="secnum">3.1.3</span> Installing Oracle Database Client into Multiple Oracle Homes</h3>
+<p><a id="sthref107" name="sthref107"></a><a id="sthref108" name="sthref108"></a>You can install all Oracle components in multiple Oracle homes on the same computer. However, some components can only support one active instance at a time. This means that the current (latest) installation renders the previous one inactive. These components are:</p>
+<ul>
+<li type="disc">
+<p>Oracle Administration Assistant for Windows<a id="sthref109" name="sthref109"></a></p>
+</li>
+<li type="disc">
+<p>Oracle Counters for Windows Performance Monitor<a id="sthref110" name="sthref110"></a></p>
+</li>
+<li type="disc">
+<p>Oracle Objects for OLE<a id="sthref111" name="sthref111"></a></p>
+</li>
+<li type="disc">
+<p>Oracle Provider for OLE DB<a id="sthref112" name="sthref112"></a></p>
+</li>
+</ul>
+</div>
+<!-- class="sect2" -->
+<a id="BABGBGGC" name="BABGBGGC"></a>
+<div class="sect2"><!-- infolevel="all" infotype="General" --><a id="sthref113" name="sthref113"></a>
+<h3 class="sect2"><span class="secnum">3.1.4</span> Installing on a System with an Existing Oracle Installation</h3>
+<p><a id="sthref114" name="sthref114"></a><a id="sthref115" name="sthref115"></a>You must install Oracle Database Client into a new Oracle home directory. Oracle Universal Installer will prompt you for an Oracle home directory, whether you have other Oracle software installed on the computer or not. You cannot install products from one release of Oracle Database Client into an Oracle home directory of a different release. For example, you cannot install Oracle Database 10g release 2 (10.2) software into an existing Oracle9<span class="italic">i</span> Oracle home directory. If you attempt to install this release into an Oracle home directory that contains software from an earlier Oracle release, the installation fails.</p>
+<p>You can install this release more than once on the same system as long as each installation is installed in a separate Oracle home directory.<a id="sthref116" name="sthref116"></a><a id="sthref117" name="sthref117"></a></p>
+</div>
+<!-- class="sect2" --></div>
+<!-- class="sect1" -->
+<a id="BABBHAFE" name="BABBHAFE"></a>
+<div class="sect1"><!-- infolevel="all" infotype="General" --><a id="sthref118" name="sthref118"></a>
+<h2 class="sect1"><span class="secnum">3.2</span> Accessing the Installation Software</h2>
+<p><a id="ABC4928005" name="ABC4928005"></a><a id="ABC4928005SRI1" name="ABC4928005SRI1"></a>The Oracle Database Client software is available on DVD or you can download it from the Oracle Technology Network (OTN) Web site. You can access and install Oracle Database Client by using the following scenarios:</p>
+<ul>
+<li type="disc">
+<p><a href="#BABHHEFJ">Installing from a Remote DVD Drive</a></p>
+</li>
+<li type="disc">
+<p><a href="#BABFIBBI">Installing on Remote Computers Through Remote Access Software</a></p>
+</li>
+<li type="disc">
+<p><a href="#BABGEDEA">Downloading Oracle Software from the Oracle Technology Network Web Site</a></p>
+</li>
+<li type="disc">
+<p><a href="#BABIIAEH">Copying the Oracle Database Client Software to a Hard Disk</a></p>
+</li>
+</ul>
+<a id="BABHHEFJ" name="BABHHEFJ"></a>
+<div class="sect2"><!-- infolevel="all" infotype="General" --><a id="sthref119" name="sthref119"></a>
+<h3 class="sect2"><span class="secnum">3.2.1</span> Installing from a Remote DVD Drive</h3>
+<p><a id="sthref120" name="sthref120"></a><a id="sthref121" name="sthref121"></a>If the computer where you want to install Oracle Database Client does not have a DVD drive, you can perform the installation from a remote DVD drive. You will need to complete the following steps:</p>
+<ul>
+<li type="disc">
+<p><a href="#BABJFIGG">Step 1: On the Remote Computer, Share the DVD Drive</a></p>
+</li>
+<li type="disc">
+<p><a href="#BABHCGDJ">Step 2: On the Local Computer, Map the DVD Drive</a></p>
+</li>
+</ul>
+<a id="BABJFIGG" name="BABJFIGG"></a>
+<div class="sect3"><!-- infolevel="all" infotype="General" --><a id="sthref122" name="sthref122"></a>
+<h4 class="sect3"><span class="secnum">3.2.1.1</span> Step 1: On the Remote Computer, Share the DVD Drive</h4>
+<p><a id="sthref123" name="sthref123"></a><a id="sthref124" name="sthref124"></a>The remote DVD drive that you want to use must allow shared access. To set this up, perform these steps on the remote computer that has the DVD drive:</p>
+<ol type="1" start="1">
+<li>
+<p>Log in to the remote computer as an Administrator user.</p>
+</li>
+<li>
+<p>Start Windows Explorer.</p>
+</li>
+<li>
+<p>Right-click the DVD drive letter and choose <span class="bold">Sharing</span> (or <span class="bold">Sharing and Security</span>).</p>
+</li>
+<li><a id="CIHDIBEE" name="CIHDIBEE"></a>
+<p>Click the <span class="bold">Sharing</span> tab and do the following:</p>
+<ol type="a">
+<li>
+<p>Select <span class="bold">Share this folder</span>.</p>
+</li>
+<li>
+<p>In <span class="bold">Share name</span>, give it a share name such as <code>dvd</code>. You will use this name when you map the DVD drive on the local computer. See Step <a href="#CIHJEJFB">d</a> under Step <a href="#CIHEICDC">1</a> of the next procedure.</p>
+</li>
+<li>
+<p>Click <span class="bold">Permissions</span>. You need at least "read" permission for the user who will be accessing it to install Oracle Database.</p>
+</li>
+<li>
+<p>Click <span class="bold">OK</span> when you are finished.</p>
+</li>
+</ol>
+</li>
+<li>
+<p>Insert the DVD labeled Oracle Database 10<span class="italic">g</span> Release 2 (10.2) into the DVD drive.</p>
+</li>
+</ol>
+</div>
+<!-- class="sect3" -->
+<a id="BABHCGDJ" name="BABHCGDJ"></a>
+<div class="sect3"><!-- infolevel="all" infotype="General" --><a id="sthref125" name="sthref125"></a>
+<h4 class="sect3"><span class="secnum">3.2.1.2</span> Step 2: On the Local Computer, Map the DVD Drive</h4>
+<p>Perform these steps on the local computer to map a remote DVD drive and to run Oracle Universal Installer from the mapped drive:</p>
+<ol type="1" start="1">
+<li><a id="CIHEICDC" name="CIHEICDC"></a>
+<p>Map the remote DVD drive.</p>
+<ol type="a">
+<li>
+<p>Start Windows Explorer on the local computer.</p>
+</li>
+<li>
+<p>From the <span class="bold">Tools</span> menu, select <span class="bold">Map Network Drive</span> to display the Map Network Drive dialog.</p>
+</li>
+<li>
+<p>Select a drive letter to use for the remote DVD drive.</p>
+</li>
+<li><a id="CIHJEJFB" name="CIHJEJFB"></a>
+<p>In <span class="bold">Folder</span>, enter the location of the remote DVD drive using the following format:</p>
+<pre xml:space="preserve" class="oac_no_warn">\\<span class="italic">remote_hostname</span>\<span class="italic">share_name</span>
+
+</pre>
+<p>where:</p>
+<ul>
+<li type="circle">
+<p><code><span class="codeinlineitalic">remote_hostname</span></code> is the name of the remote computer with the DVD drive.</p>
+</li>
+<li type="circle">
+<p><code><span class="codeinlineitalic">share_name</span></code> is the share name that you entered in Step <a href="#CIHDIBEE">4</a> of the previous procedure. For example</p>
+<pre xml:space="preserve" class="oac_no_warn">\\computer2\dvd
+
+</pre></li>
+</ul>
+</li>
+<li>
+<p>If you need to connect to the remote computer as a different user, click <span class="bold">different user name</span>, and enter the username.</p>
+</li>
+<li>
+<p>Click <span class="bold">Finish</span>.</p>
+</li>
+</ol>
+</li>
+<li>
+<p>Run Oracle Universal Installer from the mapped DVD drive.</p>
+</li>
+<li>
+<p>Go to the <a href="#BABJGGJH">"Installing the Oracle Database Client Software"</a> section.</p>
+</li>
+</ol>
+</div>
+<!-- class="sect3" --></div>
+<!-- class="sect2" -->
+<a id="BABFIBBI" name="BABFIBBI"></a>
+<div class="sect2"><!-- infolevel="all" infotype="General" --><a id="sthref126" name="sthref126"></a>
+<h3 class="sect2"><span class="secnum">3.2.2</span> Installing on Remote Computers Through Remote Access Software</h3>
+<p><a id="sthref127" name="sthref127"></a><a id="sthref128" name="sthref128"></a><a id="sthref129" name="sthref129"></a>If you want to install and run Oracle Database Client on a remote computer (that is, the remote computer has the hard drive and will run Oracle Database Client components), but you do not have physical access to the computer, you still can perform the installation on the remote computer if it is running remote access software such as <a id="sthref130" name="sthref130"></a>VNC or <a id="sthref131" name="sthref131"></a>Symantec pcAnywhere. You also need the remote access software running on your local computer.</p>
+<p>You can install Oracle Database Client on the remote computer in one of two ways:</p>
+<ul>
+<li type="disc">
+<p>If you have copied the contents of the Oracle Database Client DVD to a hard drive, you can install from the hard drive.</p>
+</li>
+<li type="disc">
+<p>You can insert the DVD into a drive on your local computer, and install from the DVD.</p>
+</li>
+</ul>
+<div class="sect3"><!-- infolevel="all" infotype="General" --><a id="sthref132" name="sthref132"></a>
+<h4 class="sect3"><span class="secnum">3.2.2.1</span> Installing on Remote Computers from a Hard Drive</h4>
+<p>If you have copied the contents of the Oracle Database Client DVD to a hard drive, you can install from the hard drive.</p>
+<p>The steps that you have to complete are:</p>
+<ol type="1" start="1">
+<li>
+<p>Make sure that the remote access software is installed and running on the remote and local computers.</p>
+</li>
+<li>
+<p>Share the hard drive that contains the Oracle Database Client DVD.</p>
+</li>
+<li>
+<p>On the remote computer, map a drive letter to the shared hard drive. You would use the remote access software to do this on the remote computer.</p>
+</li>
+<li>
+<p>Through the remote access software, run Oracle Universal Installer on the remote computer. You access Oracle Universal Installer from the shared hard drive.</p>
+</li>
+<li>
+<p>Go to the <a href="#BABJGGJH">"Installing the Oracle Database Client Software"</a> section.</p>
+</li>
+</ol>
+</div>
+<!-- class="sect3" -->
+<div class="sect3"><!-- infolevel="all" infotype="General" --><a id="sthref133" name="sthref133"></a>
+<h4 class="sect3"><span class="secnum">3.2.2.2</span> Installing on Remote Computers from a Remote DVD Drive</h4>
+<p>You can insert the DVD into a drive on your local computer, and install from the DVD.</p>
+<p>The steps that you need to complete are:</p>
+<ol type="1" start="1">
+<li>
+<p>Make sure that the remote access software is installed and running on the remote and local computers.</p>
+</li>
+<li>
+<p>On the local computer, share the DVD drive.</p>
+<p>On the remote computer, map a drive letter to the shared DVD drive. You would use the remote access software to do this on the remote computer.</p>
+<p>These steps are described in the <a href="#BABHHEFJ">"Installing from a Remote DVD Drive"</a> section.</p>
+</li>
+<li>
+<p>Through the remote access software, run Oracle Universal Installer on the remote computer. You access Oracle Universal Installer from the shared DVD drive.</p>
+</li>
+<li>
+<p>Go to the <a href="#BABJGGJH">"Installing the Oracle Database Client Software"</a> section</p>
+</li>
+</ol>
+</div>
+<!-- class="sect3" --></div>
+<!-- class="sect2" -->
+<a id="BABGEDEA" name="BABGEDEA"></a>
+<div class="sect2"><!-- infolevel="all" infotype="General" --><a id="sthref134" name="sthref134"></a>
+<h3 class="sect2"><span class="secnum">3.2.3</span> Downloading Oracle Software from the Oracle Technology Network Web Site</h3>
+<p><a id="sthref135" name="sthref135"></a><a id="sthref136" name="sthref136"></a>You can download the installation files from the Oracle Technology Network (OTN) and extract them on your hard disk.<a id="sthref137" name="sthref137"></a></p>
+<ol type="1" start="1">
+<li>
+<p>Use a browser to access the Oracle Technology Network software download page:</p>
+<p><code><a href="http://www.oracle.com/technology/software/">http://www.oracle.com/technology/software/</a></code></p>
+</li>
+<li>
+<p>Navigate to each of the download pages for the products that you want to install.</p>
+</li>
+<li>
+<p>On each download page, identify the required disk space by adding the file sizes for each required file. The file sizes are listed next to the filenames.</p>
+</li>
+<li>
+<p>Select a file system with enough free space to store and expand the files. In most cases, the available disk space must be at least twice the size of all compressed files combined.</p>
+</li>
+<li>
+<p>On the file system that you just selected, create a parent directory for each product you plan to install, for example <code>OraDBClient10g</code>, to hold the installation directories.</p>
+</li>
+<li>
+<p>Download all of the installation files to the directories that you just created.</p>
+</li>
+<li>
+<p>Verify that the files you downloaded are the same sizes as the corresponding files on Oracle Technology Network.</p>
+</li>
+<li>
+<p>Extract the files in each directory that you just created.</p>
+</li>
+</ol>
+<p>When you have extracted the required installation files, see the <a href="#BABJGGJH">"Installing the Oracle Database Client Software"</a> section.</p>
+</div>
+<!-- class="sect2" -->
+<a id="BABIIAEH" name="BABIIAEH"></a>
+<div class="sect2"><!-- infolevel="all" infotype="General" --><a id="sthref138" name="sthref138"></a>
+<h3 class="sect2"><span class="secnum">3.2.4</span> Copying the Oracle Database Client Software to a Hard Disk</h3>
+<p>To copy the contents of the media to a hard disk:</p>
+<ol type="1" start="1">
+<li>
+<p>Create a directory for the installation files on your hard drive. For example:</p>
+<pre xml:space="preserve" class="oac_no_warn">d:\install\client
+
+</pre></li>
+<li>
+<p>Copy the contents of the installation media to the directory that you just created.</p>
+</li>
+</ol>
+<p>When you have copied the required installation files, see the <a href="#BABJGGJH">"Installing the Oracle Database Client Software"</a> section.<a id="sthref139" name="sthref139"></a><a id="sthref140" name="sthref140"></a></p>
+</div>
+<!-- class="sect2" --></div>
+<!-- class="sect1" -->
+<a id="BABJGGJH" name="BABJGGJH"></a>
+<div class="sect1"><!-- infolevel="all" infotype="General" --><a id="sthref141" name="sthref141"></a>
+<h2 class="sect1"><span class="secnum">3.3</span> Installing the Oracle Database Client Software</h2>
+<p>This section covers the following topics:</p>
+<ul>
+<li type="disc">
+<p><a href="#BABDJGIB">Guidelines for Installing Oracle Database Client</a></p>
+</li>
+<li type="disc">
+<p><a href="#BABEHAFJ">Procedure for Installing Oracle Database Client</a></p>
+</li>
+</ul>
+<a id="BABDJGIB" name="BABDJGIB"></a>
+<div class="sect2"><!-- infolevel="all" infotype="General" --><a id="sthref142" name="sthref142"></a>
+<h3 class="sect2"><span class="secnum">3.3.1</span> Guidelines for Installing Oracle Database Client</h3>
+<p><a id="sthref143" name="sthref143"></a><a id="sthref144" name="sthref144"></a>In most cases, you use the graphical user interface (GUI) provided by Oracle Universal Installer to install Oracle Database Client. However, you can also use Oracle Universal Installer to complete silent or noninteractive installations using a response file, without using the GUI. This method is particularly useful if you need to perform multiple installations of Oracle Database Client.</p>
+<p><a id="sthref145" name="sthref145"></a><a id="sthref146" name="sthref146"></a>As you install Oracle Database Client, follow these guidelines:</p>
+<div align="center">
+<div class="inftblnotealso"><br />
+<table class="NoteAlso oac_no_warn" summary="This is a layout table to format a tip" title="This is a layout table to format a tip" dir="ltr" border="1" width="80%" frame="hsides" rules="groups" cellpadding="3" cellspacing="0">
+<tbody>
+<tr>
+<td align="left">
+<p class="notep1">See Also:</p>
+<a href="advance.htm#CHDICDJA">Appendix B, " Installing Oracle Database Client Using&nbsp;Response Files"</a> for information on silent or noninteractive installations</td>
+</tr>
+</tbody>
+</table>
+<br /></div>
+<!-- class="inftblnotealso --></div>
+<ul>
+<li type="disc">
+<p><a id="sthref147" name="sthref147"></a>Do not use Oracle Universal Installer from an earlier Oracle product release to install components from this release.</p>
+</li>
+<li type="disc">
+<p>Use the same installation media to install Oracle Database Client on all supported Windows platforms.</p>
+</li>
+<li type="disc">
+<p><a id="sthref148" name="sthref148"></a>If you reinstall Oracle software into an Oracle home directory where Oracle Database Client is already installed, you must reinstall any components that were installed before you began the reinstallation.</p>
+</li>
+<li type="disc">
+<p>Do not modify the <a id="sthref149" name="sthref149"></a>Java Runtime Environment (JRE) except by using a patch provided by Oracle Support Services. Oracle Universal Installer automatically installs the Oracle-supplied version of the JRE. This version is required to run Oracle Universal Installer and several Oracle assistants.</p>
+</li>
+<li type="disc">
+<p>If you encounter errors during installation, click <span class="bold">Help</span> or see <a href="ts.htm#BABFDJDB">Appendix D, " Troubleshooting the Oracle&nbsp;Database&nbsp;Client&nbsp;Installation"</a> for advice.</p>
+</li>
+</ul>
+</div>
+<!-- class="sect2" -->
+<a id="BABEHAFJ" name="BABEHAFJ"></a>
+<div class="sect2"><!-- infolevel="all" infotype="General" --><a id="sthref150" name="sthref150"></a>
+<h3 class="sect2"><span class="secnum">3.3.2</span> Procedure for Installing Oracle Database Client</h3>
+<p>To <a id="ABC4957186" name="ABC4957186"></a><a id="ABC4957186SRI1" name="ABC4957186SRI1"></a>install Oracle Database Client:</p>
+<ol type="1" start="1">
+<li>
+<p>Log on as a member of the Administrators group to the computer on which to install Oracle components.</p>
+<p>If you are installing on a Primary Domain Controller (PDC) or a Backup Domain Controller (BDC), log on as a member of the Domain Administrators group.</p>
+</li>
+<li>
+<p>Insert the Oracle Database installation media and navigate to the <code>client</code> directory. Alternatively, navigate to the directory where you downloaded or copied the installation files.</p>
+<p>Use the same installation media to install Oracle Database on all supported Windows platforms.</p>
+</li>
+<li>
+<p>Double-click <code>setup.exe</code> to start Oracle Universal Installer.</p>
+</li>
+<li>
+<p>In the Welcome window, click <span class="bold">Next</span>.</p>
+</li>
+<li><a id="BABCCFBE" name="BABCCFBE"></a>
+<p>In the Select Installation Type window, select the type of installation that you want&#x2014;<span class="bold">Instant Client</span>, <span class="bold">Administrator</span>, <span class="bold">Runtime</span>, or <span class="bold">Custom</span>&#x2014;and click <span class="bold">Next</span>.</p>
+<div align="center">
+<div class="inftblnotealso"><br />
+<table class="NoteAlso oac_no_warn" summary="This is a layout table to format a tip" title="This is a layout table to format a tip" dir="ltr" border="1" width="80%" frame="hsides" rules="groups" cellpadding="3" cellspacing="0">
+<tbody>
+<tr>
+<td align="left">
+<p class="notep1">See Also:</p>
+<a href="overview.htm#i1106622">"Oracle Database Client Installation Types"</a> for more information on these installation types.</td>
+</tr>
+</tbody>
+</table>
+<br /></div>
+<!-- class="inftblnotealso --></div>
+</li>
+<li>
+<p>In the Specify Home Details window, do the following:</p>
+<ul>
+<li type="disc">
+<p><span class="bold">Name:</span> Enter the name of the Oracle home.</p>
+<p>Install Oracle Database Client into a new Oracle home, even if you are installing onto a computer that has existing Oracle components installed.</p>
+<p>Do not install Oracle Database Client 10g release 2 (10.2) software into an existing Oracle home that contains Oracle9<span class="italic">i</span> or earlier software. You can install Oracle Database Client into an existing Oracle home that contains Oracle Database Client 10<span class="italic">g</span> release 1 (10.1) software, so long as Oracle Database is not installed in the same home.</p>
+</li>
+<li type="disc">
+<p><span class="bold">Path:</span> Enter the directory location for the Oracle home files. Do not include spaces in the path name.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Click <span class="bold">Next</span>.</p>
+</li>
+<li>
+<p>If you selected <span class="bold">Custom</span> in Step <a href="#BABCCFBE">5</a>, in the Available Product Components window, select the components you want to install and click <span class="bold">Next</span> or <span class="bold">Install</span>.</p>
+</li>
+<li>
+<p>In the Product-specific Prerequisite Checks window, correct any errors that Oracle Universal Installer may have found, and then click <span class="bold">Next</span>.</p>
+</li>
+<li>
+<p>In the Summary window, check the installed components listing and click <span class="bold">Install</span>.</p>
+</li>
+<li>
+<p>If you selected the <span class="bold">Administrator</span>, <span class="bold">Runtime</span>, or <span class="bold">Custom</span> installation types, follow Steps <a href="#BABIDEBE">12</a> to <a href="#BABJJAGG">20</a> to complete the Oracle Net Configuration Assistant procedure.</p>
+<p>If you selected the <span class="bold">Instant Client</span> installation type, go to Step <a href="#BABGBGDB">21</a>. After you complete the installation, you can follow the steps under <a href="post_install.htm#CHDGAFAG">"Connecting Instant Client or Instant Client Light to an Oracle Database"</a> to configure the database connection.</p>
+</li>
+<li><a id="BABIDEBE" name="BABIDEBE"></a>
+<p>In the Oracle Net Configuration Assistant: Welcome window, either select <span class="bold">Perform typical configuration</span> to use a default configuration, or use the Naming Methods configuration option. Then click <span class="bold">Next</span>. (The remaining steps in this procedure assume you are using Naming Methods.)</p>
+</li>
+<li>
+<p>In the Naming Methods Configuration, Select Naming Methods window, select the naming method you want and then click <span class="bold">Next</span>.</p>
+<p>In most cases, <span class="bold">Local Naming</span> is sufficient.</p>
+</li>
+<li>
+<p>In the Net Service Name Configuration, Service Name window, enter the name of the database service to which you want to connect. Click <span class="bold">Next</span>.</p>
+<p>For example, to connect to a database named <code>sales</code>, enter <code>sales</code>.</p>
+</li>
+<li>
+<p>In the Net Service Name Configuration, Select Protocol window, depending on the protocol you selected, enter the appropriate information and click <span class="bold">Next</span>.</p>
+</li>
+<li>
+<p>In the Net Service Name Configuration, TCP/IP Protocol window, enter the host name of the computer where the Oracle database is installed. Specify the port number, then click <span class="bold">Next</span>.</p>
+<p>For example, to connect to the computer <code>shobeen</code>, you would enter <code>shobeen</code>.</p>
+</li>
+<li>
+<p>In the Net Service Name Configuration, Test window, click <span class="bold">Yes</span> to perform a test of the connection. Then click <span class="bold">Next</span>.</p>
+<p>In most cases, the test will fail only because the default user name and password Oracle Universal Installer supplies in the dialog box do not match the user name and password for the target database. Click <span class="bold">Change Login</span>, re-enter the user name and password, and then click <span class="bold">OK</span>.</p>
+</li>
+<li>
+<p>In the Connecting window, click <span class="bold">Next</span>.</p>
+</li>
+<li>
+<p>In the Net Service Name window, enter the name of the net service name to use.</p>
+</li>
+<li><a id="BABJJAGG" name="BABJJAGG"></a>
+<p>Answer the remaining prompts to complete the configuration.</p>
+</li>
+<li><a id="BABGBGDB" name="BABGBGDB"></a>
+<p>In the End of Installation window, click <span class="bold">Exit</span>, then click <span class="bold">Yes</span> to exit from Oracle Universal Installer.</p>
+</li>
+<li>
+<p>Optionally, delete the <code>OraInstall</code><code><span class="codeinlineitalic">date_time</span></code> directory if you want to remove the temporary files that were created during the installation process. The <code>OraInstall</code><code><span class="codeinlineitalic">date_time</span></code> directory holds about 50.5 MB of files. This directory is created in the location set by the <code>TEMP</code> environment variable setting.</p>
+<p>Restarting your computer also removes the <code>OraInstall</code><code><span class="codeinlineitalic">date_time</span></code> directory.</p>
+</li>
+<li>
+<p>Go to <a href="post_install.htm#CHDEBCCC">Chapter 4, " Oracle Database Client Postinstallation&nbsp;Tasks"</a> to complete the postinstallation tasks.<a id="sthref151" name="sthref151"></a><a id="sthref152" name="sthref152"></a></p>
+</li>
+</ol>
+</div>
+<!-- class="sect2" --></div>
+<!-- class="sect1" --></div>
+<div class="footer">
+<hr />
+<table class="simple oac_no_warn" summary="" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td style="width: 33%;" align="left">
+<table class="simple oac_no_warn" summary="" cellspacing="0" cellpadding="0" align="left" width="98">
+<tr>
+<td align="center" valign="top"><a href="pre_install.htm"><img src="../../dcommon/gifs/leftnav.gif" alt="Go to previous page" border="0" /><br />
+<span class="icon">Previous</span></a></td>
+<td align="center" valign="top"><a href="post_install.htm"><img src="../../dcommon/gifs/rightnav.gif" alt="Go to next page" border="0" /><br />
+<span class="icon">Next</span></a></td>
+</tr>
+</table>
+</td>
+<td style="width: 34%;" align="center" class="copyrightlogo"><img src="../../dcommon/gifs/oracle.gif" alt="Oracle" /><br />
+<a href="../../dcommon/html/cpyr.htm"><font size="-2">Copyright&nbsp;&copy;&nbsp;1996, 2005,&nbsp;Oracle.&nbsp;All&nbsp;rights&nbsp;reserved.</font></a></td>
+<td style="width: 33%;" align="right">
+<table class="icons oac_no_warn" summary="" cellspacing="0" cellpadding="0" width="245">
+<tr>
+<td align="center" valign="top"><a href="../../index.htm"><img src="../../dcommon/gifs/doclib.gif" alt="Go to Documentation Home" border="0" /><br />
+<span class="icon">Home</span></a></td>
+<td align="center" valign="top"><a href="../../nav/portal_booklist.htm"><img src="../../dcommon/gifs/booklist.gif" alt="Go to Book List" border="0" /><br />
+<span class="icon">Book List</span></a></td>
+<td align="center" valign="top"><a href="toc.htm"><img src="../../dcommon/gifs/toc.gif" alt="Go to Table of Contents" border="0" /><br />
+<span class="icon">Contents</span></a></td>
+<td align="center" valign="top"><a href="index.htm"><img src="../../dcommon/gifs/index.gif" alt="Go to Index" border="0" /><br />
+<span class="icon">Index</span></a></td>
+<td align="center" valign="top"><a href="../../dcommon/html/feedback.htm"><img src="../../dcommon/gifs/feedbck2.gif" alt="Go to Feedback page" border="0" /><br />
+<span class="icon">Feedback</span></a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+</body>
+</html>

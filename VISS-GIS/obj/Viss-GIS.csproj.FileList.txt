@@ -1,0 +1,11 @@
+bin\Debug\Viss-GIS.exe.config
+bin\Debug\Viss-GIS.exe
+bin\Debug\Viss-GIS.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\LBSgisPolice110.FrmGeoCoding.resources
+obj\Debug\LBSgisPolice110.frmInput.resources
+obj\Debug\LBSgisPolice110.FrmMain.resources
+obj\Debug\MapInfo.Properties.Resources.resources
+obj\Debug\Viss-GIS.csproj.GenerateResource.Cache
+obj\Debug\Viss-GIS.exe
+obj\Debug\Viss-GIS.pdb

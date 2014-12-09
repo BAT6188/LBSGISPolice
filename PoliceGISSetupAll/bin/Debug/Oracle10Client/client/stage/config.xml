@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="yes" ?>
+<!-- Copyright (c) 2005 Oracle Corporation. All rights Reserved -->
+<!-- Do not modify the contents of this file by hand. -->
+<CONFIG_LIST>
+<COMP NAME="oracle.has.common" VER="10.2.0.1.0" PLAT="NT_X86">
+   <CT NAME="LocalConfig" NAME_ID="LocalConfig_ALL" DESC_ID="LocalConfig_DESC_ALL" LOC="" AGGREGATE_NAME="oracle.has.common.10_2_0_1_0.xml" CLS_NAME="Components.oracle.has.common.v10_2_0_1_0.PostInstallTool0" PLAT="NT_X86"/>
+</COMP>
+<COMP NAME="oracle.network.client" VER="10.2.0.1.0" PLAT="NT_X86">
+   <CT NAME="netca" NAME_ID="netca_ALL" DESC_ID="netca_DESC_ALL" LOC="" AGGREGATE_NAME="oracle.network.client.10_2_0_1_0.xml" CLS_NAME="Components.oracle.network.client.v10_2_0_1_0.PostInstallTool0" PLAT="Solaris Intel_Solaris UnixWare DG_UX HP_UX IBM_AIX UNIX_Alpha NT_X86 W95 W98 Linux Linux_IA64 Linux_S390"/>
+   <CT NAME="netca_deinst" NAME_ID="netca_deinst_ALL" DESC_ID="netca_deinst_DESC_ALL" LOC="" AGGREGATE_NAME="oracle.network.client.10_2_0_1_0.xml" CLS_NAME="Components.oracle.network.client.v10_2_0_1_0.PostInstallTool1" PLAT="Solaris Intel_Solaris UnixWare DG_UX HP_UX IBM_AIX UNIX_Alpha NT_X86 W95 W98 Linux Linux_IA64 Linux_S390"/>
+</COMP>
+</CONFIG_LIST>

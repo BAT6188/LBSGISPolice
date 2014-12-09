@@ -1,0 +1,70 @@
+-----------------------------------------------
+Oracle Intelligent Agent - Web Generation Patch
+-----------------------------------------------
+
+Date: Jun 23, 2000
+
+Purpose
+--------
+This patch release of the Intelligent Agent is intended to provide 
+previous versions of the Intelligent Agent with the capability of 
+generating the HTML based reports
+
+This patch includes a TAR file which contains the necessary images 
+and the HTML templates to generate the reports.
+
+After extracting, the following should be present:
+- The HTX directory should contain 22 files.
+- The WEB directory should contain 46 files.
+
+
+Instructions for applying this patch on UNIX:
+---------------------------------------------
+
+1) Go to the agent directory:
+
+   $ cd $ORACLE_HOME/network/agent
+
+2) Create a directory called 'reports', and two sub-directories
+   called 'HTX' and 'WEB'
+
+   $ mkdir reports
+   $ cd reports
+   $ mkdir htx
+   $ mkdir web
+
+3) Copy the TAR file to the reports directory:
+
+   $ cp <<TAR location>> $ORACLE_HOME/network/agent/reports
+
+4) Extract the tar file
+
+   $ tar xvf agent_reports.tar
+
+
+
+Instructions for applying this patch on Windows NT:
+---------------------------------------------------
+
+1) Go to the agent directory:
+
+   C: > cd %ORACLE_HOME%\network\agent
+
+2) Create a directory called 'reports', and two sub-directories
+   called 'HTX' and 'WEB'
+
+   C: > md reports
+   C: > cd reports
+   C: > md htx
+   C: > md web
+
+3) Copy the TAR file to the reports directory:
+
+   C: > copy <<TAR location>> %ORACLE_HOME%\network\agent\reports
+
+4) Extract the tar file
+   Use either gnu TAR, WinZip or a similar tool to extract the TAR 
+   file.
+
+   C: > tar xvf agent_reports.tar
+

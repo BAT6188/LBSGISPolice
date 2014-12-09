@@ -1,0 +1,192 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LBSgisPolice", "LBSgisPolice\LBSgisPolice.csproj", "{02AA97F5-EB74-4BC0-AEFC-9CB369C7BD05}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B615AD7E-FBF1-4E73-B39A-53D03065F47C} = {B615AD7E-FBF1-4E73-B39A-53D03065F47C}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "clZonghe", "clZonghe\clZonghe.csproj", "{E59B97A3-E625-4FE7-80FB-506C80A13FC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "clZhihui", "clZhihui\clZhihui.csproj", "{BD2CE3EC-1279-421D-B0E1-B115677CD67D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "clAnjian", "clAnjian\clAnjian.csproj", "{32C25004-0CE4-40E6-B9AE-5092650CAAA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "clHouse", "clHouse\clHouse.csproj", "{C497668C-EAD5-4140-8A78-0586A5164BEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "clPopu", "clPopu\clPopu.csproj", "{10353077-E5BC-46EB-AFAC-E6D2C38E44AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "clCar", "clCar\clCar.csproj", "{E509DC01-5562-4F0A-A015-8746D22AAE4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "clVideo", "clVideo\clVideo.csproj", "{7D68BFF6-0BB4-4D04-9AE7-A2A5BF4974A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "clUser", "clUser\clUser.csproj", "{B615AD7E-FBF1-4E73-B39A-53D03065F47C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cl3Color", "cl3Color\cl3Color.csproj", "{1CC5FC38-9A43-46B8-B7BB-CFC11E8689E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongRangeUpdate", "LongRangeUpdate\LongRangeUpdate.csproj", "{26297658-0E26-4CCD-8FA0-4D8E3007D8C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "clCXTJ", "clCXTJ\clCXTJ.csproj", "{5613A588-1116-4842-A46C-965E0B075154}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LBSgisPoliceEdit", "LBSgisPoliceEdit\LBSgisPoliceEdit.csproj", "{70870185-CED6-4DAE-9267-4FC2B0973FD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winLoc", "winLoc\winLoc.csproj", "{7A590D91-BF5E-4DE5-8567-1E98E3BBAF97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "clKaKou", "clKaKou\clKaKou.csproj", "{17ADC50D-B195-4A5B-A2F4-2381E0B1DD79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Viss-GIS", "VISS-GIS\Viss-GIS.csproj", "{9B6AF44B-B7EF-4997-B88C-86B68F47D186}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "clGPSPolice", "clGPSPolice\clGPSPolice.csproj", "{A2757E0E-231B-48B3-841E-6C77B40BC6E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cl110", "cl110\cl110.csproj", "{9D6AA4F9-A85A-4C64-B54B-339E133AC9CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{A0A021F2-2352-450E-99B9-458474C08740}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 20
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = clZonghe\\clZonghe.csproj
+		SccProjectName1 = \u0022$/项目管理/A08001顺德公安/非受控/源代码/LBSgisPolice.root/LBSgisPolice/clZonghe\u0022,\u0020WQBBAAAA
+		SccLocalPath1 = clZonghe
+		SccProjectUniqueName2 = clAnjian\\clAnjian.csproj
+		SccProjectName2 = \u0022$/项目管理/A08001顺德公安/非受控/源代码/LBSgisPolice.root/LBSgisPolice/clAnjian\u0022,\u0020PKBBAAAA
+		SccLocalPath2 = clAnjian
+		SccProjectUniqueName3 = clHouse\\clHouse.csproj
+		SccProjectName3 = \u0022$/项目管理/A08001顺德公安/非受控/源代码/LBSgisPolice.root/LBSgisPolice/clHouse\u0022,\u0020RNBBAAAA
+		SccLocalPath3 = clHouse
+		SccProjectUniqueName4 = clPopu\\clPopu.csproj
+		SccProjectName4 = \u0022$/项目管理/A08001顺德公安/非受控/源代码/LBSgisPolice.root/LBSgisPolice/clPopu\u0022,\u0020HOBBAAAA
+		SccLocalPath4 = clPopu
+		SccProjectUniqueName5 = clUser\\clUser.csproj
+		SccProjectName5 = \u0022$/项目管理/A08001顺德公安/非受控/源代码/LBSgisPolice.root/LBSgisPolice/clUser\u0022,\u0020APBBAAAA
+		SccLocalPath5 = clUser
+		SccProjectUniqueName6 = cl3Color\\cl3Color.csproj
+		SccProjectName6 = \u0022$/项目管理/A08001顺德公安/非受控/源代码/LBSgisPolice.root/LBSgisPolice/cl3Color\u0022,\u0020BKBBAAAA
+		SccLocalPath6 = cl3Color
+		SccProjectUniqueName7 = LongRangeUpdate\\LongRangeUpdate.csproj
+		SccProjectName7 = \u0022$/项目管理/A08001顺德公安/非受控/源代码/LBSgisPolice.root/LBSgisPolice/LongRangeUpdate\u0022,\u0020OUBBAAAA
+		SccLocalPath7 = LongRangeUpdate
+		SccProjectUniqueName8 = clCXTJ\\clCXTJ.csproj
+		SccProjectName8 = \u0022$/项目管理/A08001顺德公安/非受控/源代码/LBSgisPolice.root/LBSgisPolice/clCXTJ\u0022,\u0020ENBBAAAA
+		SccLocalPath8 = clCXTJ
+		SccProjectUniqueName9 = LBSgisPoliceEdit\\LBSgisPoliceEdit.csproj
+		SccProjectName9 = \u0022$/项目管理/A08001顺德公安/非受控/源代码/LBSgisPolice.root/LBSgisPolice/LBSgisPoliceEdit\u0022,\u0020HTBBAAAA
+		SccLocalPath9 = LBSgisPoliceEdit
+		SccProjectUniqueName10 = VISS-GIS\\Viss-GIS.csproj
+		SccProjectName10 = \u0022$/项目管理/A08001顺德公安/非受控/源代码/LBSgisPolice.root/LBSgisPolice/VISS-GIS\u0022,\u0020XSKBAAAA
+		SccLocalPath10 = VISS-GIS
+		SccProjectUniqueName11 = winLoc\\winLoc.csproj
+		SccProjectName11 = \u0022$/项目管理/A08001顺德公安/非受控/源代码/LBSgisPolice.root/LBSgisPolice/winLoc\u0022,\u0020FIJBAAAA
+		SccLocalPath11 = winLoc
+		SccProjectUniqueName12 = cl110\\cl110.csproj
+		SccProjectName12 = \u0022$/项目管理/A08001顺德公安/非受控/源代码/LBSgisPolice.root/LBSgisPolice/cl110\u0022,\u0020ENHDAAAA
+		SccLocalPath12 = cl110
+		SccProjectUniqueName13 = clCar\\clCar.csproj
+		SccProjectName13 = \u0022$/项目管理/A08001顺德公安/非受控/源代码/LBSgisPolice.root/LBSgisPolice/clCar\u0022,\u0020OLBBAAAA
+		SccLocalPath13 = clCar
+		SccProjectUniqueName14 = clGPSPolice\\clGPSPolice.csproj
+		SccProjectName14 = \u0022$/项目管理/A08001顺德公安/非受控/源代码/LBSgisPolice.root/LBSgisPolice/clGPSPolice\u0022,\u0020QNHDAAAA
+		SccLocalPath14 = clGPSPolice
+		SccProjectUniqueName15 = clKaKou\\clKaKou.csproj
+		SccProjectName15 = \u0022$/项目管理/A08001顺德公安/非受控/源代码/LBSgisPolice.root/LBSgisPolice/clKaKou\u0022,\u0020SRKBAAAA
+		SccLocalPath15 = clKaKou
+		SccProjectUniqueName16 = clVideo\\clVideo.csproj
+		SccProjectName16 = \u0022$/项目管理/A08001顺德公安/非受控/源代码/LBSgisPolice.root/LBSgisPolice/clVideo\u0022,\u0020WPBBAAAA
+		SccLocalPath16 = clVideo
+		SccProjectUniqueName17 = clZhihui\\clZhihui.csproj
+		SccProjectName17 = \u0022$/项目管理/A08001顺德公安/非受控/源代码/LBSgisPolice.root/LBSgisPolice/clZhihui\u0022,\u0020JQBBAAAA
+		SccLocalPath17 = clZhihui
+		SccProjectUniqueName18 = LBSgisPolice\\LBSgisPolice.csproj
+		SccProjectName18 = \u0022$/项目管理/A08001顺德公安/非受控/源代码/LBSgisPolice.root/LBSgisPolice/LBSgisPolice\u0022,\u0020XRBBAAAA
+		SccLocalPath18 = LBSgisPolice
+		SccProjectUniqueName19 = ClassLibrary1\\ClassLibrary1.csproj
+		SccProjectName19 = \u0022$/项目管理/A08001顺德公安/非受控/源代码/LBSgisPolice.root/LBSgisPolice/ClassLibrary1\u0022,\u0020HVKDAAAA
+		SccLocalPath19 = ClassLibrary1
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02AA97F5-EB74-4BC0-AEFC-9CB369C7BD05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02AA97F5-EB74-4BC0-AEFC-9CB369C7BD05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02AA97F5-EB74-4BC0-AEFC-9CB369C7BD05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02AA97F5-EB74-4BC0-AEFC-9CB369C7BD05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E59B97A3-E625-4FE7-80FB-506C80A13FC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E59B97A3-E625-4FE7-80FB-506C80A13FC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E59B97A3-E625-4FE7-80FB-506C80A13FC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E59B97A3-E625-4FE7-80FB-506C80A13FC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD2CE3EC-1279-421D-B0E1-B115677CD67D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD2CE3EC-1279-421D-B0E1-B115677CD67D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD2CE3EC-1279-421D-B0E1-B115677CD67D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD2CE3EC-1279-421D-B0E1-B115677CD67D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32C25004-0CE4-40E6-B9AE-5092650CAAA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32C25004-0CE4-40E6-B9AE-5092650CAAA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32C25004-0CE4-40E6-B9AE-5092650CAAA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32C25004-0CE4-40E6-B9AE-5092650CAAA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C497668C-EAD5-4140-8A78-0586A5164BEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C497668C-EAD5-4140-8A78-0586A5164BEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C497668C-EAD5-4140-8A78-0586A5164BEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C497668C-EAD5-4140-8A78-0586A5164BEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10353077-E5BC-46EB-AFAC-E6D2C38E44AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10353077-E5BC-46EB-AFAC-E6D2C38E44AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10353077-E5BC-46EB-AFAC-E6D2C38E44AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10353077-E5BC-46EB-AFAC-E6D2C38E44AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E509DC01-5562-4F0A-A015-8746D22AAE4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E509DC01-5562-4F0A-A015-8746D22AAE4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E509DC01-5562-4F0A-A015-8746D22AAE4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E509DC01-5562-4F0A-A015-8746D22AAE4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D68BFF6-0BB4-4D04-9AE7-A2A5BF4974A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D68BFF6-0BB4-4D04-9AE7-A2A5BF4974A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D68BFF6-0BB4-4D04-9AE7-A2A5BF4974A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D68BFF6-0BB4-4D04-9AE7-A2A5BF4974A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B615AD7E-FBF1-4E73-B39A-53D03065F47C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B615AD7E-FBF1-4E73-B39A-53D03065F47C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B615AD7E-FBF1-4E73-B39A-53D03065F47C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B615AD7E-FBF1-4E73-B39A-53D03065F47C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CC5FC38-9A43-46B8-B7BB-CFC11E8689E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CC5FC38-9A43-46B8-B7BB-CFC11E8689E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CC5FC38-9A43-46B8-B7BB-CFC11E8689E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CC5FC38-9A43-46B8-B7BB-CFC11E8689E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26297658-0E26-4CCD-8FA0-4D8E3007D8C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26297658-0E26-4CCD-8FA0-4D8E3007D8C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26297658-0E26-4CCD-8FA0-4D8E3007D8C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26297658-0E26-4CCD-8FA0-4D8E3007D8C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5613A588-1116-4842-A46C-965E0B075154}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5613A588-1116-4842-A46C-965E0B075154}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5613A588-1116-4842-A46C-965E0B075154}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5613A588-1116-4842-A46C-965E0B075154}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70870185-CED6-4DAE-9267-4FC2B0973FD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70870185-CED6-4DAE-9267-4FC2B0973FD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70870185-CED6-4DAE-9267-4FC2B0973FD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70870185-CED6-4DAE-9267-4FC2B0973FD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A590D91-BF5E-4DE5-8567-1E98E3BBAF97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A590D91-BF5E-4DE5-8567-1E98E3BBAF97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A590D91-BF5E-4DE5-8567-1E98E3BBAF97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A590D91-BF5E-4DE5-8567-1E98E3BBAF97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17ADC50D-B195-4A5B-A2F4-2381E0B1DD79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17ADC50D-B195-4A5B-A2F4-2381E0B1DD79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17ADC50D-B195-4A5B-A2F4-2381E0B1DD79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17ADC50D-B195-4A5B-A2F4-2381E0B1DD79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B6AF44B-B7EF-4997-B88C-86B68F47D186}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B6AF44B-B7EF-4997-B88C-86B68F47D186}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B6AF44B-B7EF-4997-B88C-86B68F47D186}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B6AF44B-B7EF-4997-B88C-86B68F47D186}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2757E0E-231B-48B3-841E-6C77B40BC6E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2757E0E-231B-48B3-841E-6C77B40BC6E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2757E0E-231B-48B3-841E-6C77B40BC6E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2757E0E-231B-48B3-841E-6C77B40BC6E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D6AA4F9-A85A-4C64-B54B-339E133AC9CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D6AA4F9-A85A-4C64-B54B-339E133AC9CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D6AA4F9-A85A-4C64-B54B-339E133AC9CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D6AA4F9-A85A-4C64-B54B-339E133AC9CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0A021F2-2352-450E-99B9-458474C08740}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0A021F2-2352-450E-99B9-458474C08740}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0A021F2-2352-450E-99B9-458474C08740}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0A021F2-2352-450E-99B9-458474C08740}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,43 @@
+<html>
+
+<head>
+<title>DBA Studio - Deployment Templates</title>
+</head>
+
+<body bgcolor="#FFFFFF" link="#0000FF" vlink="#0000FF"
+alink="#FF0000">
+<div align="center">
+<a href="rep_ss.htm"><img src="rep_tem.gif" border=0 align="middle" alt="Return to Materialized View Replication"></a>
+<table border="0" width="496">
+    <tr>
+        <td><b>Deployment Templates</b> enable you to define a
+        collection of materialized view definitions at a master site and
+        use parameters in the definitions so that the materialized views
+        can be customized for individual users.</td>
+    </tr>
+    <tr>
+        <td>To create a deployment template on a master site:
+		<ol>
+		<li><a name=SETUP_MASTER_SITES></a>Click <a href="#SETUP_MASTER_SITES">Setup Master Sites...</a> to set up the master site, if not yet complete.
+		<li><a name=CREATE_MASTER_GROUP></a>If you want to include updatable materialized views in the template, 
+                              their base tables must be in Master Group. <br>
+		    Click <a href="#CREATE_MASTER_GROUP">Create Master Group...</a> to create a master group that will manage the replicated objects. 
+		<li><a name=CREATE_TEMPLATE></a>Click <a href="#CREATE_TEMPLATE">Create Template...</a> to launch the wizard that helps you create the deployment template.
+		</ol>
+To customize the template for individual users and
+        deploy it to materialized view sites:
+		<ol>
+		<li><a name=OFFLINE_INSTANTIATION_WIZARD></a>Click <a href="#OFFLINE_INSTANTIATION_WIZARD">Template Script Generation...</a> to complete the generation of offline template scripts.
+		<li>Distribute instantiation files to each user. The
+        users can execute the script on the materialized view site using
+        SQL*Plus to create the materialized view environment.
+		
+		</ol>
+<font color="#0000FF">To learn more
+        about Deployment Templates, click the <b>Help</b> button.</font>
+        </td>
+    </tr>
+</table>
+</div>
+</body>
+</html>

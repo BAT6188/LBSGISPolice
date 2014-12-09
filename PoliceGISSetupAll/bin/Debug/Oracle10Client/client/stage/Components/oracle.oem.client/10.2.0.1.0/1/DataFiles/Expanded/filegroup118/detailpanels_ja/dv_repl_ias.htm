@@ -1,0 +1,45 @@
+
+<html>
+
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<title>Enterprise Managerコンソール</title>
+</head>
+
+<body bgcolor="#FFFFFF" link=blue alink=red vlink=blue> <div align="center">
+<table height="45" border="0" cellspacing="0" cellpadding="0">
+<tr> <td width="40"><img src="../images_detailpanels/dv_left.gif" width="40" height="45" border="0" alt=""></td><td width="520" align="center" valign="middle" background="../images_detailpanels/dv_mid.gif"> <font  size="+2" color="White"><b>iASテンプレート</b></font></td> <td width="40"><a href="dv_repl_matl.htm"><img src="../images_detailpanels/dv_rightmnu.gif" width="40" height="45" border="0" alt="前の画面に戻る"></a></td>
+</tr>
+</table>
+<table border=0 width="600">
+<tr> <td colspan="3"><font size="1"> <a href="dv_repl_matl.htm">マテリアライズド・ビュー・レプリケーション</a> &gt; iASテンプレート</font></td>
+ </tr>
+<tr> <td><b>iASテンプレート</b>には、中間層データベースでインスタンス化される一連のオブジェクトが含まれます。iASアプリケーションは、アプリケーションのパフォーマンスおよび拡張性を改善するために、頻繁にアクセスされるオブジェクトを中間層データベースに格納できます。</td>
+    </tr>
+<tr> <td>バックエンド・データベースでiASテンプレートを作成する手順は、次のとおりです。
+
+
+  <ol>
+<li>CONNECT権限およびSELECT_CATALOG_ROLE（またはDBA）権限を持つテンプレート所有者ユーザーを作成します。次に、テンプレートの所有者として接続します。
+<li><a name=CREATE_IAS_TEMPLATE></a><a href="#CREATE_IAS_TEMPLATE"><i>i</i>ASテンプレートを作成</a>して、中間層サイトに作成されるオブジェクトを定義します。
+<li><a name=PREPARE_FOR_EXPORT></a><a href="#PREPARE_FOR_EXPORT">テンプレートのエクスポートの準備</a>をして、インスタンス化されるテンプレートを設定します。
+<li><a name=EXPORT_TEMPLATE></a><a href="#EXPORT_TEMPLATE">テンプレートをエクスポート</a>して、テンプレートの定義をエクスポート・ダンプ・ファイルに保存します。
+<li> テンプレートをインスタンス化する中間層マシンにエクスポート・ダンプ・ファイルをコピーします。
+</ol> テンプレートを中間層サイトに配置する手順は、次のとおりです。
+
+
+  <ol>
+<li>中間層データベースに接続し、DBA権限を持つテンプレート所有者ユーザーを作成します。
+<li>テンプレート所有者として、中間層データベースに再接続します。
+<li><a name=IMPORT_TEMPLATE></a><a href="#IMPORT_TEMPLATE">テンプレートをインポート</a>して、テンプレートをインスタンス化します。
+<li>新しくインスタンス化されたテンプレートに関連付けられたリフレッシュ・グループにリフレッシュ・ポリシーを設定します。
+</ol> すべての中間層データベースのテンプレートをインスタンス化した後、バックエンド・データベースに接続し、「<a name=POST_INST_CLEANUP></a><a href="#POST_INST_CLEANUP">インスタンス化後のクリーンアップ</a>」を実行します。
+
+<p>
+
+<font color="#008080">iASテンプレートの詳細は、<b>「ヘルプ」</b>ボタンをクリックしてください。</font></td>
+    </tr>
+</table> </div>
+</body>
+</html>

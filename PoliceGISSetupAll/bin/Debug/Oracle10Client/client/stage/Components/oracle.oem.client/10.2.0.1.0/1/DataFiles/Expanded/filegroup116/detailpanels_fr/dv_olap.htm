@@ -1,0 +1,78 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Console Enterprise Manager</title>
+</head>		
+
+<body bgcolor="#FFFFFF" link=blue alink=red vlink=blue>
+<table height="45" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="40"><img src="../images_detailpanels/dv_left.gif" width="40" height="45" border="0" alt=""></td>
+<td width="520" align="center" valign="middle" background="../images_detailpanels/dv_mid.gif">
+<font size="+2" color="White"><b>OLAP Management</b></font></td>
+<td width="40"><img src="../images_detailpanels/dv_right.gif" width="40" height="45" border="0" alt=""></td>
+</tr>
+</table>
+
+<table border="0" width="600">
+	<tr>
+		<td width="280" align="left" valign="top">
+<table BORDER=0 >
+<tr>
+<td COLSPAN="2">Pour effectuer un traitement analytique, la base de données data warehouse doit être préconfigurée avec des objets de métadonnées&nbsp;OLAP, à savoir&nbsp;:
+</td>
+</tr>
+
+<tr>
+<td VALIGN=TOP><img SRC="../images_detailpanels/bullet.gif" ></td>
+<td>Une <a href="#dimension_wizard">dimension</a>, qui organise les tables de dimensions de la base de données data warehouse en niveaux, attributs et hiérarchies.</td>
+</tr>
+
+<tr>
+<td VALIGN=TOP><img SRC="../images_detailpanels/bullet.gif" ></td>
+<td>Des <a href="#cube_wizard">cubes</a>, qui sont des représentations logiques des données multidimensionnelles et qui doivent contenir au moins une dimension.</td>
+</tr>
+
+<tr>
+<td VALIGN=TOP><img SRC="../images_detailpanels/bullet.gif" ></td>
+<td>Des <a href="#measure_folder">dossiers d'indicateurs</a>, qui organisent les indicateurs en groupes gérables.<td>
+</tr>
+
+<tr>
+<td COLSPAN="2">Pour créer des vues matérialisées destinées à l'optimisation de la base de données data warehouse, utilisez l'application suivante&nbsp;:
+</td>
+</tr>
+
+<tr>
+<td VALIGN=TOP><img SRC="../images_detailpanels/bullet.gif" ></td>
+<td>Cliquez avec le bouton droit de la souris sur le noeud d'un cube et lancez l'assistant <b>OLAP Summary Advisor</b>, qui recommande l'utilisation de vues matérialisées optimisant les performances des applications client OLAP qui accèdent aux données définies par un cube. Cet assistant est disponible pour Oracle versions 9.2 et ultérieures.</td>
+</tr>
+
+<tr>
+<tr>
+<td COLSPAN="2">Deux applications supplémentaires sont disponibles pour la gestion&nbsp;OLAP.</td>
+</tr>
+
+<tr>
+<td VALIGN=TOP><img SRC="../images_detailpanels/bullet.gif" ></td>
+<td>Cliquez avec le bouton droit de la souris sur le noeud d'un cube, puis lancez <b>Cube&nbsp;Viewer</b> pour afficher les données multidimensionnelles représentées par ce cube.</td>
+</tr>
+
+<tr>
+<td VALIGN=TOP><img SRC="../images_detailpanels/bullet.gif" ></td>
+<td>Cliquez avec le bouton droit de la souris sur un dossier&nbsp;OLAP pour lancer <b>OLAP&nbsp;Worksheet</b>, utilisé pour le codage et la modification du code 4GL&nbsp;OLAP. Cette application est disponible pour Oracle versions&nbsp;9.2 et supérieures.</td>
+</tr>
+
+</TABLE>
+</td>
+			<td width="10"></td>
+<td width="300" align="center" valign="TOP">
+<img src="../images_detailpanels/olap_spl.gif" width="259" height="254" border="0" alt="">
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</body>
+</html>

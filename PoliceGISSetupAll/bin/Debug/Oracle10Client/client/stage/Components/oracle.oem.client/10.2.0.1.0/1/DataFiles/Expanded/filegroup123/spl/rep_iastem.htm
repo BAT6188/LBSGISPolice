@@ -1,0 +1,42 @@
+<html>
+
+<head>
+<title>DBA Studio - iAS Templates</title>
+</head>
+
+<body bgcolor="#FFFFFF" link="#0000FF" vlink="#0000FF"
+alink="#FF0000">
+<div align="center">
+<a href="rep_ss.htm"><img src="rep_ban.gif" border=0 align="middle" alt="Return to Materialized View Replication"></a>
+<table border="0" width="496">
+    <tr>
+        <td>An <b>iAS Template</b> contains a set of objects that will be
+        instantiated on a middle tier database. iAS applications can store
+        frequently accessed objects on a middle tier database to improve
+        application performance and scalability.</td>
+    </tr>
+    <tr>
+        <td>To create an iAS template on a backend database:
+		<ol>
+        <li>Create a template owner user which has CONNECT privileges and the SELECT_CATALOG_ROLE (or DBA privileges).  Then connect as the template owner.
+		<li><a name=CREATE_IAS_TEMPLATE></a><a href="#CREATE_IAS_TEMPLATE">Create an iAS Template</a> which defines the objects to be created on the middle tier sites.
+		<li><a name=PREPARE_FOR_EXPORT></a><a href="#PREPARE_FOR_EXPORT">Prepare the template for export</a> to setup the template so that it can be instantiated.
+		<li><a name=EXPORT_TEMPLATE></a><a href="#EXPORT_TEMPLATE">Export the template</a> to save the template definition in an export dump file.
+        <li> Copy the export dump file to the middle tier machines on which you want to instantiate the template.
+		</ol>
+To deploy the template to middle tier sites:
+		<ol>
+        <li>Connect to the middle tier database and create a template owner user which has DBA privileges.
+        <li>Reconnect to the middle tier database as the template owner.
+		<li><a name=IMPORT_TEMPLATE></a><a href="#IMPORT_TEMPLATE">Import the template</a> to instantiate the template.
+		<li>Set the refresh policy for the refresh group associated with the newly instantiated template.
+		</ol>
+Once you have instantiated the template on all the middle tier databases, connect to the backend database and perform <a name=POST_INST_CLEANUP></a><a href="#POST_INST_CLEANUP">Post Instantiation Cleanup.</a>
+<p>
+<font color="#0000FF">To learn more about iAS Templates, click the <b>Help</b> button.</font>
+        </td>
+    </tr>
+</table>
+</div>
+</body>
+</html>

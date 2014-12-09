@@ -1,0 +1,124 @@
+综合查询:在 setFields 方法中2010-10-27 04:37:31: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 clZonghe.ucZonghe.setFields(String tableName, ComboBox comboBoxField) 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\clZonghe\ucZonghe.cs:行号 3002
+
+综合查询:在 InitialYintouTable 方法中2010-10-27 04:37:31: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 clZonghe.ucZonghe.InitialYintouTable() 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\clZonghe\ucZonghe.cs:行号 92
+
+综合查询:在 setFields 方法中2010-10-27 04:37:31: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 clZonghe.ucZonghe.setFields(String tableName, ComboBox comboBoxField) 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\clZonghe\ucZonghe.cs:行号 3002
+
+综合查询:在 LoadData 方法中2010/12/22 11:51:27: 
+System.Data.OracleClient.OracleException: ORA-00936: 缺失表达式
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 clZonghe.ucZonghe.LoadData(Int32 _startNo, Int32 _endNo, String _whereSql, String tableName, Boolean isExcel) 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\clZonghe\ucZonghe.cs:行号 4940
+
+综合查询:在 zhouBianCenPointQuery 方法中2010/12/22 11:51:29: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 clZonghe.ucZonghe.zhouBianCenPointQuery() 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\clZonghe\ucZonghe.cs:行号 3118
+
+综合查询:在 LoadData 方法中2010/12/22 11:51:30: 
+System.Data.OracleClient.OracleException: ORA-00936: 缺失表达式
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 clZonghe.ucZonghe.LoadData(Int32 _startNo, Int32 _endNo, String _whereSql, String tableName, Boolean isExcel) 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\clZonghe\ucZonghe.cs:行号 4940
+
+综合查询:在 zhouBianCenPointQuery 方法中2010/12/22 11:51:32: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 clZonghe.ucZonghe.zhouBianCenPointQuery() 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\clZonghe\ucZonghe.cs:行号 3118
+
+综合查询:在 LoadData 方法中2010/12/22 11:52:08: 
+System.Data.OracleClient.OracleException: ORA-00936: 缺失表达式
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 clZonghe.ucZonghe.LoadData(Int32 _startNo, Int32 _endNo, String _whereSql, String tableName, Boolean isExcel) 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\clZonghe\ucZonghe.cs:行号 4940
+
+综合查询:在 zhouBianCenPointQuery 方法中2010/12/22 11:52:10: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 clZonghe.ucZonghe.zhouBianCenPointQuery() 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\clZonghe\ucZonghe.cs:行号 3118
+
+综合查询:在 LoadData 方法中2010/12/22 11:52:11: 
+System.Data.OracleClient.OracleException: ORA-00936: 缺失表达式
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 clZonghe.ucZonghe.LoadData(Int32 _startNo, Int32 _endNo, String _whereSql, String tableName, Boolean isExcel) 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\clZonghe\ucZonghe.cs:行号 4940
+
+综合查询:在 zhouBianCenPointQuery 方法中2010/12/22 11:52:12: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 clZonghe.ucZonghe.zhouBianCenPointQuery() 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\clZonghe\ucZonghe.cs:行号 3118
+
+综合查询:在 ucZonghe_VisibleChanged 方法中2010/12/22 11:54:07: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 clZonghe.ucZonghe.ucZonghe_VisibleChanged(Object sender, EventArgs e) 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\clZonghe\ucZonghe.cs:行号 4071
+
+综合查询:在 LoadData 方法中2010/12/22 12:01:13: 
+System.Data.OracleClient.OracleException: ORA-00936: 缺失表达式
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 clZonghe.ucZonghe.LoadData(Int32 _startNo, Int32 _endNo, String _whereSql, String tableName, Boolean isExcel) 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\clZonghe\ucZonghe.cs:行号 4940
+
+综合查询:在 zhouBianCenPointQuery 方法中2010/12/22 12:01:21: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 clZonghe.ucZonghe.zhouBianCenPointQuery() 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\clZonghe\ucZonghe.cs:行号 3118
+
+综合查询:在 LoadData 方法中2010/12/22 12:02:01: 
+System.Data.OracleClient.OracleException: ORA-00936: 缺失表达式
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 clZonghe.ucZonghe.LoadData(Int32 _startNo, Int32 _endNo, String _whereSql, String tableName, Boolean isExcel) 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\clZonghe\ucZonghe.cs:行号 4940
+
+综合查询:在 zhouBianCenPointQuery 方法中2010/12/22 12:02:03: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 clZonghe.ucZonghe.zhouBianCenPointQuery() 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\clZonghe\ucZonghe.cs:行号 3118
+

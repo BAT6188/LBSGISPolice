@@ -1,0 +1,51 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>Enterprise Manager Console</title>
+</head>		
+
+<body bgcolor="#FFFFFF" link=blue alink=red vlink=blue>
+<div align="center">
+<table height="45" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="40"><img src="../images_detailpanels/dv_left.gif" width="40" height="45" border="0" alt=""></td><td width="520" align="center" valign="middle" background="../images_detailpanels/dv_mid.gif">
+<font size="+2" color="White"><b>iAS 模板</b></font></td>
+<td width="40"><a href="dv_repl_matl.htm"><img src="../images_detailpanels/dv_rightmnu.gif" width="40" height="45" border="0" alt="返回到上一屏幕"></a></td>
+</tr>
+</table>
+<table border=0 width="600">
+	<tr>
+	<td colspan="3"><font size="1">
+		<a href="dv_repl_matl.htm">实体化视图复制</a> &gt; iAS 模板
+		</font>
+	</td>
+	</tr>
+    <tr>
+        <td><b>iAS 模板</b>包含一组对象, 它们将在中间层数据库上被实例化。iAS 应用程序可以将经常访问的对象存储在中间层数据库上, 以提高应用程序的性能和可伸缩性。</td>
+    </tr>
+    <tr>
+        <td>要在后端数据库上创建 iAS 模板, 请执行以下操作:
+		<ol>
+        <li>创建模板所有者用户, 该用户拥有 CONNECT 权限和 SELECT_CATALOG_ROLE (或 DBA 权限)。然后以模板所有者的身份进行连接。
+		<li><a name=CREATE_IAS_TEMPLATE></a><a href="#CREATE_IAS_TEMPLATE">创建 iAS 模板</a>, 该模板定义要在中间层站点上创建的对象。
+		<li><a name=PREPARE_FOR_EXPORT></a><a href="#PREPARE_FOR_EXPORT">准备要导出的模板</a>, 设置该模板以便进行实例化。
+		<li><a name=EXPORT_TEMPLATE></a><a href="#EXPORT_TEMPLATE">导出模板</a>, 将模板定义保存在导出转储文件中。
+        <li> 将导出转储文件复制到要对该模板进行实例化的中间层计算机上。
+		</ol>
+要将模板部署到中间层站点, 请执行以下操作:
+		<ol>
+        <li>连接到中间层数据库并创建具有 DBA 权限的模板所有者用户。
+        <li>以模板所有者的身份重新连接到中间层数据库。
+		<li><a name=IMPORT_TEMPLATE></a><a href="#IMPORT_TEMPLATE">导入模板</a>, 将模板实例化。
+		<li>为与刚刚实例化的模板相关联的刷新组设置刷新策略。
+		</ol>
+在所有中间层数据库上完成对该模板的实例化后, 连接到后端数据库并执行<a name=POST_INST_CLEANUP></a><a href="#POST_INST_CLEANUP">实例化后清除</a>。<p>
+
+<font color="#008080">要了解有关 iAS 模板的更多信息，请单击<b>帮助</b>按钮。</font>
+        </td>
+    </tr>
+</table>
+</div>
+</body>
+</html>

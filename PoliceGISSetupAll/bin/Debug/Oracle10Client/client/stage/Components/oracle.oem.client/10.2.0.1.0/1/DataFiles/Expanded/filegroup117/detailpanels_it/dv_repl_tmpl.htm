@@ -1,0 +1,46 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Enterprise Manager Console</title>
+</head>		
+
+<body bgcolor="#FFFFFF" link=blue alink=red vlink=blue>
+<div align="center">
+<table height="45" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="40"><img src="../images_detailpanels/dv_left.gif" width="40" height="45" border="0" alt=""></td><td width="520" align="center" valign="middle" background="../images_detailpanels/dv_mid.gif">
+<font size="+2" color="White"><b>Modelli di distribuzione</b></font></td>
+<td width="40"><a href="dv_repl_matl.htm"><img src="../images_detailpanels/dv_rightmnu.gif" width="40" height="45" border="0" alt="Torna alla schermata precedente"></a></td>
+</tr>
+</table>
+<table border=0 width="600">
+	<tr>
+	<td colspan="3"><font size="1">
+		<a href="dv_repl_matl.htm">Replica di viste materializzate</a>&gt;Modelli di distribuzione
+		</font>
+	</td>
+	</tr>
+    <tr>
+        <td>I <b>modelli di distribuzione</b> consentono di definire una collection di definizioni di viste materializzate presso un sito principale e utilizzare parametri nelle definizioni in modo che le viste materializzate possano essere personalizzate per singoli utenti.</td>
+    </tr>
+    <tr>
+        <td>Per creare un modello di distribuzione presso un sito principale, effettuare le operazioni riportate di seguito.
+		<ol>
+		<li><a name=SETUP_MASTER_SITES></a>Fare clic su <a href="#SETUP_MASTER_SITES">Imposta siti principali...</a> per impostare il sito principale, se non lo si è ancora fatto.
+		<li><a name=CREATE_MASTER_GROUP></a>Se si desidera includere viste materializzate aggiornabili nel modello, le relative tabelle di base devono trovarsi nel gruppo principale. <br> Fare clic su <a href="#CREATE_MASTER_GROUP">Crea gruppo principale...</a> per creare il gruppo principale che gestirà gli oggetti replicati. 
+		<li><a name=CREATE_TEMPLATE></a>Fare clic su <a href="#CREATE_TEMPLATE">Crea modello...</a> per avviare la procedura guidata di creazione del modello di distribuzione.
+		</ol>
+Per personalizzare il modello per singoli utenti e distribuirlo sui siti di viste materializzate, effettuare le operazioni riportate di seguito.
+		<ol>
+		<li><a name=OFFLINE_INSTANTIATION_WIZARD></a>Fare clic su <a href="#OFFLINE_INSTANTIATION_WIZARD">Generazione script di modello...</a> per completare la generazione degli script di modello fuori linea.
+		<li>Distribuire i file di creazione delle istanze a ciascun utente interessato. Gli utenti possono eseguire lo script sul sito di viste materializzate utilizzando SQL*Plus per creare l'ambiente di viste materializzate.
+		
+		</ol>
+<font color="#008080">Per ulteriori informazioni sui modelli di distribuzione, fare clic sul pulsante <b>?</b>.</font>
+        </td>
+    </tr>
+</table>
+</div>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Con>
+  <Listenport>19074</Listenport>
+  <ListenportVideo>19075</ListenportVideo>
+  <Map>E:\Work\顺德公安\非受控\源代码\Viss-GIS.root\Viss-GIS\GIS\bin\Release\Map\Shunde1.mws</Map>
+  <user>sdga</user>
+  <ds>GIS_173.13.2.7</ds>
+  <password>007300640067006100310032003300340035</password>
+  <dist>500</dist>
+  <showMap>true</showMap>
+  <zone>
+  </zone>
+  <VideoExePath>C:\Program Files\Alcatel Shanghai Bell\carrier\surveillance.exe</VideoExePath>
+</Con>

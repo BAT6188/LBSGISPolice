@@ -1,0 +1,335 @@
+##+
+# The format of the registry for the Oracle Management Server is such that
+# one key "/com/oracle/sysman/em/oms/services" contains an ordered list of
+# services that are to be started.
+#
+# The services specified are subkeys of /com/oracle/sysman/em/oms/services
+# and are self describing. Specifically, the services each have subkeys
+# that appear as:
+#
+#	name = <bindable name that is used with the appserver's getReference()>
+#	oms_service = <class that implements oracle.sysman.vxa.VxaMASService>
+#	startup_mode = <boot_mode>
+#
+# where <boot_mode> is 0 if the service is started up in the same VM or
+# 1 if a separate process. (defaults to started up in same VM)
+#--
+
+
+/com/oracle/sysman/em/oms/services = vds, vdu, vdr, vdc, vdrAppRegistry, vdrAgentObjectRegistry, vdp, vdf, vdd, vdn, vdm, vdv, vdj, vde, vbo, vdnStateManager, vdgGateway, SqlExplain, reporting
+
+#++
+# Session Service
+#--
+/com/oracle/sysman/em/oms/services/vds/name = vds
+/com/oracle/sysman/em/oms/services/vds/oms_service_interface = oracle.sysman.vds.VdsImpl
+/com/oracle/sysman/em/oms/services/vds/startup_mode = 0
+
+#++
+# Security Service
+#--
+/com/oracle/sysman/em/oms/services/vdu/name = vdu
+/com/oracle/sysman/em/oms/services/vdu/oms_service_interface = oracle.sysman.vdu.VduImpl
+/com/oracle/sysman/em/oms/services/vdu/startup_mode = 0
+
+#++
+# Core registry service
+#--
+/com/oracle/sysman/em/oms/services/vdr/name = vdr
+/com/oracle/sysman/em/oms/services/vdr/oms_service_interface = oracle.sysman.vdrRegistry.VdrRegistryImpl
+/com/oracle/sysman/em/oms/services/vdr/startup_mode = 0
+
+#++
+# Application/pallette registry services
+#--
+/com/oracle/sysman/em/oms/services/vdrAppRegistry/name = vdrAppRegistry
+/com/oracle/sysman/em/oms/services/vdrAppRegistry/oms_service_interface = oracle.sysman.vdrRegistry.VdrAppRegistryImpl
+/com/oracle/sysman/em/oms/services/vdrAppRegistry/startup_mode = 0
+
+#++
+# Agent Objects (event test and job task) registrations
+#--
+/com/oracle/sysman/em/oms/services/vdrAgentObjectRegistry/name = vdrAgentObjectRegistry
+/com/oracle/sysman/em/oms/services/vdrAgentObjectRegistry/oms_service_interface = oracle.sysman.vdrRegistry.VdrAgentObjectRegistryImpl
+/com/oracle/sysman/em/oms/services/vdrAgentObjectRegistry/startup_mode = 0
+
+#++
+# Target Naming service
+#--
+/com/oracle/sysman/em/oms/services/vdn/name = vdn
+/com/oracle/sysman/em/oms/services/vdn/oms_service_interface = oracle.sysman.vdn.VdnTargetNamingService
+/com/oracle/sysman/em/oms/services/vdn/startup_mode = 0
+
+#++
+# Ping service
+#--
+/com/oracle/sysman/em/oms/services/vdp/name = vdp
+/com/oracle/sysman/em/oms/services/vdp/oms_service_interface = oracle.sysman.vdp.VdpPingServiceImpl
+/com/oracle/sysman/em/oms/services/vdp/startup_mode = 0
+
+#++
+# Failover service
+#--
+/com/oracle/sysman/em/oms/services/vdf/name = vdf
+/com/oracle/sysman/em/oms/services/vdf/oms_service_interface = oracle.sysman.vdf.VdfMASFailOverService
+/com/oracle/sysman/em/oms/services/vdf/startup_mode = 0
+
+#++
+# Reliability Service
+#--
+/com/oracle/sysman/em/oms/services/vdd/name = vdd
+/com/oracle/sysman/em/oms/services/vdd/oms_service_interface = oracle.sysman.vdd.VddReliabilityService
+/com/oracle/sysman/em/oms/services/vdd/startup_mode = 0
+
+#++
+# Notification Manager
+#--
+/com/oracle/sysman/em/oms/services/vdm/name = vdm
+/com/oracle/sysman/em/oms/services/vdm/oms_service_interface = oracle.sysman.vdm.VdmNotificationManager
+/com/oracle/sysman/em/oms/services/vdm/startup_mode = 0
+
+#++
+# User Manager (user preferences)
+#--
+/com/oracle/sysman/em/oms/services/vdv/name = vdv
+/com/oracle/sysman/em/oms/services/vdv/oms_service_interface = oracle.sysman.vdv.VdvUserManagerImpl
+/com/oracle/sysman/em/oms/services/vdv/startup_mode = 0
+
+#++
+# Job Manager
+#--
+/com/oracle/sysman/em/oms/services/vdj/name = vdj
+/com/oracle/sysman/em/oms/services/vdj/oms_service_interface = oracle.sysman.vdj.VdjJobManagerImpl
+/com/oracle/sysman/em/oms/services/vdj/startup_mode = 0
+
+#++
+# Event Manager
+#--
+/com/oracle/sysman/em/oms/services/vde/name = vde
+/com/oracle/sysman/em/oms/services/vde/oms_service_interface = oracle.sysman.vde.VdeEventManagerImpl
+/com/oracle/sysman/em/oms/services/vde/startup_mode = 0
+
+#++
+# Admin Object Framework factory (VBOServer)
+#--
+/com/oracle/sysman/em/oms/services/vbo/name = vbo
+/com/oracle/sysman/em/oms/services/vbo/oms_service_interface = oracle.sysman.vbo.VboDBServerImpl
+/com/oracle/sysman/em/oms/services/vbo/startup_mode = 0
+
+#++
+# Target State Manager
+#--
+/com/oracle/sysman/em/oms/services/vdnStateManager/name = vdnStateManager
+/com/oracle/sysman/em/oms/services/vdnStateManager/oms_service_interface = oracle.sysman.vdn.VdnStateManagerImpl
+/com/oracle/sysman/em/oms/services/vdnStateManager/startup_mode = 0
+
+#++
+# Agent Gateway
+#--
+/com/oracle/sysman/em/oms/services/vdgGateway/name = vdgGateway
+/com/oracle/sysman/em/oms/services/vdgGateway/oms_service_interface = oracle.sysman.vdg.VdgAgentGatewayImpl
+/com/oracle/sysman/em/oms/services/vdgGateway/startup_mode = 0
+
+#++
+# Crypto Server
+#--
+/com/oracle/sysman/em/oms/services/vdc/name = vdc
+/com/oracle/sysman/em/oms/services/vdc/oms_service_interface = oracle.sysman.vdc.VdcCryptoService
+/com/oracle/sysman/em/oms/services/vdc/startup_mode = 0
+
+#++
+# SqlExplain Service
+#--
+/com/oracle/sysman/em/oms/services/SqlExplain/name = SqlExplain
+/com/oracle/sysman/em/oms/services/SqlExplain/oms_service_interface = oracle.sysman.vd.sqlExplain.SqlExplainRemoteService
+/com/oracle/sysman/em/oms/services/SqlExplain/startup_mode = 0
+
+#++
+# Reporting Service
+#--
+/com/oracle/sysman/em/oms/services/reporting/name = reporting
+/com/oracle/sysman/em/oms/services/reporting/oms_service_interface = oracle.sysman.vd.reporting.ReportingManagerImpl
+/com/oracle/sysman/em/oms/services/reporting/startup_mode = 0
+
+# data source files for EMD metric events
+/com/oracle/sysman/em/tests_datasource/apache/datasource = oracle.sysman.emd.emdTests.EmdApacheTestsDatasource
+#
+
+/com/oracle/sysman/em/tests_datasource/dba/datasource = oracle.sysman.vtcConsole.vtcEvent.vtceTests.VtcetDBATestsDatasource
+/com/oracle/sysman/em/tests_datasource/ops/datasource = oracle.sysman.vtcConsole.vtcEvent.vtceTests.VtcetOPSTestsDatasource
+
+/com/oracle/sysman/em/tests_datasource/aix/datasource = oracle.sysman.vtcConsole.vtcEvent.vtceTests.VtcetHostAIXTestsDatasource
+/com/oracle/sysman/em/tests_datasource/dec/datasource = oracle.sysman.vtcConsole.vtcEvent.vtceTests.VtcetHostDECTestsDatasource
+/com/oracle/sysman/em/tests_datasource/hpux/datasource = oracle.sysman.vtcConsole.vtcEvent.vtceTests.VtcetHostHPUXTestsDatasource
+/com/oracle/sysman/em/tests_datasource/linux/datasource = oracle.sysman.vtcConsole.vtcEvent.vtceTests.VtcetHostLinuxTestsDatasource
+/com/oracle/sysman/em/tests_datasource/nt/datasource = oracle.sysman.vtcConsole.vtcEvent.vtceTests.VtcetHostNT_OSTestsDatasource
+/com/oracle/sysman/em/tests_datasource/solaris/datasource = oracle.sysman.vtcConsole.vtcEvent.vtceTests.VtcetHostSOLTestsDatasource
+/com/oracle/sysman/em/tests_datasource/base/datasource = oracle.sysman.vtcConsole.vtcEvent.vtceTests.VtcetBaseTestsDatasource
+/com/oracle/sysman/em/tests_datasource/host/datasource = oracle.sysman.vtcConsole.vtcEvent.vtceTests.VtcetHostTestsDatasource
+/com/oracle/sysman/em/tests_datasource/apps/datasource = oracle.sysman.vic.VicAppsTestsDatasource
+/com/oracle/sysman/em/tests_datasource/webserver/datasource = oracle.sysman.vt.eCommerce.ApacheTestDataSource
+
+/com/oracle/sysman/em/tasks_datasource/base/datasource = oracle.sysman.vtcConsole.vtcEvent.vtceTests.VtcetBaseTestsDatasource
+/com/oracle/sysman/em/tasks_datasource/apps/datasource = oracle.sysman.vic.VicAppsTestsDatasource
+/com/oracle/sysman/em/tasks_datasource/slr/datasource = oracle.sysman.vt.slr.tasks.SLRTestsDatasource
+/com/oracle/sysman/em/tasks_datasource/webserver/datasource = oracle.sysman.vt.eCommerce.ApacheTestDataSource
+
+/com/oracle/sysman/em/tasks_datasource/report/datasource = oracle.sysman.vt.reporting.tasks.ReportingTasksDatasource
+/com/oracle/sysman/em/tasks_datasource/olap/datasource = oracle.sysman.emSDK.common.taskLibrary.database.RunExpressCmdDataSource
+#++
+# System definition of types....
+#--
+/com/oracle/sysman/em/system/types/oracle_sysman_database/display_class = oracle.sysman.vtcConsole.VtcNLSProxy
+
+/com/oracle/sysman/em/system/types/oracle_sysman_listener/display_class = oracle.sysman.vtcConsole.VtcNLSProxy
+#--
+# For listeners, dont check the existance of taraget credentials
+#--
+/com/oracle/sysman/em/system/types/oracle_sysman_listener/perform_credential_check=false
+
+/com/oracle/sysman/em/system/types/oracle_sysman_node/display_class = oracle.sysman.vtcConsole.VtcNLSProxy
+
+/com/oracle/sysman/em/system/types/oracle_sysman_group/display_class = oracle.sysman.vtcConsole.VtcNLSProxy
+
+
+/com/oracle/sysman/em/system/types/oracle_webserver/display_class = oracle.sysman.vtcConsole.VtcNLSProxy
+
+/com/oracle/sysman/em/system/types/oracle_sysman_cmanager/display_class = oracle.sysman.via.ViaNLSProxy
+
+
+/com/oracle/sysman/em/system/types/oracle_failsafe_server/display_class = oracle.sysman.via.ViaNLSProxy
+
+/com/oracle/sysman/em/system/types/oracle_sysman_directory/display_class = oracle.sysman.vt.euser.integration.DirectoryNLSProxy
+
+#++
+# These are OPS registry entries.
+#--
+/com/oracle/sysman/em/system/types/oracle_sysman_ops/display_class = oracle.sysman.prv.prvtcConsole.PrvtcNLSProxy
+
+/com/oracle/sysman/em/system/types/oracle_sysman_opsinst/display_class = oracle.sysman.prv.prvtcConsole.PrvtcNLSProxy
+
+/com/oracle/sysman/em/tasks_datasource/opsm/datasource = oracle.sysman.prv.prvtcConsole.prvtcJob.prvtcjTasks.PrvtcjtTasksDatasource
+
+
+
+#
+# SAP Target and Events
+#
+
+/com/oracle/sysman/em/system/types/oracle_sysman_sap/display_class = oracle.sysman.vtcConsole.VtcSapNLSDriver
+/com/oracle/sysman/em/tests_datasource/sap/datasource = oracle.sysman.vis.VISTestsDatasource
+
+
+#
+# SQLServer Target and Events
+#
+
+/com/oracle/sysman/em/system/types/oracle_sysman_sqlserver/display_class = oracle.sysman.vtcConsole.VtcSqlServerNLSDriver
+
+
+#
+# Apache webserver related entries. (Service and Events)
+#
+
+/com/oracle/sysman/em/system/types/oracle_sysman_webserver/display_class = oracle.sysman.vt.webServer.WebServerTargetNLSDriver
+#--
+# For webservers, dont check the existance of taraget credentials
+#--
+/com/oracle/sysman/em/system/types/oracle_sysman_webserver/perform_credential_check=false
+
+
+#
+# Data Guard Target
+#
+/com/oracle/sysman/em/system/types/oracle_sysman_hotstandby_config/display_class = oracle.sysman.vt.standby.StandbyNLSDriver
+
+/com/oracle/sysman/em/tests_datasource/hotstandby/datasource = oracle.sysman.vt.standby.StandbyTestsDatasource
+/com/oracle/sysman/em/tasks_datasource/hotstandby/datasource = oracle.sysman.vt.standby.StandbyTestsDatasource
+
+#
+# Forms server target
+#
+/com/oracle/sysman/em/system/types/oracle_forms_listener/display_class = oracle.sysman.vif.FormsTargetNLSDriver
+/com/oracle/sysman/em/system/types/oracle_metrics_client/display_class = oracle.sysman.vif.FormsTargetNLSDriver
+/com/oracle/sysman/em/system/types/oracle_metrics_server/display_class = oracle.sysman.vif.FormsTargetNLSDriver
+/com/oracle/sysman/em/tests_datasource/oracle_sysman_forms/datasource=oracle.sysman.vif.FormsTestsDataSource
+/com/oracle/sysman/em/tasks_datasource/oracle_sysman_forms/datasource=oracle.sysman.vif.FormsTestsDataSource
+
+##
+# The following are entries for the event handler
+##
+# Enable the event handler
+eventhandler.enabled=false
+
+
+##  Add the following to enable the adapters: Logger and Command Executor
+/com/oracle/sysman/em/eventHandler/handlers/eventlogger/entrypoint=oracle.sysman.vda.vdae.VdaeEventLogger
+/com/oracle/sysman/em/eventHandler/handlers/eventlogger/processOnStartup=true
+/com/oracle/sysman/em/eventHandler/handlers/commandexecutor/entrypoint=oracle.sysman.vda.vdae.VdaeCommandExecutor
+/com/oracle/sysman/em/eventHandler/handlers/commandexecutor/processOnStartup=true
+
+## The following enable the PL/SQL adapter
+/com/oracle/sysman/em/eventHandler/handlers/plsqlexecutor/entrypoint=oracle.sysman.vda.vdae.VdaePLSQLExecutor
+/com/oracle/sysman/em/eventHandler/handlers/plsqlexecutor/processOnStartup=true
+
+
+##  SAMPLE FILTERS
+##    Sample global filter
+/com/oracle/sysman/em/eventHandler/global_filters/allNodes/node =*
+
+##    Sample event logger filter
+/com/oracle/sysman/em/eventHandler/eventlogger_filters/allEvents/eventname=*
+
+##    Sample command executor filter
+/com/oracle/sysman/em/eventHandler/commandexecutor_filters/allEvents/node=*
+
+##    Sample PL/SQL executor filter
+#/com/oracle/sysman/em/eventHandler/plsqlexecutor_filters/allEvents/node=*
+
+
+##  Sample Properties and templates for the Event Logger...
+/com/oracle/sysman/em/eventlogger/templates/allEvents/message=EVENTNAME:%eventname%  NODE: %node%    TARGET: %targetname%  SEVERITY: %severity%  TIMESTAMP:  %timestamp%
+/com/oracle/sysman/em/eventlogger/templates/allEvents/eventname=*
+/com/oracle/sysman/em/eventlogger/templates/allEvents/logfile=%ORACLE_HOME%/sysman/log/eventhandler.log
+/com/oracle/sysman/em/eventlogger/templates/allEvents/appendonstart=false
+
+
+
+## Sample template for the Command Executor
+/com/oracle/sysman/em/commandexecutor/templates/allEvents2/command=echo %eventname%
+/com/oracle/sysman/em/commandexecutor/templates/allEvents2/eventname=*
+
+
+#++
+# GIT registry entries - for reporting
+#--
+/com/oracle/sysman/em/system/types/oracle_exchange/display_class = oracle.sysman.vt.console.git.GitDisplayDriver
+/com/oracle/sysman/em/system/types/oracle_exchange/perform_credential_check=false
+
+/com/oracle/sysman/em/system/types/oracle_bol_forms/display_class = oracle.sysman.vt.console.git.GitDisplayDriver
+/com/oracle/sysman/em/system/types/oracle_bol_forms/perform_credential_check=false
+
+/com/oracle/sysman/em/system/types/oracle_bol_contextserv/display_class = oracle.sysman.vt.console.git.GitDisplayDriver
+/com/oracle/sysman/em/system/types/oracle_bol_contextserv/perform_credential_check=false
+
+/com/oracle/sysman/em/system/types/oracle_bol_tcf/display_class = oracle.sysman.vt.console.git.GitDisplayDriver
+/com/oracle/sysman/em/system/types/oracle_bol_tcf/perform_credential_check=false
+
+/com/oracle/sysman/em/system/types/oracle_bol_rpc/display_class = oracle.sysman.vt.console.git.GitDisplayDriver
+/com/oracle/sysman/em/system/types/oracle_bol_rpc/perform_credential_check=false
+
+/com/oracle/sysman/em/system/types/oracle_bol_net/display_class = oracle.sysman.vt.console.git.GitDisplayDriver
+/com/oracle/sysman/em/system/types/oracle_bol_net/perform_credential_check=false
+
+/com/oracle/sysman/em/system/types/oracle_bol_weblistener/display_class = oracle.sysman.vt.console.git.GitDisplayDriver
+/com/oracle/sysman/em/system/types/oracle_bol_weblistener/perform_credential_check=false
+
+/com/oracle/sysman/em/system/types/oracle_bol_oas/display_class = oracle.sysman.vt.console.git.GitDisplayDriver
+/com/oracle/sysman/em/system/types/oracle_bol_oas/perform_credential_check=false
+
+/com/oracle/sysman/em/system/types/oracle_bol_xpres/display_class = oracle.sysman.vt.console.git.GitDisplayDriver
+/com/oracle/sysman/em/system/types/oracle_bol_xpres/perform_credential_check=false
+
+/com/oracle/sysman/em/system/types/oracle_bol_discover/display_class = oracle.sysman.vt.console.git.GitDisplayDriver
+/com/oracle/sysman/em/system/types/oracle_bol_discover/perform_credential_check=false
+

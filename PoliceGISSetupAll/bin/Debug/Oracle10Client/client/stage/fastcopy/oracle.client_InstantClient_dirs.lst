@@ -1,0 +1,5 @@
+bin
+install/instantclient/light
+instantclient
+jdbc/lib
+lib

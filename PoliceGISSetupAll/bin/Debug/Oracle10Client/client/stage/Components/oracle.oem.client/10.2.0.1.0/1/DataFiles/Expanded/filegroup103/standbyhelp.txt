@@ -1,0 +1,136 @@
+The "Data Guard remote process startup failed" error means that some part of
+the Enterprise Manager environment is not setup correctly to allow Data Guard 
+Manager to run a remote operation, such as creating a standby database with 
+the Create Configuration wizard. Address each of the following items in the 
+order listed to fix this problem:
+
+  1)  Ensure the Oracle Intelligent Agent is running on both the primary and  
+      standby nodes. 
+   
+      The Agent must be running for Data Guard Manager to function. Check it either
+      by using the "Ping Agent" function in Enterprise Manager, or by
+      running "agentctl status" on the primary and standby nodes. If it is not  
+      running, start it by running the command "agentctl start". After verifying  
+      that it is running on both nodes, proceed to step 2. 
+   
+  2)  Ensure the Oracle installations for both the primary and standby Oracle  
+      Homes contain Perl.  
+   
+      On UNIX systems, verify this by looking in each Oracle Home for the  
+      $ORACLE_HOME/Apache/perl/bin/perl file. On NT systems, look for the  
+      file $ORACLE_HOME\apache\perl\5.00503\bin\mswin32-x86\perl. 
+   
+      If this file is present, Perl is installed; proceed to step 3. If not, 
+      proceed with one of the solutions below.
+
+      Solution A: Install the Perl that comes with Oracle
+
+      This can be accomplished by performing the following for both the primary 
+      and standby Oracle Homes:
+
+        a) Run the Oracle Installer and choose the Oracle Home in question.
+        b) Choose the "Oracle9i Database 9.2.0.1.0" option.
+        c) Choose "Custom" for the installation type.
+        d) Under "Oracle Enterprise Manager Products 9.2.0.1.0", choose to 
+           install the "Enterprise Manager Website 9.2.0.1.0" item.
+        e) Complete the install.
+
+      After completing the installation, verify that the Perl installation 
+      succeeded by checking for the presence of the above file. If successful,
+      proceed with step 3.
+
+      Solution B: Using an existing Perl installation
+
+      This is an alternative to installing the Oracle Perl. If you already have
+      Perl installed on your network, it is possible to tell Data Guard Manager 
+      to use it instead of the Perl that ships with Oracle. There are two
+      requirements:
+
+        a) The version of Perl must be 5.005 or greater.
+        b) The Perl executable must be accessible by the same pathname on both 
+           the primary and standby nodes. (e.g., /usr/local/bin/perl). 
+           The existence of the file should be verified on both nodes.
+
+      If these two requirements are met, perform the following to tell Data Guard
+      Manager to use the alternate Perl installation:
+
+        a) Start Data Guard Manager.
+        b) While focused on the Data Guard Manager window, press Ctrl-P; 
+           this will bring up a dialog window.
+        c) In the dialog, specify the full pathname of the alternate Perl 
+           executable (e.g., /usr/local/bin/perl)
+        d) Press OK
+
+        Data Guard Manager will now use the alternate Perl, and there is no need
+        to run the installer.
+   
+  3)  Ensure that the user specified in the primary and standby node preferred  
+      credentials can successfully run an OEM job. 
+   
+      Data Guard Manager requires that OEM preferred credentials are specified  
+      for both the primary and standby node. Furthermore, these credentials  
+      must specify a user(s) who has read/write permissions in the primary  
+      and standby Oracle Homes, respectively.  
+   
+      Note:  Databases that are on Windows NT/2000/XP require that the 
+             the user(s) specified in the credentials must be granted  
+             the "Log on as a batch job" privilege. 
+   
+      After checking that preferred node credentials are set correctly on both 
+      nodes, run a test OEM job to verify that jobs are functioning properly.  
+      Do this as follows: 
+   
+         a)  Select the Create Job item in the OEM Console Job menu. 
+         b)  Give the job a name, select Node as the Target Type, select and  
+             add the primary node as the target. 
+         c)  Go to the Tasks tab, select and add "Run OS Command". 
+         d)  Go to the Parameters tab and specify a simple OS command such  
+             as ls on UNIX, or dir on NT. 
+         e)  Click Submit. 
+         f)  Once the job is finished, select the Jobs icon in the OEM Console 
+             tree, select the History tab, and examine the Job output.  
+   
+         If the job was successful, jobs are working and you can retry the Data  
+         Guard Manager operation that failed.  
+   
+         If the job failed, you must troubleshoot this problem and fix it  
+         before continuing with Data Guard Manager. 
+   
+  4)  If problems persist, obtain additional information and log a  
+      Support Request (iTAR). 
+   
+       If everything in the previous steps is OK, and Data Guard Manager  
+       continues to fail, additional information is required to diagnose the  
+       problem. The following two items must be obtained and submitted to  
+       Oracle Support Services: 
+   
+       a)  OEM client tracing. 
+   
+           For example, if you encountered this error while running the 
+           Create Configuration wizard, the Create Configuration wizard must 
+           be run again in trace mode. This can be done by starting OEM from a 
+           command prompt (i.e., not the Windows NT start menu) as follows: 
+   
+               oemapp trace console 
+   
+           Client tracing messages will appear in the command window from  
+           which this command is run. Data Guard Manager should be started and 
+           the Create Configuration wizard should then be run up to the point  
+           where the error occurs. All tracing messages from Create  
+           Configuration wizard start-up to this point should then be captured 
+           and saved into a file. 
+   
+       b)  Data Guard job output 
+   
+           The output from any failed Data Guard jobs must be captured. This  
+           can be done as follows: 
+           1)  Select the Jobs icon in the OEM Console tree. 
+           2)  Select the History tab. 
+           3)  Double-click on the latest "DataGuardCtrlXXXX" job that has a  
+               Failed status. 
+           4)  An Edit Job window will pop up; double-click on the Failed line 
+               to obtain the output. 
+           5)  Put the output into a file. 
+   
+       If a Data Guard Manager bug is submitted, the tracing output and the  
+       job output will be required. 

@@ -1,0 +1,55 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Enterprise Manager Console</title>
+</head>		
+
+<body bgcolor="#FFFFFF" link=blue alink=red vlink=blue>
+<div align="center">
+<table height="45" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="40"><img src="dv_left.gif" width="40" height="45" border="0" alt=""></td><td width="520" align="center" valign="middle" background="dv_mid.gif">
+<font face="Arial" size="+2" color="White"><b>Deployment Templates</b></font></td>
+<td width="40"><a href="dv_repl_matl.htm"><img src="dv_rightmnu.gif" width="40" height="45" border="0" alt="Return to previous screen"></a></td>
+</tr>
+</table>
+<table border=0 width="600">
+	<tr>
+	<td colspan="3"><font size="1">
+		<a href="dv_repl_matl.htm">Materialized View Replication</a>&gt;Deployment Templates
+		</font>
+	</td>
+	</tr>
+    <tr>
+        <td><b>Deployment Templates</b> enable you to define a
+        collection of materialized view definitions at a master site and
+        use parameters in the definitions so that the materialized views
+        can be customized for individual users.</td>
+    </tr>
+    <tr>
+        <td>To create a deployment template on a master site:
+		<ol>
+		<li><a name=SETUP_MASTER_SITES></a>Click <a href="#SETUP_MASTER_SITES">Setup Master Sites...</a> to set up the master site, if not yet complete.
+		<li><a name=CREATE_MASTER_GROUP></a>If you want to include updatable materialized views in the template, 
+                              their base tables must be in Master Group. <br>
+		    Click <a href="#CREATE_MASTER_GROUP">Create Master Group...</a> to create a master group that will manage the replicated objects. 
+		<li><a name=CREATE_TEMPLATE></a>Click <a href="#CREATE_TEMPLATE">Create Template...</a> to launch the wizard that helps you create the deployment template.
+		</ol>
+To customize the template for individual users and
+        deploy it to materialized view sites:
+		<ol>
+		<li><a name=OFFLINE_INSTANTIATION_WIZARD></a>Click <a href="#OFFLINE_INSTANTIATION_WIZARD">Template Script Generation...</a> to complete the generation of offline template scripts.
+		<li>Distribute instantiation files to each user. The
+        users can execute the script on the materialized view site using
+        SQL*Plus to create the materialized view environment.
+		
+		</ol>
+<font color="#008080">To learn more
+        about Deployment Templates, click the <b>Help</b> button.</font>
+        </td>
+    </tr>
+</table>
+</div>
+</body>
+</html>

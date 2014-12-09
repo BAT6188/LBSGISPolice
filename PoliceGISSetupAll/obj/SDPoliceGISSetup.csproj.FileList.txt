@@ -1,0 +1,16 @@
+bin\Debug\SDPoliceGISSetup.exe
+bin\Debug\SDPoliceGISSetup.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\SDPoliceGISSetup.Form1.resources
+obj\Debug\SDPoliceGISSetup.Properties.Resources.resources
+obj\Debug\SDPoliceGISSetup.csproj.GenerateResource.Cache
+obj\Debug\SDPoliceGISSetup.exe
+obj\Debug\SDPoliceGISSetup.pdb
+bin\Release\SDPoliceGISSetup.exe
+bin\Release\SDPoliceGISSetup.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\SDPoliceGISSetup.Form1.resources
+obj\Release\SDPoliceGISSetup.Properties.Resources.resources
+obj\Release\SDPoliceGISSetup.csproj.GenerateResource.Cache
+obj\Release\SDPoliceGISSetup.exe
+obj\Release\SDPoliceGISSetup.pdb

@@ -1,0 +1,605 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>4 Oracle Database Client Postinstallation&nbsp;Tasks</title>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii" />
+<meta http-equiv="Content-Language" content="en" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta name="robots" content="all" scheme="http://www.robotstxt.org/" />
+<meta name="Generator" content="Oracle DARB XHTML converter - Version 4.5 Build 272" />
+<meta name="Date" content="August 18, 2005 8:11:28" />
+<meta name="doctitle" content="Oracle&reg; Database Client Installation Guide 10g Release 2 (10.2) for Microsoft Windows (32-Bit)" />
+<meta name="partno" content="B14312-01" />
+<meta name="docid" content="NTCLI" />
+<link rel="Start" href="../../index.htm" title="Home" type="text/html" />
+<link rel="Copyright" href="../../dcommon/html/cpyr.htm" title="Copyright" type="text/html" />
+<link rel="Stylesheet" href="../../dcommon/css/blafdoc.css" title="Default" type="text/css" />
+<link rel="Contents" href="toc.htm" title="Contents" type="text/html" />
+<link rel="Index" href="index.htm" title="Index" type="text/html" />
+<link rel="Glossary" href="glossary.htm" title="Glossary" type="text/html" />
+<link rel="Prev" href="install.htm" title="Previous" type="text/html" />
+<link rel="Next" href="deinstall.htm" title="Next" type="text/html" />
+<link rel="alternate" href="../b14312.pdf" title="PDF version" type="application/pdf" />
+</head>
+<body>
+<div class="header">
+<div class="zz-skip-header"><a name="top" id="top" href="#BEGIN">Skip Headers</a></div>
+<table class="simple oac_no_warn" summary="" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td align="left" valign="top"><b>Oracle&reg; Database Client Installation Guide<br />
+10<i>g</i> Release 2 (10.2) for Microsoft Windows (32-Bit)</b><br />
+Part Number B14312-01</td>
+<td valign="bottom" align="right">
+<table class="icons oac_no_warn" summary="" cellspacing="0" cellpadding="0" width="245">
+<tr>
+<td align="center" valign="top"><a href="../../index.htm"><img src="../../dcommon/gifs/doclib.gif" alt="Go to Documentation Home" border="0" /><br />
+<span class="icon">Home</span></a></td>
+<td align="center" valign="top"><a href="../../nav/portal_booklist.htm"><img src="../../dcommon/gifs/booklist.gif" alt="Go to Book List" border="0" /><br />
+<span class="icon">Book List</span></a></td>
+<td align="center" valign="top"><a href="toc.htm"><img src="../../dcommon/gifs/toc.gif" alt="Go to Table of Contents" border="0" /><br />
+<span class="icon">Contents</span></a></td>
+<td align="center" valign="top"><a href="index.htm"><img src="../../dcommon/gifs/index.gif" alt="Go to Index" border="0" /><br />
+<span class="icon">Index</span></a></td>
+<td align="center" valign="top"><a href="../../dcommon/html/feedback.htm"><img src="../../dcommon/gifs/feedbck2.gif" alt="Go to Feedback page" border="0" /><br />
+<span class="icon">Feedback</span></a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<hr />
+<table class="simple oac_no_warn" summary="" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td align="left" valign="top">
+<table class="simple oac_no_warn" summary="" cellspacing="0" cellpadding="0" align="left" width="98">
+<tr>
+<td align="center" valign="top"><a href="install.htm"><img src="../../dcommon/gifs/leftnav.gif" alt="Go to previous page" border="0" /><br />
+<span class="icon">Previous</span></a></td>
+<td align="center" valign="top"><a href="deinstall.htm"><img src="../../dcommon/gifs/rightnav.gif" alt="Go to next page" border="0" /><br />
+<span class="icon">Next</span></a></td>
+</tr>
+</table>
+</td>
+<td align="right" valign="top"><a href="../b14312.pdf"><font size="-2">View PDF</font></a></td>
+</tr>
+</table>
+<a name="BEGIN" id="BEGIN"></a></div>
+<div class="IND"><!-- End Header --><a id="CHDEBCCC" name="CHDEBCCC"></a><a id="BHACBJFH" name="BHACBJFH"></a>
+<h1 class="chapter"><span class="secnum">4</span> <span class="bold"><a name="NTCLI004" id="NTCLI004"></a></span> Oracle Database Client Postinstallation&nbsp;Tasks</h1>
+<p>This chapter describes the following postinstallation tasks:</p>
+<ul>
+<li type="disc">
+<p><a href="#CACHGAFB">Required Postinstallation Tasks</a></p>
+</li>
+<li type="disc">
+<p><a href="#CACJIACC">Recommended Postinstallation Tasks</a></p>
+</li>
+<li type="disc">
+<p><a href="#CACIDIFI">Required Product-Specific Postinstallation Task&#x2014;Configuring Oracle Net Services</a></p>
+</li>
+</ul>
+<div align="center">
+<div class="inftblnote"><br />
+<table class="Note oac_no_warn" summary="This is a layout table to format a tip" title="This is a layout table to format a tip" dir="ltr" border="1" width="80%" frame="hsides" rules="groups" cellpadding="3" cellspacing="0">
+<tbody>
+<tr>
+<td align="left">
+<p class="notep1">Note:</p>
+This chapter describes basic configuration only. See <span class="italic">Oracle Database Platform Guide for Microsoft Windows (32-Bit)</span> and product-specific administration and tuning guides for more sophisticated configuration and tuning information.</td>
+</tr>
+</tbody>
+</table>
+<br /></div>
+<!-- class="inftblnote --></div>
+<a id="CACHGAFB" name="CACHGAFB"></a>
+<div class="sect1"><!-- infolevel="all" infotype="General" --><a id="sthref153" name="sthref153"></a>
+<h2 class="sect1"><span class="secnum">4.1</span> Required Postinstallation Tasks</h2>
+<p>This section covers the following topics:</p>
+<ul>
+<li type="disc">
+<p><a href="#CHDCJFFA">Downloading and Installing Patches</a></p>
+</li>
+<li type="disc">
+<p><a href="#CHDHHJHH">Updating Instant Client</a></p>
+</li>
+</ul>
+<a id="CHDCJFFA" name="CHDCJFFA"></a>
+<div class="sect2"><!-- infolevel="all" infotype="General" --><a id="sthref154" name="sthref154"></a>
+<h3 class="sect2"><span class="secnum">4.1.1</span> Downloading and Installing Patches</h3>
+<p><a id="sthref155" name="sthref155"></a><a id="sthref156" name="sthref156"></a><a id="sthref157" name="sthref157"></a>To download required patches, check <a id="ABC4973756" name="ABC4973756"></a>the Oracle<span class="italic">Metalink</span> Web site <a id="sthref158" name="sthref158"></a>for required patches for your installation. Doing so ensures that you have the latest update of Oracle Database Client.</p>
+<div align="center">
+<div class="inftblnote"><br />
+<table class="Note oac_no_warn" summary="This is a layout table to format a note" title="This is a layout table to format a note" dir="ltr" border="1" width="80%" frame="hsides" rules="groups" cellpadding="3" cellspacing="0">
+<tbody>
+<tr>
+<td align="left">
+<p class="notep1">Note:</p>
+You cannot update Instant Client by downloading a patch. Use the procedure under <a href="#CHDHHJHH">"Updating Instant Client"</a> to update Instant Client.</td>
+</tr>
+</tbody>
+</table>
+<br /></div>
+<!-- class="inftblnote --></div>
+<ol type="1" start="1">
+<li>
+<p>Use a Web browser to view the Oracle<span class="italic">Metalink</span> Web site:</p>
+<p><code><a href="http://metalink.oracle.com">http://metalink.oracle.com</a></code></p>
+</li>
+<li>
+<p>Log in to Oracle<span class="italic">Metalink</span>.</p>
+<div align="center">
+<div class="inftblnote"><br />
+<table class="Note oac_no_warn" summary="This is a layout table to format a note" title="This is a layout table to format a note" dir="ltr" border="1" width="80%" frame="hsides" rules="groups" cellpadding="3" cellspacing="0">
+<tbody>
+<tr>
+<td align="left">
+<p class="notep1">Note:</p>
+If you are not an Oracle<span class="italic">Metalink</span> registered user, then click <span class="bold">Register for MetaLink!</span> and follow the registration instructions.</td>
+</tr>
+</tbody>
+</table>
+<br /></div>
+<!-- class="inftblnote --></div>
+</li>
+<li>
+<p>On the main Oracle<span class="italic">Metalink</span> page, click <span class="bold">Patches</span>.</p>
+</li>
+<li>
+<p>Select <span class="bold">Simple Search</span>.</p>
+</li>
+<li>
+<p>Specify the following information, then click <span class="bold">Go</span>:</p>
+<ul>
+<li type="disc">
+<p>In the <span class="bold">Search By</span> field, choose Product or Family, then specify <code>RDBMS Server</code></p>
+</li>
+<li type="disc">
+<p>In the <span class="bold">Release</span> field, specify the current release number</p>
+</li>
+<li type="disc">
+<p>In the <span class="bold">Patch Type</span> field, specify Patchset/Minipack</p>
+</li>
+<li type="disc">
+<p>In the <span class="bold">Platform or Language</span> field, select your platform</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Open the patch ReadMe file, which you can access by clicking the <span class="bold">View ReadMe</span> icon, and follow the installation instructions.</p>
+<p>Some patches install with Oracle Universal Installer; others require special procedures. Oracle recommends that you always read the ReadMe before proceeding.</p>
+</li>
+<li>
+<p>Return to the Patch Set page, click <span class="bold">Download</span>, and save the file on the system.</p>
+</li>
+<li>
+<p>Use an <code>unzip</code> utility to uncompress the Oracle patches that you downloaded from Oracle<span class="italic">MetaLink</span>. <a id="sthref159" name="sthref159"></a></p>
+</li>
+</ol>
+</div>
+<!-- class="sect2" -->
+<a id="CHDHHJHH" name="CHDHHJHH"></a>
+<div class="sect2"><!-- infolevel="all" infotype="General" --><a id="sthref160" name="sthref160"></a>
+<h3 class="sect2"><span class="secnum">4.1.2</span> Updating Instant Client</h3>
+<p><a id="sthref161" name="sthref161"></a><a id="sthref162" name="sthref162"></a><a id="sthref163" name="sthref163"></a><a id="sthref164" name="sthref164"></a>To update Instant Client:</p>
+<ol type="1" start="1">
+<li>
+<p>Download Instant Client from Oracle Technology Network (<code><a href="http://www.oracle.com/technology/index.html">http://www.oracle.com/technology/index.html</a></code>).</p>
+</li>
+<li>
+<p>Place the new files directly on top of the previous files.</p>
+<p>If you place the files into a different directory (and remove the previous files), be sure to update your <code>PATH</code> environment variable setting to reflect the new location.</p>
+</li>
+</ol>
+</div>
+<!-- class="sect2" --></div>
+<!-- class="sect1" -->
+<a id="CACJIACC" name="CACJIACC"></a>
+<div class="sect1"><!-- infolevel="all" infotype="General" --><a id="sthref165" name="sthref165"></a>
+<h2 class="sect1"><span class="secnum">4.2</span> Recommended Postinstallation Tasks</h2>
+<p><a id="ABC4970905" name="ABC4970905"></a>Oracle recommends that you perform the tasks in the following sections after completing an installation:</p>
+<ul>
+<li type="disc">
+<p><a href="#CHDCGBIF">Configuring Instant Client Light</a></p>
+</li>
+<li type="disc">
+<p><a href="#CHDBIHEE">Connecting Oracle Database Client to an Oracle Database</a></p>
+</li>
+<li type="disc">
+<p><a href="#CHDGAFAG">Connecting Instant Client or Instant Client Light to an Oracle Database</a></p>
+</li>
+<li type="disc">
+<p><a href="#CIHHDICA">Setting Up User Accounts</a></p>
+</li>
+<li type="disc">
+<p><a href="#CBHDGHGI">Running Oracle Enterprise Manager Java Console</a></p>
+</li>
+<li type="disc">
+<p><a href="#BABGDIBJ">Using Oracle9<span class="italic">i</span> Language and Definition Files with Oracle Database 10<span class="italic">g</span> Release 2 (10.2)</a></p>
+</li>
+</ul>
+<a id="CHDCGBIF" name="CHDCGBIF"></a>
+<div class="sect2"><!-- infolevel="all" infotype="General" --><a id="sthref166" name="sthref166"></a>
+<h3 class="sect2"><span class="secnum">4.2.1</span> Configuring Instant Client Light</h3>
+<p><a id="sthref167" name="sthref167"></a><a id="sthref168" name="sthref168"></a>To configure Instant Client Light, you need to make it the default instead of Instant Client.</p>
+<p>To configure Instant Client Light:</p>
+<ol type="1" start="1">
+<li>
+<p>In the <code><span class="codeinlineitalic">ORACLE_BASE</span></code><code>\</code><code><span class="codeinlineitalic">ORACLE_CLIENT_HOME</span></code> directory, either rename or delete the <code>oraociei10.dll</code> file.</p>
+<p>The <code>oraociei10.dll</code> file is the main binary for Instant Client.</p>
+</li>
+<li>
+<p>From the <code><span class="codeinlineitalic">ORACLE_BASE</span></code><code>\</code><code><span class="codeinlineitalic">ORACLE_CLIENT_HOME</span></code><code>\install\instantclient\light</code> directory, copy the <code>oraociicus10.dll</code> file to the <code><span class="codeinlineitalic">ORACLE_BASE</span></code><code>\</code><code><span class="codeinlineitalic">ORACLE_CLIENT_HOME</span></code> directory.</p>
+<p>The <code>oraociicus10.dll</code> file is the binary for Instant Client Light.</p>
+</li>
+<li>
+<p>Make sure that the PATH environment variable points to the <code><span class="codeinlineitalic">ORACLE_BASE</span></code><code>\</code><code><span class="codeinlineitalic">ORACLE_CLIENT_HOME</span></code> directory.</p>
+</li>
+</ol>
+<div align="center">
+<div class="inftblnote"><br />
+<table class="Note oac_no_warn" summary="This is a layout table to format a note" title="This is a layout table to format a note" dir="ltr" border="1" width="80%" frame="hsides" rules="groups" cellpadding="3" cellspacing="0">
+<tbody>
+<tr>
+<td align="left">
+<p class="notep1">Note:</p>
+If the Instant Client <code>PATH</code> is not set, applications will try to load the regular Instant Client libraries first. If the applications cannot find these, they will attempt to load the Instant Client Light library next.</td>
+</tr>
+</tbody>
+</table>
+<br /></div>
+<!-- class="inftblnote --></div>
+</div>
+<!-- class="sect2" -->
+<a id="CHDBIHEE" name="CHDBIHEE"></a>
+<div class="sect2"><!-- infolevel="all" infotype="General" --><a id="sthref169" name="sthref169"></a>
+<h3 class="sect2"><span class="secnum">4.2.2</span> Connecting Oracle Database Client to an Oracle Database</h3>
+<p><a id="sthref170" name="sthref170"></a><a id="sthref171" name="sthref171"></a><a id="sthref172" name="sthref172"></a><a id="sthref173" name="sthref173"></a>After <a id="sthref174" name="sthref174"></a><a id="sthref175" name="sthref175"></a><a id="sthref176" name="sthref176"></a>you run Oracle Universal Installer to install Oracle Database Client, you need to use Net Configuration Assistant (NetCA) to configure Oracle Database Client to connect to an Oracle database. At the end of installation, Oracle Universal Installer prompts you to configure the database connection. If you bypassed that option, or if you need to change the database connection later on, use the following procedure if you installed the <span class="bold"><a id="sthref177" name="sthref177"></a>Administrator</span>, <span class="bold"><a id="sthref178" name="sthref178"></a>Runtime</span>, or <span class="bold"><a id="sthref179" name="sthref179"></a>Custom</span> installation types.</p>
+<div align="center">
+<div class="inftblnotealso"><br />
+<table class="NoteAlso oac_no_warn" summary="This is a layout table to format a tip" title="This is a layout table to format a tip" dir="ltr" border="1" width="80%" frame="hsides" rules="groups" cellpadding="3" cellspacing="0">
+<tbody>
+<tr>
+<td align="left">
+<p class="notep1">See Also:</p>
+<a href="#CHDGAFAG">"Connecting Instant Client or Instant Client Light to an Oracle Database"</a> if you had installed the <span class="bold">Instant Client</span> installation type</td>
+</tr>
+</tbody>
+</table>
+<br /></div>
+<!-- class="inftblnotealso --></div>
+<p>To connect Oracle Database Client to an Oracle Database:</p>
+<ol type="1" start="1">
+<li>
+<p>From the <span class="bold">Start</span> menu, choose <span class="bold">Oracle -</span> <span class="bolditalic">HOME_NAME</span>, then <span class="bold">Configuration and Migration Tools</span>, then <span class="bold">Net Configuration Assistant</span>.</p>
+</li>
+<li><a id="CHDCHHBF" name="CHDCHHBF"></a>
+<p>In the Welcome window, select <span class="bold">Local Net Service Name configuration</span> and click <span class="bold">Next</span>.</p>
+</li>
+<li>
+<p>In the Net Service Name Configuration window, select <span class="bold">Add</span> and click <span class="bold">Next</span>.</p>
+</li>
+<li>
+<p>In the Service Name window, enter the name of the Oracle database to which you want to connect and click <span class="bold">Next</span>.</p>
+</li>
+<li>
+<p>In the Select Protocols window, select the protocol you want and click <span class="bold">Next</span>.</p>
+</li>
+<li>
+<p>In the Protocol window, depending on the protocol you selected, enter the appropriate information and click <span class="bold">Next</span>.</p>
+</li>
+<li>
+<p>In the Net Test window, select whether you want to test the connection, and click <span class="bold">Next</span>.</p>
+</li>
+<li>
+<p>In the Net Service Name window, enter a name for the net service and click <span class="bold">Next</span>.</p>
+</li>
+<li>
+<p>Answer the remaining prompts, which allow you to configure another net service name, and then click <span class="bold">Finish</span> to complete the configuration.</p>
+<p>Net Configuration Assistant creates the <code>tnsnames.ora</code> file in the following location:</p>
+<pre xml:space="preserve" class="oac_no_warn"><span class="italic">ORACLE_BASE</span>\<span class="italic">ORACLE_HOME</span>\network\admin\tnsnames.ora
+</pre></li>
+</ol>
+<div align="center">
+<div class="inftblnotealso"><br />
+<table class="NoteAlso oac_no_warn" summary="This is a layout table to format a tip" title="This is a layout table to format a tip" dir="ltr" border="1" width="80%" frame="hsides" rules="groups" cellpadding="3" cellspacing="0">
+<tbody>
+<tr>
+<td align="left">
+<p class="notep1">See Also:</p>
+<span class="italic">Oracle Database Net Services Administrator's Guide</span> for more information on Oracle Net Configuration Assistant</td>
+</tr>
+</tbody>
+</table>
+<br /></div>
+<!-- class="inftblnotealso --></div>
+</div>
+<!-- class="sect2" -->
+<a id="CHDGAFAG" name="CHDGAFAG"></a>
+<div class="sect2"><!-- infolevel="all" infotype="General" --><a id="sthref180" name="sthref180"></a>
+<h3 class="sect2"><span class="secnum">4.2.3</span> Connecting Instant Client or Instant Client Light to an Oracle Database</h3>
+<p><a id="sthref181" name="sthref181"></a><a id="sthref182" name="sthref182"></a><a id="sthref183" name="sthref183"></a>Before you can <a id="sthref184" name="sthref184"></a><a id="sthref185" name="sthref185"></a>connect Instant Client or Instant Client Light to an Oracle database, make sure that the <code>PATH</code> environment variable specifies the directory that contains the Instant Client libraries. (By default, Oracle Universal Installer updates the <code>PATH</code> variable for you during the installation process, but another user may have inadvertently reset it since then.) This directory is the Oracle home directory that you specified during installation.</p>
+<p>For example, for regular Instant Client, it is in:</p>
+<pre xml:space="preserve" class="oac_no_warn">C:\&gt; oracle\products\10.2.0\client_1
+
+</pre>
+<p>For Instant Client Light, it is in:</p>
+<pre xml:space="preserve" class="oac_no_warn">C:\&gt; oracle\products\10.2.0\client_1\light
+
+</pre>
+<p>After you have checked the <code>PATH</code> environment variable, you can use any of the following methods to specify Oracle Database connection information for client applications:</p>
+<ul>
+<li type="disc">
+<p><a href="#CHDCJBJJ">Specifying a Connection by Using the Easy Connect Naming Method</a></p>
+</li>
+<li type="disc">
+<p><a href="#CHDFHDJA">Specifying a Connection by Configuring a tnsnames.ora File</a></p>
+</li>
+<li type="disc">
+<p><a href="#CHDBBEAD">Specifying a Connection by Using an Empty Connect String and the LOCAL Variable</a></p>
+</li>
+</ul>
+<a id="CHDCJBJJ" name="CHDCJBJJ"></a>
+<div class="sect3"><!-- infolevel="all" infotype="General" --><a id="sthref186" name="sthref186"></a>
+<h4 class="sect3"><span class="secnum">4.2.3.1</span> Specifying a Connection by Using the Easy Connect Naming Method</h4>
+<p><a id="sthref187" name="sthref187"></a><a id="sthref188" name="sthref188"></a>You can specify a connection address to an Oracle Database directly from a client application, without having to configure a <code>tnsnames</code> setting for the Instant Client. This method is convenient in that you do not have to create and manage a <code>tnsnames.ora</code> file. However, your application users will need to specify the host name and port number when they want to log in to your application.</p>
+<p>For example, suppose you are running SQL*Plus on the client machine and want to connect to the sales_us <code>database</code>, which is located on a server whose host name is <code>shobeen</code> and port number is 1521. If you launch SQL*Plus from the command line, you could log in as follows:</p>
+<pre xml:space="preserve" class="oac_no_warn">Enter user-name: system@admin@//shobeen:1521/sales_us
+
+</pre>
+<p>Similarly, in your application code, you can use <a id="sthref189" name="sthref189"></a><a id="sthref190" name="sthref190"></a>Oracle Call Interface net naming methods to create the Instant Client-to-Oracle Database connection. For example, the following formats in the <code>OCIServerAttach()</code> call specify the connection information:</p>
+<ul>
+<li type="disc">
+<p>Specify a SQL connect URL string using the following format:</p>
+<pre xml:space="preserve" class="oac_no_warn">//<span class="italic">host</span>[<span class="italic">:port</span>][/<span class="italic">service_name</span>]
+
+</pre>
+<p>For example:</p>
+<pre xml:space="preserve" class="oac_no_warn">//shobeen:1521/sales_us
+
+</pre></li>
+<li type="disc">
+<p>Alternatively, you can specify the SQL connect information as an Oracle Net keyword-value pair. For example:</p>
+<pre xml:space="preserve" class="oac_no_warn">"(DESCRIPTION=(ADDRESS=(PROTOCOL=tcp) (HOST=shobeen) (PORT=1521))(CONNECT_DATA=(SERVICE_NAME=sales_us)))"
+</pre>
+<div align="center">
+<div class="inftblnotealso"><br />
+<table class="NoteAlso oac_no_warn" summary="This is a layout table to format a tip" title="This is a layout table to format a tip" dir="ltr" border="1" width="80%" frame="hsides" rules="groups" cellpadding="3" cellspacing="0">
+<tbody>
+<tr>
+<td align="left">
+<p class="notep1">See Also:</p>
+<span class="italic">Oracle Call Interface Programmer's Guide</span> for more information on using Oracle Call Interface Instant Client</td>
+</tr>
+</tbody>
+</table>
+<br /></div>
+<!-- class="inftblnotealso --></div>
+</li>
+</ul>
+</div>
+<!-- class="sect3" -->
+<a id="CHDFHDJA" name="CHDFHDJA"></a>
+<div class="sect3"><!-- infolevel="all" infotype="General" --><a id="sthref191" name="sthref191"></a>
+<h4 class="sect3"><span class="secnum">4.2.3.2</span> Specifying a Connection by Configuring a tnsnames.ora File</h4>
+<p><a id="sthref192" name="sthref192"></a><a id="sthref193" name="sthref193"></a>By default, when you install Instant Client, Oracle Universal Installer does not include a sample <code>tnsnames.ora</code> file nor the Oracle Net Configuration Assistant utility normally used to create it. However, if you want to shield users from having to specify actual host names and port numbers, you may want to consider using a <code>tnsnames.ora</code> file to set the Instant Client-to-Oracle Database connection.</p>
+<p>You can create the <code>tnsnames.ora</code> file manually by copying and modifying a version of this file from another Oracle installation, or you can use Oracle Net Configuration Assistant to create and manage it for you.</p>
+<p>To install <a id="sthref194" name="sthref194"></a>Oracle Net Configuration Assistant:</p>
+<ol type="1" start="1">
+<li>
+<p>Run Oracle Universal Installer.</p>
+</li>
+<li>
+<p>Select the <span class="bold">Custom</span> installation type.</p>
+</li>
+<li>
+<p>In the Available Product Components list, select <span class="bold">Oracle Network Utilities</span> and click <span class="bold">Next</span>.</p>
+</li>
+<li>
+<p>In the Summary window, click <span class="bold">Install</span>, then click <span class="bold">Exit</span> and <span class="bold">Yes</span> to exit Oracle Universal Installer.</p>
+</li>
+</ol>
+<p>After you have installed Oracle Net Configuration Assistant, follow the procedure in <a href="#CHDBIHEE">"Connecting Oracle Database Client to an Oracle Database"</a> for each client computer.</p>
+<p>Then, on each client computer, configure either of the following settings:</p>
+<ul>
+<li type="disc">
+<p>Set the <code>TNS_ADMIN<a id="sthref195" name="sthref195"></a><a id="sthref196" name="sthref196"></a><a id="sthref197" name="sthref197"></a></code> environment variable to specify the location of the <code>tnsnames.ora</code> file and specify a service name from that file.</p>
+</li>
+<li type="disc">
+<p>Place the <code>tnsnames.ora</code> file in the <code><span class="codeinlineitalic">ORACLE_BASE\ORACLE_HOME</span></code><code>\network\admin</code> directory, and make sure that the <code>ORACLE_HOME</code> environment has been set to this Oracle home.</p>
+<div align="center">
+<div class="inftblnotealso"><br />
+<table class="NoteAlso oac_no_warn" summary="This is a layout table to format a tip" title="This is a layout table to format a tip" dir="ltr" border="1" width="80%" frame="hsides" rules="groups" cellpadding="3" cellspacing="0">
+<tbody>
+<tr>
+<td align="left">
+<p class="notep1">See Also:</p>
+<span class="italic">Oracle Call Interface Programmer's Guide</span> for more information on Oracle Call Interface Instant Client connection strings</td>
+</tr>
+</tbody>
+</table>
+<br /></div>
+<!-- class="inftblnotealso --></div>
+</li>
+</ul>
+</div>
+<!-- class="sect3" -->
+<a id="CHDBBEAD" name="CHDBBEAD"></a>
+<div class="sect3"><!-- infolevel="all" infotype="General" --><a id="sthref198" name="sthref198"></a>
+<h4 class="sect3"><span class="secnum">4.2.3.3</span> Specifying a Connection by Using an Empty Connect String and the LOCAL Variable</h4>
+<p>You can set the connect string to an <a id="sthref199" name="sthref199"></a><a id="sthref200" name="sthref200"></a>empty connect string (""), and then set the <a id="sthref201" name="sthref201"></a><a id="sthref202" name="sthref202"></a><a id="sthref203" name="sthref203"></a><code>LOCAL</code> environment variable to one of the following values:</p>
+<ul>
+<li type="disc">
+<p>A direct address, as described under <a href="#CHDCJBJJ">"Specifying a Connection by Using the Easy Connect Naming Method"</a></p>
+</li>
+<li type="disc">
+<p>Oracle Net keyword-value pair</p>
+</li>
+<li type="disc">
+<p>A <code>tnsnames.ora</code> entry and <code>TNS_ADMIN</code> is set to the location of <code>tnsnames.ora</code></p>
+</li>
+<li type="disc">
+<p>A <code>tnsnames.ora</code> entry and the following:</p>
+<ul>
+<li type="circle">
+<p><code>tnsnames.ora</code> file located in <code><span class="codeinlineitalic">ORACLE_HOME</span></code><code>/network/admin</code></p>
+</li>
+<li type="circle">
+<p>The <code>ORACLE_HOME</code> environment variable set to this Oracle home</p>
+</li>
+</ul>
+</li>
+</ul>
+<p><a id="sthref204" name="sthref204"></a>This method allows your applications to specify internally a connection string if the application code itself uses an empty connection string. The benefit of an empty connect string is that the application itself does not need to specify the <code>tnsnames.ora</code> entry. Instead, when a user invokes the application, the location of the database is determined by a script or the environment, depending on where you have set the <code>LOCAL</code> environment variable. The disadvantage of using empty strings is that you need to configure this additional information in order for your application to connect to the database.</p>
+</div>
+<!-- class="sect3" --></div>
+<!-- class="sect2" -->
+<a id="CIHHDICA" name="CIHHDICA"></a>
+<div class="sect2"><!-- infolevel="all" infotype="General" --><a id="sthref205" name="sthref205"></a>
+<h3 class="sect2"><span class="secnum">4.2.4</span> <a id="sthref206" name="sthref206"></a><a id="sthref207" name="sthref207"></a>Setting Up User Accounts</h3>
+<p>For information about setting up additional user accounts, see <span class="italic">Oracle Database Platform Guide for Microsoft Windows (32-Bit)</span>.</p>
+</div>
+<!-- class="sect2" -->
+<a id="CBHDGHGI" name="CBHDGHGI"></a>
+<div class="sect2"><!-- infolevel="all" infotype="General" --><a id="sthref208" name="sthref208"></a>
+<h3 class="sect2"><span class="secnum">4.2.5</span> Running Oracle Enterprise Manager Java Console</h3>
+<p>In addition to <a id="sthref209" name="sthref209"></a><a id="sthref210" name="sthref210"></a>using Oracle Enterprise Manager Database Control or Grid Control, you can use the Oracle Enterprise Manager Java Console to manage databases from this release or previous releases. You install the Java Console by using the Administrator installation type.<a id="sthref211" name="sthref211"></a></p>
+<div align="center">
+<div class="inftblnote"><br />
+<table class="Note oac_no_warn" summary="This is a layout table to format a note" title="This is a layout table to format a note" dir="ltr" border="1" width="80%" frame="hsides" rules="groups" cellpadding="3" cellspacing="0">
+<tbody>
+<tr>
+<td align="left">
+<p class="notep1">Note:</p>
+Oracle recommends that you use Database Control in preference to the Java Console when possible.</td>
+</tr>
+</tbody>
+</table>
+<br /></div>
+<!-- class="inftblnote --></div>
+<p>To start the Java Console, follow these steps:</p>
+<ol type="1" start="1">
+<li>
+<p>From the <span class="bold">Start</span> menu, choose <span class="bold">Run</span>.</p>
+</li>
+<li>
+<p>Enter the following command and click <span class="bold">OK</span>:</p>
+<pre xml:space="preserve" class="oac_no_warn">oemapp console
+</pre></li>
+</ol>
+<div align="center">
+<div class="inftblnote"><br />
+<table class="Note oac_no_warn" summary="This is a layout table to format a note" title="This is a layout table to format a note" dir="ltr" border="1" width="80%" frame="hsides" rules="groups" cellpadding="3" cellspacing="0">
+<tbody>
+<tr>
+<td align="left">
+<p class="notep1">Note:</p>
+You can also start the Oracle Enterprise Manager Java Console from the Start menu. From the <span class="bold">Start</span> menu, choose <span class="bold">Programs</span>, then <span class="bold">Oracle -</span> <span class="bolditalic">HOME_NAME</span>, then <span class="bold">Enterprise Manager Console</span>.<a id="sthref212" name="sthref212"></a></td>
+</tr>
+</tbody>
+</table>
+<br /></div>
+<!-- class="inftblnote --></div>
+</div>
+<!-- class="sect2" -->
+<a id="BABGDIBJ" name="BABGDIBJ"></a>
+<div class="sect2"><!-- infolevel="all" infotype="General" --><a id="sthref213" name="sthref213"></a>
+<h3 class="sect2"><span class="secnum">4.2.6</span> Using Oracle9<span class="italic">i</span> Language and Definition Files with Oracle Database 10<span class="italic">g</span> Release 2 (10.2)<a id="sthref214" name="sthref214"></a><a id="sthref215" name="sthref215"></a><a id="sthref216" name="sthref216"></a></h3>
+<p>You can use Oracle9<span class="italic">i</span> database language and territory definition files with Oracle Database 10g release 2 (10.2). If the computer where Oracle Database is installed has been configured to use this functionality, you need to enable this functionality on each client computer as well.</p>
+<p>To enable this functionality:</p>
+<ol type="1" start="1">
+<li>
+<p>Run the <code>cr9idata.pl</code> script, by default located in <code><span class="codeinlineitalic">ORACLE_BASE</span></code><code>\</code><code><span class="codeinlineitalic">ORACLE_HOME</span></code><code>\nls\data\old</code>.</p>
+<p>If the client installation type you chose does not include this directory, you can find the <code>cr9idata.pl</code> script in the same directory path in a default Oracle Database installation.</p>
+</li>
+<li>
+<p>Set the <code><a id="sthref217" name="sthref217"></a><a id="sthref218" name="sthref218"></a>ORA_NLS10</code> environment variable to point to the directory where you installed the new language and territory definition files, which by default are in <code><span class="codeinlineitalic">ORACLE_BASE</span></code><code>\</code><code><span class="codeinlineitalic">ORACLE_HOME</span></code><code>\nls\data</code>.</p>
+</li>
+<li>
+<p>Restart Oracle Database.</p>
+</li>
+</ol>
+<div align="center">
+<div class="inftblnotealso"><br />
+<table class="NoteAlso oac_no_warn" summary="This is a layout table to format a tip" title="This is a layout table to format a tip" dir="ltr" border="1" width="80%" frame="hsides" rules="groups" cellpadding="3" cellspacing="0">
+<tbody>
+<tr>
+<td align="left">
+<p class="notep1">See Also:</p>
+<ul>
+<li type="disc">
+<p><a href="advance.htm#CHDICDJA">Appendix B, " Installing Oracle Database Client Using&nbsp;Response Files"</a> for information on response files, in which you can set the <code>b_cr9idata</code> variable and then run the response file with Oracle Universal Installer</p>
+</li>
+<li type="disc">
+<p><a href="gblsupp.htm#CEGEAADF">Appendix C, " Configuring Oracle Database Client Globalization Support"</a> for information on globalization support that is affected by this release of Oracle Database</p>
+</li>
+<li type="disc">
+<p><span class="italic">Oracle Database Globalization Support Guide</span> for information about the <code>NLS_LANG</code> parameter and Globalization Support initialization parameters</p>
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<br /></div>
+<!-- class="inftblnotealso --></div>
+</div>
+<!-- class="sect2" --></div>
+<!-- class="sect1" -->
+<a id="CACIDIFI" name="CACIDIFI"></a>
+<div class="sect1"><!-- infolevel="all" infotype="General" --><a id="sthref219" name="sthref219"></a>
+<h2 class="sect1"><span class="secnum">4.3</span> Required Product-Specific Postinstallation Task&#x2014;Configuring Oracle Net Services</h2>
+<p><a id="sthref220" name="sthref220"></a><a id="sthref221" name="sthref221"></a><a id="sthref222" name="sthref222"></a>You can configure Oracle Database Client to communicate with Oracle Net Services by adding the appropriate entries to the <code><a id="sthref223" name="sthref223"></a><a id="sthref224" name="sthref224"></a>tnsnames.ora</code> and <code>listener.ora</code> files. If you have a previous release or Oracle software, you can just copy information in the Oracle Net <code>tnsnames.ora</code> and <code>listener.ora</code> configuration files from the previous release to the corresponding files in the new release.</p>
+<div align="center">
+<div class="inftblnote"><br />
+<table class="Note oac_no_warn" summary="This is a layout table to format a note" title="This is a layout table to format a note" dir="ltr" border="1" width="80%" frame="hsides" rules="groups" cellpadding="3" cellspacing="0">
+<tbody>
+<tr>
+<td align="left">
+<p class="notep1">Note:</p>
+The default location for the <code>tnsnames.ora</code> and <code>listener.ora</code> files is the <code><span class="codeinlineitalic">ORACLE_BASE</span></code><code>\</code><code><span class="codeinlineitalic">ORACLE_HOME</span></code><code>\network\admin</code> directory.</td>
+</tr>
+</tbody>
+</table>
+<br /></div>
+<!-- class="inftblnote --></div>
+</div>
+<!-- class="sect1" --></div>
+<div class="footer">
+<hr />
+<table class="simple oac_no_warn" summary="" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td style="width: 33%;" align="left">
+<table class="simple oac_no_warn" summary="" cellspacing="0" cellpadding="0" align="left" width="98">
+<tr>
+<td align="center" valign="top"><a href="install.htm"><img src="../../dcommon/gifs/leftnav.gif" alt="Go to previous page" border="0" /><br />
+<span class="icon">Previous</span></a></td>
+<td align="center" valign="top"><a href="deinstall.htm"><img src="../../dcommon/gifs/rightnav.gif" alt="Go to next page" border="0" /><br />
+<span class="icon">Next</span></a></td>
+</tr>
+</table>
+</td>
+<td style="width: 34%;" align="center" class="copyrightlogo"><img src="../../dcommon/gifs/oracle.gif" alt="Oracle" /><br />
+<a href="../../dcommon/html/cpyr.htm"><font size="-2">Copyright&nbsp;&copy;&nbsp;1996, 2005,&nbsp;Oracle.&nbsp;All&nbsp;rights&nbsp;reserved.</font></a></td>
+<td style="width: 33%;" align="right">
+<table class="icons oac_no_warn" summary="" cellspacing="0" cellpadding="0" width="245">
+<tr>
+<td align="center" valign="top"><a href="../../index.htm"><img src="../../dcommon/gifs/doclib.gif" alt="Go to Documentation Home" border="0" /><br />
+<span class="icon">Home</span></a></td>
+<td align="center" valign="top"><a href="../../nav/portal_booklist.htm"><img src="../../dcommon/gifs/booklist.gif" alt="Go to Book List" border="0" /><br />
+<span class="icon">Book List</span></a></td>
+<td align="center" valign="top"><a href="toc.htm"><img src="../../dcommon/gifs/toc.gif" alt="Go to Table of Contents" border="0" /><br />
+<span class="icon">Contents</span></a></td>
+<td align="center" valign="top"><a href="index.htm"><img src="../../dcommon/gifs/index.gif" alt="Go to Index" border="0" /><br />
+<span class="icon">Index</span></a></td>
+<td align="center" valign="top"><a href="../../dcommon/html/feedback.htm"><img src="../../dcommon/gifs/feedbck2.gif" alt="Go to Feedback page" border="0" /><br />
+<span class="icon">Feedback</span></a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+</body>
+</html>

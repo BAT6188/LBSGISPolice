@@ -1,0 +1,46 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr">
+<title>Enterprise Manager Console</title>
+</head>		
+
+<body bgcolor="#FFFFFF" link=blue alink=red vlink=blue>
+<div align="center">
+<table height="45" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="40"><img src="../images_detailpanels/dv_left.gif" width="40" height="45" border="0" alt=""></td><td width="520" align="center" valign="middle" background="../images_detailpanels/dv_mid.gif">
+<font size="+2" color="White"><b>배치 템플리트</b></font></td>
+<td width="40"><a href="dv_repl_matl.htm"><img src="../images_detailpanels/dv_rightmnu.gif" width="40" height="45" border="0" alt="이전 화면으로 돌아가기"></a></td>
+</tr>
+</table>
+<table border=0 width="600">
+	<tr>
+	<td colspan="3"><font size="1">
+		<a href="dv_repl_matl.htm">구체화된 뷰 복제</a>&gt;배치 템플리트
+		</font>
+	</td>
+	</tr>
+    <tr>
+        <td><b>배치 템플리트</b>를 사용하여 마스터 사이트에서 구체화된 뷰 정의 모음을 정의할 수 있으며 정의 내의 매개변수를 사용하여 개별 사용자에 대한 구체화된 뷰를 사용자가 정의할 수 있습니다.</td>
+    </tr>
+    <tr>
+        <td>마스터 사이트에 배치 템플리트를 생성하려면 다음과 같이 하십시오.
+		<ol>
+		<li><a name=SETUP_MASTER_SITES></a>아직 완료되지 않은 경우에는 <a href="#SETUP_MASTER_SITES">마스터 사이트 설정...</a>을 눌러 마스터 사이트를 설정합니다.
+		<li><a name=CREATE_MASTER_GROUP></a>템플리트에 갱신 가능한 구체화된 뷰를 포함하려는 경우 이러한 뷰의 기본 테이블은 마스터 그룹이어야 합니다. <br><a href="#CREATE_MASTER_GROUP">마스터 그룹 생성...</a>을 눌러 복제된 객체를 관리할 마스터 그룹을 생성합니다. 
+		<li><a name=CREATE_TEMPLATE></a><a href="#CREATE_TEMPLATE">템플리트 생성...</a>을 눌러 배치 템플리트 생성을 도와주는 마법사를 실행합니다.
+		</ol>
+개별 사용자에 대한 템플리트를 사용자가 정의하고 구체화된 뷰 사이트에 배치하려면 다음과 같이 하십시오.
+		<ol>
+		<li><a name=OFFLINE_INSTANTIATION_WIZARD></a><a href="#OFFLINE_INSTANTIATION_WIZARD">템플리트 스크립트 생성...</a>을 눌러 오프라인 템플리트 스크립트의 생성을 완료합니다.
+		<li>인스턴스화 파일을 각 사용자에게 분배합니다. 사용자는 SQL*Plus를 사용하여 구체화된 뷰 사이트에서 스크립트를 실행하여 구체화된 뷰 환경을 생성할 수 있습니다.
+		
+		</ol>
+<font color="#008080">배치 템플리트에 대한 자세한 내용을 보려면 <b>도움말</b> 단추를 누르십시오.</font>
+        </td>
+    </tr>
+</table>
+</div>
+</body>
+</html>

@@ -1,0 +1,9 @@
+bin\Debug\DataGuide.dll
+bin\Debug\DataGuide.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DataGuide.dll
+obj\Debug\DataGuide.pdb
+bin\Debug\CommonLib.dll
+bin\Debug\Rainny.DataAccess.dll
+bin\Debug\CLC.dll
+bin\Debug\Interop.Excel.dll

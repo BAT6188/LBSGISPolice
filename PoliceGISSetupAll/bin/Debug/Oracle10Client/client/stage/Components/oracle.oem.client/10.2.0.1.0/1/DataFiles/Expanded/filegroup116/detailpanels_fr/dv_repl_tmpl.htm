@@ -1,0 +1,46 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Console Enterprise Manager</title>
+</head>		
+
+<body bgcolor="#FFFFFF" link=blue alink=red vlink=blue>
+<div align="center">
+<table height="45" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="40"><img src="../images_detailpanels/dv_left.gif" width="40" height="45" border="0" alt=""></td><td width="520" align="center" valign="middle" background="../images_detailpanels/dv_mid.gif">
+<font size="+2" color="White"><b>Modèles de déploiement</b></font></td>
+<td width="40"><a href="dv_repl_matl.htm"><img src="../images_detailpanels/dv_rightmnu.gif" width="40" height="45" border="0" alt="Retour à l'écran précédent"></a></td>
+</tr>
+</table>
+<table border=0 width="600">
+	<tr>
+	<td colspan="3"><font size="1">
+		<a href="dv_repl_matl.htm">Réplication des vues matérialisées</a>&gt;Modèles de déploiement
+		</font>
+	</td>
+	</tr>
+    <tr>
+        <td>Les <b>modèles de déploiement</b> permettent de créer un ensemble de définitions de vue matérialisée sur un site maître et d'utiliser les paramètres de ces définitions pour que les vues matérialisées puissent être personnalisées pour chaque utilisateur.</td>
+    </tr>
+    <tr>
+        <td>Pour créer un modèle de déploiement sur un site maître&nbsp;:
+		<ol>
+		<li><a name=SETUP_MASTER_SITES></a>Cliquez sur <a href="#SETUP_MASTER_SITES">Configurer les sites maîtres</a> pour configurer le site maître, si nécessaire.
+		<li><a name=CREATE_MASTER_GROUP></a>Si vous souhaitez inclure dans le modèle des vues matérialisées actualisables, leurs tables de base doivent se trouver dans le groupe maître. <br> Cliquez sur <a href="#CREATE_MASTER_GROUP">Créer un groupe maître</a> pour créer le groupe maître qui gérera les objets répliqués. 
+		<li><a name=CREATE_TEMPLATE></a>Cliquez sur <a href="#CREATE_TEMPLATE">Créer un modèle</a> pour lancer l'assistant qui vous aidera à créer le modèle de déploiement.
+		</ol>
+Pour personnaliser le modèle de chaque utilisateur et le déployer sur les sites de vues matérialisées&nbsp;:
+		<ol>
+		<li><a name=OFFLINE_INSTANTIATION_WIZARD></a>Cliquez sur <a href="#OFFLINE_INSTANTIATION_WIZARD">Génération de script de modèle</a> pour terminer la génération des scripts de modèle hors ligne.
+		<li>Distribuez les fichiers d'instanciation à chaque utilisateur. Les utilisateurs peuvent exécuter le script sur le site de vues matérialisées à l'aide de SQL* Plus pour créer l'environnement de vues matérialisées.
+		
+		</ol>
+<font color="#008080">Pour plus d'informations sur les modèles de déploiement, cliquez sur le bouton <b>Aide</b>.</font>
+        </td>
+    </tr>
+</table>
+</div>
+</body>
+</html>

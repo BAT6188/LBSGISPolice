@@ -1,0 +1,141 @@
+!Workspace
+!Version 600
+!Charset WindowsSimpChinese
+Open Table "行政界线" As 行政界线 Interactive
+Open Table "道路" As 道路 Interactive
+Open Table "次道路" As 次道路 Interactive
+Open Table "公园" As 公园 Interactive
+Open Table "建筑物" As 建筑物 Interactive
+Open Table "山脉" As 山脉 Interactive
+Open Table "水系" As 水系 Interactive
+Open Table "体育场" As 体育场 Interactive
+Open Table "信息点" As 信息点 Interactive
+Open Table "街镇面" As 街镇面 Interactive
+Open Table "主道路" As 主道路 Interactive
+Map From 信息点,行政界线,主道路,次道路,道路,体育场,
+  水系,公园,山脉,建筑物,街镇面 
+  Position (0.0520833,0.0520833) Units "in"
+  Width 5.29167 Units "in" Height 3.15625 Units "in" 
+Set Window FrontWindow() ScrollBars Off Autoscroll On
+Set Map
+  CoordSys Earth Projection 1, 104
+  Center (113.1958805,22.843787)
+  Zoom 68.31346058 Units "km"
+  Preserve Zoom Display Zoom
+  Distance Units "km" Area Units "sq km" XY Units "degree"
+Set Map
+  Layer 1
+    Display Graphic
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Zoom (0, 5) Units "km" 
+    Label Line Arrow Position Right Font ("宋体",256,9,128,16777215) Pen (1,2,0) 
+      With NAME
+      Parallel On Auto On Overlap Off Duplicates Off Offset 2
+      Visibility Zoom (0, 5) Units "km"
+  Layer 2
+    Display Graphic
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Selectable Off
+    Label Line None Position Center Font ("Arial",0,12,0) Pen (1,2,0) 
+      With NAME
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 3
+    Display Graphic
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Selectable Off
+    Zoom (0, 300) Units "km" 
+    Label Line None Position Center Font ("Arial",0,12,0) Pen (1,2,0) 
+      With NAME
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 4
+    Display Graphic
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Selectable Off
+    Zoom (0, 20) Units "km" 
+    Label Line None Position Center Font ("Arial",0,12,0) Pen (1,2,0) 
+      With NAME
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 5
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (1,1,0)  Font ("Arial",0,12,0)
+    Selectable Off
+    Label Line Arrow Position Center Font ("微软雅黑",256,10,14680288,16777215) Pen (1,2,0) 
+      With NAME
+      Parallel On Auto On Overlap Off Duplicates Off PartialSegments On Offset 2
+      Visibility Zoom (0, 15) Units "km"
+  Layer 6
+    Display Graphic
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Selectable Off
+    Zoom (0, 15) Units "km" 
+    Label Line None Position Center Font ("Arial",0,12,0) Pen (1,2,0) 
+      With NAME
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 7
+    Display Graphic
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Selectable Off
+    Zoom (0, 300) Units "km" 
+    Label Line None Position Center Font ("Arial",0,12,0) Pen (1,2,0) 
+      With NAME
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 8
+    Display Graphic
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Selectable Off
+    Zoom (0, 10) Units "km" 
+    Label Line None Position Center Font ("Arial",0,12,0) Pen (1,2,0) 
+      With NAME
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 9
+    Display Graphic
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Selectable Off
+    Zoom (0, 300) Units "km" 
+    Label Line None Position Center Font ("Arial",0,12,0) Pen (1,2,0) 
+      With NAME
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 10
+    Display Graphic
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Selectable Off
+    Zoom (0, 15) Units "km" 
+    Label Line None Position Center Font ("Arial",0,12,0) Pen (1,2,0) 
+      With OBJECTID
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 11
+    Display Graphic
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Label Line None Position Center Font ("宋体",256,12,12583008,16777215) Pen (1,2,0) 
+      With NAME
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility Zoom (10, 250) Units "km"
+Set Window FrontWindow() Printer
+ Name "Microsoft Office Document Image Writer" Orientation Portrait Copies 1
+ Papersize 9
+Dim WorkspaceMaximizedWindow As Integer
+WorkspaceMaximizedWindow = Frontwindow()
+Browse * From 行政界线
+  Position (5.0625,0.979167) Units "in"
+  Width 5.29167 Units "in" Height 3.15625 Units "in" 
+  Row 28 Column 0
+Set Window FrontWindow() Printer
+ Name "Microsoft Office Document Image Writer" Orientation Portrait Copies 1
+ Papersize 9
+Browse * From 行政界线
+  Position (0.0520833,0.0520833) Units "in"
+  Width 5.29167 Units "in" Height 3.15625 Units "in" Min
+  Row 28 Column 0
+Set Window FrontWindow() Printer
+ Name "Microsoft Office Document Image Writer" Orientation Portrait Copies 1
+ Papersize 9
+Set Window WorkspaceMaximizedWindow Max
+Undim WorkspaceMaximizedWindow

@@ -1,0 +1,14 @@
+bin\Debug\clCar.dll
+bin\Debug\clCar.pdb
+bin\Debug\CLC.dll
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\clCar.frmGuijiTime.resources
+obj\Debug\nsInfo.FrmInfo.resources
+obj\Debug\clCar.Properties.Resources.resources
+obj\Debug\clCar.ucCar.resources
+obj\Debug\clCar.csproj.GenerateResource.Cache
+obj\Debug\clCar.dll
+obj\Debug\clCar.pdb
+bin\Debug\ClassLibrary1.dll
+bin\Debug\ClassLibrary1.pdb
+obj\Debug\clCar.frmGz.resources

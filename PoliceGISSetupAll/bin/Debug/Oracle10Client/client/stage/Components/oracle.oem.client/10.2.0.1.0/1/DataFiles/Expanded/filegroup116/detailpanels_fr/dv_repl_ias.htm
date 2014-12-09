@@ -1,0 +1,51 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Console Enterprise Manager</title>
+</head>		
+
+<body bgcolor="#FFFFFF" link=blue alink=red vlink=blue>
+<div align="center">
+<table height="45" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="40"><img src="../images_detailpanels/dv_left.gif" width="40" height="45" border="0" alt=""></td><td width="520" align="center" valign="middle" background="../images_detailpanels/dv_mid.gif">
+<font size="+2" color="White"><b>Modèles iAS</b></font></td>
+<td width="40"><a href="dv_repl_matl.htm"><img src="../images_detailpanels/dv_rightmnu.gif" width="40" height="45" border="0" alt="Retour à l'écran précédent"></a></td>
+</tr>
+</table>
+<table border=0 width="600">
+	<tr>
+	<td colspan="3"><font size="1">
+		<a href="dv_repl_matl.htm">Réplication de vues matérialisées</a>&gt;Modèles iAS
+		</font>
+	</td>
+	</tr>
+    <tr>
+        <td>Un <b>modèle iAS</b> contient un ensemble d'objets qui seront instanciés sur une base de données de niveau intermédiaire. Les applications iAS peuvent stocker les objets fréquemment utilisés dans une base de données de niveau intermédiaire afin d'améliorer les performances et l'adaptabilité de l'application.</td>
+    </tr>
+    <tr>
+        <td>Pour créer un modèle iAS dans une base de données Backend&nbsp;:
+		<ol>
+        <li>Créez un propriétaire de modèle doté de privilèges CONNECT et SELECT_CATALOG_ROLE (ou privilèges DBA), puis connectez-vous sous le nom utilisateur de ce propriétaire de modèle.
+		<li><a name=CREATE_IAS_TEMPLATE></a><a href="#CREATE_IAS_TEMPLATE">Créez un modèle iAS</a> qui définit les objets à créer sur les sites de niveau intermédiaire.
+		<li><a name=PREPARE_FOR_EXPORT></a><a href="#PREPARE_FOR_EXPORT">Préparez le modèle pour l'export</a> afin de le configurer de manière à pouvoir l'instancier.
+		<li><a name=EXPORT_TEMPLATE></a><a href="#EXPORT_TEMPLATE">Exportez le modèle</a> pour enregistrer la définition de modèle dans un fichier d'export (vidage).
+        <li> Copiez le fichier de vidage d'export sur les ordinateurs de niveau intermédiaire où vous souhaitez instancier le modèle.
+		</ol>
+Pour déployer le modèle vers des sites de niveau intermédiaire&nbsp;:
+		<ol>
+        <li>Connectez-vous à la base de données de niveau intermédiaire et créez un propriétaire de modèle doté de privilèges DBA.
+        <li>Reconnectez-vous à la base de données de niveau intermédiaire sous le nom de ce propriétaire de modèle.
+		<li><a name=IMPORT_TEMPLATE></a><a href="#IMPORT_TEMPLATE">Importez le modèle</a> pour l'instancier.
+		<li>Définissez la politique de régénération du groupe de régénération associé au modèle venant d'être instancié.
+		</ol>
+Une fois le modèle instancié sur toutes les bases de données de niveau intermédiaire, connectez-vous à la base de données Backend et exécutez <a name=POST_INST_CLEANUP></a><a href="#POST_INST_CLEANUP">un nettoyage après instanciation</a>.<p>
+
+<font color="#008080">Pour plus d'informations sur les modèles iAS, cliquez sur le bouton <b>Aide</b>.</font>
+        </td>
+    </tr>
+</table>
+</div>
+</body>
+</html>

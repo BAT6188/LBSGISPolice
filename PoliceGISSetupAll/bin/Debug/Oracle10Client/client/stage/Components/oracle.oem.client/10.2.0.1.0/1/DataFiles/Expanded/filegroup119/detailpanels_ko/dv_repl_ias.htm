@@ -1,0 +1,51 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr">
+<title>Enterprise Manager Console</title>
+</head>		
+
+<body bgcolor="#FFFFFF" link=blue alink=red vlink=blue>
+<div align="center">
+<table height="45" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="40"><img src="../images_detailpanels/dv_left.gif" width="40" height="45" border="0" alt=""></td><td width="520" align="center" valign="middle" background="../images_detailpanels/dv_mid.gif">
+<font size="+2" color="White"><b>iAS 템플리트</b></font></td>
+<td width="40"><a href="dv_repl_matl.htm"><img src="../images_detailpanels/dv_rightmnu.gif" width="40" height="45" border="0" alt="이전 화면으로 돌아가기"></a></td>
+</tr>
+</table>
+<table border=0 width="600">
+	<tr>
+	<td colspan="3"><font size="1">
+		<a href="dv_repl_matl.htm">구체화된 뷰 복제</a>&gt;iAS 템플리트
+		</font>
+	</td>
+	</tr>
+    <tr>
+        <td><b>iAS 템플리트</b>는 중간 계층 데이터베이스에서 인스턴스화될 일련의 객체를 포함합니다. iAS 응용 프로그램은 자주 액세스하는 객체를 중간 계층 데이터베이스에 저장하여 응용 프로그램의 성능 및 확장성을 향상시킬 수 있습니다.</td>
+    </tr>
+    <tr>
+        <td>백엔드 데이터베이스에 iAS 템플리트를 생성하려면 다음과 같이 하십시오.
+		<ol>
+        <li>CONNECT 권한 및 SELECT_CATALOG_ROLE(또는 DBA) 권한을 가진 템플리트 소유 사용자를 생성합니다. 그런 다음 템플리트 소유자로 접속합니다.
+		<li><a name=CREATE_IAS_TEMPLATE></a>중간 계층 사이트에 생성할 객체를 정의하는 <a href="#CREATE_IAS_TEMPLATE">iAS 템플리트를 생성</a>합니다.
+		<li><a name=PREPARE_FOR_EXPORT></a>템플리트를 설정하려면 <a href="#PREPARE_FOR_EXPORT">엑스포트할 템플리트를 준비</a>하여 이 템플리트가 인스턴스화될 수 있도록 합니다.
+		<li><a name=EXPORT_TEMPLATE></a><a href="#EXPORT_TEMPLATE">템플리트를 엑스포트</a>하여 템플리트 정의를 엑스포트 덤프 파일에 저장합니다.
+        <li> 엑스포트 덤프 파일을 해당 템플리트를 인스턴스화하려는 중간 계층 시스템에 복사합니다.
+		</ol>
+중간 계층 사이트에 템플리트를 배치하려면 다음과 같이 하십시오.
+		<ol>
+        <li>중간 계층 데이터베이스에 접속한 다음 DBA 권한을 가진 템플리트 소유 사용자를 생성합니다.
+        <li>템플리트 소유자로 중간 계층 데이터베이스에 재접속합니다.
+		<li><a name=IMPORT_TEMPLATE></a><a href="#IMPORT_TEMPLATE">템플리트를 임포트</a>하여 이 템플리트를 인스턴스화합니다.
+		<li>새로 인스턴스화된 템플리트와 연관된 새로 고침 그룹에 대해 새로 고침 정책을 설정합니다.
+		</ol>
+모든 중간 계층 데이터베이스에서 템플리트를 인스턴스화한 후에는 백엔드 데이터베이스에 접속하고 <a name=POST_INST_CLEANUP></a><a href="#POST_INST_CLEANUP">사후 인스턴스화 지우기</a>를 수행합니다.<p>
+
+<font color="#008080">iAS 템플리트에 대한 자세한 내용을 보려면 <b>도움말</b> 단추를 누르십시오.</font>
+        </td>
+    </tr>
+</table>
+</div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Consola de Enterprise Manager</title>
+</head>		
+<body bgcolor="#FFFFFF" link=blue alink=red vlink=blue>
+<div align="center">
+<table height="45" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="40"><img src="../images_detailpanels/dv_left.gif" width="40" height="45" border="0" alt=""></td><td width="520" align="center" valign="middle" background="../images_detailpanels/dv_mid.gif">
+<font face="Arial" size="+2" color="White"><b>Plantillas de iAS</b></font></td>
+<td width="40"><a href="dv_repl_matl.htm"><img src="../images_detailpanels/dv_rightmnu.gif" width="40" height="45" border="0" alt="Volver a la pantalla anterior"></a></td>
+</tr>
+</table>
+<table border=0 width="600">
+	<tr>
+	<td colspan="3"><font size="1">
+		<a href="dv_repl_matl.htm">Replicación de Vista Materializada</a>&gt;Plantillas de iAS
+		</font>
+	</td>
+	</tr>
+    <tr>
+        <td>Una <b>Plantilla de iAS</b> contiene un juego de objetos que se van a instanciar en una base de datos de capa media. Las aplicaciones de iAS pueden almacenar objetos a los que se accede frecuentemente en una base de datos de capa media para mejorar el rendimiento y la escalabilidad de la aplicación.</td>
+    </tr>
+    <tr>
+        <td>Para crear una plantilla de iAS en una base de datos backend:
+		<ol>
+        <li>Cree un usuario propietario de plantilla que tenga privilegios CONNECT y SELECT_CATALOG_ROLE (o privilegios de DBA). A continuación, conéctese como el propietario de la plantilla.
+		<li><a name=CREATE_IAS_TEMPLATE></a><a href="#CREATE_IAS_TEMPLATE">Cree una plantilla de iAS</a> que defina los objetos que se van a crear en las ubicaciones de capa media.
+		<li><a name=PREPARE_FOR_EXPORT></a><a href="#PREPARE_FOR_EXPORT">Prepare la plantilla de exportación</a> para configurar la plantilla de forma que se pueda instanciar.
+		<li><a name=EXPORT_TEMPLATE></a><a href="#EXPORT_TEMPLATE">Exporte la plantilla</a> para guardar la definición de plantilla en un archivo de volcado de exportación.
+        <li> Copie el archivo de volcado de exportación en las máquinas de capa media en las que desee instanciar la plantilla.
+		</ol>
+Para desplegar la plantilla en ubicaciones de capa media:
+		<ol>
+        <li>Conéctese a la base de datos de capa media y cree un usuario propietario de plantilla que tenga privilegios de DBA.
+        <li>Vuelva a conectarse a la base de datos de capa media como el propietario de la plantilla.
+		<li><a name=IMPORT_TEMPLATE></a><a href="#IMPORT_TEMPLATE">Importe la plantilla</a> para instanciarla.
+		<li>Defina la política de refrescamiento del grupo de refrescamiento asociado a la plantilla que se acaba de instanciar.
+		</ol>
+Una vez que ha instanciado la plantilla en todas las bases de datos de capa media, conéctese a la base de datos backend y realice la <a name=POST_INST_CLEANUP></a><a href="#POST_INST_CLEANUP">limpieza post instanciación.</a><p>
+<font color="#008080">Para obtener más información sobre las plantillas de iAS, haga clic en el botón <b>Ayuda</b>.</font>
+        </td>
+    </tr>
+</table>
+</div>
+</body>
+</html>

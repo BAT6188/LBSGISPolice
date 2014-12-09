@@ -1,0 +1,1600 @@
+2010-3-9 18:37:28:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:28:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:28:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:28:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:28:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:28:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:28:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:28:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:28:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:28:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:28:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:28:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:28:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:28:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:28:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:28:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:28:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:28:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:28:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:28:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:28:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:28:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:28:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:28:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:28:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:28:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:28:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:28:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:28:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:28:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:28:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:28:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:28:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:28:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:28:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:28:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:28:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:28:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:29:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:29:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:29:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:29:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:29:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:29:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:29:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:29:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:29:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:29:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:29:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:29:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:29:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:29:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:29:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:29:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:29:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:29:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:29:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:29:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:29:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:29:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:29:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:29:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:29:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:29:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:29:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:29:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:29:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:29:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:29:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:29:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:29:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:29:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:29:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:29:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:29:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:29:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:29:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:30:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:30:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:30:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:30:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:30:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:30:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:30:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:30:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:30:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:30:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:30:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:30:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:30:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:30:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:30:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:30:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:30:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:30:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:30:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:30:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:30:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:30:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:30:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:43:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:43:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:43:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:43:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:43:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:43:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:43:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:43:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:43:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:43:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:43:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:43:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:43:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:43:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:43:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:43:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:43:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:43:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:43:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:43:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:43:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:43:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:43:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:43:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:43:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:43:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:43:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:43:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:43:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:43:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:44:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:44:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:44:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:44:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:44:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:44:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:44:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:44:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:44:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:44:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:44:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:44:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:44:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:44:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:44:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:44:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:44:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:44:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:44:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:44:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:44:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:44:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:44:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:44:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:44:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:44:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:44:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:44:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:44:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:44:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:44:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:44:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:44:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:44:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:44:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:44:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:44:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:44:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:44:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:44:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:44:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:44:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:44:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:44:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:44:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:44:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:44:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:44:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:44:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:44:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:44:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:44:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:44:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:44:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:44:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:44:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:44:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:44:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:44:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:45:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:45:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:45:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:45:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:45:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:45:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:45:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:45:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:45:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:45:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-9 18:37:45:System.Data.OracleClient.OracleException: ORA-00904: "所属派出所": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215

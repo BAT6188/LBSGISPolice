@@ -1,0 +1,335 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9B6AF44B-B7EF-4997-B88C-86B68F47D186}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MapInfo</RootNamespace>
+    <AssemblyName>Viss-GIS</AssemblyName>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <ApplicationIcon>mapxtreme2005.ico</ApplicationIcon>
+    <Win32Resource>
+    </Win32Resource>
+    <StartupObject>LBSgisPolice110.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="LEAD, Version=13.0.1.83, Culture=neutral, PublicKeyToken=9cf889f53ea9b907" />
+    <Reference Include="LEAD.Drawing, Version=13.0.1.83, Culture=neutral, PublicKeyToken=9cf889f53ea9b907" />
+    <Reference Include="LEAD.Drawing.Imaging.Codecs, Version=13.0.1.83, Culture=neutral, PublicKeyToken=9cf889f53ea9b907" />
+    <Reference Include="MapInfo.CoreEngine, Version=4.0.0.483, Culture=neutral, PublicKeyToken=93e298a0f6b95eb1" />
+    <Reference Include="MapInfo.CoreTypes, Version=4.0.0.483, Culture=neutral, PublicKeyToken=f548bcba69d4b8da" />
+    <Reference Include="MapInfo.Windows, Version=4.0.0.483, Culture=neutral, PublicKeyToken=93e298a0f6b95eb1" />
+    <Reference Include="MapInfo.Windows.Dialogs, Version=4.0.0.483, Culture=neutral, PublicKeyToken=93e298a0f6b95eb1" />
+    <Reference Include="MapInfo.Windows.Framework, Version=4.0.0.483, Culture=neutral, PublicKeyToken=93e298a0f6b95eb1" />
+    <Reference Include="MapInfo.Wms.Client, Version=4.0.0.483, Culture=neutral, PublicKeyToken=4ac3224575145b20" />
+    <Reference Include="Microsoft.VisualC" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmGeoCoding.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGeoCoding.Designer.cs">
+      <DependentUpon>FrmGeoCoding.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInput.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInput.Designer.cs">
+      <DependentUpon>frmInput.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Installer1.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Installer1.Designer.cs">
+      <DependentUpon>Installer1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmGeoCoding.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmGeoCoding.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInput.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Settings.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\area.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coord.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dingwei.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\distance.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eagle.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\excel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exeIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fanweichaxun.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\find.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Full.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fullextent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\help.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jiansuo.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\label.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lclabel.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lclabel.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lclayer.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lclayer.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lclayerline.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lclayerline.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lclayerpoint.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lclayerpoint.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lclayerregion.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lclayerregion.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lcmap.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lcmap.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\location.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menuBarBg1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menuBarBg2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menuBarBg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ok.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\open.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\overexpand.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\police.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Region.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\selByCircle.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\selByLine.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\selByPoint.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\selByPolygon.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\selByRect.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spliter2Bg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spliterBg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\staDate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\staTime.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\staType.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sxt2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sxt.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tminus.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tongjitu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toolbarBg1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toolbarBg2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toolbarBg3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toolbarBg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Visible.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xiangxixinxi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Y.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Year.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zoom-in.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zoom-out.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Resources\server.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="mapxtreme2005.ico" />
+    <Content Include="mi_logo.gif" />
+    <Content Include="Resources\mi_logo.gif" />
+    <Content Include="uninst.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

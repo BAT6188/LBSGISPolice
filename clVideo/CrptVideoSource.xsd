@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="CrptVideoSource" targetNamespace="http://tempuri.org/CrptVideoSource.xsd" xmlns:mstns="http://tempuri.org/CrptVideoSource.xsd" xmlns="http://tempuri.org/CrptVideoSource.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="CrptVideoSource" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="CrptVideoSource" msprop:Generator_DataSetName="CrptVideoSource">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TableSoure" msprop:Generator_UserTableName="TableSoure" msprop:Generator_RowDeletedName="TableSoureRowDeleted" msprop:Generator_RowChangedName="TableSoureRowChanged" msprop:Generator_RowClassName="TableSoureRow" msprop:Generator_RowChangingName="TableSoureRowChanging" msprop:Generator_RowEvArgName="TableSoureRowChangeEvent" msprop:Generator_RowEvHandlerName="TableSoureRowChangeEventHandler" msprop:Generator_TableClassName="TableSoureDataTable" msprop:Generator_TableVarName="tableTableSoure" msprop:Generator_RowDeletingName="TableSoureRowDeleting" msprop:Generator_TablePropName="TableSoure">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="编号" msprop:Generator_UserColumnName="编号" msprop:Generator_ColumnVarNameInTable="column编号" msprop:Generator_ColumnPropNameInRow="编号" msprop:Generator_ColumnPropNameInTable="编号Column" type="xs:string" minOccurs="0" />
+              <xs:element name="辖区" msprop:Generator_UserColumnName="辖区" msprop:Generator_ColumnVarNameInTable="column辖区" msprop:Generator_ColumnPropNameInRow="辖区" msprop:Generator_ColumnPropNameInTable="辖区Column" type="xs:string" minOccurs="0" />
+              <xs:element name="名称" msprop:Generator_UserColumnName="名称" msprop:Generator_ColumnVarNameInTable="column名称" msprop:Generator_ColumnPropNameInRow="名称" msprop:Generator_ColumnPropNameInTable="名称Column" type="xs:string" minOccurs="0" />
+              <xs:element name="X" msprop:Generator_UserColumnName="X" msprop:Generator_ColumnVarNameInTable="columnX" msprop:Generator_ColumnPropNameInRow="X" msprop:Generator_ColumnPropNameInTable="XColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Y" msprop:Generator_UserColumnName="Y" msprop:Generator_ColumnVarNameInTable="columnY" msprop:Generator_ColumnPropNameInRow="Y" msprop:Generator_ColumnPropNameInTable="YColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="安装位置" msprop:Generator_UserColumnName="安装位置" msprop:Generator_ColumnPropNameInRow="安装位置" msprop:Generator_ColumnVarNameInTable="column安装位置" msprop:Generator_ColumnPropNameInTable="安装位置Column" type="xs:string" minOccurs="0" />
+              <xs:element name="方向" msprop:Generator_UserColumnName="方向" msprop:Generator_ColumnPropNameInRow="方向" msprop:Generator_ColumnVarNameInTable="column方向" msprop:Generator_ColumnPropNameInTable="方向Column" type="xs:string" minOccurs="0" />
+              <xs:element name="车道数" msprop:Generator_UserColumnName="车道数" msprop:Generator_ColumnPropNameInRow="车道数" msprop:Generator_ColumnVarNameInTable="column车道数" msprop:Generator_ColumnPropNameInTable="车道数Column" type="xs:string" minOccurs="0" />
+              <xs:element name="监控车道" msprop:Generator_UserColumnName="监控车道" msprop:Generator_ColumnPropNameInRow="监控车道" msprop:Generator_ColumnVarNameInTable="column监控车道" msprop:Generator_ColumnPropNameInTable="监控车道Column" type="xs:string" minOccurs="0" />
+              <xs:element name="监控点接壤地区" msprop:Generator_UserColumnName="监控点接壤地区" msprop:Generator_ColumnPropNameInRow="监控点接壤地区" msprop:Generator_ColumnVarNameInTable="column监控点接壤地区" msprop:Generator_ColumnPropNameInTable="监控点接壤地区Column" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,78 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Enterprise Manager Console</title>
+</head>		
+
+<body bgcolor="#FFFFFF" link=blue alink=red vlink=blue>
+<table height="45" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="40"><img src="../images_detailpanels/dv_left.gif" width="40" height="45" border="0" alt=""></td>
+<td width="520" align="center" valign="middle" background="../images_detailpanels/dv_mid.gif">
+<font size="+2" color="White"><b>Gestione OLAP</b></font></td>
+<td width="40"><img src="../images_detailpanels/dv_right.gif" width="40" height="45" border="0" alt=""></td>
+</tr>
+</table>
+
+<table border="0" width="600">
+	<tr>
+		<td width="280" align="left" valign="top">
+<table BORDER=0 >
+<tr>
+<td COLSPAN="2">Per eseguire l'elaborazione analitica, è necessario che il data warehouse sia preconfigurato con gli oggetti metadati OLAP riportati di seguito.
+</td>
+</tr>
+
+<tr>
+<td VALIGN=TOP><img SRC="../images_detailpanels/bullet.gif" ></td>
+<td>Gli <a href="#dimension_wizard">oggetti Dimensione</a> organizzano le tabelle dimensione del data warehouse in livelli, attributi e gerarchie.</td>
+</tr>
+
+<tr>
+<td VALIGN=TOP><img SRC="../images_detailpanels/bullet.gif" ></td>
+<td>I <a href="#cube_wizard">Cubi</a> sono rappresentazioni logiche di dati multidimensionali e devono contenere almeno una dimensione.</td>
+</tr>
+
+<tr>
+<td VALIGN=TOP><img SRC="../images_detailpanels/bullet.gif" ></td>
+<td>Le <a href="#measure_folder">Cartelle delle misure</a> organizzano le misure in gruppi gestibili.<td>
+</tr>
+
+<tr>
+<td COLSPAN="2">Per creare viste materializzate per l'ottimizzazione del data warehouse, utilizzare l'applicazione descritta di seguito.
+</td>
+</tr>
+
+<tr>
+<td VALIGN=TOP><img SRC="../images_detailpanels/bullet.gif" ></td>
+<td>Fare clic con il pulsante destro del mouse su un nodo di cubo e avviare la procedura guidata <b>OLAP Summary Advisor</b>, che suggerisce le viste materializzate in grado di ottimizzare le prestazioni delle applicazioni client OLAP che accedono ai dati definiti da un cubo. Questa procedura guidata è disponibile per Oracle versione 9.2 e versioni successive.</td>
+</tr>
+
+<tr>
+<tr>
+<td COLSPAN="2">Per la gestione OLAP sono disponibili altre due applicazioni.</td>
+</tr>
+
+<tr>
+<td VALIGN=TOP><img SRC="../images_detailpanels/bullet.gif" ></td>
+<td>Fare clic con il pulsante destro del mouse su un nodo di cubo e avviare <b>Cube Viewer</b> per visualizzare i dati multidimensionali rappresentati dal cubo selezionato.</td>
+</tr>
+
+<tr>
+<td VALIGN=TOP><img SRC="../images_detailpanels/bullet.gif" ></td>
+<td>Fare clic con il pulsante destro del mouse sulla cartella OLAP per avviare <b>OLAP Worksheet</b>, utilizzata per la codifica e la modifica del codice OLAP 4GL. Questa applicazione è disponibile per Oracle versione 9.2 e versioni successive.</td>
+</tr>
+
+</TABLE>
+</td>
+			<td width="10"></td>
+<td width="300" align="center" valign="TOP">
+<img src="../images_detailpanels/olap_spl.gif" width="259" height="254" border="0" alt="">
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</body>
+</html>

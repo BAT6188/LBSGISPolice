@@ -1,0 +1,28 @@
+### ENTRIES FOR THE EVENT HANDLER
+###  Add these entries to the $ORACLE_HOME/sysman/config/OMSExternalRegistry.registry file to start up the
+###    Event Handler as an OMS service.
+###
+###  Make sure there are NO <linefeed> or <Carriage Return> characters within each entry.
+###
+###  Before adding the entries, substitute the appropriate values for:
+###    <oracle-home> ==> the specific ORACLE HOME directory where Enterprise Manager was installed
+###            Example:  /private/app/oracle/8.1.6
+###    <OMS User> ==> A valid OMS user account 
+###            Example:  sysman
+###    <OMS Password> ==> The corresponding password to the OMS user
+###            Example:  oem_temp
+###    <OMS nodename> ==>  name of the machine where the OMS is running
+###            Example:  prodsun1
+
+/com/oracle/sysman/em/oms/services/external/EventHandlerSession/external_service_name = EventHandlerSession
+/com/oracle/sysman/em/oms/services/external/EventHandlerSession/name = EventHandlerSession
+/com/oracle/sysman/em/oms/services/external/EventHandlerSession/oms_service_interface = oracle.sysman.vda.vdae.VdaeEventHandlerSession
+/com/oracle/sysman/em/oms/services/external/EventHandlerSession/startup_mode=1
+/com/oracle/sysman/em/oms/services/external/EventHandlerSession/name_value_pair=ORACLE_HOME=<oracle-home>
+/com/oracle/sysman/em/oms/services/external/EventHandlerSession/args=-s
+/com/oracle/sysman/em/oms/services/external/EventHandlerSession/service_classpath=
+/com/oracle/sysman/em/oms/services/external/EventHandlerSession/outfile_destination=<oracle-home>/sysman/log
+/com/oracle/sysman/em/oms/services/external/EventHandlerSession/errfile_destination=<oracle-home>/sysman/log
+/com/oracle/sysman/em/oms/services/external/EventHandlerSession/logfile_name=eventHandler
+
+

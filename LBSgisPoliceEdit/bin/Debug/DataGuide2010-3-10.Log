@@ -1,0 +1,210 @@
+2010-3-10 10:56:42:System.Data.OracleClient.OracleException: ORA-01722: 无效数字
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 155
+2010-3-10 10:56:42:System.Data.OracleClient.OracleException: ORA-01722: 无效数字
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 155
+2010-3-10 10:56:42:System.Data.OracleClient.OracleException: ORA-01722: 无效数字
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 155
+2010-3-10 11:20:24:System.Data.OracleClient.OracleException: ORA-01722: 无效数字
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 155
+2010-3-10 11:20:24:System.Data.OracleClient.OracleException: ORA-01722: 无效数字
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 155
+2010-3-10 11:20:24:System.Data.OracleClient.OracleException: ORA-01722: 无效数字
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 155
+2010-3-10 11:25:10:System.Data.OracleClient.OracleException: ORA-01722: 无效数字
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 155
+2010-3-10 11:25:10:System.Data.OracleClient.OracleException: ORA-01722: 无效数字
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 155
+2010-3-10 11:25:10:System.Data.OracleClient.OracleException: ORA-01722: 无效数字
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 155
+2010-3-10 11:28:09:列“房屋编号”不属于表 Table。
+2010-3-10 11:28:24:列“房屋编号”不属于表 Table。
+2010-3-10 14:24:12:System.Data.OracleClient.OracleException: ORA-01847: 月份中日的值必须介于 1 和当月最后一日之间
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-10 14:24:12:System.Data.OracleClient.OracleException: ORA-01847: 月份中日的值必须介于 1 和当月最后一日之间
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-10 14:24:12:System.Data.OracleClient.OracleException: ORA-01847: 月份中日的值必须介于 1 和当月最后一日之间
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-10 14:35:02:System.Data.OracleClient.OracleException: ORA-01847: 月份中日的值必须介于 1 和当月最后一日之间
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-10 14:35:02:System.Data.OracleClient.OracleException: ORA-01847: 月份中日的值必须介于 1 和当月最后一日之间
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-10 14:35:02:System.Data.OracleClient.OracleException: ORA-01847: 月份中日的值必须介于 1 和当月最后一日之间
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-10 14:36:21:System.Data.OracleClient.OracleException: ORA-01847: 月份中日的值必须介于 1 和当月最后一日之间
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-10 14:36:21:System.Data.OracleClient.OracleException: ORA-01847: 月份中日的值必须介于 1 和当月最后一日之间
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-10 14:36:21:System.Data.OracleClient.OracleException: ORA-01847: 月份中日的值必须介于 1 和当月最后一日之间
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-10 14:38:44:System.Data.OracleClient.OracleException: ORA-01847: 月份中日的值必须介于 1 和当月最后一日之间
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-10 14:40:04:System.Data.OracleClient.OracleException: ORA-01847: 月份中日的值必须介于 1 和当月最后一日之间
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName) 位置 E:\shunde\LBSgisPolice.root\LBSgisPolice\DataGuide\DataGuide.cs:行号 215
+2010-3-10 14:42:04:System.Data.OracleClient.OracleException: ORA-01847: 月份中日的值必须介于 1 和当月最后一日之间
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName)
+2010-3-10 14:42:10:System.Data.OracleClient.OracleException: ORA-01847: 月份中日的值必须介于 1 和当月最后一日之间
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName)
+2010-3-10 15:03:42:System.Data.OracleClient.OracleException: ORA-01847: 月份中日的值必须介于 1 和当月最后一日之间
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName)
+2010-3-10 15:03:42:System.Data.OracleClient.OracleException: ORA-01847: 月份中日的值必须介于 1 和当月最后一日之间
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName)
+2010-3-10 15:03:42:System.Data.OracleClient.OracleException: ORA-01847: 月份中日的值必须介于 1 和当月最后一日之间
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName)
+2010-3-10 15:03:42:System.Data.OracleClient.OracleException: ORA-01847: 月份中日的值必须介于 1 和当月最后一日之间
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 Rainny.DataAccess.OracleDataAccess.ExecuteNonQuery(String commandText)
+   在 LBSDataGuide.DataGuide.InData(String dataPath, String tableName)

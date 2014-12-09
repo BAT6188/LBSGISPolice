@@ -1,0 +1,10 @@
+bin\Debug\clCXTJ.dll
+bin\Debug\clCXTJ.pdb
+bin\Debug\ZedGraph.dll
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\clCXTJ.FrmStaticBar.resources
+obj\Debug\clCXTJ.Properties.Resources.resources
+obj\Debug\clCXTJ.ucCXTJ.resources
+obj\Debug\clCXTJ.csproj.GenerateResource.Cache
+obj\Debug\clCXTJ.dll
+obj\Debug\clCXTJ.pdb

@@ -1,0 +1,8 @@
+E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\PoliceGISSetupAll\bin\Debug\SDPoliceGISSetup.exe
+E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\PoliceGISSetupAll\bin\Debug\SDPoliceGISSetup.pdb
+E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\PoliceGISSetupAll\obj\Debug\ResolveAssemblyReference.cache
+E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\PoliceGISSetupAll\obj\Debug\SDPoliceGISSetup.Form1.resources
+E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\PoliceGISSetupAll\obj\Debug\SDPoliceGISSetup.Properties.Resources.resources
+E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\PoliceGISSetupAll\obj\Debug\SDPoliceGISSetup.csproj.GenerateResource.Cache
+E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\PoliceGISSetupAll\obj\Debug\SDPoliceGISSetup.exe
+E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\PoliceGISSetupAll\obj\Debug\SDPoliceGISSetup.pdb

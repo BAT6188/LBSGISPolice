@@ -1,0 +1,610 @@
+rem =================================================================================
+rem  oemctrl.vte
+rem
+rem     Control file for OEM Repository Manager products/actions.
+rem
+rem  MODIFIED  (MM/DD/YY)  VERSION
+rem   rpinnama  03/20/02 - Migrate the eventhandler properties.
+rem   rdabbott  02/08/02 - Fix 2214582: use correct columns for page2email
+rem   rpinnama  01/15/02 - Add vdd, vde, vdj migration scripts
+rem   rpinnama  12/31/01 - Add vdumigrate.sql
+rem   jriel     12/13/01 - add migration for vdn tables to 9.2
+rem   bhiggs    11/20/01 - Fix bug 2116597 (map_versions with wrong external versions)
+rem   kmckeen   11/19/01 - Use map version 9.2.0 for lmviewer, version 2 for data guard.
+rem   dkulvete  11/02/01 - update v92 dir name
+rem   sjconnol  10/18/01 - add Data Guard 9.2.0 upgrade
+rem   kmckeen   09/27/01 - Various enhancements and bug fixes.
+rem   prabuck   08/22/01 - adding upgrade script for CM 9.1
+rem   hying     08/21/01 - upgrade version from 5 to 6
+rem   hying     06/12/01 - Add vbormigrate.sql for 9.0.2
+rem   skini     04/04/01 - Include vddmigrate before vdmmigrate
+rem   skini     04/03/01 - Add vddmigrate.sql
+rem   bhiggs    03/09/01 - Change 9.0.0 to 9.0.1 for beta release
+rem   smishra   02/01/01 - Reports migration added(as a part of core fwk).
+rem   mbhoopat  02/09/01 - Add EventTestMigration.
+rem   lgloyd    01/26/01 - slr rt rip
+rem   jsoule    01/17/01 - change EXPERT creation scripts
+rem   jsoule    01/16/01 - use consistent naming
+rem   smishra   01/18/01 - Reports added to base framework
+rem   skini     01/09/01 - Include vdmmigrate.sql
+rem   qsong     01/05/01 - Add 2.2->9.0 upgrade action, add vmqup900.sql
+rem   skini     12/15/00 - Add repviewmigrate
+rem   skini     11/28/00 - Add entry to migrate views
+rem   skini     11/14/00 - Create repository views before oms views
+rem   nchaudhr  11/09/00 - Move reporting for vob split
+rem   tjaiswal  11/07/00 - Register omspkgsmigrate.sql
+rem   nchaudhr  11/03/00 - Migration scripts for EM Admin REPORTS_USER
+rem   rpinnama  11/07/00 - Add PopulateManagementRegionInfo while creating repo
+rem   aholser   10/24/00 - add vdimigrate
+rem   bhiggs    10/18/00 - Add prolog and epilog, plus explanatory comments
+rem   rpinnama  10/17/00 - Add vdpmigrate.sql to the list
+rem   mbhoopat  10/04/00 - Add java action for migrating vdg event schema.
+rem   nchaudhr  09/30/00 - Adding in Java action class for reporting framework
+rem   aholser   09/25/00 - complete migration changes for parm mod
+rem   shuberma  09/15/00 - Adding a new script.
+rem   shuberma  09/08/00 - Change OCM version from 9.0 to 8.2
+rem   shuberma  09/06/00 - Add Migration from OCM V2 to OCM V4.
+rem   sjconnol  08/28/00 - Add Data Guard support
+rem   lgloyd    08/09/00 -
+rem   jriel     08/04/00 - vdn support for v22 to v82
+rem   mgoodric  07/28/00 - add LogMiner(tm) Viewer to repository tables
+rem   nchaudhr  07/26/00 - Add Reporting Framework
+rem   rpinnama  07/18/00 - Move repviews to base EM
+rem   aholser   07/05/00 - vdemigrate for 8.2/3.0
+rem   skini     06/27/00 - run tcl migration
+rem   skini     06/21/00 - Change vtm version
+rem   skini     06/20/00 - View migration script
+rem   hjchu     05/24/00 -
+rem   hjchu     05/22/00 -
+rem   jsoule    05/18/00 - add 2.1->2.2 SQL Analyze upgrade action
+rem   bhiggs    05/16/00 - Fix bug 1301468
+rem   hjchu     05/12/00 - fix for 1292780
+rem   skini     05/03/00 - Migration for target properties
+rem   ysun      05/01/00 - Add migration for vtadbapp and vxaapp
+rem   skini     04/24/00 - Add java action for upgrade
+rem   skini     04/21/00 - Add migration for similar event tests
+rem   tzimmerm  04/13/00 - Adding Trace 2.2 modifications
+rem   bhiggs    04/04/00 - Update comments for 2.2
+rem   rpinnama  04/04/00 - Add migration for VDN and VDM
+rem   skini     03/21/00 - Add vdv migration scripts
+rem   skini     02/22/00 - Change vtmup-->vtmmigrate
+rem   bhiggs    02/15/00 - Fix upgrade action version numbers and add comments
+rem   mbhoopat  02/04/00 -
+rem   mbhoopat  02/03/00 - Fix bug 1180742.
+rem   mbhoopat  11/08/99 - Add vdpmigrate.sql.
+rem   svinamda  10/19/99 - add vxamigrate.sql
+rem   svinamda  10/12/99 - remove entries for smplg files
+rem   svinamda  10/11/99 - add smplongdrp.sql file
+rem   kcheng    09/28/99 - add vdmmigrate.sql change by - svinamda
+rem   jsoule    08/25/99 -
+rem   bhiggs    08/16/99 - Add Oracle Expert
+rem   tzimmerm  08/03/99 - Adding Trace & DV support to control file
+rem   jochen    08/03/99 - Add PM 2.1 scripts
+rem   bhiggs    07/16/99 - Add user-visible product names
+rem   shuberma  07/16/99 - Add OCM .java code
+rem   ndutko    07/16/99 - Add the registry upgrade
+rem   shuberma  07/15/99 - Add Oracle Change Manager
+rem   bhiggs    07/12/99 - merge with migrateV21.vte
+rem   bhiggs    07/07/99 - Initial version.
+rem
+rem
+rem   This file contains the control information for repository create, drop and
+rem   upgrade operations.
+rem
+rem     o For Create, the actions listed are specific to the current version.  
+rem       That is, we do not support creating a repository other than with the 
+rem       current version.
+rem
+rem     o For Drop, the actions listed are specific to the current version.  
+rem       That is, we do not support dropping a repository other than with the 
+rem       current version.
+rem
+rem     o For Upgrade, the actions listed allow upgrade from any previous version
+rem       (starting at 2.0.4) to the current version.  The upgrades are performed 
+rem       incrementally;  that is, starting at the existing version, v, of the 
+rem       repository, the repository is first upgraded to version v+1, and then 
+rem       from v+1 to v+2, etc., until the repository is upgraded to the current 
+rem       (desired) version.
+rem
+rem   The file contains one entry per repository component (product). Each product
+rem   owns a piece of the repository, with its own internal version number.  There
+rem   is no requirement that all products must have the same version number for a
+rem   particular release of OEM.  In fact, product versions are expected to diverge
+rem   as a result of the differing product development requirements and activities.
+rem
+rem   Each product specifies the value of the current (desired) version of its 
+rem   repository by using the version(v) specifier. 
+rem
+rem   NOTE: IF YOU MAKE ANY CHANGE IN YOUR COMPONENT'S REPOSITORY, YOU MUST INCREMENT
+rem   THE VERSION NUMBER. (THIS IS TRUE FOR EACH NEW RELEASE, BUT IS NOT USUALLY
+rem   PRACTICAL FOR DEVELOPMENT CHANGES.)
+rem
+rem   For each repository version, each product maps that version to the corresponding
+rem   external product version using the map_version(iv, ev) specifier.  This is so
+rem   internal versions can be converted to external versions for reporting purposes.
+rem
+rem   NOTE: IF YOU CHANGE THE VERSION NUMBER, YOU MUST ALSO ADD A map_version ENTRY FOR
+rem   THE NEW VERSION.   IF YOU DO NOT CHANGE THE VERSION NUMBER, YOU SHOULD NOT
+rem	UPDATE THE map_version TO REFLECT THE NEW OEM VERSION.
+rem
+rem   Each product supplies three sets of actions:
+rem     o Create actions
+rem     o Drop actions
+rem     o Upgrade actions
+rem
+rem   Each action performs a piece of processing.
+rem   Within each set, actions are executed in the order listed.
+rem   The sum of all actions within a set produces a create, drop, or upgrade operation.
+rem
+rem   In the case of upgrade actions, the from and to version numbers are used to 
+rem   determine the subset of actions used to upgrade from one version to the next.
+rem   The upgrade action sets are executed incrementally to upgrade from the repository
+rem   existing version number to the current (desired) version number.
+rem
+rem   There are two types of action:
+rem     o SQL script
+rem     o Java action class
+rem
+rem   SQL scripts are used when the action needs are straightforward.
+rem   Java action classes are used when the action requires more complex processing.
+rem
+rem   A Java action class must be implemented to follow a prescribed set of rules, 
+rem   because it is dynamically activated, and then called at the appropriate entry 
+rem   point to execute it.
+rem
+rem =================================================================================
+rem
+
+rem ==========================================================================
+rem     Default repository version number
+rem     This version number is used if a product does not specify a specific 
+rem     version number.
+rem ==========================================================================
+
+default_version(2);
+
+rem ==========================================================================
+rem     Prolog entries.
+rem
+rem	  These actions will be executed before all the product actions for
+rem	  the requested operation.
+rem
+rem	  The rules for constructing actions in the prolog section are the same
+rem	  as the rules for constructing actions in a particular product, WITH
+rem	  ONE IMPORTANT EXCEPTION:
+rem		The UPGRADE actions do not allow version numbers, and are 
+rem		unconditionally executed during an UPGRADE operation.
+rem	  For example:
+rem    
+rem	  prolog:
+rem		sql_script(CREATE,   createProlog.sql)
+rem
+rem    	sql_script(DROP,     dropProlog.sql);
+rem
+rem    	sql_script(UPGRADE,  upgradeProlog.sql);
+rem
+rem
+rem ==========================================================================
+
+prolog;
+
+rem ------Enter prolog actions immediately above here---------
+
+rem ==========================================================================
+rem     Each product name specified must be the same as that stored in the  
+rem     APP_NAME column of the SMP_VDS_REPOS_VERSION table in the repository.
+rem ==========================================================================
+
+rem ====================================================================== 
+rem     Entry for the base OEM product.
+rem ======================================================================
+
+product("/com/oracle/Sysman/EM/EMSystem", "Oracle Enterprise Manager");
+    version(6);
+    map_version(1, 2.0.4);
+    map_version(2, 2.1.0.0);
+    map_version(3, 2.1.0.1);
+    map_version(4, 2.2.0);     
+    map_version(5, 9.0.1);     
+    map_version(6, 9.2.0);     
+    
+rem ------Actions to create current version---------
+
+    sql_script(CREATE,   MAScre.sql)
+    sql_script(CREATE,   vtccre.sql)
+    sql_script(CREATE,   vticre.sql)
+    sql_script(CREATE,   vtadbappcre.sql)
+    sql_script(CREATE,   vdocre.sql)
+    sql_script(CREATE,   varcre.sql)
+    java_class(CREATE,   oracle.sysman.vbo.vboe.repmgr.PopulateRegistry);
+    java_class(CREATE,   oracle.sysman.vdp.VdpPopulateManagementRegionInfo);
+    java_class(CREATE,   oracle.sysman.vt.reporting.PopulateReports);
+    
+rem ------Actions to drop current version---------
+
+    sql_script(DROP,     vtreportdrp.sql);
+    sql_script(DROP,     repviewdrp.sql);
+    sql_script(DROP,     vardrp.sql)
+    sql_script(DROP,     vdodrp.sql)
+    sql_script(DROP,     vtadbappdrp.sql)
+    sql_script(DROP,     vtidrp.sql)
+    sql_script(DROP,     vtcdrp.sql)
+    sql_script(DROP,     MASdrp.sql)
+
+rem --------------------------------------------------------------------------------
+rem NOTE: Upgrade actions are intended to be incremental.  That is, the upgrade
+rem will perform the necessary steps to go from version v to v+1, and then from
+rem v+1 to v+2, and so on.  There should never be an upgrade action that upgrades
+rem from v directly to v+2 (or v+3, etc.).  Once you have entered the set of
+rem upgrade actions for upgrade from v to v+1, and they have been thoroughly tested,
+rem you should never remove those actions;  you should only add to them with a set
+rem of actions to move from v+1 to v+2, etc.
+rem --------------------------------------------------------------------------------
+
+rem ------Actions to upgrade from 2.0.4 to 2.1.0.0---------
+
+rem	NOTE: The vxamigrate.sql script must be called after the vdjmigrate.sql script
+rem	as the vxamigrate.sql script deletes tables that are used by vdjmigrate.sql
+
+    sql_script(UPGRADE,  %MIGRATION_SCRIPT_HOME%/v21/vdsmigrate.sql, 1, 2);
+    sql_script(UPGRADE,  %MIGRATION_SCRIPT_HOME%/v21/vdjmigrate.sql, 1, 2);
+    sql_script(UPGRADE,  %MIGRATION_SCRIPT_HOME%/v21/vdimigrate.sql, 1, 2);
+    sql_script(UPGRADE,  %MIGRATION_SCRIPT_HOME%/v21/vdvmigrate.sql, 1, 2);
+    sql_script(UPGRADE,  %MIGRATION_SCRIPT_HOME%/v21/vdgmigrate.sql, 1, 2);
+    sql_script(UPGRADE,  %MIGRATION_SCRIPT_HOME%/v21/vdpmigrate.sql, 1, 2);
+    sql_script(UPGRADE,  %MIGRATION_SCRIPT_HOME%/v21/vdemigrate.sql, 1, 2);
+    sql_script(UPGRADE,  %MIGRATION_SCRIPT_HOME%/v21/vdnmigrate.sql, 1, 2);
+    sql_script(UPGRADE,  %MIGRATION_SCRIPT_HOME%/v21/vdmmigrate.sql, 1, 2);
+    sql_script(UPGRADE,  %MIGRATION_SCRIPT_HOME%/v21/vxamigrate.sql, 1, 2);
+    sql_script(UPGRADE,  %MIGRATION_SCRIPT_HOME%/v21/utilcre.sql, 1, 2);
+    sql_script(UPGRADE,  %MIGRATION_SCRIPT_HOME%/v21/smplongdrp.sql, 1, 2);
+    java_class(UPGRADE,  oracle.sysman.migration.v21.SecurityMigrate, 1, 2);
+    java_class(UPGRADE,  oracle.sysman.migration.v21.RegistryMigrate, 1, 2);
+
+rem ------Actions to upgrade from 2.1.0.0 to 2.1.0.1---------
+
+    sql_script(UPGRADE,  %MIGRATION_SCRIPT_HOME%/v21/vdgsecmigrate.sql, 2, 3);
+    java_class(UPGRADE,  oracle.sysman.migration.v21.VdgSecurityMigrate, 2, 3);
+
+rem ------Actions to upgrade from 2.1.0.1 to 2.2.0.0---------
+
+    sql_script(UPGRADE,  %MIGRATION_SCRIPT_HOME%/v22/vbormigrate.sql, 3, 4);
+    sql_script(UPGRADE,  %MIGRATION_SCRIPT_HOME%/v22/vdvmigrate.sql, 3, 4);
+    sql_script(UPGRADE,  %MIGRATION_SCRIPT_HOME%/v22/vdnmigrate.sql, 3, 4);
+    sql_script(UPGRADE,  %MIGRATION_SCRIPT_HOME%/v22/vdmmigrate.sql, 3, 4);
+    sql_script(UPGRADE,  %MIGRATION_SCRIPT_HOME%/v22/vdemigrate.sql, 3, 4);
+    sql_script(UPGRADE,  %MIGRATION_SCRIPT_HOME%/v22/vdgmigrate.sql, 3, 4);
+    sql_script(UPGRADE,  %MIGRATION_SCRIPT_HOME%/v22/vtadbappmigrate.sql, 3, 4);
+    sql_script(UPGRADE,  %MIGRATION_SCRIPT_HOME%/v22/vxaappmigrate.sql, 3, 4);
+    java_class(UPGRADE,  oracle.sysman.migration.v22.SimilarEventTestsMigrate, 3, 4);
+    java_class(UPGRADE,  oracle.sysman.migration.v22.RunTCLMigrate, 3, 4);
+    sql_script(UPGRADE,  %MIGRATION_SCRIPT_HOME%/v22/vdimigrate.sql, 3, 4);
+    java_class(UPGRADE,  oracle.sysman.migration.v22.PopulateRegistry, 3, 4);
+    sql_script(UPGRADE,  %MIGRATION_SCRIPT_HOME%/v22/repviewmigrate.sql, 3, 4);
+
+
+rem ------Actions to upgrade from 2.2.0.0 to 9.0.1.0---------
+
+    sql_script(UPGRADE,  %MIGRATION_SCRIPT_HOME%/v82/vddmigrate.sql, 4, 5);
+    sql_script(UPGRADE,  %MIGRATION_SCRIPT_HOME%/v82/vdmmigrate.sql, 4, 5);
+    sql_script(UPGRADE,  %MIGRATION_SCRIPT_HOME%/v82/vdumigrate.sql, 4, 5);
+    sql_script(UPGRADE,  %MIGRATION_SCRIPT_HOME%/v82/vdvmigrate.sql, 4, 5);
+    sql_script(UPGRADE,  %MIGRATION_SCRIPT_HOME%/v82/vdemigrate.sql, 4, 5);
+    sql_script(UPGRADE,  %MIGRATION_SCRIPT_HOME%/v82/vdnmigrate.sql, 4, 5);
+    sql_script(UPGRADE,  %MIGRATION_SCRIPT_HOME%/v82/vdgmigrate.sql, 4, 5);
+    sql_script(UPGRADE,  %MIGRATION_SCRIPT_HOME%/v82/vdpmigrate.sql, 4, 5);
+    sql_script(UPGRADE,  %MIGRATION_SCRIPT_HOME%/v82/vtreportmigrate.sql, 4, 5);
+    sql_script(UPGRADE,  %MIGRATION_SCRIPT_HOME%/v82/omsviewsmigrate.sql, 4, 5);
+    sql_script(UPGRADE,  %MIGRATION_SCRIPT_HOME%/v82/repviewmigrate.sql, 4, 5);
+    sql_script(UPGRADE,  %MIGRATION_SCRIPT_HOME%/v82/omspkgsmigrate.sql, 4, 5);
+    sql_script(UPGRADE,  %MIGRATION_SCRIPT_HOME%/v82/vdimigrate.sql, 4, 5);
+    sql_script(UPGRADE,  %MIGRATION_SCRIPT_HOME%/v82/vdjmigrate.sql, 4, 5);
+    java_class(UPGRADE,  oracle.sysman.migration.v82.RunVdeMigrate, 4, 5);
+    java_class(UPGRADE,  oracle.sysman.migration.v82.VdgEventMigrate, 4, 5);
+    java_class(UPGRADE,  oracle.sysman.migration.v82.EventTestMigration, 4, 5);
+    java_class(UPGRADE,  oracle.sysman.vbo.vboe.repmgr.PopulateRegistry, 4, 5);
+    java_class(UPGRADE,  oracle.sysman.vt.reporting.PopulateReports, 4, 5);
+
+rem ------Actions to upgrade from 9.0.1.0 to 9.2.0---------
+
+    sql_script(UPGRADE,  %MIGRATION_SCRIPT_HOME%/v92/vddmigrate.sql, 5, 6);
+    sql_script(UPGRADE,  %MIGRATION_SCRIPT_HOME%/v92/vdemigrate.sql, 5, 6);
+    sql_script(UPGRADE,  %MIGRATION_SCRIPT_HOME%/v92/vdjmigrate.sql, 5, 6);
+    sql_script(UPGRADE,  %MIGRATION_SCRIPT_HOME%/v92/vdnmigrate.sql, 5, 6);
+    sql_script(UPGRADE,  %MIGRATION_SCRIPT_HOME%/v92/vdumigrate.sql, 5, 6);
+    sql_script(UPGRADE,  %MIGRATION_SCRIPT_HOME%/v92/vbormigrate.sql, 5, 6);
+    sql_script(UPGRADE,  %MIGRATION_SCRIPT_HOME%/v92/vtreportmigrate.sql, 5, 6);
+    sql_script(UPGRADE,  %MIGRATION_SCRIPT_HOME%/v92/vdv_migrate.sql, 5, 6);
+    java_class(UPGRADE,  oracle.sysman.migration.v92.SaveEventHandlerConfig, 5, 6);
+    java_class(UPGRADE,  oracle.sysman.vbo.vboe.repmgr.PopulateRegistry, 5, 6);
+    java_class(UPGRADE,  oracle.sysman.migration.v92.RestoreEventHandlerConfig, 5, 6);
+
+rem ------Add any addition upgrade actions here
+
+rem ====================================================================== 
+rem     Reporting Framework. Reporting Framework scripts have been moved
+rem     out of the base framework to remove problem with VOB split.
+rem ======================================================================
+rem
+rem --- product("EMReporting", "Enterprise Manager Reporting");
+rem ---     version(1);
+rem ---     map_version(1, 9.0.1);
+rem --- 
+rem ------Actions to create current version---------
+rem --- 
+rem ---     java_class(CREATE,	 oracle.sysman.vt.reporting.PopulateReports);
+rem --- 
+rem ------Actions to drop current version---------
+rem --- 
+rem ---     sql_script(DROP,     vtreportdrp.sql);
+
+
+rem ====================================================================== 
+rem     Oracle Change Manager.
+rem ======================================================================
+
+product("OCM", "Oracle Change Manager");
+    version(4);
+    map_version(1, 2.0.4);
+    map_version(2, 2.1.0);
+    map_version(3, 2.2.0);
+    map_version(4, 9.2.0);
+
+rem ------Actions to create current version---------
+
+    sql_script(CREATE,   ocmrepcre.sql);
+    
+rem ------Actions to drop current version---------
+
+    sql_script(DROP,     ocmrepdrp.sql);
+    
+rem --------------------------------------------------------------------------------
+rem NOTE: Upgrade actions are intended to be incremental.  That is, the upgrade
+rem will perform the necessary steps to go from version v to v+1, and then from
+rem v+1 to v+2, and so on.  There should never be an upgrade action that upgrades
+rem from v directly to v+2 (or v+3, etc.).  Once you have entered the set of
+rem upgrade actions for upgrade from v to v+1, and they have been thoroughly tested,
+rem you should never remove those actions;  you should only add to them with a set
+rem of actions to move from v+1 to v+2, etc.
+rem --------------------------------------------------------------------------------
+
+rem ------Actions to upgrade from 2.0.4 to 2.1.0.0---------
+
+    sql_script(UPGRADE,  %MIGRATION_SCRIPT_HOME%/v21/ocm21rn_migrate.sql, 1, 2);
+    sql_script(UPGRADE,  %MIGRATION_SCRIPT_HOME%/v21/ocm21cre_migrate.sql, 1, 2);
+    sql_script(UPGRADE,  %MIGRATION_SCRIPT_HOME%/v21/ocm21pop1_migrate.sql, 1, 2);
+    java_class(UPGRADE,  oracle.sysman.migration.v21.OCMLongsMigrate, 1, 2);
+    sql_script(UPGRADE,  %MIGRATION_SCRIPT_HOME%/v21/ocm21pop3_migrate.sql, 1, 2);
+    sql_script(UPGRADE,  %MIGRATION_SCRIPT_HOME%/v21/ocm21dr_migrate.sql, 1, 2);
+
+rem ------Actions to upgrade from 2.1.0.0 to 2.2.0.0---------
+
+rem ------Actions to upgrade from 2.1.0.0 to 9.0.1.0---------
+    sql_script(UPGRADE,  %MIGRATION_SCRIPT_HOME%/v82/ocmupd_migrate.sql, 2, 3);
+    java_class(UPGRADE,  oracle.sysman.migration.v82.OCMToughMigrate, 2, 3);
+
+rem ------Actions to upgrade from 9.0.1.0 to 9.2.0---------
+
+    sql_script(UPGRADE,  %MIGRATION_SCRIPT_HOME%/v92/ocmupd_migrate.sql, 3, 4);
+
+rem ------Add any addition upgrade actions here
+
+
+rem ====================================================================== 
+rem     Oracle Trace.
+rem ======================================================================
+
+product("EPC", "Oracle Trace");
+    version(3);
+    map_version(1, 2.0.4);
+    map_version(2, 2.1.0);
+    map_version(3, 2.2.0);     
+    
+rem ------Actions to create current version---------
+
+    sql_script(CREATE,   epccre.sql);
+    
+rem ------Actions to drop current version---------
+
+    sql_script(DROP,     epcdrp.sql);
+    
+rem --------------------------------------------------------------------------------
+rem NOTE: Upgrade actions are intended to be incremental.  That is, the upgrade
+rem will perform the necessary steps to go from version v to v+1, and then from
+rem v+1 to v+2, and so on.  There should never be an upgrade action that upgrades
+rem from v directly to v+2 (or v+3, etc.).  Once you have entered the set of
+rem upgrade actions for upgrade from v to v+1, and they have been thoroughly tested,
+rem you should never remove those actions;  you should only add to them with a set
+rem of actions to move from v+1 to v+2, etc.
+rem --------------------------------------------------------------------------------
+
+rem ------Actions to upgrade from 2.0.4 to 2.1.0.0---------
+
+    sql_script(UPGRADE,  %MIGRATION_SCRIPT_HOME%/v21/epcup21.sql, 1, 2);
+        
+rem ------Actions to upgrade from 2.1.0 to 2.2.0---------
+
+    sql_script(UPGRADE,  %MIGRATION_SCRIPT_HOME%/v22/epcup22.sql, 2, 3);
+
+rem ------Add any addition upgrade actions here
+
+
+
+
+rem ====================================================================== 
+rem     Oracle Performance Manager/Capacity Planner.
+rem ======================================================================
+
+product("VTM", "Oracle Performance Manager/Oracle Capacity Planner");
+    version(3);
+    map_version(1, 2.0.4);
+    map_version(2, 2.1.0);      
+    map_version(3, 2.2.0);      
+    
+rem ------Actions to create current version---------
+
+    sql_script(CREATE,   vtmcre.sql);
+    
+rem ------Actions to drop current version---------
+
+    sql_script(DROP,     vtmdrp.sql);
+    
+rem --------------------------------------------------------------------------------
+rem NOTE: Upgrade actions are intended to be incremental.  That is, the upgrade
+rem will perform the necessary steps to go from version v to v+1, and then from
+rem v+1 to v+2, and so on.  There should never be an upgrade action that upgrades
+rem from v directly to v+2 (or v+3, etc.).  Once you have entered the set of
+rem upgrade actions for upgrade from v to v+1, and they have been thoroughly tested,
+rem you should never remove those actions;  you should only add to them with a set
+rem of actions to move from v+1 to v+2, etc.
+rem --------------------------------------------------------------------------------
+
+rem ------Actions to upgrade from 2.0.4 to 2.1.0---------
+
+    sql_script(UPGRADE,  %MIGRATION_SCRIPT_HOME%/v21/vtmmigrate.sql, 1, 2);
+    
+rem ------Actions to upgrade from 2.1.0 to 2.2.0---------
+
+rem ------Add any addition upgrade actions here
+
+    
+
+rem ======================================================================
+rem     Oracle Expert.
+rem ======================================================================
+
+product("EXPERT", "Oracle Expert");
+    version(4);
+    map_version(1, 2.0.4);
+    map_version(2, 2.1.0);      
+    map_version(3, 2.2.0);
+    map_version(4, 9.0.1);
+    
+rem ------Actions to create current version---------
+
+    sql_script(CREATE,   vdkcr.sql);
+    sql_script(CREATE,   vdkidx.sql);
+    sql_script(CREATE,   vmqcre.sql);
+
+rem ------Actions to drop current version---------
+
+    java_class(DROP,     oracle.sysman.vdk.VdkDrop210);
+    sql_script(DROP,     vmqdrp.sql);
+
+rem --------------------------------------------------------------------------------
+rem NOTE: Upgrade actions are intended to be incremental.  That is, the upgrade
+rem will perform the necessary steps to go from version v to v+1, and then from
+rem v+1 to v+2, and so on.  There should never be an upgrade action that upgrades
+rem from v directly to v+2 (or v+3, etc.).  Once you have entered the set of
+rem upgrade actions for upgrade from v to v+1, and they have been thoroughly tested,
+rem you should never remove those actions;  you should only add to them with a set
+rem of actions to move from v+1 to v+2, etc.
+rem --------------------------------------------------------------------------------
+
+rem ------Actions to upgrade from 2.0.4 to 2.1.0---------
+
+    sql_script(UPGRADE,  %MIGRATION_SCRIPT_HOME%/v21/vdkcr210.sql, 1, 2);
+    sql_script(UPGRADE,  %MIGRATION_SCRIPT_HOME%/v21/vdkidx210.sql, 1, 2);
+    sql_script(UPGRADE,  %MIGRATION_SCRIPT_HOME%/v21/vdkup210.sql, 1, 2);
+    java_class(UPGRADE,  oracle.sysman.vdk.VdkUpgrade210, 1, 2);
+    
+rem ------Actions to upgrade from 2.1.0 to 2.2.0---------
+
+    sql_script(UPGRADE,  %MIGRATION_SCRIPT_HOME%/v22/vmqup220.sql, 2, 3);
+
+rem ------Actions to upgrade from 2.2.0 to 9.0.0---------
+
+    sql_script(UPGRADE,  %MIGRATION_SCRIPT_HOME%/v82/vdkmigrate.sql, 3, 4);
+    sql_script(UPGRADE,  %MIGRATION_SCRIPT_HOME%/v82/vmqmigrate.sql, 3, 4);
+
+rem ------Add any addition upgrade actions here
+
+
+rem ======================================================================
+rem     Oracle LogMiner(tm) Viewer
+rem ======================================================================
+
+product("LMViewer", "Oracle LogMiner(tm) Viewer");
+    version(2);
+    map_version(1, 9.0.1);
+    map_version(2, 9.2.0);
+
+rem ------Actions to create current version---------
+
+    sql_script(CREATE,   lmviewercre.sql);
+
+rem ------Actions to drop current version---------
+
+    sql_script(DROP,     lmviewerdrp.sql);
+
+rem ------Actions to upgrade from 9.0.1.0 to 9.2.0---------
+
+    sql_script(UPGRADE,  %MIGRATION_SCRIPT_HOME%/v92/lmviewermigrate.sql, 1, 2);
+
+rem ====================================================================== 
+rem     Oracle Service Level Reporting
+rem ======================================================================
+
+product("SLR", "Service Level Reporting");
+    version(1);
+    map_version(1, 9.0.1);
+    
+rem ------Actions to create current version---------
+
+    java_class(CREATE,   oracle.sysman.vbo.slr.SlrPopulateReports);
+    
+rem ------Actions to drop current version---------
+
+
+rem ======================================================================
+rem     Oracle Data Guard Manager
+rem ======================================================================
+
+product("STANDBY", "Oracle Data Guard Manager");
+    version(2);
+    map_version(1, 9.0.1);
+    map_version(2, 9.2.0);     
+    
+rem ------Actions to create current version---------
+
+    sql_script(CREATE,   standbycre.sql);
+
+rem ------Actions to drop current version---------
+
+    sql_script(DROP,     standbydrp.sql);
+
+rem ------Actions to upgrade from 9.0.1.0 to 9.2.0---------
+
+    sql_script(UPGRADE,  %MIGRATION_SCRIPT_HOME%/v92/standbyup.sql, 1, 2);
+    
+rem ======================================================================
+rem     Add any additional products here, above this comment.
+rem ======================================================================
+
+rem ==========================================================================
+rem     Epilog entries.
+rem
+rem	  These actions will be executed after all the product actions for
+rem	  the requested operation.
+rem
+rem	  The rules for constructing actions in the epilog section are the same
+rem	  as the rules for constructing actions in a particular product, WITH
+rem	  ONE IMPORTANT EXCEPTION:
+rem		The UPGRADE actions do not allow version numbers, and are 
+rem		unconditionally executed during an UPGRADE operation.
+rem	  For example:
+rem    
+rem	  epilog:
+rem		sql_script(CREATE,   createEpilog.sql)
+rem
+rem    	sql_script(DROP,     dropEpilog.sql);
+rem
+rem    	sql_script(UPGRADE,  upgradeEpilog.sql);
+rem
+rem
+rem ==========================================================================
+
+epilog;
+
+rem ------Enter epilog actions immediately above here---------
+

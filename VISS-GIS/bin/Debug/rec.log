@@ -1,0 +1,481 @@
+2009-8-11 17:07:02:6
+2009-8-11 17:07:02:viss
+2009-8-11 17:07:02:172.13.2.10
+2009-8-11 17:07:02:8081
+2009-8-11 17:07:02:gis
+2009-8-11 17:07:02:12345678
+2009-8-11 17:07:02:15
+2009-8-11 17:07:02:ReadXML System.IO.FileNotFoundException: 未能找到文件“E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\VISS-GIS\bin\Debug\Config.XML”。
+文件名:“E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\VISS-GIS\bin\Debug\Config.XML”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   在 System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials)
+   在 System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   在 System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   在 System.Threading.CompressedStack.runTryCode(Object userData)
+   在 System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   在 System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   在 System.Xml.XmlTextReaderImpl.OpenUrl()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.Load(String filename)
+   在 LBSgisPolice110.FrmMain.ReadXML() 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\VISS-GIS\FrmMain.cs:行号 138
+2009-8-11 17:07:03:数据库：没有连接到数据库服务器 System.Data.OracleClient.OracleException: ORA-01017: 用户名/口令无效; 登录被拒绝
+
+   在 System.Data.OracleClient.OracleException.Check(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleInternalConnection.OpenOnLocalTransaction(String userName, String password, String serverName, Boolean integratedSecurity, Boolean unicode, Boolean omitOracleConnectionName)
+   在 System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 LBSgisPolice110.FrmMain.ConOracle() 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\VISS-GIS\FrmMain.cs:行号 506
+2009-8-11 17:07:04:GetCenter System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 LBSgisPolice110.FrmMain.GetCenter(DPoint dp) 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\VISS-GIS\FrmMain.cs:行号 670
+2009-8-11 17:07:04:CreateVideoLayer System.Data.OracleClient.OracleException: ORA-01017: 用户名/口令无效; 登录被拒绝
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 LBSgisPolice110.FrmMain.CreateVideoLayer() 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\VISS-GIS\FrmMain.cs:行号 2458
+2009-8-11 17:07:04:服务器: Shelley
+2009-8-11 17:07:04:服务器地址:173.13.2.28
+2009-8-11 17:07:04:New TcpListener....Port=127.0.0.1:0
+2009-8-11 17:07:04:正在等待连接......
+2009-8-11 17:07:04:服务器: Shelley
+2009-8-11 17:07:04:服务器地址:173.13.2.28
+2009-8-11 17:07:04:New TcpListener....Port=127.0.0.1:0
+2009-8-11 17:07:04:正在等待连接......
+2009-8-11 17:09:47:6
+2009-8-11 17:09:47:viss
+2009-8-11 17:09:47:172.13.2.10
+2009-8-11 17:09:47:8081
+2009-8-11 17:09:47:gis
+2009-8-11 17:09:47:12345678
+2009-8-11 17:09:47:15
+2009-8-11 17:09:53:服务器: Shelley
+2009-8-11 17:09:53:服务器地址:173.13.2.28
+2009-8-11 17:09:53:New TcpListener....Port=127.0.0.1:19074
+2009-8-11 17:09:53:正在等待连接......
+2009-8-11 17:09:53:服务器: Shelley
+2009-8-11 17:09:53:服务器地址:173.13.2.28
+2009-8-11 17:09:53:New TcpListener....Port=127.0.0.1:19075
+2009-8-11 17:09:53:正在等待连接......
+2009-8-11 17:14:22:已经建立连接......
+2009-8-11 17:14:22:正在等待连接......
+2009-8-11 17:14:26:AnalyData-Exception System.InvalidOperationException: 线程间操作无效: 从不是创建控件“FrmMain”的线程访问它。
+   在 System.Windows.Forms.Control.get_Handle()
+   在 System.Windows.Forms.Control.SetVisibleCore(Boolean value)
+   在 System.Windows.Forms.Form.SetVisibleCore(Boolean value)
+   在 System.Windows.Forms.Control.set_Visible(Boolean value)
+   在 LBSgisPolice110.FrmMain.AnalyData(Byte[] msg) 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\VISS-GIS\FrmMain.cs:行号 2601
+2009-8-11 17:14:33:6
+2009-8-11 17:14:33:viss
+2009-8-11 17:14:33:173.13.2.10
+2009-8-11 17:14:33:8081
+2009-8-11 17:14:33:test
+2009-8-11 17:14:33:25d55ad283aa400af464c76d713c07ad
+2009-8-11 17:14:33:15
+2009-8-11 17:14:34:已经建立连接......
+2009-8-11 17:14:34:正在等待连接......
+2009-8-11 17:14:39:服务器: Shelley
+2009-8-11 17:14:39:服务器地址:173.13.2.28
+2009-8-11 17:14:39:New TcpListener....Port=127.0.0.1:19074
+2009-8-11 17:14:39:StartServer System.Net.Sockets.SocketException: 通常每个套接字地址(协议/网络地址/端口)只允许使用一次。
+   在 System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   在 System.Net.Sockets.TcpListener.Start(Int32 backlog)
+   在 System.Net.Sockets.TcpListener.Start()
+   在 LBSgisPolice110.FrmMain.StartServer() 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\VISS-GIS\FrmMain.cs:行号 318
+2009-8-11 17:14:39:服务器: Shelley
+2009-8-11 17:14:39:服务器地址:173.13.2.28
+2009-8-11 17:14:39:New TcpListener....Port=127.0.0.1:19075
+2009-8-11 17:14:39:StartServer1 System.Net.Sockets.SocketException: 通常每个套接字地址(协议/网络地址/端口)只允许使用一次。
+   在 System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   在 System.Net.Sockets.TcpListener.Start(Int32 backlog)
+   在 System.Net.Sockets.TcpListener.Start()
+   在 LBSgisPolice110.FrmMain.StartServer1() 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\VISS-GIS\FrmMain.cs:行号 3335
+2009-8-11 17:14:53:修改摄像机失败 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 LBSgisPolice110.FrmMain.SendMsg(Byte[] msg) 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\VISS-GIS\FrmMain.cs:行号 477
+2009-8-11 17:15:15:AnalyData-Exception System.InvalidOperationException: 线程间操作无效: 从不是创建控件“FrmMain”的线程访问它。
+   在 System.Windows.Forms.Control.get_Handle()
+   在 System.Windows.Forms.Control.SetVisibleCore(Boolean value)
+   在 System.Windows.Forms.Form.SetVisibleCore(Boolean value)
+   在 System.Windows.Forms.Control.set_Visible(Boolean value)
+   在 LBSgisPolice110.FrmMain.AnalyData(Byte[] msg) 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\VISS-GIS\FrmMain.cs:行号 2601
+2009-8-11 17:15:22:6
+2009-8-11 17:15:22:viss
+2009-8-11 17:15:22:173.13.2.10
+2009-8-11 17:15:22:8081
+2009-8-11 17:15:22:test
+2009-8-11 17:15:22:25d55ad283aa400af464c76d713c07ad
+2009-8-11 17:15:22:15
+2009-8-11 17:15:24:已经建立连接......
+2009-8-11 17:15:24:正在等待连接......
+2009-8-11 17:15:27:服务器: Shelley
+2009-8-11 17:15:27:服务器地址:173.13.2.28
+2009-8-11 17:15:27:New TcpListener....Port=127.0.0.1:19074
+2009-8-11 17:15:27:StartServer System.Net.Sockets.SocketException: 通常每个套接字地址(协议/网络地址/端口)只允许使用一次。
+   在 System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   在 System.Net.Sockets.TcpListener.Start(Int32 backlog)
+   在 System.Net.Sockets.TcpListener.Start()
+   在 LBSgisPolice110.FrmMain.StartServer() 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\VISS-GIS\FrmMain.cs:行号 318
+2009-8-11 17:15:27:服务器: Shelley
+2009-8-11 17:15:27:服务器地址:173.13.2.28
+2009-8-11 17:15:27:New TcpListener....Port=127.0.0.1:19075
+2009-8-11 17:15:27:StartServer1 System.Net.Sockets.SocketException: 通常每个套接字地址(协议/网络地址/端口)只允许使用一次。
+   在 System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   在 System.Net.Sockets.TcpListener.Start(Int32 backlog)
+   在 System.Net.Sockets.TcpListener.Start()
+   在 LBSgisPolice110.FrmMain.StartServer1() 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\VISS-GIS\FrmMain.cs:行号 3335
+2009-8-11 17:15:33:AnalyData-Exception System.InvalidOperationException: 线程间操作无效: 从不是创建控件“FrmMain”的线程访问它。
+   在 System.Windows.Forms.Control.get_Handle()
+   在 System.Windows.Forms.Control.SetVisibleCore(Boolean value)
+   在 System.Windows.Forms.Form.SetVisibleCore(Boolean value)
+   在 System.Windows.Forms.Control.set_Visible(Boolean value)
+   在 LBSgisPolice110.FrmMain.AnalyData(Byte[] msg) 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\VISS-GIS\FrmMain.cs:行号 2578
+2009-8-11 17:15:33:AnalyData-Exception System.InvalidOperationException: 线程间操作无效: 从不是创建控件“FrmMain”的线程访问它。
+   在 System.Windows.Forms.Control.get_Handle()
+   在 System.Windows.Forms.Control.SetVisibleCore(Boolean value)
+   在 System.Windows.Forms.Form.SetVisibleCore(Boolean value)
+   在 System.Windows.Forms.Control.set_Visible(Boolean value)
+   在 LBSgisPolice110.FrmMain.AnalyData(Byte[] msg) 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\VISS-GIS\FrmMain.cs:行号 2578
+2009-8-11 17:15:37:AnalyData-Exception System.InvalidOperationException: 线程间操作无效: 从不是创建控件“FrmMain”的线程访问它。
+   在 System.Windows.Forms.Control.get_Handle()
+   在 System.Windows.Forms.Control.SetVisibleCore(Boolean value)
+   在 System.Windows.Forms.Form.SetVisibleCore(Boolean value)
+   在 System.Windows.Forms.Control.set_Visible(Boolean value)
+   在 LBSgisPolice110.FrmMain.AnalyData(Byte[] msg) 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\VISS-GIS\FrmMain.cs:行号 2578
+2009-8-11 17:15:42:AnalyData-Exception System.InvalidOperationException: 线程间操作无效: 从不是创建控件“FrmMain”的线程访问它。
+   在 System.Windows.Forms.Control.get_Handle()
+   在 System.Windows.Forms.Control.SetVisibleCore(Boolean value)
+   在 System.Windows.Forms.Form.SetVisibleCore(Boolean value)
+   在 System.Windows.Forms.Control.set_Visible(Boolean value)
+   在 LBSgisPolice110.FrmMain.AnalyData(Byte[] msg) 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\VISS-GIS\FrmMain.cs:行号 2578
+2009-8-11 17:15:42:AnalyData-Exception System.InvalidOperationException: 线程间操作无效: 从不是创建控件“FrmMain”的线程访问它。
+   在 System.Windows.Forms.Control.get_Handle()
+   在 System.Windows.Forms.Control.SetVisibleCore(Boolean value)
+   在 System.Windows.Forms.Form.SetVisibleCore(Boolean value)
+   在 System.Windows.Forms.Control.set_Visible(Boolean value)
+   在 LBSgisPolice110.FrmMain.AnalyData(Byte[] msg) 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\VISS-GIS\FrmMain.cs:行号 2578
+2009-8-11 17:16:06:修改摄像机失败 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 LBSgisPolice110.FrmMain.SendMsg(Byte[] msg) 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\VISS-GIS\FrmMain.cs:行号 477
+2009-8-11 17:16:13:修改摄像机失败 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 LBSgisPolice110.FrmMain.SendMsg(Byte[] msg) 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\VISS-GIS\FrmMain.cs:行号 477
+2009-8-11 17:16:17:AnalyData-Exception System.InvalidOperationException: 线程间操作无效: 从不是创建控件“FrmMain”的线程访问它。
+   在 System.Windows.Forms.Control.get_Handle()
+   在 System.Windows.Forms.Control.SetVisibleCore(Boolean value)
+   在 System.Windows.Forms.Form.SetVisibleCore(Boolean value)
+   在 System.Windows.Forms.Control.set_Visible(Boolean value)
+   在 LBSgisPolice110.FrmMain.AnalyData(Byte[] msg) 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\VISS-GIS\FrmMain.cs:行号 2601
+2009-8-11 17:28:35:6
+2009-8-11 17:28:35:viss
+2009-8-11 17:28:35:173.13.2.10
+2009-8-11 17:28:35:8081
+2009-8-11 17:28:35:test
+2009-8-11 17:28:35:25d55ad283aa400af464c76d713c07ad
+2009-8-11 17:28:35:15
+2009-8-11 17:28:40:服务器: Shelley
+2009-8-11 17:28:40:服务器地址:173.13.2.28
+2009-8-11 17:28:40:New TcpListener....Port=127.0.0.1:19074
+2009-8-11 17:28:40:正在等待连接......
+2009-8-11 17:28:40:服务器: Shelley
+2009-8-11 17:28:40:服务器地址:173.13.2.28
+2009-8-11 17:28:40:New TcpListener....Port=127.0.0.1:19075
+2009-8-11 17:28:40:正在等待连接......
+2009-8-11 17:28:43:已经建立连接......
+2009-8-11 17:28:43:正在等待连接......
+2009-8-11 17:28:44:数据接收完成
+2009-8-11 17:28:44:地图更新完成
+2009-8-11 17:29:05:修改摄像机成功
+2009-8-11 17:29:06:数据接收完成
+2009-8-11 17:29:06:地图更新完成
+2009-8-11 17:29:13:修改摄像机成功
+2009-8-11 17:29:13:数据接收完成
+2009-8-11 17:29:13:地图更新完成
+2009-8-11 17:29:19:添加摄像机成功
+2009-8-11 17:29:23:数据接收完成
+2009-8-11 17:29:23:地图更新完成
+2009-8-11 17:29:27:修改摄像机成功
+2009-8-11 17:29:27:数据接收完成
+2009-8-11 17:29:27:地图更新完成
+2009-8-11 17:30:02:6
+2009-8-11 17:30:02:viss
+2009-8-11 17:30:02:172.13.2.10
+2009-8-11 17:30:02:8081
+2009-8-11 17:30:02:gis
+2009-8-11 17:30:02:12345678
+2009-8-11 17:30:02:15
+2009-8-11 17:30:08:服务器: Shelley
+2009-8-11 17:30:08:服务器地址:173.13.2.28
+2009-8-11 17:30:08:New TcpListener....Port=127.0.0.1:19074
+2009-8-11 17:30:08:StartServer System.Net.Sockets.SocketException: 通常每个套接字地址(协议/网络地址/端口)只允许使用一次。
+   在 System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   在 System.Net.Sockets.TcpListener.Start(Int32 backlog)
+   在 System.Net.Sockets.TcpListener.Start()
+   在 LBSgisPolice110.FrmMain.StartServer() 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\VISS-GIS\FrmMain.cs:行号 318
+2009-8-11 17:30:08:服务器: Shelley
+2009-8-11 17:30:08:服务器地址:173.13.2.28
+2009-8-11 17:30:08:New TcpListener....Port=127.0.0.1:19075
+2009-8-11 17:30:08:StartServer1 System.Net.Sockets.SocketException: 通常每个套接字地址(协议/网络地址/端口)只允许使用一次。
+   在 System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   在 System.Net.Sockets.TcpListener.Start(Int32 backlog)
+   在 System.Net.Sockets.TcpListener.Start()
+   在 LBSgisPolice110.FrmMain.StartServer1() 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\VISS-GIS\FrmMain.cs:行号 3335
+2009-8-11 17:38:15:6
+2009-8-11 17:38:15:viss
+2009-8-11 17:38:15:172.13.2.10
+2009-8-11 17:38:15:8081
+2009-8-11 17:38:15:gis
+2009-8-11 17:38:15:12345678
+2009-8-11 17:38:15:15
+2009-8-11 17:38:21:服务器: Shelley
+2009-8-11 17:38:21:服务器地址:173.13.2.28
+2009-8-11 17:38:21:New TcpListener....Port=127.0.0.1:19074
+2009-8-11 17:38:21:StartServer System.Net.Sockets.SocketException: 通常每个套接字地址(协议/网络地址/端口)只允许使用一次。
+   在 System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   在 System.Net.Sockets.TcpListener.Start(Int32 backlog)
+   在 System.Net.Sockets.TcpListener.Start()
+   在 LBSgisPolice110.FrmMain.StartServer() 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\VISS-GIS\FrmMain.cs:行号 318
+2009-8-11 17:38:21:服务器: Shelley
+2009-8-11 17:38:21:服务器地址:173.13.2.28
+2009-8-11 17:38:21:New TcpListener....Port=127.0.0.1:19075
+2009-8-11 17:38:21:StartServer1 System.Net.Sockets.SocketException: 通常每个套接字地址(协议/网络地址/端口)只允许使用一次。
+   在 System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   在 System.Net.Sockets.TcpListener.Start(Int32 backlog)
+   在 System.Net.Sockets.TcpListener.Start()
+   在 LBSgisPolice110.FrmMain.StartServer1() 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\VISS-GIS\FrmMain.cs:行号 3335
+2009-8-11 17:38:26:数据接收完成
+2009-8-11 17:38:26:地图更新完成
+2009-8-11 17:38:28:数据接收完成
+2009-8-11 17:38:28:地图更新完成
+2009-8-11 17:38:46:数据接收完成
+2009-8-11 17:38:46:地图更新完成
+2009-8-11 17:38:53:修改摄像机成功
+2009-8-11 17:38:54:数据接收完成
+2009-8-11 17:38:54:地图更新完成
+2009-8-11 17:53:34:数据接收完成
+2009-8-11 17:53:34:地图更新完成
+2009-8-12 9:27:25:6
+2009-8-12 9:27:26:viss
+2009-8-12 9:27:26:173.13.2.10
+2009-8-12 9:27:26:8081
+2009-8-12 9:27:26:test
+2009-8-12 9:27:26:25d55ad283aa400af464c76d713c07ad
+2009-8-12 9:27:26:15
+2009-8-12 9:27:34:服务器: Shelley
+2009-8-12 9:27:34:服务器地址:173.13.2.28
+2009-8-12 9:27:34:New TcpListener....Port=127.0.0.1:19074
+2009-8-12 9:27:34:正在等待连接......
+2009-8-12 9:27:34:服务器: Shelley
+2009-8-12 9:27:34:服务器地址:173.13.2.28
+2009-8-12 9:27:34:New TcpListener....Port=127.0.0.1:19075
+2009-8-12 9:27:34:正在等待连接......
+2009-8-12 9:27:48:修改摄像机失败 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 LBSgisPolice110.FrmMain.SendMsg(Byte[] msg) 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\VISS-GIS\FrmMain.cs:行号 477
+2009-8-12 9:27:52:修改摄像机失败 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 LBSgisPolice110.FrmMain.SendMsg(Byte[] msg) 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\VISS-GIS\FrmMain.cs:行号 477
+2009-8-12 9:27:58:修改摄像机失败 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 LBSgisPolice110.FrmMain.SendMsg(Byte[] msg) 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\VISS-GIS\FrmMain.cs:行号 477
+2009-8-12 9:28:14:修改摄像机失败 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 LBSgisPolice110.FrmMain.SendMsg(Byte[] msg) 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\VISS-GIS\FrmMain.cs:行号 477
+2009-8-12 9:28:17:添加摄像机失败 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 LBSgisPolice110.FrmMain.SendMsg(Byte[] msg) 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\VISS-GIS\FrmMain.cs:行号 477
+2009-8-12 9:28:21:添加摄像机失败 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 LBSgisPolice110.FrmMain.SendMsg(Byte[] msg) 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\VISS-GIS\FrmMain.cs:行号 477
+2009-8-12 9:28:24:修改摄像机失败 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 LBSgisPolice110.FrmMain.SendMsg(Byte[] msg) 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\VISS-GIS\FrmMain.cs:行号 477
+2009-8-12 9:28:37:添加摄像机失败 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 LBSgisPolice110.FrmMain.SendMsg(Byte[] msg) 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\VISS-GIS\FrmMain.cs:行号 477
+2009-8-12 9:37:11:6
+2009-8-12 9:37:11:viss
+2009-8-12 9:37:11:172.13.2.10
+2009-8-12 9:37:11:8081
+2009-8-12 9:37:11:gis
+2009-8-12 9:37:11:12345678
+2009-8-12 9:37:11:15
+2009-8-12 9:37:16:服务器: Shelley
+2009-8-12 9:37:16:服务器地址:173.13.2.28
+2009-8-12 9:37:16:New TcpListener....Port=127.0.0.1:19074
+2009-8-12 9:37:16:正在等待连接......
+2009-8-12 9:37:16:服务器: Shelley
+2009-8-12 9:37:16:服务器地址:173.13.2.28
+2009-8-12 9:37:16:New TcpListener....Port=127.0.0.1:19075
+2009-8-12 9:37:16:正在等待连接......
+2009-8-12 9:38:27:添加摄像机失败 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 LBSgisPolice110.FrmMain.SendMsg(Byte[] msg) 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\VISS-GIS\FrmMain.cs:行号 477
+2009-8-12 9:39:52:修改摄像机失败 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 LBSgisPolice110.FrmMain.SendMsg(Byte[] msg) 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\VISS-GIS\FrmMain.cs:行号 477
+2009-8-12 9:39:56:startserver System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Runtime.InteropServices.SafeHandle.SetHandleAsInvalid()
+   在 System.Net.SafeCloseSocket.InnerSafeCloseSocket.Accept(SafeCloseSocket socketHandle, Byte[] socketAddress, Int32& socketAddressSize)
+   在 System.Net.Sockets.Socket.Accept()
+   在 System.Net.Sockets.TcpListener.AcceptTcpClient()
+   在 LBSgisPolice110.FrmMain.startsever() 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\VISS-GIS\FrmMain.cs:行号 361
+2009-8-12 9:39:56:startsever1 System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Runtime.InteropServices.SafeHandle.SetHandleAsInvalid()
+   在 System.Net.SafeCloseSocket.InnerSafeCloseSocket.Accept(SafeCloseSocket socketHandle, Byte[] socketAddress, Int32& socketAddressSize)
+   在 System.Net.Sockets.Socket.Accept()
+   在 System.Net.Sockets.TcpListener.AcceptTcpClient()
+   在 LBSgisPolice110.FrmMain.startsever1() 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\VISS-GIS\FrmMain.cs:行号 3371
+2009-8-12 9:40:45:6
+2009-8-12 9:40:45:viss
+2009-8-12 9:40:45:172.13.2.10
+2009-8-12 9:40:45:8081
+2009-8-12 9:40:45:gis
+2009-8-12 9:40:45:12345678
+2009-8-12 9:40:45:15
+2009-8-12 9:40:50:服务器: Shelley
+2009-8-12 9:40:50:服务器地址:173.13.2.28
+2009-8-12 9:40:50:New TcpListener....Port=127.0.0.1:19074
+2009-8-12 9:40:50:正在等待连接......
+2009-8-12 9:40:50:服务器: Shelley
+2009-8-12 9:40:50:服务器地址:173.13.2.28
+2009-8-12 9:40:50:New TcpListener....Port=127.0.0.1:19075
+2009-8-12 9:40:50:正在等待连接......
+2009-8-12 9:41:41:6
+2009-8-12 9:41:41:viss
+2009-8-12 9:41:41:172.13.2.10
+2009-8-12 9:41:41:8081
+2009-8-12 9:41:41:gis
+2009-8-12 9:41:41:12345678
+2009-8-12 9:41:41:15
+2009-8-12 9:41:46:服务器: Shelley
+2009-8-12 9:41:46:服务器地址:173.13.2.28
+2009-8-12 9:41:46:New TcpListener....Port=127.0.0.1:19074
+2009-8-12 9:41:46:正在等待连接......
+2009-8-12 9:41:46:服务器: Shelley
+2009-8-12 9:41:46:服务器地址:173.13.2.28
+2009-8-12 9:41:46:New TcpListener....Port=127.0.0.1:19075
+2009-8-12 9:41:46:正在等待连接......
+2009-8-12 9:41:53:startsever1 System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Runtime.InteropServices.SafeHandle.SetHandleAsInvalid()
+   在 System.Net.SafeCloseSocket.InnerSafeCloseSocket.Accept(SafeCloseSocket socketHandle, Byte[] socketAddress, Int32& socketAddressSize)
+   在 System.Net.Sockets.Socket.Accept()
+   在 System.Net.Sockets.TcpListener.AcceptTcpClient()
+   在 LBSgisPolice110.FrmMain.startsever1() 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\VISS-GIS\FrmMain.cs:行号 3371
+2009-8-12 9:41:53:startserver System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Runtime.InteropServices.SafeHandle.SetHandleAsInvalid()
+   在 System.Net.SafeCloseSocket.InnerSafeCloseSocket.Accept(SafeCloseSocket socketHandle, Byte[] socketAddress, Int32& socketAddressSize)
+   在 System.Net.Sockets.Socket.Accept()
+   在 System.Net.Sockets.TcpListener.AcceptTcpClient()
+   在 LBSgisPolice110.FrmMain.startsever() 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\VISS-GIS\FrmMain.cs:行号 361
+2009-8-12 9:42:45:6
+2009-8-12 9:42:45:viss
+2009-8-12 9:42:45:172.13.2.10
+2009-8-12 9:42:45:8081
+2009-8-12 9:42:45:gis
+2009-8-12 9:42:45:12345678
+2009-8-12 9:42:45:15
+2009-8-12 9:42:55:服务器: Shelley
+2009-8-12 9:42:55:服务器地址:173.13.2.28
+2009-8-12 9:42:59:New TcpListener....Port=127.0.0.1:19074
+2009-8-12 9:43:03:正在等待连接......
+2009-8-12 9:43:11:服务器: Shelley
+2009-8-12 9:43:11:服务器地址:173.13.2.28
+2009-8-12 9:43:11:New TcpListener....Port=127.0.0.1:19075
+2009-8-12 9:43:11:正在等待连接......
+2009-8-12 9:43:33:添加摄像机失败 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 LBSgisPolice110.FrmMain.SendMsg(Byte[] msg) 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\VISS-GIS\FrmMain.cs:行号 477
+2009-8-12 9:55:33:6
+2009-8-12 9:55:33:viss
+2009-8-12 9:55:33:172.13.2.10
+2009-8-12 9:55:33:8081
+2009-8-12 9:55:33:gis
+2009-8-12 9:55:33:12345678
+2009-8-12 9:55:33:15
+2009-8-12 9:55:38:服务器: Shelley
+2009-8-12 9:55:38:服务器地址:173.13.2.28
+2009-8-12 9:55:38:New TcpListener....Port=127.0.0.1:19074
+2009-8-12 9:55:38:正在等待连接......
+2009-8-12 9:55:38:服务器: Shelley
+2009-8-12 9:55:38:服务器地址:173.13.2.28
+2009-8-12 9:55:38:New TcpListener....Port=127.0.0.1:19075
+2009-8-12 9:55:38:正在等待连接......
+2009-8-12 9:55:48:添加摄像机失败 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 LBSgisPolice110.FrmMain.SendMsg(Byte[] msg) 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\VISS-GIS\FrmMain.cs:行号 477
+2009-8-12 9:57:12:已经建立连接......
+2009-8-12 9:57:12:正在等待连接......
+2009-8-12 9:57:25:数据接收完成
+2009-8-12 9:57:25:地图更新完成
+2009-8-12 9:57:32:已经建立连接......
+2009-8-12 9:57:32:正在等待连接......
+2009-8-12 9:57:39:数据接收完成
+2009-8-12 9:57:39:地图更新完成
+2009-8-12 9:57:39:数据接收完成
+2009-8-12 9:57:40:地图更新完成
+2009-8-12 9:57:43:添加摄像机成功
+2009-8-12 9:57:47:数据接收完成
+2009-8-12 9:57:47:地图更新完成
+2009-8-12 9:57:49:startserver System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Runtime.InteropServices.SafeHandle.SetHandleAsInvalid()
+   在 System.Net.SafeCloseSocket.InnerSafeCloseSocket.Accept(SafeCloseSocket socketHandle, Byte[] socketAddress, Int32& socketAddressSize)
+   在 System.Net.Sockets.Socket.Accept()
+   在 System.Net.Sockets.TcpListener.AcceptTcpClient()
+   在 LBSgisPolice110.FrmMain.startsever() 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\VISS-GIS\FrmMain.cs:行号 361
+2009-8-12 9:57:49:startclient-ThreadAbortException System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.Thread.SleepInternal(Int32 millisecondsTimeout)
+   在 System.Threading.Thread.Sleep(TimeSpan timeout)
+   在 LBSgisPolice110.FrmMain.startclient() 位置 E:\Work\顺德公安\非受控\源代码\LBSgisPolice.root\LBSgisPolice\VISS-GIS\FrmMain.cs:行号 445
+2009-8-12 9:57:50:关闭连接......
+2010-3-10 10:45:19:6
+2010-3-10 10:45:19:viss
+2010-3-10 10:45:19:172.13.2.10
+2010-3-10 10:45:19:8081
+2010-3-10 10:45:19:gis
+2010-3-10 10:45:19:12345678
+2010-3-10 10:45:19:15
+2010-3-10 10:45:21:服务器: jay
+2010-3-10 10:45:21:服务器地址:192.168.0.32
+2010-3-10 10:45:21:New TcpListener....Port=127.0.0.1:19074
+2010-3-10 10:45:21:正在等待连接......
+2010-3-10 10:45:21:服务器地址:192.168.0.32
+2010-3-10 10:45:21:New TcpListener....Port=127.0.0.1:19075
+2010-3-10 10:45:21:正在等待连接......
+2010-3-10 10:45:40:Thread was being aborted.
+2010-3-10 10:46:29:6
+2010-3-10 10:46:29:viss
+2010-3-10 10:46:29:172.13.2.10
+2010-3-10 10:46:29:8081
+2010-3-10 10:46:29:gis
+2010-3-10 10:46:29:12345678
+2010-3-10 10:46:29:15
+2010-3-10 10:46:30:服务器: jay
+2010-3-10 10:46:30:服务器地址:192.168.0.32
+2010-3-10 10:46:30:New TcpListener....Port=127.0.0.1:19074
+2010-3-10 10:46:30:正在等待连接......
+2010-3-10 10:46:30:服务器地址:192.168.0.32
+2010-3-10 10:46:30:New TcpListener....Port=127.0.0.1:19075
+2010-3-10 10:46:30:正在等待连接......
+2010-3-10 10:46:56:Thread was being aborted.
+2010-3-10 10:46:56:Thread was being aborted.
+2010-3-10 10:57:11:6
+2010-3-10 10:57:11:viss
+2010-3-10 10:57:11:172.13.2.10
+2010-3-10 10:57:11:8081
+2010-3-10 10:57:11:gis
+2010-3-10 10:57:11:12345678
+2010-3-10 10:57:11:15
+2010-3-10 10:58:05:服务器: jay
+2010-3-10 10:58:05:服务器地址:192.168.0.32
+2010-3-10 10:58:05:New TcpListener....Port=127.0.0.1:19074
+2010-3-10 10:58:05:正在等待连接......
+2010-3-10 10:58:05:服务器地址:192.168.0.32
+2010-3-10 10:58:05:New TcpListener....Port=127.0.0.1:19075
+2010-3-10 10:58:05:正在等待连接......
+2010-3-10 10:58:15:Thread was being aborted.
+2010-3-10 10:58:15:Thread was being aborted.

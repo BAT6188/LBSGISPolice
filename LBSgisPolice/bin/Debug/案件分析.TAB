@@ -1,0 +1,16 @@
+!table
+!version 450
+!charset WindowsSimpChinese
+
+Definition Table
+  Type Native charset "WindowsSimpChinese"
+  Fields 9
+    表名 char (50) ;
+    案件名称 char (200) ;
+    表_ID char (80) ;
+    案件类型 char (80) ;
+    案别_案由 char (150) ;
+    发案时间初值 date ;
+    所属派出所 char (50) ;
+    所属中队 char (100) ;
+    所属警务室 char (100) ;

@@ -1,0 +1,81 @@
+#
+### SAMPLES FOR THE EVENT HANDLER
+#
+
+#################### Filters ########################
+
+######## Example 1
+### Pass all events to both event logger and command executor
+/com/oracle/sysman/em/eventHandler/global_filters/allNodes/node = *
+
+### Pass all events to the event logger
+/com/oracle/sysman/em/eventHandler/eventlogger_filters/allEvents/eventname=*
+
+### Pass all events to the command executor
+/com/oracle/sysman/em/eventHandler/commandexecutor_filters/allEvents/node=*
+
+####### Example 2
+### Pass on all events except –cputest• to both event 
+### logger and command executor
+/com/oracle/sysman/em/eventHandler/global_filters/not-cputest/eventname = !cputest
+### Pass on all events named cputest that did not originate on the node 
+### smptest16 to the Event Logger
+/com/oracle/sysman/em/eventHandler/eventlogger_filters/pass-some-cputest/eventname=cputest
+/com/oracle/sysman/em/eventHandler/eventlogger_filters/pass-some-cputest/node=!smptest16
+
+####### Example 3
+### Pass all events except cputest to the Command Executor adapter:
+/com/oracle/sysman/em/eventHandler/commandexecutor_filters/pass-no-cputest/eventname=!cputest
+
+####### Example 4
+### Pass on all events whose name is foo or whose originating node is 
+### skini-pc to the command executor
+/com/oracle/sysman/em/eventHandler/commandexecutor_filters/passfoo/eventname=foo
+/com/oracle/sysman/em/eventHandler/commandexecutor_filters/pass-skini/node=skini-pc
+
+
+######################## Templates ###############################
+### Sample template for the event logger. Log to the file ev.log
+### whenever any event occurs.
+/com/oracle/sysman/em/eventlogger/templates/allEvents/eventname=*
+/com/oracle/sysman/em/eventlogger/templates/allEvents/message=%eventname% fired on %node%: Target %targetname%: Output %output% Severity: %severity% Time: %timestamp%
+/com/oracle/sysman/em/eventlogger/templates/allEvents/logfile=ev.log
+/com/oracle/sysman/em/eventlogger/templates/allEvents/appendonstart=false
+
+#### For Windows NT:
+### my-machine is the name of the PC to which the message will be sent.
+### Whenever any event fires, a message using the above format is sent to 
+### machine my-machine.
+/com/oracle/sysman/em/commandexecutor/templates/allEvents2/eventname=*
+/com/oracle/sysman/em/commandexecutor/templates/allEvents2/command=net send my-machine %eventname% fired on %node%: Target %targetname%: Output %output% Severity: %severity% Time: %timestamp%
+
+
+#### For Solaris (Unix)
+
+### Here, whenever any event fires, a telnet session is opened.
+/com/oracle/sysman/em/commandexecutor/templates/allEvents/command=xterm -display hqsun1:0 -e telnet
+
+### Complex Example 1: If the event name is foo or the originating node 
+### is prod-pc, log the string "Event %eventname% occurred on node %node%" 
+### into the file myevents.log. If the event name is anything other than 
+### foo, execute the command "mail admin@acme.com -s %eventname% %node%"
+/com/oracle/sysman/em/eventlogger/templates/fooname/eventname=foo
+/com/oracle/sysman/em/eventlogger/templates/fooname/message=Event %eventname% occurred on node %node%
+/com/oracle/sysman/em/eventlogger/templates/fooname/logfile=myevents.log
+/com/oracle/sysman/em/eventlogger/templates/prod/node=prod-pc
+/com/oracle/sysman/em/eventlogger/templates/prod/message=Event %eventname% occurred on node %node%
+/com/oracle/sysman/em/eventlogger/templates/prod/logfile=myevents.log
+/com/oracle/sysman/em/commandexecutor/templates/anythingelse/eventname=!foo
+/com/oracle/sysman/em/commandexecutor/templates/anythingelse/command=mail skini@oracle.com -s %eventname% %node%
+
+### Complex Example 2: If the event severity is Alert, execute the commands 
+### "pager %eventname% dbapager" and 
+### "mail dba@acme.com -s %eventname% Highest Priority!!!" 
+### If the severity is anything else, only execute the command 
+### "mail dba@acme.com -s %eventname% Normal Priority"
+/com/oracle/sysman/em/commandexecutor/templates/alertsev1/severity=alert
+/com/oracle/sysman/em/commandexecutor/templates/alertsev1/command=pager %eventname% dbapager
+/com/oracle/sysman/em/commandexecutor/templates/alertsev2/severity=alert
+/com/oracle/sysman/em/commandexecutor/templates/alertsev2/command=mail dba@acme.com -s %eventname% Highest Priority!!!
+/com/oracle/sysman/em/commandexecutor/templates/sevanythingelse/severity=!alert
+/com/oracle/sysman/em/commandexecutor/templates/sevanythingelse/command=mail dba@acme.com -s %eventname% Normal Priority

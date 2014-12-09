@@ -1,0 +1,4 @@
+<?xml version="1.0" ?>
+<config>
+<connstring>Data Source=GIS_173.13.2.7;User ID=sdga;Password=sdga12345;Unicode=False</connstring> 
+</config>

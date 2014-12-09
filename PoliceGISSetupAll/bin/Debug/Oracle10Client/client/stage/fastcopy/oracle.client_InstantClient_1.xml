@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="US-ASCII" standalone="yes"?>
+<!-- Copyright (c) 2005 Oracle Corporation. All Rights Reserved. -->
+<!-- Do not modify the contents of this file by hand. -->
+
+<FILE_LIST>
+ <COMP NAME="oracle.rdbms.ic" VERSION="10.2.0.1.0" >
+  <FILE> Components/oracle.rdbms.ic/10.2.0.1.0/1/DataFiles/filegroup3.jar </FILE>
+  <FILE> Components/oracle.rdbms.ic/10.2.0.1.0/1/DataFiles/filegroup2.jar </FILE>
+  <FILE> Components/oracle.rdbms.ic/10.2.0.1.0/1/DataFiles/filegroup1.jar </FILE>
+ </COMP>
+ <COMP NAME="oracle.rdbms.rsf.ic" VERSION="10.2.0.1.0" >
+  <FILE> Components/oracle.rdbms.rsf.ic/10.2.0.1.0/1/DataFiles/filegroup2.jar </FILE>
+  <FILE> Components/oracle.rdbms.rsf.ic/10.2.0.1.0/1/DataFiles/filegroup1.jar </FILE>
+ </COMP>
+ <COMP NAME="oracle.network.rsf.ic" VERSION="10.2.0.1.0" >
+  <FILE> Components/oracle.network.rsf.ic/10.2.0.1.0/1/DataFiles/filegroup1.jar </FILE>
+ </COMP>
+ <COMP NAME="oracle.dbjava.ic" VERSION="10.2.0.1.0" >
+  <FILE> Components/oracle.dbjava.ic/10.2.0.1.0/1/DataFiles/filegroup2.jar </FILE>
+  <FILE> Components/oracle.dbjava.ic/10.2.0.1.0/1/DataFiles/filegroup1.jar </FILE>
+ </COMP>
+ <COMP NAME="oracle.sqlplus.ic" VERSION="10.2.0.1.0" >
+  <FILE> Components/oracle.sqlplus.ic/10.2.0.1.0/1/DataFiles/filegroup1.jar </FILE>
+ </COMP>
+</FILE_LIST>

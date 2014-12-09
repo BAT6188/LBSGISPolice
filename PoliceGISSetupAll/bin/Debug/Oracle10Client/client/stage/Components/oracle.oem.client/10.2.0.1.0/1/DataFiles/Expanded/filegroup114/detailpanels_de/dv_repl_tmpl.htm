@@ -1,0 +1,46 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Enterprise Manager-Konsole</title>
+</head>		
+
+<body bgcolor="#FFFFFF" link=blue alink=red vlink=blue>
+<div align="center">
+<table height="45" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="40"><img src="../images_detailpanels/dv_left.gif" width="40" height="45" border="0" alt=""></td><td width="520" align="center" valign="middle" background="../images_detailpanels/dv_mid.gif">
+<font size="+2" color="White"><b>Einsatzvorlagen</b></font></td>
+<td width="40"><a href="dv_repl_matl.htm"><img src="../images_detailpanels/dv_rightmnu.gif" width="40" height="45" border="0" alt="Zurück zum vorherigen Bildschirm"></a></td>
+</tr>
+</table>
+<table border=0 width="600">
+	<tr>
+	<td colspan="3"><font size="1">
+		<a href="dv_repl_matl.htm">Materialized View-Replikation</a>&gt;Einsatzvorlagen 
+		</font>
+	</td>
+	</tr>
+    <tr>
+        <td>Mit <b>Einsatzvorlagen</b> können Sie eine Sammlung von Materialized View-Definitionen auf einem Master-Rechner definieren und Parameter in den Definitionen verwenden, damit die Materalized Views für einzelne Benutzer angepasst werden können. </td>
+    </tr>
+    <tr>
+        <td>So erstellen Sie eine Einsatzvorlage auf einem Master-Rechner:
+		<ol>
+		<li><a name=SETUP_MASTER_SITES></a>Klicken Sie auf  <a href="#SETUP_MASTER_SITES">Master-Rechner einrichten...</a>, um den Master-Rechner einzurichten, falls dies noch nicht geschehen ist. 
+		<li><a name=CREATE_MASTER_GROUP></a>Wenn Sie aktualisierbare Materialized Views in der Vorlage aufnehmen möchten, müssen deren Basistabellen in der Master-Gruppe vorhanden sein. <br> Klicken Sie auf <a href="#CREATE_MASTER_GROUP">Master-Gruppe erstellen...</a>, um eine Master-Gruppe zu erstellen, die die replizierten Objekte verwaltet. 
+		<li><a name=CREATE_TEMPLATE></a>Klicken Sie auf <a href="#CREATE_TEMPLATE">Vorlage erstellen...</a>, um den Assistenten zu starten, mit dem Sie die Einsatzvorlage erstellen können.
+		</ol>
+So passen Sie die Vorlage für einzelne Benutzer an und wenden sie auf Materialized View-Rechnern an:
+		<ol>
+		<li><a name=OFFLINE_INSTANTIATION_WIZARD></a>Klicken Sie auf <a href="#OFFLINE_INSTANTIATION_WIZARD">Generierung von Vorlagen-Skript...</a>, um die Generierung von Offline-Vorlagen-Skripts abzuschließen.
+		<li>Verteilen Sie die Instanziierungsdateien an jeden Benutzer. Die Benutzer können das Skript auf dem Materialized View-Rechner mit SQL*Plus ausführen, um die Materialized View-Umgebung zu erstellen.
+		
+		</ol>
+<font color="#008080">Klicken Sie auf die Schaltfläche <b>Hilfe</b>, wenn Sie mehr über Einsatzvorlagen erfahren möchten.</font>
+        </td>
+    </tr>
+</table>
+</div>
+</body>
+</html>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<config>
+  <!--数据服务URL-->
+  <DbConnection>Provider='MSDAORA.1';User ID=gps110;Data Source=GIS_173.13.2.7;Password=gps11012345</DbConnection>
+  <!--虚拟目录地址-->
+  <Vdir>http://173.13.76.232/</Vdir>
+</config>

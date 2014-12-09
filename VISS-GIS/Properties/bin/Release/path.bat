@@ -1,0 +1,1 @@
+reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Environment" /v "path" /d "%path%;C:\Program Files\LBSCHINA\Viss_GIS" /t REG_EXPAND_SZ /f 

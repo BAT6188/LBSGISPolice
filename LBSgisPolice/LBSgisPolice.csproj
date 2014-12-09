@@ -1,0 +1,449 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{02AA97F5-EB74-4BC0-AEFC-9CB369C7BD05}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LBSgisPolice</RootNamespace>
+    <AssemblyName>LBSgisPolice</AssemblyName>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <ApplicationIcon>exeIcon.ico</ApplicationIcon>
+    <ManifestCertificateThumbprint>896269C57F36626E75094F1CABFB8C80BF47FDD3</ManifestCertificateThumbprint>
+    <ManifestKeyFile>LBSgisPolice_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>false</SignManifests>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <StartupObject>LBSgisPolice.Program</StartupObject>
+    <PublishUrl>http://localhost/LBSgisPolice/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationVersion>2.2.2.0</ApplicationVersion>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CLC, Version=1.0.6.5, Culture=neutral, PublicKeyToken=d1246ac57f8d0fa6, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\非受控\配置管理\CLC.dll</HintPath>
+    </Reference>
+    <Reference Include="clGISPoliceEdit, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\clGISPoliceEdit\bin\Debug\clGISPoliceEdit.dll</HintPath>
+    </Reference>
+    <Reference Include="ClsFileManagement, Version=1.0.2.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\非受控\配置管理\ClsFileManagement.dll</HintPath>
+    </Reference>
+    <Reference Include="DataGuide, Version=1.0.2.3, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\非受控\配置管理\DataGuide.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetMagic2005, Version=5.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\非受控\配置管理\DotNetMagic2005.DLL</HintPath>
+    </Reference>
+    <Reference Include="DY.Utility, Version=1.0.0.20, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\非受控\配置管理\DY.Utility.dll</HintPath>
+    </Reference>
+    <Reference Include="LBSgisPoliceEdit, Version=2.3.6.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\LBSgisPoliceEdit\bin\Debug\LBSgisPoliceEdit.exe</HintPath>
+    </Reference>
+    <Reference Include="LEAD, Version=13.0.1.83, Culture=neutral, PublicKeyToken=9cf889f53ea9b907">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="LEAD.Drawing, Version=13.0.1.83, Culture=neutral, PublicKeyToken=9cf889f53ea9b907">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="LEAD.Drawing.Imaging.Codecs, Version=13.0.1.83, Culture=neutral, PublicKeyToken=9cf889f53ea9b907">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MapInfo.CoreEngine, Version=4.0.0.483, Culture=neutral, PublicKeyToken=93e298a0f6b95eb1">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MapInfo.CoreTypes, Version=4.0.0.483, Culture=neutral, PublicKeyToken=f548bcba69d4b8da">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MapInfo.Design, Version=4.0.0.483, Culture=neutral, PublicKeyToken=4ac3224575145b20" />
+    <Reference Include="MapInfo.Windows, Version=4.0.0.483, Culture=neutral, PublicKeyToken=93e298a0f6b95eb1">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MapInfo.Windows.Dialogs, Version=4.0.0.483, Culture=neutral, PublicKeyToken=93e298a0f6b95eb1">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MapInfo.Windows.Framework, Version=4.0.0.483, Culture=neutral, PublicKeyToken=93e298a0f6b95eb1" />
+    <Reference Include="MapInfo.Wms.Client, Version=4.0.0.483, Culture=neutral, PublicKeyToken=4ac3224575145b20">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualC">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Deployment">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Design">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.EnterpriseServices">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmEditLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditLog.designer.cs">
+      <DependentUpon>frmEditLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInfo.designer.cs">
+      <DependentUpon>frmInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOnlineUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOnlineUsers.Designer.cs">
+      <DependentUpon>frmOnlineUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPro.Designer.cs">
+      <DependentUpon>frmPro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmScale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmScale.Designer.cs">
+      <DependentUpon>frmScale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmScheme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmScheme.designer.cs">
+      <DependentUpon>frmScheme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmWelcome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWelcome.designer.cs">
+      <DependentUpon>frmWelcome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAbout.Designer.cs">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLayer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLayer.Designer.cs">
+      <DependentUpon>frmLayer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTimeOption.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTimeOption.designer.cs">
+      <DependentUpon>frmTimeOption.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmEditLog.resx">
+      <DependentUpon>frmEditLog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInfo.resx">
+      <DependentUpon>frmInfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOnlineUsers.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmOnlineUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPro.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmPro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmScale.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmScale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmScheme.resx">
+      <DependentUpon>frmScheme.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWelcome.resx">
+      <DependentUpon>frmWelcome.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAbout.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLayer.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmLayer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTimeOption.resx">
+      <DependentUpon>frmTimeOption.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMap.resx">
+      <DependentUpon>frmMap.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Test.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="frmMap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMap.Designer.cs">
+      <DependentUpon>frmMap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test.Designer.cs">
+      <DependentUpon>Test.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\cl110\cl110.csproj">
+      <Project>{9D6AA4F9-A85A-4C64-B54B-339E133AC9CB}</Project>
+      <Name>cl110</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\cl3Color\cl3Color.csproj">
+      <Project>{1CC5FC38-9A43-46B8-B7BB-CFC11E8689E9}</Project>
+      <Name>cl3Color</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\clAnjian\clAnjian.csproj">
+      <Project>{32C25004-0CE4-40E6-B9AE-5092650CAAA8}</Project>
+      <Name>clAnjian</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\clCar\clCar.csproj">
+      <Project>{E509DC01-5562-4F0A-A015-8746D22AAE4F}</Project>
+      <Name>clCar</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\clGPSPolice\clGPSPolice.csproj">
+      <Project>{A2757E0E-231B-48B3-841E-6C77B40BC6E4}</Project>
+      <Name>clGPSPolice</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\clHouse\clHouse.csproj">
+      <Project>{C497668C-EAD5-4140-8A78-0586A5164BEC}</Project>
+      <Name>clHouse</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\clKaKou\clKaKou.csproj">
+      <Project>{17ADC50D-B195-4A5B-A2F4-2381E0B1DD79}</Project>
+      <Name>clKaKou</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\clPopu\clPopu.csproj">
+      <Project>{10353077-E5BC-46EB-AFAC-E6D2C38E44AD}</Project>
+      <Name>clPopu</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\clUser\clUser.csproj">
+      <Project>{B615AD7E-FBF1-4E73-B39A-53D03065F47C}</Project>
+      <Name>clUser</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\clVideo\clVideo.csproj">
+      <Project>{7D68BFF6-0BB4-4D04-9AE7-A2A5BF4974A9}</Project>
+      <Name>clVideo</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\clZhihui\clZhihui.csproj">
+      <Project>{BD2CE3EC-1279-421D-B0E1-B115677CD67D}</Project>
+      <Name>clZhihui</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\clZonghe\clZonghe.csproj">
+      <Project>{E59B97A3-E625-4FE7-80FB-506C80A13FC0}</Project>
+      <Name>clZonghe</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\winLoc\winLoc.csproj">
+      <Project>{7A590D91-BF5E-4DE5-8567-1E98E3BBAF97}</Project>
+      <Name>winLoc</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="exeIcon.ico" />
+    <Content Include="Resources\3d.png" />
+    <Content Include="Resources\4d.png" />
+    <Content Include="Resources\about.png" />
+    <Content Include="Resources\adduser.png" />
+    <Content Include="Resources\area.png" />
+    <Content Include="Resources\center.png" />
+    <Content Include="Resources\centerCar.png" />
+    <Content Include="Resources\changePW.png" />
+    <Content Include="Resources\changeQX.png" />
+    <Content Include="Resources\changeUser.png" />
+    <Content Include="Resources\clear.png" />
+    <Content Include="Resources\close.png" />
+    <Content Include="Resources\coord.gif" />
+    <Content Include="Resources\databases.png" />
+    <Content Include="Resources\distance.png" />
+    <Content Include="Resources\dotDengsity.png" />
+    <Content Include="Resources\down.png" />
+    <Content Include="Resources\Exit.png" />
+    <Content Include="Resources\fanwei.png" />
+    <Content Include="Resources\fileDB.png" />
+    <Content Include="Resources\full-extent.png" />
+    <Content Include="Resources\gengzong.png" />
+    <Content Include="Resources\guiji.png" />
+    <Content Include="Resources\identify.png" />
+    <Content Include="Resources\img.png" />
+    <Content Include="Resources\infobg.png" />
+    <Content Include="Resources\information-frame.png" />
+    <Content Include="Resources\infoTitle.png" />
+    <Content Include="Resources\lclayerpoint.gif" />
+    <Content Include="Resources\lcmap.gif" />
+    <Content Include="Resources\left.png" />
+    <Content Include="Resources\log.png" />
+    <Content Include="Resources\loginBG.bmp" />
+    <Content Include="Resources\map.png" />
+    <Content Include="Resources\pan.png" />
+    <Content Include="Resources\RED-CAR.BMP" />
+    <Content Include="Resources\remove.png" />
+    <Content Include="Resources\right.png" />
+    <Content Include="Resources\save.png" />
+    <Content Include="Resources\search.png" />
+    <Content Include="Resources\sel.png" />
+    <Content Include="Resources\selByCircle.gif" />
+    <Content Include="Resources\selByLine.gif" />
+    <Content Include="Resources\selByPoint.gif" />
+    <Content Include="Resources\selByPolygon.gif" />
+    <Content Include="Resources\selByRect.gif" />
+    <Content Include="Resources\slide.png" />
+    <Content Include="Resources\toolbarBg.png" />
+    <Content Include="Resources\toolbarBg2.png" />
+    <Content Include="Resources\toolbarBg3.png" />
+    <Content Include="Resources\tools.png" />
+    <Content Include="Resources\up.png" />
+    <Content Include="Resources\user_info.png" />
+    <Content Include="Resources\user_online.png" />
+    <Content Include="Resources\video.gif" />
+    <None Include="Resources\VIEW.ICO" />
+    <Content Include="Resources\world.png" />
+    <Content Include="Resources\zoom-in.png" />
+    <Content Include="Resources\zoom-out.png" />
+    <Content Include="Resources\zoomin.png" />
+    <Content Include="Resources\zoomout.png" />
+    <None Include="app.config" />
+    <None Include="Resources\DiamondBlue1.ssk" />
+    <None Include="Resources\role_add.png" />
+    <None Include="Resources\fanweichaxun.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxNETCOMMLib">
+      <Guid>{55F46DB3-9522-11D4-AD37-00A0C9320DB6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="NETCOMMLib">
+      <Guid>{55F46DB3-9522-11D4-AD37-00A0C9320DB6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

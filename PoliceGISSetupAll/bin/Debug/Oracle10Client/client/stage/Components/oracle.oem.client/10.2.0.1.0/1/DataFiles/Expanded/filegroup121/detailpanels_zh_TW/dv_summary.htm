@@ -1,0 +1,103 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <title>Enterprise Manager Console</title>
+</head>
+
+<body bgcolor="#ffffff" link="#0000ff" vlink="#0000ff" alink="#ff0000">
+<center>
+<table border="0" cellspacing="0" cellpadding="0" height="45">
+  <tbody>
+    <tr>
+      <td width="40"><img src="dv_left.gif" alt="" border="0" height="45" width="40">
+      </td>
+      <td align="Center" valign="CENTER" width="520" background="dv_mid.gif">
+      <b><font face="Arial"><font color="#ffffff"><font size="+2">Summary Management</font></font></font></b>
+      </td>
+      <td width="40"><img src="dv_right.gif" alt="" border="0" height="45" width="40">
+      </td>
+    </tr>
+  </tbody>
+</table>
+</center>
+<center>
+<table border="0" width="600">
+  <tbody>
+    <tr>
+      <td colspan="3">
+      </td>
+    </tr>
+    <tr>
+      <td align="Left" valign="Top" width="280">
+      <table border="0">
+        <tbody>
+          <tr>
+            <td colspan="2">Oracle supports Materialized Views, also known
+as Summaries,  to improve the performance of a data warehouse. Summaries
+pre-calculate expensive  joins and aggregation operations and store them
+in a table.  Oracle speeds-up query execution by transparently re-writing
+queries to use summaries.  Dimensions aid query re-write operation.  MV Logs
+track changes to master table for incremental refresh of Materialized Views.</td>
+          </tr>
+          <tr>
+            <td colspan="2">
+            </td>
+          </tr>
+          <tr>
+            <td valign="Top"><img src="bullet.gif">
+            </td>
+            <td>Use <a href="#dimension_wizard">Dimensions</a>
+   to defines hierarchical relationships between pairs of columns or column
+ sets.</td>
+          </tr>
+          <tr>
+            <td colspan="2">
+            </td>
+          </tr>
+          <tr>
+            <td valign="Top"><img src="bullet.gif">
+            </td>
+            <td>Use <a href="#create_mv">Materialized Views</a>
+   to improve the performance of your warehouse by storing pre-calculated 
+joins and aggregate operations.</td>
+          </tr>
+          <tr>
+            <td colspan="2">
+            </td>
+          </tr>
+          <tr>
+            <td valign="Top"><img src="bullet.gif">
+            </td>
+            <td>Use <a href="#create_mv_log">Materialized View Log</a>
+   to track changes to master table for incremental refresh of Materialized
+ Views.</td>
+          </tr>
+          <tr>
+            <td colspan="2">
+            </td>
+          </tr>
+          <tr>
+            <td valign="Top"><img src="bullet.gif">
+            </td>
+            <td>Use <a href="#create_refresh_group">Refresh Group</a>
+   to keep materialized views transactionally consistent with each other.</td>
+          </tr>
+          <tr>
+            <td VALIGN=TOP><img SRC="bullet.gif" >
+            </td>
+            <td>Use <a href="#summary_advisor">Summary Advisor</a> to get recommendations for the creation of materialized views for query rewrite to improve the performance your warehouse applications.</td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+      <td width="10">
+      </td>
+      <td align="Center" valign="Top" width="300"><img src="summary_spl.gif" alt="" border="0" height="254" width="259">
+      </td>
+    </tr>
+
+  </tbody>
+</table>
+</center>
+</body>
+</html>

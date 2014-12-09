@@ -1,0 +1,245 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{687F8F2A-9C16-49BA-BC82-E3248CB7704C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>clGISPoliceEdit</RootNamespace>
+    <AssemblyName>clGISPoliceEdit</AssemblyName>
+    <StartupObject>
+    </StartupObject>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CLC, Version=1.0.6.5, Culture=neutral, PublicKeyToken=d1246ac57f8d0fa6, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\非受控\配置管理\CLC.dll</HintPath>
+    </Reference>
+    <Reference Include="ClsFileManagement, Version=1.0.2.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\非受控\配置管理\ClsFileManagement.dll</HintPath>
+    </Reference>
+    <Reference Include="CommonLib, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\非受控\配置管理\CommonLib.dll</HintPath>
+    </Reference>
+    <Reference Include="DataGuide, Version=1.0.2.3, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\非受控\配置管理\DataGuide.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.Excel, Version=1.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\非受控\配置管理\Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.Microsoft.Office.Core, Version=2.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\LBSgisPoliceEdit\bin\Debug\Interop.Microsoft.Office.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="LEAD, Version=13.0.1.83, Culture=neutral, PublicKeyToken=9cf889f53ea9b907" />
+    <Reference Include="LEAD.Drawing, Version=13.0.1.83, Culture=neutral, PublicKeyToken=9cf889f53ea9b907" />
+    <Reference Include="LEAD.Drawing.Imaging.Codecs, Version=13.0.1.83, Culture=neutral, PublicKeyToken=9cf889f53ea9b907" />
+    <Reference Include="MapInfo.CoreEngine, Version=4.0.0.483, Culture=neutral, PublicKeyToken=93e298a0f6b95eb1" />
+    <Reference Include="MapInfo.CoreTypes, Version=4.0.0.483, Culture=neutral, PublicKeyToken=f548bcba69d4b8da" />
+    <Reference Include="MapInfo.Windows, Version=4.0.0.483, Culture=neutral, PublicKeyToken=93e298a0f6b95eb1" />
+    <Reference Include="MapInfo.Windows.Dialogs, Version=4.0.0.483, Culture=neutral, PublicKeyToken=93e298a0f6b95eb1" />
+    <Reference Include="MapInfo.Windows.Framework, Version=4.0.0.483, Culture=neutral, PublicKeyToken=93e298a0f6b95eb1" />
+    <Reference Include="MapInfo.Wms.Client, Version=4.0.0.483, Culture=neutral, PublicKeyToken=4ac3224575145b20" />
+    <Reference Include="Microsoft.VisualC" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="winLoc, Version=1.0.6.5, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\winLoc\bin\Debug\winLoc.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class\GetFromName.cs" />
+    <Compile Include="Class\MIConn.cs" />
+    <Compile Include="Class\OraleData.cs" />
+    <Compile Include="frmAssigned.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAssigned.Designer.cs">
+      <DependentUpon>frmAssigned.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCaseType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCaseType.Designer.cs">
+      <DependentUpon>frmCaseType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmClaim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmClaim.Designer.cs">
+      <DependentUpon>frmClaim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGpsPolice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGpsPolice.Designer.cs">
+      <DependentUpon>frmGpsPolice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmImage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmImage.designer.cs">
+      <DependentUpon>FrmImage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMonthCalendar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMonthCalendar.designer.cs">
+      <DependentUpon>FrmMonthCalendar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNoLocation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNoLocation.Designer.cs">
+      <DependentUpon>frmNoLocation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPoliceCount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPoliceCount.Designer.cs">
+      <DependentUpon>frmPoliceCount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmZLMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmZLMessage.Designer.cs">
+      <DependentUpon>FrmZLMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmAssigned.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAssigned.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCaseType.resx">
+      <DependentUpon>frmCaseType.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmClaim.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmClaim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGpsPolice.resx">
+      <DependentUpon>frmGpsPolice.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmImage.resx">
+      <DependentUpon>FrmImage.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMonthCalendar.resx">
+      <DependentUpon>FrmMonthCalendar.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNoLocation.resx">
+      <DependentUpon>frmNoLocation.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPoliceCount.resx">
+      <DependentUpon>frmPoliceCount.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmZLMessage.resx">
+      <DependentUpon>FrmZLMessage.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucGISPoliceEdit.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ucGISPoliceEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="ucGISPoliceEdit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucGISPoliceEdit.Designer.cs">
+      <DependentUpon>ucGISPoliceEdit.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toolbarBg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibrary1\ClassLibrary1.csproj">
+      <Project>{A0A021F2-2352-450E-99B9-458474C08740}</Project>
+      <Name>ClassLibrary1</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Refresh.png" />
+    <None Include="Resources\policeEdit.png" />
+    <None Include="Resources\fanweichaxun.png" />
+    <Content Include="Resources\area.png" />
+    <Content Include="Resources\clear.png" />
+    <Content Include="Resources\coord.gif" />
+    <Content Include="Resources\distance.png" />
+    <Content Include="Resources\full-extent.png" />
+    <Content Include="Resources\identify.png" />
+    <Content Include="Resources\img.png" />
+    <Content Include="Resources\information-frame.png" />
+    <Content Include="Resources\lcmap.gif" />
+    <Content Include="Resources\map.png" />
+    <Content Include="Resources\pan.png" />
+    <Content Include="Resources\sel.png" />
+    <Content Include="Resources\selByCircle.gif" />
+    <Content Include="Resources\selByLine.gif" />
+    <Content Include="Resources\selByPoint.gif" />
+    <Content Include="Resources\selByPolygon.gif" />
+    <Content Include="Resources\selByRect.gif" />
+    <None Include="Resources\toolbarBg1.png" />
+    <Content Include="Resources\toolbarBg3.png" />
+    <Content Include="Resources\user_info.png" />
+    <Content Include="Resources\zoom-in.png" />
+    <Content Include="Resources\zoom-out.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
